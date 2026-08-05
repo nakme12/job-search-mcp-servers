@@ -1,15 +1,27 @@
 # Job Search MCP Servers
 
-Six [MCP](https://modelcontextprotocol.io) servers that let an AI assistant (Claude, Cursor, etc.) search live job listings across multiple sources.
+Eleven [MCP](https://modelcontextprotocol.io) servers that let an AI assistant (Claude, Cursor, etc.) search live job listings across multiple sources.
 
-| Server | Env vars needed | Coverage |
+**No key needed** — works immediately:
+
+| Server | Coverage |
+|---|---|
+| `huntyourtribe-jobs-server.js` | huntyourtribe.com listings |
+| `ashby-jobs-server.js` | Any single company's Ashby job board (public API, needs the company's slug) |
+| `remotive-jobs-server.js` | Remotive remote-jobs feed (small pool; attribution required) |
+| `themuse-jobs-server.js` | The Muse jobs API (optional `THEMUSE_API_KEY` raises rate limit 500→3600/hr) |
+| `remoteok-jobs-server.js` | RemoteOK feed (small pool; tags are SEO-stuffed, filter by title) |
+
+**Key required** — all have free tiers:
+
+| Server | Env vars | Coverage |
 |---|---|---|
-| `huntyourtribe-jobs-server.js` | none | huntyourtribe.com listings |
-| `career-site-jobs-server.js` | `APIFY_API_TOKEN` | 175k+ career sites, 54 ATS platforms (paid, ~$4/1k jobs) |
 | `adzuna-jobs-server.js` | `ADZUNA_APP_ID`, `ADZUNA_APP_KEY` | job search + salary histograms/trends/top employers, 12+ countries |
 | `jobspipe-jobs-server.js` | `JOBSPIPE_API_KEY` | 30+ ATS feeds incl. LinkedIn/Indeed/YC |
-| `hirebase-jobs-server.js` | `HIREBASE_API_KEY` | job search + company profiles (free tier: 10 calls/day) |
+| `hirebase-jobs-server.js` | `HIREBASE_API_KEY` | job search + company profiles (free: 10 calls/day) |
 | `theirstack-jobs-server.js` | `THEIRSTACK_API_KEY` | 223M jobs/195 countries + company technographics |
+| `google-jobs-server.js` | `SERPAPI_API_KEY` | Google Jobs aggregate via SerpApi (free: 250 searches/mo). Strong for tier-2 cities |
+| `career-site-jobs-server.js` | `APIFY_API_TOKEN` | 175k+ career sites, 54 ATS platforms (**paid**, ~$4/1k jobs) |
 
 ## Setup
 
@@ -42,6 +54,15 @@ Six [MCP](https://modelcontextprotocol.io) servers that let an AI assistant (Cla
 2. Copy your API key from account settings.
 3. Alternative: skip the key entirely and use TheirStack's OAuth login instead — supported natively by their MCP integration, no key management needed.
 
+**Google Jobs / SerpApi** (`SERPAPI_API_KEY`)
+1. Go to https://serpapi.com/ and sign up (no card needed).
+2. Copy your private API key from the dashboard.
+3. Free tier: 250 searches/month. Each `search_jobs` call spends one; `get_account_usage` is free.
+
+**The Muse** (`THEMUSE_API_KEY`) — optional
+1. Works with no key at 500 requests/hour.
+2. For 3,600/hour, register at https://www.themuse.com/developers/api/v2 and set the key.
+
 **Apify / career-site-jobs** (`APIFY_API_TOKEN`)
 1. Go to https://apify.com/ and sign up.
 2. Open **Settings → Integrations → API tokens** and copy a token.
@@ -57,7 +78,14 @@ claude mcp add -s user hirebase-jobs -e HIREBASE_API_KEY=xxx -- node /path/to/hi
 claude mcp add -s user jobspipe-jobs -e JOBSPIPE_API_KEY=xxx -- node /path/to/jobspipe-jobs-server.js
 claude mcp add -s user theirstack-jobs -e THEIRSTACK_API_KEY=xxx -- node /path/to/theirstack-jobs-server.js
 claude mcp add -s user career-site-jobs -e APIFY_API_TOKEN=xxx -- node /path/to/career-site-jobs-server.js
+claude mcp add -s user google-jobs -e SERPAPI_API_KEY=xxx -- node /path/to/google-jobs-server.js
+
+# no key needed
 claude mcp add -s user huntyourtribe-jobs -- node /path/to/huntyourtribe-jobs-server.js
+claude mcp add -s user ashby-jobs -- node /path/to/ashby-jobs-server.js
+claude mcp add -s user remotive-jobs -- node /path/to/remotive-jobs-server.js
+claude mcp add -s user themuse-jobs -- node /path/to/themuse-jobs-server.js
+claude mcp add -s user remoteok-jobs -- node /path/to/remoteok-jobs-server.js
 ```
 
 Only run the lines for servers you got a key for. `-s user` makes it available across all your projects; use `-s local` to scope it to one project instead.

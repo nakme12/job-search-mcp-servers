@@ -11,7 +11,10 @@
     "adzuna-jobs": "node adzuna-jobs-server.js",
     "jobspipe-jobs": "node jobspipe-jobs-server.js",
     "hirebase-jobs": "node hirebase-jobs-server.js",
-    "theirstack-jobs": "node theirstack-jobs-server.js"
+    "theirstack-jobs": "node theirstack-jobs-server.js",
+    "ashby-jobs": "node ashby-jobs-server.js",
+    "remotive-jobs": "node remotive-jobs-server.js",
+    "themuse-jobs": "node themuse-jobs-server.js"
   },
   "keywords": [],
   "author": "",
