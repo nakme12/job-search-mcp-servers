@@ -1,0 +1,23 @@
+{
+  "name": "mcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "huntyourtribe-jobs": "node huntyourtribe-jobs-server.js",
+    "career-site-jobs": "node career-site-jobs-server.js",
+    "adzuna-jobs": "node adzuna-jobs-server.js",
+    "jobspipe-jobs": "node jobspipe-jobs-server.js",
+    "hirebase-jobs": "node hirebase-jobs-server.js",
+    "theirstack-jobs": "node theirstack-jobs-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.16",
+    "zod": "^3.25.76"
+  }
+}
