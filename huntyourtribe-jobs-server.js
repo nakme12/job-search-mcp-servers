@@ -1,6 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
+import { evaluateExperience } from "./experience-filter.js";
 
 const API_URL = "https://huntyourtribe.com/api/external-jobs";
 
@@ -52,9 +53,21 @@ server.registerTool(
       role_name: stringOrArray().describe("Exact job title, e.g. 'Business Analyst'"),
       skills: stringOrArray().describe("e.g. Python, React"),
       company: stringOrArray().describe("Company name, e.g. 'Tide'"),
+      maxYearsExperience: z
+        .number()
+        .default(2)
+        .describe(
+          "Client-side safety net (same rule as every job-search server in this repo): drops jobs whose " +
+            "`minimum_experience_years`, `level`, or title/description text implies more years than this. " +
+            "Companies whose every job gets filtered out are dropped from the results. Set high (e.g. 99) to disable."
+        ),
+      excludeSeniorTitles: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/description/level reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
     },
   },
-  async ({ page, limit, jobs_limit, ...filterFields }) => {
+  async ({ page, limit, jobs_limit, maxYearsExperience, excludeSeniorTitles, ...filterFields }) => {
     const filter = {};
     for (const [key, value] of Object.entries(filterFields)) {
       if (value !== undefined) filter[key] = value;
@@ -89,8 +102,33 @@ server.registerTool(
       };
     }
 
+    let filteredOutCount = 0;
+    const companies = (json.data ?? [])
+      .map((c) => {
+        const jobs = (c.jobs ?? []).filter((j) => {
+          const exp = evaluateExperience(
+            {
+              title: j.role_name,
+              description: j.description,
+              structuredMinYears: j.minimum_experience_years ?? null,
+              structuredSeniorityLabel: j.level,
+            },
+            maxYearsExperience,
+            excludeSeniorTitles
+          );
+          j.detected_min_years_experience = exp.detected_min_years_experience;
+          j.looks_senior = exp.looks_senior;
+          if (exp.exclude) filteredOutCount += 1;
+          return !exp.exclude;
+        });
+        return { ...c, jobs };
+      })
+      .filter((c) => c.jobs.length > 0);
+
     return {
-      content: [{ type: "text", text: JSON.stringify({ meta: json.meta, data: json.data }, null, 2) }],
+      content: [
+        { type: "text", text: JSON.stringify({ meta: json.meta, filtered_out_count: filteredOutCount, data: companies }, null, 2) },
+      ],
     };
   }
 );

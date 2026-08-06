@@ -1,6 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
+import { evaluateExperience } from "./experience-filter.js";
 
 const API_KEY = process.env.SERPAPI_API_KEY;
 if (!API_KEY) {
@@ -53,7 +54,14 @@ server.registerTool(
       "many other boards) via SerpApi. NOTE: each call consumes one SerpApi search credit - the free tier is only " +
       "100 searches/month, so keep queries broad and purposeful rather than polling. " +
       "Returns up to 10 jobs per page; use `next_page_token` from a previous response to page further. " +
-      "To narrow results, read the `filters` array in the response and pass a filter's `uds` value back via the `uds` param.",
+      "To narrow results, read the `filters` array in the response and pass a filter's `uds` value back via the `uds` param. " +
+      "\n\nEXPERIENCE FILTERING (default ON, same rule as every other job-search server in this repo): Google Jobs " +
+      "has no structured experience-level field, so this regex-scans each job's title/description for explicit " +
+      "year mentions ('3+ years', 'minimum 3 years', etc.) and seniority words (Senior/Lead/Staff/Principal/" +
+      "Architect/Manager/Director). Drops anything over `maxYearsExperience` (default 2) or reading senior, and " +
+      "returns `filtered_out_count`. Kept jobs still carry `detected_min_years_experience`/`looks_senior` for " +
+      "transparency. Raise `maxYearsExperience` or set `excludeSeniorTitles: false` as the candidate's real " +
+      "experience grows.",
     inputSchema: {
       q: z.string().describe("Search query, e.g. 'frontend developer react' or 'react developer indore'"),
       location: z
@@ -69,26 +77,42 @@ server.registerTool(
         .describe("Google filter token, taken from the `uds` field of an entry in a previous response's `filters` array"),
       next_page_token: z.string().optional().describe("Token from a previous response to fetch the next page"),
       no_cache: z.boolean().optional().describe("Force a fresh fetch instead of a cached result (uses a credit either way)"),
+      maxYearsExperience: z
+        .number()
+        .default(2)
+        .describe("Drop jobs whose detected minimum years-of-experience requirement exceeds this. Set high (e.g. 99) to disable."),
+      excludeSeniorTitles: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
     },
   },
-  async (args) => {
+  async ({ maxYearsExperience, excludeSeniorTitles, ...args }) => {
     const result = await serpapiGet(args);
     if (result.isError) return result;
     const { data } = result;
 
-    const jobs = (data.jobs_results ?? []).map((j) => ({
-      title: j.title,
-      company: j.company_name,
-      location: j.location,
-      via: j.via,
-      posted: j.detected_extensions?.posted_at,
-      schedule: j.detected_extensions?.schedule_type,
-      work_from_home: j.detected_extensions?.work_from_home,
-      salary: j.detected_extensions?.salary,
-      apply_links: (j.apply_options ?? []).map((a) => ({ title: a.title, link: a.link })),
-      description: j.description,
-      job_id: j.job_id,
-    }));
+    const allJobs = (data.jobs_results ?? []).map((j) => {
+      const exp = evaluateExperience({ title: j.title, description: j.description }, maxYearsExperience, excludeSeniorTitles);
+      return {
+        title: j.title,
+        company: j.company_name,
+        location: j.location,
+        via: j.via,
+        posted: j.detected_extensions?.posted_at,
+        schedule: j.detected_extensions?.schedule_type,
+        work_from_home: j.detected_extensions?.work_from_home,
+        salary: j.detected_extensions?.salary,
+        apply_links: (j.apply_options ?? []).map((a) => ({ title: a.title, link: a.link })),
+        description: j.description,
+        job_id: j.job_id,
+        detected_min_years_experience: exp.detected_min_years_experience,
+        looks_senior: exp.looks_senior,
+        _exclude: exp.exclude,
+      };
+    });
+
+    const jobs = allJobs.filter((j) => !j._exclude).map(({ _exclude, ...j }) => j);
 
     return {
       content: [
@@ -97,6 +121,7 @@ server.registerTool(
           text: JSON.stringify(
             {
               count: jobs.length,
+              filtered_out_count: allJobs.length - jobs.length,
               next_page_token: data.serpapi_pagination?.next_page_token ?? null,
               // Surface available refinement filters so a follow-up call can narrow results.
               filters: (data.filters ?? []).map((f) => ({ name: f.name, uds: f.uds })),

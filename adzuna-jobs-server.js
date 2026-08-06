@@ -1,6 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
+import { evaluateExperience } from "./experience-filter.js";
 
 const APP_ID = process.env.ADZUNA_APP_ID;
 const APP_KEY = process.env.ADZUNA_APP_KEY;
@@ -65,15 +66,49 @@ server.registerTool(
       sort_by: z.enum(["default", "hybrid", "date", "salary", "relevance"]).optional(),
       max_days_old: z.number().int().optional(),
       results_per_page: z.number().int().min(1).max(50).default(20),
+      maxYearsExperience: z
+        .number()
+        .default(2)
+        .describe(
+          "Client-side safety net (same rule as every job-search server in this repo): Adzuna has no structured " +
+            "experience field, so this regex-scans title/description and drops jobs implying more years than this. " +
+            "Set high (e.g. 99) to disable."
+        ),
+      excludeSeniorTitles: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
     },
   },
-  async ({ country, page, ...rest }) => {
+  async ({ country, page, maxYearsExperience, excludeSeniorTitles, ...rest }) => {
     const params = {};
     for (const [key, value] of Object.entries(rest)) {
       if (value === undefined) continue;
       params[key] = typeof value === "boolean" ? (value ? 1 : 0) : value;
     }
-    return adzunaGet(`${country}/search/${page}`, params);
+    const result = await adzunaGet(`${country}/search/${page}`, params);
+    if (result.isError) return result;
+
+    let data;
+    try {
+      data = JSON.parse(result.content[0].text);
+    } catch {
+      return result;
+    }
+
+    const allJobs = data.results ?? [];
+    const jobs = allJobs.filter((j) => {
+      const exp = evaluateExperience({ title: j.title, description: j.description }, maxYearsExperience, excludeSeniorTitles);
+      j.detected_min_years_experience = exp.detected_min_years_experience;
+      j.looks_senior = exp.looks_senior;
+      return !exp.exclude;
+    });
+
+    return {
+      content: [
+        { type: "text", text: JSON.stringify({ ...data, results: jobs, filtered_out_count: allJobs.length - jobs.length }, null, 2) },
+      ],
+    };
   }
 );
 

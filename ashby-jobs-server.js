@@ -1,6 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
+import { evaluateExperience } from "./experience-filter.js";
 
 const server = new McpServer({
   name: "ashby-jobs",
@@ -24,9 +25,21 @@ server.registerTool(
       locationContains: z.string().optional().describe("Case-insensitive substring to match against job location"),
       department: z.string().optional().describe("Case-insensitive exact match against department"),
       includeCompensation: z.boolean().default(true),
+      maxYearsExperience: z
+        .number()
+        .default(2)
+        .describe(
+          "Client-side safety net (same rule as every job-search server in this repo): Ashby has no structured " +
+            "experience field, so this regex-scans title/description and drops jobs implying more years than this. " +
+            "Set high (e.g. 99) to disable."
+        ),
+      excludeSeniorTitles: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
     },
   },
-  async ({ companySlug, titleContains, locationContains, department, includeCompensation }) => {
+  async ({ companySlug, titleContains, locationContains, department, includeCompensation, maxYearsExperience, excludeSeniorTitles }) => {
     const url = `https://api.ashbyhq.com/posting-api/job-board/${encodeURIComponent(companySlug)}?includeCompensation=${includeCompensation}`;
     const response = await fetch(url);
 
@@ -59,8 +72,26 @@ server.registerTool(
       jobs = jobs.filter((j) => (j.department ?? "").toLowerCase() === needle);
     }
 
+    const beforeCount = jobs.length;
+    jobs = jobs.filter((j) => {
+      const description = j.descriptionPlain ?? j.descriptionHtml ?? j.description ?? "";
+      const exp = evaluateExperience({ title: j.title, description }, maxYearsExperience, excludeSeniorTitles);
+      j.detected_min_years_experience = exp.detected_min_years_experience;
+      j.looks_senior = exp.looks_senior;
+      return !exp.exclude;
+    });
+
     return {
-      content: [{ type: "text", text: JSON.stringify({ companySlug, count: jobs.length, jobs }, null, 2) }],
+      content: [
+        {
+          type: "text",
+          text: JSON.stringify(
+            { companySlug, count: jobs.length, filtered_out_count: beforeCount - jobs.length, jobs },
+            null,
+            2
+          ),
+        },
+      ],
     };
   }
 );

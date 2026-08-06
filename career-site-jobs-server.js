@@ -1,6 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
+import { evaluateExperience } from "./experience-filter.js";
 
 const ACTOR_ID = "fantastic-jobs~career-site-job-listing-api";
 const API_URL = `https://api.apify.com/v2/acts/${ACTOR_ID}/run-sync-get-dataset-items`;
@@ -59,7 +60,14 @@ server.registerTool(
       aiEmploymentTypeFilter: stringArray().describe("e.g. FULL_TIME, PART_TIME, CONTRACTOR"),
       aiWorkArrangementFilter: stringArray().describe("On-site, Hybrid, Remote OK, Remote Solely"),
       hasSalary: z.boolean().optional().describe("Only jobs with salary data"),
-      aiExperienceLevelFilter: stringArray().describe("0-2, 2-5, 5-10, 10+ years"),
+      aiExperienceLevelFilter: z
+        .array(z.string())
+        .default(["0-2"])
+        .describe(
+          "0-2, 2-5, 5-10, 10+ years. Defaults to ['0-2'] (same rule as every job-search server in this repo) - " +
+            "this also saves money since it's applied server-side by Apify before billing, not just filtered after " +
+            "the fact. Override explicitly (e.g. ['0-2','2-5']) as the candidate's real experience grows."
+        ),
       aiVisaSponsorshipFilter: z.boolean().optional(),
       aiTaxonomiesFilter: stringArray().describe("Categories like Technology, Healthcare, etc."),
       aiTaxonomiesPrimaryFilter: stringArray(),
@@ -76,9 +84,21 @@ server.registerTool(
       populateAiRemoteLocation: z.boolean().optional(),
       populateAiRemoteLocationDerived: z.boolean().optional(),
       hasNoLocation: z.boolean().optional().describe("Only jobs with no normalized location"),
+      maxYearsExperience: z
+        .number()
+        .default(2)
+        .describe(
+          "Client-side safety net on top of `aiExperienceLevelFilter` above: also regex-scans title/description " +
+            "and cross-checks against `ai_experience_level`, since AI-tagged labels can be imprecise. Set high " +
+            "(e.g. 99) to disable."
+        ),
+      excludeSeniorTitles: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
     },
   },
-  async (args) => {
+  async ({ maxYearsExperience, excludeSeniorTitles, ...args }) => {
     const body = {};
     for (const [key, value] of Object.entries(args)) {
       if (value !== undefined) body[key] = value;
@@ -109,11 +129,27 @@ server.registerTool(
       return { isError: true, content: [{ type: "text", text: `Failed to parse response: ${text.slice(0, 500)}` }] };
     }
 
+    const allItems = Array.isArray(items) ? items : [];
+    const kept = allItems.filter((j) => {
+      const exp = evaluateExperience(
+        { title: j.title, description: j.description, structuredSeniorityLabel: j.ai_experience_level },
+        maxYearsExperience,
+        excludeSeniorTitles
+      );
+      j.detected_min_years_experience = exp.detected_min_years_experience;
+      j.looks_senior = exp.looks_senior;
+      return !exp.exclude;
+    });
+
     return {
       content: [
         {
           type: "text",
-          text: JSON.stringify({ count: Array.isArray(items) ? items.length : undefined, items }, null, 2),
+          text: JSON.stringify(
+            { count: kept.length, filtered_out_count: allItems.length - kept.length, items: kept },
+            null,
+            2
+          ),
         },
       ],
     };

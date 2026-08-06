@@ -2,6 +2,14 @@
 
 Eleven [MCP](https://modelcontextprotocol.io) servers that let an AI assistant (Claude, Cursor, etc.) search live job listings across multiple sources.
 
+**Experience filtering (default on, every server)** — `experience-filter.js` is shared by all eleven. Every
+`search_jobs`/`get_company_jobs` call defaults to `maxYearsExperience: 2` and `excludeSeniorTitles: true`, checked
+against whatever structured seniority field the source provides (where one exists) *and* a regex scan of the actual
+title/description text — the two are cross-checked because source-provided labels have been observed to be wrong
+(e.g. HireBase once labelled a 3–5yr role "Junior/Associate"). Kept jobs carry `detected_min_years_experience` /
+`looks_senior` fields for transparency; responses include `filtered_out_count`. Raise `maxYearsExperience` or set
+`excludeSeniorTitles: false` per-call as the candidate's real experience grows.
+
 **No key needed** — works immediately:
 
 | Server | Coverage |

@@ -1,6 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
+import { evaluateExperience } from "./experience-filter.js";
 
 const server = new McpServer({
   name: "remoteok-jobs",
@@ -23,9 +24,21 @@ server.registerTool(
       tags: z.array(z.string()).optional().describe("Match against job tags - unreliable, see note above; best combined with `keywords`"),
       minSalary: z.number().optional().describe("Minimum salary_min, in USD"),
       limit: z.number().int().min(1).max(200).default(30),
+      maxYearsExperience: z
+        .number()
+        .default(2)
+        .describe(
+          "Client-side safety net (same rule as every job-search server in this repo): RemoteOK has no structured " +
+            "experience field, so this regex-scans title/description and drops jobs implying more years than this. " +
+            "Set high (e.g. 99) to disable."
+        ),
+      excludeSeniorTitles: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
     },
   },
-  async ({ keywords, tags, minSalary, limit }) => {
+  async ({ keywords, tags, minSalary, limit, maxYearsExperience, excludeSeniorTitles }) => {
     const response = await fetch("https://remoteok.com/api", {
       headers: { "user-agent": "job-search-mcp (https://github.com/nakme12/job-search-mcp-servers)" },
     });
@@ -50,10 +63,20 @@ server.registerTool(
       jobs = jobs.filter((j) => (j.salary_min ?? 0) >= minSalary);
     }
 
+    const beforeCount = jobs.length;
+    jobs = jobs.filter((j) => {
+      const exp = evaluateExperience({ title: j.position, description: j.description }, maxYearsExperience, excludeSeniorTitles);
+      j.detected_min_years_experience = exp.detected_min_years_experience;
+      j.looks_senior = exp.looks_senior;
+      return !exp.exclude;
+    });
+
     jobs = jobs.slice(0, limit);
 
     return {
-      content: [{ type: "text", text: JSON.stringify({ count: jobs.length, jobs }, null, 2) }],
+      content: [
+        { type: "text", text: JSON.stringify({ count: jobs.length, filtered_out_count: beforeCount - jobs.length, jobs }, null, 2) },
+      ],
     };
   }
 );

@@ -1,6 +1,31 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
+import { evaluateExperience } from "./experience-filter.js";
+
+// HireBase's own `experience_level` label has been observed to be wrong (once
+// labelled a role "Junior / Associate" while its own yoe_range said 3-5 years) -
+// so this filter always cross-checks the actual title/description text too,
+// rather than trusting the self-reported label alone.
+function filterJobsByExperience(jobs, maxYearsExperience, excludeSeniorTitles) {
+  const allJobs = jobs ?? [];
+  const kept = allJobs.filter((j) => {
+    const exp = evaluateExperience(
+      {
+        title: j.job_title,
+        description: j.description,
+        structuredMinYears: j.yoe_range?.min ?? null,
+        structuredSeniorityLabel: j.experience_level,
+      },
+      maxYearsExperience,
+      excludeSeniorTitles
+    );
+    j.detected_min_years_experience = exp.detected_min_years_experience;
+    j.looks_senior = exp.looks_senior;
+    return !exp.exclude;
+  });
+  return { kept, filtered_out_count: allJobs.length - kept.length };
+}
 
 const API_KEY = process.env.HIREBASE_API_KEY;
 if (!API_KEY) {
@@ -62,14 +87,37 @@ server.registerTool(
       sort_order: z.enum(["asc", "desc"]).optional(),
       page: z.number().int().min(1).default(1),
       limit: z.number().int().min(1).max(100).default(10),
+      maxYearsExperience: z
+        .number()
+        .default(2)
+        .describe(
+          "Client-side safety net (same rule as every job-search server in this repo): drops jobs whose title/" +
+            "description text, `experience_level`, or `yoe_range` implies more years than this. HireBase's own " +
+            "`experience_level` label has been seen to be wrong, so this always double-checks the actual text too. " +
+            "Set high (e.g. 99) to disable."
+        ),
+      excludeSeniorTitles: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
     },
   },
-  async (args) => {
+  async ({ maxYearsExperience, excludeSeniorTitles, ...args }) => {
     const body = {};
     for (const [key, value] of Object.entries(args)) {
       if (value !== undefined) body[key] = value;
     }
-    return hirebasePost("/jobs/search", body);
+    const result = await hirebasePost("/jobs/search", body);
+    if (result.isError) return result;
+
+    let data;
+    try {
+      data = JSON.parse(result.content[0].text);
+    } catch {
+      return result;
+    }
+    const { kept, filtered_out_count } = filterJobsByExperience(data.jobs, maxYearsExperience, excludeSeniorTitles);
+    return { content: [{ type: "text", text: JSON.stringify({ ...data, jobs: kept, filtered_out_count }, null, 2) }] };
   }
 );
 
@@ -97,15 +145,30 @@ server.registerTool(
   "get_company_jobs",
   {
     title: "Get a company's open jobs",
-    description: "Retrieve a paginated list of job openings for a specific company by its HireBase slug.",
+    description:
+      "Retrieve a paginated list of job openings for a specific company by its HireBase slug. Applies the same " +
+      "experience filter as search_jobs by default.",
     inputSchema: {
       slug: z.string(),
       page: z.number().int().min(1).default(1),
       limit: z.number().int().min(1).max(100).default(10),
+      maxYearsExperience: z.number().default(2).describe("Same as search_jobs. Set high (e.g. 99) to disable."),
+      excludeSeniorTitles: z.boolean().default(true),
     },
   },
-  async ({ slug, page, limit }) =>
-    hirebaseGet(`/companies/${encodeURIComponent(slug)}/jobs`, { page, limit })
+  async ({ slug, page, limit, maxYearsExperience, excludeSeniorTitles }) => {
+    const result = await hirebaseGet(`/companies/${encodeURIComponent(slug)}/jobs`, { page, limit });
+    if (result.isError) return result;
+
+    let data;
+    try {
+      data = JSON.parse(result.content[0].text);
+    } catch {
+      return result;
+    }
+    const { kept, filtered_out_count } = filterJobsByExperience(data.jobs, maxYearsExperience, excludeSeniorTitles);
+    return { content: [{ type: "text", text: JSON.stringify({ ...data, jobs: kept, filtered_out_count }, null, 2) }] };
+  }
 );
 
 server.registerTool(

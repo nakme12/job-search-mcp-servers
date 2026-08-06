@@ -1,6 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
+import { evaluateExperience } from "./experience-filter.js";
 
 const server = new McpServer({
   name: "remotive-jobs",
@@ -23,9 +24,21 @@ server.registerTool(
       category: z.string().optional().describe("e.g. 'Software Development', 'Design', 'Writing'"),
       company_name: z.string().optional(),
       limit: z.number().int().min(1).max(100).optional(),
+      maxYearsExperience: z
+        .number()
+        .default(2)
+        .describe(
+          "Client-side safety net (same rule as every job-search server in this repo): Remotive has no structured " +
+            "experience field, so this regex-scans title/description and drops jobs implying more years than this. " +
+            "Set high (e.g. 99) to disable."
+        ),
+      excludeSeniorTitles: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
     },
   },
-  async ({ search, category, company_name, limit }) => {
+  async ({ search, category, company_name, limit, maxYearsExperience, excludeSeniorTitles }) => {
     const url = new URL("https://remotive.com/api/remote-jobs");
     if (search) url.searchParams.set("search", search);
     if (category) url.searchParams.set("category", category);
@@ -58,10 +71,20 @@ server.registerTool(
       const needle = company_name.toLowerCase();
       jobs = jobs.filter((j) => (j.company_name ?? "").toLowerCase().includes(needle));
     }
+    const beforeCount = jobs.length;
+    jobs = jobs.filter((j) => {
+      const exp = evaluateExperience({ title: j.title, description: j.description }, maxYearsExperience, excludeSeniorTitles);
+      j.detected_min_years_experience = exp.detected_min_years_experience;
+      j.looks_senior = exp.looks_senior;
+      return !exp.exclude;
+    });
+
     if (limit) jobs = jobs.slice(0, limit);
 
     return {
-      content: [{ type: "text", text: JSON.stringify({ jobCount: jobs.length, jobs }, null, 2) }],
+      content: [
+        { type: "text", text: JSON.stringify({ jobCount: jobs.length, filtered_out_count: beforeCount - jobs.length, jobs }, null, 2) },
+      ],
     };
   }
 );
