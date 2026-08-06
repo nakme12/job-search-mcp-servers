@@ -1,6 +1,6 @@
 # Job Search MCP Servers
 
-Eleven [MCP](https://modelcontextprotocol.io) servers that let an AI assistant (Claude, Cursor, etc.) search live job listings across multiple sources.
+Fourteen [MCP](https://modelcontextprotocol.io) servers that let an AI assistant (Claude, Cursor, etc.) search live job listings across multiple sources.
 
 **Experience filtering (default on, every server)** — `experience-filter.js` is shared by all eleven. Every
 `search_jobs`/`get_company_jobs` call defaults to `maxYearsExperience: 2` and `excludeSeniorTitles: true`, checked
@@ -16,9 +16,12 @@ title/description text — the two are cross-checked because source-provided lab
 |---|---|
 | `huntyourtribe-jobs-server.js` | huntyourtribe.com listings |
 | `ashby-jobs-server.js` | Any single company's Ashby job board (public API, needs the company's slug) |
+| `greenhouse-jobs-server.js` | Any single company's Greenhouse job board (needs the company's board token) |
+| `lever-jobs-server.js` | Any single company's Lever job board (needs the company's slug; supports server-side team/location/commitment filters) |
 | `remotive-jobs-server.js` | Remotive remote-jobs feed (small pool; attribution required) |
 | `themuse-jobs-server.js` | The Muse jobs API (optional `THEMUSE_API_KEY` raises rate limit 500→3600/hr) |
 | `remoteok-jobs-server.js` | RemoteOK feed (small pool; tags are SEO-stuffed, filter by title) |
+| `jobicy-jobs-server.js` | Jobicy remote-jobs feed (has a real `jobLevel` field; `geo`/`industry` filters need discovery via `discover: 'locations'`/`'industries'`) |
 
 **Key required** — all have free tiers:
 
