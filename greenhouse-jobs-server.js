@@ -2,6 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
+import { evaluateFreshness } from "./freshness-filter.js";
 
 const server = new McpServer({
   name: "greenhouse-jobs",
@@ -37,9 +38,20 @@ server.registerTool(
         .boolean()
         .default(true)
         .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
+      maxAgeDays: z
+        .number()
+        .default(90)
+        .describe(
+          "Client-side safety net against `updated_at` (Greenhouse's public API doesn't expose original posted " +
+            "date, so this is a proxy). Set high (e.g. 9999) to disable."
+        ),
+      excludeInternships: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title reads as an internship/traineeship."),
     },
   },
-  async ({ boardToken, titleContains, locationContains, maxYearsExperience, excludeSeniorTitles }) => {
+  async ({ boardToken, titleContains, locationContains, maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships }) => {
     const url = `https://boards-api.greenhouse.io/v1/boards/${encodeURIComponent(boardToken)}/jobs?content=true`;
     const response = await fetch(url);
 
@@ -72,6 +84,7 @@ server.registerTool(
     jobs = jobs.map((j) => {
       const description = stripHtml(j.content);
       const exp = evaluateExperience({ title: j.title, description }, maxYearsExperience, excludeSeniorTitles);
+      const fresh = evaluateFreshness({ title: j.title, postedDate: j.updated_at }, maxAgeDays, excludeInternships);
       return {
         title: j.title,
         location: j.location?.name,
@@ -81,7 +94,9 @@ server.registerTool(
         description,
         detected_min_years_experience: exp.detected_min_years_experience,
         looks_senior: exp.looks_senior,
-        _exclude: exp.exclude,
+        is_internship: fresh.is_internship,
+        age_days: fresh.age_days,
+        _exclude: exp.exclude || fresh.exclude,
       };
     });
     const kept = jobs.filter((j) => !j._exclude).map(({ _exclude, ...j }) => j);

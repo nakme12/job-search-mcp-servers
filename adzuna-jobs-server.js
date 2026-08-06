@@ -2,6 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
+import { evaluateFreshness } from "./freshness-filter.js";
 
 const APP_ID = process.env.ADZUNA_APP_ID;
 const APP_KEY = process.env.ADZUNA_APP_KEY;
@@ -78,9 +79,20 @@ server.registerTool(
         .boolean()
         .default(true)
         .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
+      maxAgeDays: z
+        .number()
+        .default(90)
+        .describe(
+          "Client-side safety net against `created`. `max_days_old` above is Adzuna's own server-side filter - " +
+            "use both together or either alone. Set high (e.g. 9999) to disable."
+        ),
+      excludeInternships: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title reads as an internship/traineeship."),
     },
   },
-  async ({ country, page, maxYearsExperience, excludeSeniorTitles, ...rest }) => {
+  async ({ country, page, maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships, ...rest }) => {
     const params = {};
     for (const [key, value] of Object.entries(rest)) {
       if (value === undefined) continue;
@@ -99,9 +111,12 @@ server.registerTool(
     const allJobs = data.results ?? [];
     const jobs = allJobs.filter((j) => {
       const exp = evaluateExperience({ title: j.title, description: j.description }, maxYearsExperience, excludeSeniorTitles);
+      const fresh = evaluateFreshness({ title: j.title, postedDate: j.created }, maxAgeDays, excludeInternships);
       j.detected_min_years_experience = exp.detected_min_years_experience;
       j.looks_senior = exp.looks_senior;
-      return !exp.exclude;
+      j.is_internship = fresh.is_internship;
+      j.age_days = fresh.age_days;
+      return !exp.exclude && !fresh.exclude;
     });
 
     return {

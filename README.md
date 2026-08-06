@@ -2,13 +2,18 @@
 
 Fourteen [MCP](https://modelcontextprotocol.io) servers that let an AI assistant (Claude, Cursor, etc.) search live job listings across multiple sources.
 
-**Experience filtering (default on, every server)** — `experience-filter.js` is shared by all eleven. Every
-`search_jobs`/`get_company_jobs` call defaults to `maxYearsExperience: 2` and `excludeSeniorTitles: true`, checked
-against whatever structured seniority field the source provides (where one exists) *and* a regex scan of the actual
-title/description text — the two are cross-checked because source-provided labels have been observed to be wrong
-(e.g. HireBase once labelled a 3–5yr role "Junior/Associate"). Kept jobs carry `detected_min_years_experience` /
-`looks_senior` fields for transparency; responses include `filtered_out_count`. Raise `maxYearsExperience` or set
-`excludeSeniorTitles: false` per-call as the candidate's real experience grows.
+**Default filtering, every server:**
+
+- `experience-filter.js` — `maxYearsExperience: 2` and `excludeSeniorTitles: true`, checked against whatever
+  structured seniority field the source provides (where one exists) *and* a regex scan of the actual title/
+  description text — cross-checked because source-provided labels have been observed to be wrong (e.g. HireBase
+  once labelled a 3–5yr role "Junior/Associate"). Kept jobs carry `detected_min_years_experience`/`looks_senior`.
+- `freshness-filter.js` — `excludeInternships: true` and `maxAgeDays: 90`, checked against a title/employment-type
+  regex and whatever posted-date field the source provides (a source's own "reposted" date is used in place of
+  the original post date where available, e.g. JobsPipe). Kept jobs carry `is_internship`/`age_days`.
+
+Every response includes `filtered_out_count`. Relax any of the four params per-call as the candidate's situation
+changes (e.g. `maxYearsExperience: 99` to see everything, `excludeInternships: false` to include internships).
 
 **No key needed** — works immediately:
 

@@ -2,6 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
+import { evaluateFreshness } from "./freshness-filter.js";
 
 const API_KEY = process.env.JOBSPIPE_API_KEY;
 if (!API_KEY) {
@@ -67,9 +68,25 @@ server.registerTool(
         .boolean()
         .default(true)
         .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
+      maxAgeDays: z
+        .number()
+        .default(90)
+        .describe(
+          "Client-side safety net, checked against `date_reposted` if JobsPipe's own `reposted` flag is set, " +
+            "else `date_posted` - so an old listing that's been actively reposted isn't penalized. " +
+            "`posted_at_max_age_days` above is JobsPipe's own server-side filter - use both together or either alone. " +
+            "Set high (e.g. 9999) to disable."
+        ),
+      excludeInternships: z
+        .boolean()
+        .default(true)
+        .describe(
+          "Drop jobs whose title reads as an internship/traineeship. `employment_type_or` above is JobsPipe's " +
+            "own server-side filter - simply not including 'internship' there is the cheaper way to exclude them."
+        ),
     },
   },
-  async ({ maxYearsExperience, excludeSeniorTitles, ...args }) => {
+  async ({ maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships, ...args }) => {
     const body = {};
     for (const [key, value] of Object.entries(args)) {
       if (value !== undefined) body[key] = value;
@@ -103,9 +120,20 @@ server.registerTool(
         maxYearsExperience,
         excludeSeniorTitles
       );
+      const fresh = evaluateFreshness(
+        {
+          title: j.job_title,
+          postedDate: j.date_posted,
+          repostedDate: j.reposted ? j.date_reposted : null,
+        },
+        maxAgeDays,
+        excludeInternships
+      );
       j.detected_min_years_experience = exp.detected_min_years_experience;
       j.looks_senior = exp.looks_senior;
-      return !exp.exclude;
+      j.is_internship = fresh.is_internship;
+      j.age_days = fresh.age_days;
+      return !exp.exclude && !fresh.exclude;
     });
 
     return {

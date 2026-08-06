@@ -2,12 +2,14 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
+import { evaluateFreshness } from "./freshness-filter.js";
 
 // HireBase's own `experience_level` label has been observed to be wrong (once
 // labelled a role "Junior / Associate" while its own yoe_range said 3-5 years) -
 // so this filter always cross-checks the actual title/description text too,
 // rather than trusting the self-reported label alone.
-function filterJobsByExperience(jobs, maxYearsExperience, excludeSeniorTitles) {
+function filterJobs(jobs, opts) {
+  const { maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships } = opts;
   const allJobs = jobs ?? [];
   const kept = allJobs.filter((j) => {
     const exp = evaluateExperience(
@@ -20,9 +22,12 @@ function filterJobsByExperience(jobs, maxYearsExperience, excludeSeniorTitles) {
       maxYearsExperience,
       excludeSeniorTitles
     );
+    const fresh = evaluateFreshness({ title: j.job_title, postedDate: j.date_posted }, maxAgeDays, excludeInternships);
     j.detected_min_years_experience = exp.detected_min_years_experience;
     j.looks_senior = exp.looks_senior;
-    return !exp.exclude;
+    j.is_internship = fresh.is_internship;
+    j.age_days = fresh.age_days;
+    return !exp.exclude && !fresh.exclude;
   });
   return { kept, filtered_out_count: allJobs.length - kept.length };
 }
@@ -100,9 +105,23 @@ server.registerTool(
         .boolean()
         .default(true)
         .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
+      maxAgeDays: z
+        .number()
+        .default(90)
+        .describe(
+          "Client-side safety net against `date_posted`. `days_ago`/`date_posted` above are HireBase's own " +
+            "server-side filters - use both together or either alone. Set high (e.g. 9999) to disable."
+        ),
+      excludeInternships: z
+        .boolean()
+        .default(true)
+        .describe(
+          "Drop jobs whose title reads as an internship/traineeship. `job_types` above is HireBase's own " +
+            "server-side filter - simply not including 'Internship' there is cheaper."
+        ),
     },
   },
-  async ({ maxYearsExperience, excludeSeniorTitles, ...args }) => {
+  async ({ maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships, ...args }) => {
     const body = {};
     for (const [key, value] of Object.entries(args)) {
       if (value !== undefined) body[key] = value;
@@ -116,7 +135,7 @@ server.registerTool(
     } catch {
       return result;
     }
-    const { kept, filtered_out_count } = filterJobsByExperience(data.jobs, maxYearsExperience, excludeSeniorTitles);
+    const { kept, filtered_out_count } = filterJobs(data.jobs, { maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships });
     return { content: [{ type: "text", text: JSON.stringify({ ...data, jobs: kept, filtered_out_count }, null, 2) }] };
   }
 );
@@ -154,9 +173,11 @@ server.registerTool(
       limit: z.number().int().min(1).max(100).default(10),
       maxYearsExperience: z.number().default(2).describe("Same as search_jobs. Set high (e.g. 99) to disable."),
       excludeSeniorTitles: z.boolean().default(true),
+      maxAgeDays: z.number().default(90).describe("Same as search_jobs. Set high (e.g. 9999) to disable."),
+      excludeInternships: z.boolean().default(true),
     },
   },
-  async ({ slug, page, limit, maxYearsExperience, excludeSeniorTitles }) => {
+  async ({ slug, page, limit, maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships }) => {
     const result = await hirebaseGet(`/companies/${encodeURIComponent(slug)}/jobs`, { page, limit });
     if (result.isError) return result;
 
@@ -166,7 +187,7 @@ server.registerTool(
     } catch {
       return result;
     }
-    const { kept, filtered_out_count } = filterJobsByExperience(data.jobs, maxYearsExperience, excludeSeniorTitles);
+    const { kept, filtered_out_count } = filterJobs(data.jobs, { maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships });
     return { content: [{ type: "text", text: JSON.stringify({ ...data, jobs: kept, filtered_out_count }, null, 2) }] };
   }
 );

@@ -2,6 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
+import { evaluateFreshness } from "./freshness-filter.js";
 
 const API_URL = "https://huntyourtribe.com/api/external-jobs";
 
@@ -65,9 +66,23 @@ server.registerTool(
         .boolean()
         .default(true)
         .describe("Drop jobs whose title/description/level reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
+      maxAgeDays: z
+        .number()
+        .default(90)
+        .describe(
+          "Client-side safety net against `posted_at`/`first_seen_at`. Companies whose every job gets filtered " +
+            "out are dropped from the results. Set high (e.g. 9999) to disable."
+        ),
+      excludeInternships: z
+        .boolean()
+        .default(true)
+        .describe(
+          "Drop jobs whose title/level reads as an internship/traineeship. `role_type`/`level` above are " +
+            "HuntYourTribe's own server-side filters - simply not including 'Internship'/'Intern' there is cheaper."
+        ),
     },
   },
-  async ({ page, limit, jobs_limit, maxYearsExperience, excludeSeniorTitles, ...filterFields }) => {
+  async ({ page, limit, jobs_limit, maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships, ...filterFields }) => {
     const filter = {};
     for (const [key, value] of Object.entries(filterFields)) {
       if (value !== undefined) filter[key] = value;
@@ -116,10 +131,18 @@ server.registerTool(
             maxYearsExperience,
             excludeSeniorTitles
           );
+          const fresh = evaluateFreshness(
+            { title: j.role_name, employmentType: j.role_type, postedDate: j.posted_at ?? j.first_seen_at },
+            maxAgeDays,
+            excludeInternships
+          );
           j.detected_min_years_experience = exp.detected_min_years_experience;
           j.looks_senior = exp.looks_senior;
-          if (exp.exclude) filteredOutCount += 1;
-          return !exp.exclude;
+          j.is_internship = fresh.is_internship;
+          j.age_days = fresh.age_days;
+          const exclude = exp.exclude || fresh.exclude;
+          if (exclude) filteredOutCount += 1;
+          return !exclude;
         });
         return { ...c, jobs };
       })

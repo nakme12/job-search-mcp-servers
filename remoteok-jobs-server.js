@@ -2,6 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
+import { evaluateFreshness } from "./freshness-filter.js";
 
 const server = new McpServer({
   name: "remoteok-jobs",
@@ -36,9 +37,17 @@ server.registerTool(
         .boolean()
         .default(true)
         .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
+      maxAgeDays: z
+        .number()
+        .default(90)
+        .describe("Client-side safety net against `date`. Set high (e.g. 9999) to disable."),
+      excludeInternships: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title reads as an internship/traineeship."),
     },
   },
-  async ({ keywords, tags, minSalary, limit, maxYearsExperience, excludeSeniorTitles }) => {
+  async ({ keywords, tags, minSalary, limit, maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships }) => {
     const response = await fetch("https://remoteok.com/api", {
       headers: { "user-agent": "job-search-mcp (https://github.com/nakme12/job-search-mcp-servers)" },
     });
@@ -66,9 +75,12 @@ server.registerTool(
     const beforeCount = jobs.length;
     jobs = jobs.filter((j) => {
       const exp = evaluateExperience({ title: j.position, description: j.description }, maxYearsExperience, excludeSeniorTitles);
+      const fresh = evaluateFreshness({ title: j.position, postedDate: j.date }, maxAgeDays, excludeInternships);
       j.detected_min_years_experience = exp.detected_min_years_experience;
       j.looks_senior = exp.looks_senior;
-      return !exp.exclude;
+      j.is_internship = fresh.is_internship;
+      j.age_days = fresh.age_days;
+      return !exp.exclude && !fresh.exclude;
     });
 
     jobs = jobs.slice(0, limit);

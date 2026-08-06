@@ -2,6 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
+import { evaluateFreshness } from "./freshness-filter.js";
 
 const BASE = "https://jobicy.com/api/v2/remote-jobs";
 
@@ -39,9 +40,17 @@ server.registerTool(
         .boolean()
         .default(true)
         .describe("Drop jobs whose title/description/jobLevel reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
+      maxAgeDays: z
+        .number()
+        .default(90)
+        .describe("Client-side safety net against `pubDate`. Set high (e.g. 9999) to disable."),
+      excludeInternships: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/jobType reads as an internship/traineeship."),
     },
   },
-  async ({ count, tag, geo, industry, discover, maxYearsExperience, excludeSeniorTitles }) => {
+  async ({ count, tag, geo, industry, discover, maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships }) => {
     const url = new URL(BASE);
     if (discover) {
       url.searchParams.set("get", discover);
@@ -79,9 +88,16 @@ server.registerTool(
         maxYearsExperience,
         excludeSeniorTitles
       );
+      const fresh = evaluateFreshness(
+        { title: j.jobTitle, employmentType: j.jobType?.[0], postedDate: j.pubDate },
+        maxAgeDays,
+        excludeInternships
+      );
       j.detected_min_years_experience = exp.detected_min_years_experience;
       j.looks_senior = exp.looks_senior;
-      return !exp.exclude;
+      j.is_internship = fresh.is_internship;
+      j.age_days = fresh.age_days;
+      return !exp.exclude && !fresh.exclude;
     });
 
     return {

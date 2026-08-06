@@ -2,6 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
+import { evaluateFreshness } from "./freshness-filter.js";
 
 const server = new McpServer({
   name: "ashby-jobs",
@@ -37,9 +38,27 @@ server.registerTool(
         .boolean()
         .default(true)
         .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
+      maxAgeDays: z
+        .number()
+        .default(90)
+        .describe("Client-side safety net against `publishedAt`. Set high (e.g. 9999) to disable."),
+      excludeInternships: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/employmentType reads as an internship/traineeship."),
     },
   },
-  async ({ companySlug, titleContains, locationContains, department, includeCompensation, maxYearsExperience, excludeSeniorTitles }) => {
+  async ({
+    companySlug,
+    titleContains,
+    locationContains,
+    department,
+    includeCompensation,
+    maxYearsExperience,
+    excludeSeniorTitles,
+    maxAgeDays,
+    excludeInternships,
+  }) => {
     const url = `https://api.ashbyhq.com/posting-api/job-board/${encodeURIComponent(companySlug)}?includeCompensation=${includeCompensation}`;
     const response = await fetch(url);
 
@@ -76,9 +95,16 @@ server.registerTool(
     jobs = jobs.filter((j) => {
       const description = j.descriptionPlain ?? j.descriptionHtml ?? j.description ?? "";
       const exp = evaluateExperience({ title: j.title, description }, maxYearsExperience, excludeSeniorTitles);
+      const fresh = evaluateFreshness(
+        { title: j.title, employmentType: j.employmentType, postedDate: j.publishedAt },
+        maxAgeDays,
+        excludeInternships
+      );
       j.detected_min_years_experience = exp.detected_min_years_experience;
       j.looks_senior = exp.looks_senior;
-      return !exp.exclude;
+      j.is_internship = fresh.is_internship;
+      j.age_days = fresh.age_days;
+      return !exp.exclude && !fresh.exclude;
     });
 
     return {

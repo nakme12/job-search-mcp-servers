@@ -2,6 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
+import { evaluateFreshness } from "./freshness-filter.js";
 
 const API_KEY = process.env.SERPAPI_API_KEY;
 if (!API_KEY) {
@@ -55,13 +56,14 @@ server.registerTool(
       "100 searches/month, so keep queries broad and purposeful rather than polling. " +
       "Returns up to 10 jobs per page; use `next_page_token` from a previous response to page further. " +
       "To narrow results, read the `filters` array in the response and pass a filter's `uds` value back via the `uds` param. " +
-      "\n\nEXPERIENCE FILTERING (default ON, same rule as every other job-search server in this repo): Google Jobs " +
-      "has no structured experience-level field, so this regex-scans each job's title/description for explicit " +
-      "year mentions ('3+ years', 'minimum 3 years', etc.) and seniority words (Senior/Lead/Staff/Principal/" +
-      "Architect/Manager/Director). Drops anything over `maxYearsExperience` (default 2) or reading senior, and " +
-      "returns `filtered_out_count`. Kept jobs still carry `detected_min_years_experience`/`looks_senior` for " +
-      "transparency. Raise `maxYearsExperience` or set `excludeSeniorTitles: false` as the candidate's real " +
-      "experience grows.",
+      "\n\nDEFAULT FILTERING (same rule as every other job-search server in this repo): Google Jobs has no " +
+      "structured experience-level or posting-age field, so this regex-scans each job's title/description for " +
+      "explicit year mentions ('3+ years', 'minimum 3 years', etc.) and seniority words (Senior/Lead/Staff/" +
+      "Principal/Architect/Manager/Director), and parses `detected_extensions.posted_at` (relative strings like " +
+      "'3 weeks ago') for age. By default drops: anything over `maxYearsExperience` (2), anything reading senior, " +
+      "internships/traineeships, and anything older than `maxAgeDays` (90). Returns `filtered_out_count`; kept " +
+      "jobs carry `detected_min_years_experience`/`looks_senior`/`is_internship`/`age_days` for transparency. " +
+      "Relax any of the four params as the candidate's situation changes.",
     inputSchema: {
       q: z.string().describe("Search query, e.g. 'frontend developer react' or 'react developer indore'"),
       location: z
@@ -85,15 +87,28 @@ server.registerTool(
         .boolean()
         .default(true)
         .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
+      maxAgeDays: z
+        .number()
+        .default(90)
+        .describe("Drop jobs posted more than this many days ago (parsed from Google's relative date strings). Set high (e.g. 9999) to disable."),
+      excludeInternships: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/schedule reads as an internship or traineeship."),
     },
   },
-  async ({ maxYearsExperience, excludeSeniorTitles, ...args }) => {
+  async ({ maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships, ...args }) => {
     const result = await serpapiGet(args);
     if (result.isError) return result;
     const { data } = result;
 
     const allJobs = (data.jobs_results ?? []).map((j) => {
       const exp = evaluateExperience({ title: j.title, description: j.description }, maxYearsExperience, excludeSeniorTitles);
+      const fresh = evaluateFreshness(
+        { title: j.title, employmentType: j.detected_extensions?.schedule_type, postedDate: j.detected_extensions?.posted_at },
+        maxAgeDays,
+        excludeInternships
+      );
       return {
         title: j.title,
         company: j.company_name,
@@ -108,7 +123,9 @@ server.registerTool(
         job_id: j.job_id,
         detected_min_years_experience: exp.detected_min_years_experience,
         looks_senior: exp.looks_senior,
-        _exclude: exp.exclude,
+        is_internship: fresh.is_internship,
+        age_days: fresh.age_days,
+        _exclude: exp.exclude || fresh.exclude,
       };
     });
 

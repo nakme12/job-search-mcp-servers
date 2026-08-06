@@ -2,6 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
+import { evaluateFreshness } from "./freshness-filter.js";
 
 const server = new McpServer({
   name: "remotive-jobs",
@@ -36,9 +37,17 @@ server.registerTool(
         .boolean()
         .default(true)
         .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
+      maxAgeDays: z
+        .number()
+        .default(90)
+        .describe("Client-side safety net against `publication_date`. Set high (e.g. 9999) to disable."),
+      excludeInternships: z
+        .boolean()
+        .default(true)
+        .describe("Drop jobs whose title/job_type reads as an internship/traineeship."),
     },
   },
-  async ({ search, category, company_name, limit, maxYearsExperience, excludeSeniorTitles }) => {
+  async ({ search, category, company_name, limit, maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships }) => {
     const url = new URL("https://remotive.com/api/remote-jobs");
     if (search) url.searchParams.set("search", search);
     if (category) url.searchParams.set("category", category);
@@ -74,9 +83,16 @@ server.registerTool(
     const beforeCount = jobs.length;
     jobs = jobs.filter((j) => {
       const exp = evaluateExperience({ title: j.title, description: j.description }, maxYearsExperience, excludeSeniorTitles);
+      const fresh = evaluateFreshness(
+        { title: j.title, employmentType: j.job_type, postedDate: j.publication_date },
+        maxAgeDays,
+        excludeInternships
+      );
       j.detected_min_years_experience = exp.detected_min_years_experience;
       j.looks_senior = exp.looks_senior;
-      return !exp.exclude;
+      j.is_internship = fresh.is_internship;
+      j.age_days = fresh.age_days;
+      return !exp.exclude && !fresh.exclude;
     });
 
     if (limit) jobs = jobs.slice(0, limit);

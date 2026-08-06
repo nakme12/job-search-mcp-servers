@@ -2,6 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
+import { evaluateFreshness } from "./freshness-filter.js";
 
 const server = new McpServer({
   name: "lever-jobs",
@@ -35,9 +36,20 @@ server.registerTool(
         .boolean()
         .default(true)
         .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
+      maxAgeDays: z
+        .number()
+        .default(90)
+        .describe("Client-side safety net against `createdAt`. Set high (e.g. 9999) to disable."),
+      excludeInternships: z
+        .boolean()
+        .default(true)
+        .describe(
+          "Drop jobs whose title/commitment reads as an internship/traineeship. `commitment: 'Internship'` above " +
+            "is Lever's own server-side filter - simply not passing that value is cheaper."
+        ),
     },
   },
-  async ({ company, team, location, commitment, titleContains, maxYearsExperience, excludeSeniorTitles }) => {
+  async ({ company, team, location, commitment, titleContains, maxYearsExperience, excludeSeniorTitles, maxAgeDays, excludeInternships }) => {
     const url = new URL(`https://api.lever.co/v0/postings/${encodeURIComponent(company)}`);
     url.searchParams.set("mode", "json");
     if (team) url.searchParams.set("team", team);
@@ -68,6 +80,11 @@ server.registerTool(
     jobs = jobs.map((j) => {
       const description = j.descriptionPlain || j.description || "";
       const exp = evaluateExperience({ title: j.text, description }, maxYearsExperience, excludeSeniorTitles);
+      const fresh = evaluateFreshness(
+        { title: j.text, employmentType: j.categories?.commitment, postedDate: j.createdAt },
+        maxAgeDays,
+        excludeInternships
+      );
       return {
         title: j.text,
         team: j.categories?.team,
@@ -80,7 +97,9 @@ server.registerTool(
         description,
         detected_min_years_experience: exp.detected_min_years_experience,
         looks_senior: exp.looks_senior,
-        _exclude: exp.exclude,
+        is_internship: fresh.is_internship,
+        age_days: fresh.age_days,
+        _exclude: exp.exclude || fresh.exclude,
       };
     });
     const kept = jobs.filter((j) => !j._exclude).map(({ _exclude, ...j }) => j);
