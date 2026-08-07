@@ -14,7 +14,8 @@
     "theirstack-jobs": "node theirstack-jobs-server.js",
     "ashby-jobs": "node ashby-jobs-server.js",
     "remotive-jobs": "node remotive-jobs-server.js",
-    "themuse-jobs": "node themuse-jobs-server.js"
+    "themuse-jobs": "node themuse-jobs-server.js",
+    "workable-jobs": "node workable-jobs-server.js"
   },
   "keywords": [],
   "author": "",
