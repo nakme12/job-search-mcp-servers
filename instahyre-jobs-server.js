@@ -117,6 +117,7 @@ server.registerTool(
     maxYearsExperience,
     excludeSeniorTitles,
     excludeInternships,
+    maxAgeDays,
   }) => {
     const titleRegexes = (titleContains || []).map((s) => new RegExp(s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"));
 
