@@ -4,7 +4,7 @@ import { z } from "zod";
 import { evaluateExperience } from "./experience-filter.js";
 import { evaluateFreshness } from "./freshness-filter.js";
 
-const API_URL = "https://huntyourtribe.com/api/external-jobs";
+const API_URL = "https://api.huntyourtribe.com/api/external-jobs";
 
 // Filter fields accepted by the API (confirmed via probing; unrecognized keys
 // make the whole request fail with "Invalid external jobs listing filter field").

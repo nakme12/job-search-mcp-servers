@@ -27,6 +27,7 @@ changes (e.g. `maxYearsExperience: 99` to see everything, `excludeInternships: f
 | `themuse-jobs-server.js` | The Muse jobs API (optional `THEMUSE_API_KEY` raises rate limit 500→3600/hr) |
 | `remoteok-jobs-server.js` | RemoteOK feed (small pool; tags are SEO-stuffed, filter by title) |
 | `jobicy-jobs-server.js` | Jobicy remote-jobs feed (has a real `jobLevel` field; `geo`/`industry` filters need discovery via `discover: 'locations'`/`'industries'`) |
+| `instahyre-jobs-server.js` | Instahyre's public job-search API (India-focused). Undocumented API with no posting date or description field anywhere - freshness/age can't be computed for this source, only internship-title exclusion applies. Free-text keyword/location params are ignored server-side; filters by `job_functions`/`experience_level` instead. |
 
 **Key required** — all have free tiers:
 
@@ -102,6 +103,7 @@ claude mcp add -s user ashby-jobs -- node /path/to/ashby-jobs-server.js
 claude mcp add -s user remotive-jobs -- node /path/to/remotive-jobs-server.js
 claude mcp add -s user themuse-jobs -- node /path/to/themuse-jobs-server.js
 claude mcp add -s user remoteok-jobs -- node /path/to/remoteok-jobs-server.js
+claude mcp add -s user instahyre-jobs -- node /path/to/instahyre-jobs-server.js
 ```
 
 Only run the lines for servers you got a key for. `-s user` makes it available across all your projects; use `-s local` to scope it to one project instead.
