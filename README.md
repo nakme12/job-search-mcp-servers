@@ -39,6 +39,7 @@ changes (e.g. `maxYearsExperience: 99` to see everything, `excludeInternships: f
 | `theirstack-jobs-server.js` | `THEIRSTACK_API_KEY` | 223M jobs/195 countries + company technographics |
 | `google-jobs-server.js` | `SERPAPI_API_KEY` | Google Jobs aggregate via SerpApi (free: 250 searches/mo). Strong for tier-2 cities |
 | `career-site-jobs-server.js` | `APIFY_API_TOKEN` | 175k+ career sites, 54 ATS platforms (**paid**, ~$4/1k jobs) |
+| `remoterocketship-jobs-server.js` | `APIFY_API_TOKEN` | remoterocketship.com via a third-party Apify scraper (no official API exists). **Paid**, and unlike the other Apify server here it's a recurring **~$19.89/month subscription** to that specific actor, not per-result. Response field names are best-effort (unverified against a live call) — confirm on first real use. |
 
 ## Setup
 
@@ -85,6 +86,10 @@ changes (e.g. `maxYearsExperience: 99` to see everything, `excludeInternships: f
 2. Open **Settings → Integrations → API tokens** and copy a token.
 3. This one is billed (~$4 per 1,000 jobs returned) — Apify includes ~$5 free credit/month, keep `limit` low to stay within it.
 
+**Apify / remoterocketship-jobs** (`APIFY_API_TOKEN`, same token as above)
+1. Same Apify account as above, but separately subscribe to the `scrapestorm/remote-rocketship-jobs-scraper---cheap` actor.
+2. This is a recurring **~$19.89/month subscription** to that actor, not per-result billing — confirm you actually want the standing cost before subscribing.
+
 ## Connecting to Claude
 
 With Claude Code, register each server with your key(s) as env vars:
@@ -95,6 +100,7 @@ claude mcp add -s user hirebase-jobs -e HIREBASE_API_KEY=xxx -- node /path/to/hi
 claude mcp add -s user jobspipe-jobs -e JOBSPIPE_API_KEY=xxx -- node /path/to/jobspipe-jobs-server.js
 claude mcp add -s user theirstack-jobs -e THEIRSTACK_API_KEY=xxx -- node /path/to/theirstack-jobs-server.js
 claude mcp add -s user career-site-jobs -e APIFY_API_TOKEN=xxx -- node /path/to/career-site-jobs-server.js
+claude mcp add -s user remoterocketship-jobs -e APIFY_API_TOKEN=xxx -- node /path/to/remoterocketship-jobs-server.js
 claude mcp add -s user google-jobs -e SERPAPI_API_KEY=xxx -- node /path/to/google-jobs-server.js
 
 # no key needed
