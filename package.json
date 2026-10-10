@@ -1,0 +1,20 @@
+{
+  "name": "mcp-cli-viewer",
+  "version": "1.0.0",
+  "description": "Terminal UI for viewing MCP job listings",
+  "main": "cli_job_viewer.js",
+  "type": "module",
+  "scripts": {
+    "start": "node cli_job_viewer.js",
+    "himalayas-jobs": "node servers/himalayas-jobs-server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "csv-parse": "^7.0.2",
+    "dotenv": "^17.4.2",
+    "inquirer": "^9.2.7",
+    "puppeteer": "^25.9.0"
+  }
+}
