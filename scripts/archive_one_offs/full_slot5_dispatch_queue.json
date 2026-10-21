@@ -1,0 +1,72 @@
+[
+  {
+    "company": "Engineers Hub",
+    "role": "Frontend Developer",
+    "location": "Indore",
+    "email": "abhijeetvyas2474@gmail.com",
+    "resume": "Pratik Patidar Resume - Frontend Engineer.pdf"
+  },
+  {
+    "company": "Zectagon Technologies",
+    "role": "MERN Stack Developer",
+    "location": "Jaipur",
+    "email": "team@zectagon.com",
+    "resume": "Pratik Patidar Resume - MERN Full Stack.pdf"
+  },
+  {
+    "company": "Skyfish Global",
+    "role": "Frontend Developer",
+    "location": "Bangalore",
+    "email": "careers@skyfishglobal.com",
+    "resume": "Pratik Patidar Resume - Frontend Engineer.pdf"
+  },
+  {
+    "company": "Savannah Labs",
+    "role": "MERN Full Stack Developer",
+    "location": "Ahmedabad",
+    "email": "hr@savannah-labs.com",
+    "resume": "Pratik Patidar Resume - MERN Full Stack.pdf"
+  },
+  {
+    "company": "Ats Software Solution",
+    "role": "Full Stack Developer",
+    "location": "Surat",
+    "email": "hr@atssoftwaresolution.com",
+    "resume": "Pratik Patidar Resume - MERN Full Stack.pdf"
+  },
+  {
+    "company": "Anvtech",
+    "role": "MERN Stack Developer",
+    "location": "Surat",
+    "email": "hr@anvtech.co",
+    "resume": "Pratik Patidar Resume - MERN Full Stack.pdf"
+  },
+  {
+    "company": "GVM Technologies",
+    "role": "Front End Developer",
+    "location": "Surat",
+    "email": "career@gvmtechnologies.com",
+    "resume": "Pratik Patidar Resume - Frontend Engineer.pdf"
+  },
+  {
+    "company": "Anisht",
+    "role": "Full Stack Developer",
+    "location": "Delhi NCR",
+    "email": "gkmathscience@gmail.com",
+    "resume": "Pratik Patidar Resume - MERN Full Stack.pdf"
+  },
+  {
+    "company": "Rising Next Move",
+    "role": "Full Stack Developer",
+    "location": "Delhi NCR",
+    "email": "hr@nextmoveindia.in",
+    "resume": "Pratik Patidar Resume - MERN Full Stack.pdf"
+  },
+  {
+    "company": "TrueNorth",
+    "role": "Full Stack Developer",
+    "location": "Gurgaon",
+    "email": "Raj.truenorth@gmail.com",
+    "resume": "Pratik Patidar Resume - MERN Full Stack.pdf"
+  }
+]

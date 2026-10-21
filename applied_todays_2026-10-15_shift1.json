@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-15",
+  "shift": 1,
+  "cycle": "Morning Cycle (11:00 AM - 03:00 PM)",
+  "description": "Confirmed applications submitted in Shift 1 with physical post-submit screenshot proof",
+  "total": 8,
+  "jobs": [
+    {
+      "company": "Mahindra Holidays",
+      "role": "Frontend Web Developer",
+      "recipient": "Sudhansh.Madhwani661@mahindraholidays.com",
+      "channel": "Direct Email (Gmail CDP)",
+      "subject": "Application for Frontend Web Developer - Pratik Patidar",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "status": "APPLIED_CONFIRMED",
+      "notes": "Dispatched via Gmail CDP and recorded on 2026-10-15T07:47:34.027Z",
+      "timestamp": "2026-10-15T07:47:34.037Z"
+    },
+    {
+      "company": "Amardeep Design",
+      "role": "Frontend Web Developer",
+      "recipient": "akash.sisodia@amardeepdesign.com",
+      "channel": "Direct Email (Gmail CDP)",
+      "subject": "Application for Frontend Web Developer - Pratik Patidar",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "status": "APPLIED_CONFIRMED",
+      "notes": "Dispatched via Gmail CDP and recorded on 2026-10-15T07:49:00.029Z",
+      "timestamp": "2026-10-15T07:49:00.030Z"
+    },
+    {
+      "company": "Alvinex",
+      "role": "MERN Stack Developer",
+      "recipient": "alvinex@qubryx.com",
+      "channel": "Direct Email (Gmail CDP)",
+      "subject": "Application for MERN Stack Developer - Pratik Patidar",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "status": "APPLIED_CONFIRMED",
+      "notes": "Dispatched via Gmail CDP and recorded on 2026-10-15T07:50:25.088Z",
+      "timestamp": "2026-10-15T07:50:25.089Z"
+    },
+    {
+      "company": "Ramp",
+      "role": "Software Engineer, Forward Deployed AI Solutions",
+      "url": "https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27/application",
+      "channel": "Direct ATS Portal Form (Ashby)",
+      "proof_screenshot": "C:\\mcp\\job-search-mcp-engine\\screenshots\\2026-10-15\\shift1\\post_submit_ramp_1792061402584.png",
+      "status": "APPLIED_CONFIRMED",
+      "notes": "Automated form submitted with radio/checkbox options resolved on 2026-10-15T10:50:02.774Z",
+      "timestamp": "2026-10-15T10:50:02.775Z"
+    },
+    {
+      "company": "CloudXtreme",
+      "role": "Frontend Engineer",
+      "recipient": "mubashira.shaik@mycloudxtreme.com",
+      "channel": "Direct Email (Gmail CDP)",
+      "subject": "Application for Frontend Engineer - Pratik Patidar",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "status": "APPLIED_CONFIRMED",
+      "notes": "Dispatched via Gmail CDP on 2026-10-15T13:37:59.843Z",
+      "timestamp": "2026-10-15T13:37:59.844Z"
+    },
+    {
+      "company": "ElevenX Capital",
+      "role": "Full Stack Developer",
+      "recipient": "kajal.jat@elevenxcapital.com",
+      "channel": "Direct Email (Gmail CDP)",
+      "subject": "Application for Full Stack Developer - Pratik Patidar",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "status": "APPLIED_CONFIRMED",
+      "notes": "Dispatched via Gmail CDP on 2026-10-15T13:38:19.071Z",
+      "timestamp": "2026-10-15T13:38:19.071Z"
+    },
+    {
+      "company": "Aschpro",
+      "role": "Frontend Engineer",
+      "recipient": "sindhuja.pabbathi@aschpro.com",
+      "channel": "Direct Email (Gmail CDP)",
+      "subject": "Application for Frontend Engineer - Pratik Patidar",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "status": "APPLIED_CONFIRMED",
+      "notes": "Dispatched via Gmail CDP on 2026-10-15T13:38:37.815Z",
+      "timestamp": "2026-10-15T13:38:37.815Z"
+    },
+    {
+      "company": "Arth Tech Supports",
+      "role": "Full Stack Developer",
+      "recipient": "hr@arthtechsupports.com",
+      "channel": "Direct Email (Gmail CDP)",
+      "subject": "Application for Full Stack Developer - Pratik Patidar",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "status": "APPLIED_CONFIRMED",
+      "notes": "Dispatched via Gmail CDP on 2026-10-15T13:38:56.089Z",
+      "timestamp": "2026-10-15T13:38:56.089Z"
+    }
+  ]
+}

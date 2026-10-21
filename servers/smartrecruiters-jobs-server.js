@@ -47,7 +47,7 @@ server.registerTool(
         .describe("Drop jobs whose title reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
       maxAgeDays: z
         .number()
-        .default(90)
+        .default(7)
         .describe("Client-side safety net against `releasedDate`. Set high (e.g. 9999) to disable."),
       excludeInternships: z
         .boolean()

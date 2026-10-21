@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-14",
+  "shift": 1,
+  "description": "All 19 applications confirmed and submitted prior to this session kickoff",
+  "total": 19,
+  "jobs": [
+    {
+      "company": "Procyn .in",
+      "role": "Full Stack Developer (MERN / React)",
+      "recipient": "contact@procyn.in",
+      "channel": "Direct Email (Gmail CDP)",
+      "subject": "Full Stack Developer (MERN / React) Application - Pratik Patidar (Indore, MP)",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "timestamp": "2026-10-14T07:42:27.903Z",
+      "status": "Applied & Verified (100% Physical Sent Folder Assertion Proof)",
+      "proof_screenshots": []
+    },
+    {
+      "company": "IT Career Openings",
+      "role": "Frontend / React Developer",
+      "recipient": "himangisinghal30091994@gmail.com",
+      "channel": "Direct Email (Gmail CDP)",
+      "subject": "Frontend / React Developer Application - Pratik Patidar (Indore, MP)",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T07:45:43.345Z",
+      "status": "Applied & Verified (100% Physical Sent Folder Assertion Proof)",
+      "proof_screenshots": []
+    },
+    {
+      "company": "Triedge Solutions",
+      "role": "Full Stack Developer (MERN / React)",
+      "recipient": "apply@triedge.in",
+      "channel": "Direct Email (Gmail CDP)",
+      "subject": "Full Stack Developer (MERN / React) Application - Pratik Patidar (Indore, MP)",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "timestamp": "2026-10-14T07:48:42.571Z",
+      "status": "Applied & Verified (100% Physical Sent Folder Assertion Proof)",
+      "proof_screenshots": []
+    },
+    {
+      "company": "Niti Technologies India",
+      "role": "MERN Stack Developer",
+      "recipient": "hr@nititechnologiesindia.com",
+      "channel": "Direct Email (Gmail CDP)",
+      "subject": "MERN Stack Developer Application - Pratik Patidar (Indore, MP)",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "timestamp": "2026-10-14T07:50:46.986Z",
+      "status": "Applied & Verified (100% Physical Sent Folder Assertion Proof)",
+      "proof_screenshots": []
+    },
+    {
+      "company": "Tavily",
+      "role": "Front-End Engineer",
+      "recipient_or_url": "https://jobs.ashbyhq.com/tavily/fabd9b1b-a85b-4e74-a0ee-44f7251df743/application",
+      "channel": "Direct Portal (Ashby ATS)",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T07:55:50.000Z",
+      "status": "Applied & Submitted (Verified in DOM: Your application was successfully submitted)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/tavily_fe_submitted.png"
+      ],
+      "notes": "Ashby ATS submission verified with physical DOM confirmation message: Your application was successfully submitted."
+    },
+    {
+      "company": "Creuto",
+      "role": "MERN Stack Developer",
+      "recipient_or_url": "https://creuto.com/careers/apply?position=MERN%20Stack%20Developer&jobId=69fe315bab54fb2fca546108",
+      "channel": "Direct Company Career Portal",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "timestamp": "2026-10-14T07:59:35.000Z",
+      "status": "Applied & Submitted (Verified in DOM: Thank you for applying to Creuto! We have received your application)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/creuto_mern_postsubmit.png"
+      ],
+      "notes": "Direct career portal submission confirmed. API response 201 Created (/api/job-response). Redirected to https://creuto.com/careers/thank-you with physical confirmation message."
+    },
+    {
+      "company": "Redsag",
+      "role": "Junior Frontend Developer",
+      "recipient_or_url": "https://www.red-sag.com/careers/apply/junior-frontend-developer",
+      "channel": "Direct Company Career Portal",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T08:01:08.000Z",
+      "status": "Applied & Submitted (Verified in DOM: Application Submitted! Thank you for applying to the Junior Frontend Developer position)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/redsag_fe_postsubmit.png"
+      ],
+      "notes": "Direct career portal submission confirmed. API response 200 OK (/api/forms/submit). Physical DOM assertion: Application Submitted! Thank you for applying to the Junior Frontend Developer position. Submitted: 14/10/2026."
+    },
+    {
+      "company": "Key Software Services",
+      "role": "MERN Stack Developer",
+      "recipient": "hr@keyss.in",
+      "channel": "Direct Email (Gmail CDP - Rule 53 Instant Dispatch)",
+      "subject": "MERN Stack Developer Application - Pratik Patidar (Indore, MP)",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "timestamp": "2026-10-14T08:16:06.436Z",
+      "status": "Applied & Verified (100% Physical Sent Folder Assertion Proof)",
+      "proof_screenshots": [],
+      "notes": "Rule 53 Instant Email Dispatch executed post-Slot 4. Physically verified in Gmail Sent folder."
+    },
+    {
+      "company": "Anuyog Software Solutions",
+      "role": "Software Development Engineer I (SDE-I)",
+      "recipient_or_url": "https://anuyogsoftwares.com/careers?role=JD-2026-021#apply",
+      "channel": "Direct Company Career Portal",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T09:03:43.370Z",
+      "status": "Applied & Submitted (Verified in DOM: Thank you - Your brief is in)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/anuyog_sde_postsubmit.png"
+      ],
+      "notes": "Direct career portal submission confirmed. Cloudflare Turnstile human verification solved. Redirected to /contact?thankyou with physical DOM confirmation: Thank you - Your brief is in. We come back with a straight answer within 24 hours."
+    },
+    {
+      "company": "SolveByte",
+      "role": "Full Stack Developer",
+      "recipient_or_url": "https://solvebyte.com/career/full-stack-developer",
+      "channel": "Direct Company Career Portal",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "timestamp": "2026-10-14T09:13:07.478Z",
+      "status": "Applied & Submitted (Verified in DOM: Application submitted successfully)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/solvebyte_postsubmit.png"
+      ],
+      "notes": "Direct career portal submission confirmed. reCAPTCHA verified. Physical DOM assertion: Application submitted successfully."
+    },
+    {
+      "company": "Headout",
+      "role": "Frontend Engineer",
+      "recipient_or_url": "https://job-boards.greenhouse.io/headoutcareers/jobs/4707747006/confirmation?gh_src=sxne3lxs6us",
+      "channel": "Direct Portal (Greenhouse ATS)",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T09:47:08.996Z",
+      "status": "Applied & Submitted (Verified in DOM: We’re thrilled that you wish to be a part of Headout! Thank you for applying!)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/headout_fe_postsubmit.png"
+      ],
+      "notes": "Greenhouse ATS submission verified with physical confirmation page (/confirmation): We’re thrilled that you wish to be a part of Headout! Thank you for applying! All custom React-Select questions, phone +91 India code, and canonical data successfully validated."
+    },
+    {
+      "company": "NexDuo",
+      "role": "Frontend Engineer",
+      "recipient_or_url": "https://nexduo.in/careers/ND-FE-01",
+      "channel": "Direct Company Career Portal",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T09:51:59.900Z",
+      "status": "Applied & Submitted (Verified in DOM: Application received. Thanks for applying to Frontend Engineer)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/nexduo_fe_postsubmit.png"
+      ],
+      "notes": "Direct career portal submission confirmed. Visual confirmation modal asserted: Application received. Thanks for applying to Frontend Engineer. We will review your application and reach out if there is a fit. Full page screenshot saved and tab closed under Rule 57."
+    },
+    {
+      "company": "Penthara Technologies",
+      "role": "React JS Developer",
+      "recipient_or_url": "https://penthara.zohorecruit.com/jobs/Careers/754264000005988001/React-JS-Developer?source=LinkedIn-Premium",
+      "channel": "Direct Portal (Zoho Recruit ATS)",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T10:06:39.345Z",
+      "status": "Applied & Submitted (Verified in DOM: Success! Thank you for applying to join our amazing team)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/penthara_fe_postsubmit.png"
+      ],
+      "notes": "Zoho Recruit ATS submission verified. Physical DOM modal assertion: Success! Hi Pratik, Thank you for applying to join our amazing team. We are thrilled by your interest and passion for our work. We will review your application and get back to you soon. Full page screenshot captured and tab closed under Rule 57."
+    },
+    {
+      "company": "Soulside AI",
+      "role": "Frontend Engineer (India/Remote)",
+      "recipient": "Ashby Portal",
+      "channel": "Direct ATS Portal (Ashby)",
+      "job_url": "https://jobs.ashbyhq.com/Soulside%20AI/7cdf48ca-e4f7-40f2-9521-0368cf9d0cba/application",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "timestamp": "2026-10-14T10:37:35.181Z",
+      "status": "Applied & Verified (100% Post-Submit Confirmation Screenshot)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/soulside_ai_postsubmit.png"
+      ]
+    },
+    {
+      "company": "Plane Software",
+      "role": "Software Engineer, Frontend (React)",
+      "recipient": "Ashby Portal",
+      "channel": "Direct ATS Portal (Ashby)",
+      "job_url": "https://jobs.ashbyhq.com/plane/15cf6387-af74-4616-924f-3659fb76de01/application",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T10:39:44.121Z",
+      "status": "Applied & Verified (100% Post-Submit Confirmation Screenshot)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/plane_fe_postsubmit.png"
+      ]
+    },
+    {
+      "company": "Build AI",
+      "role": "Software Engineer, India",
+      "recipient": "Ashby Portal",
+      "channel": "Direct ATS Portal (Ashby)",
+      "job_url": "https://jobs.ashbyhq.com/build-ai/6c6e4334-8219-49cc-926e-a5289cf95432/application",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "timestamp": "2026-10-14T10:42:07.713Z",
+      "status": "Applied & Verified (100% Post-Submit Confirmation Screenshot)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/build_ai_postsubmit.png"
+      ]
+    },
+    {
+      "company": "Collinear AI",
+      "role": "MTS - Engineering (India)",
+      "recipient": "Ashby Portal",
+      "channel": "Direct ATS Portal (Ashby)",
+      "job_url": "https://jobs.ashbyhq.com/collinear-ai/80442b09-b40b-47f5-a6ec-64a6ab042ff5/application",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T10:43:05.692Z",
+      "status": "Applied & Verified (100% Post-Submit Confirmation Screenshot)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/collinear_ai_postsubmit.png"
+      ]
+    },
+    {
+      "company": "AiPrise",
+      "role": "Software Engineer I (Bangalore, India)",
+      "recipient": "Ashby Portal",
+      "channel": "Direct ATS Portal (Ashby)",
+      "job_url": "https://jobs.ashbyhq.com/aiprise/3763c791-a387-4078-9ca4-00cbfbf9b1a6/application",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T10:46:10.694Z",
+      "status": "Applied & Verified (100% Post-Submit Confirmation Screenshot)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/aiprise_postsubmit.png"
+      ]
+    },
+    {
+      "company": "UptimeAI",
+      "role": "Full stack Developer (MEAN/MERN Stack)",
+      "recipient": "Ashby Portal",
+      "channel": "Direct ATS Portal (Ashby)",
+      "job_url": "https://jobs.ashbyhq.com/uptimeai/1554854a-7281-4540-af3d-c6ae60464914/application",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "timestamp": "2026-10-14T10:47:08.836Z",
+      "status": "Applied & Verified (100% Post-Submit Confirmation Screenshot)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift1/uptimeai_postsubmit.png"
+      ]
+    }
+  ]
+}

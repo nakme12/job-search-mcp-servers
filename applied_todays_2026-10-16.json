@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-16",
+  "description": "Jobs successfully submitted today with physical screenshot proof and DOM confirmation",
+  "total": 1,
+  "jobs": [
+    {
+      "company": "Techbyte Coders",
+      "role": "Software Engineer - Night Shift - Fully Remote - Pan India",
+      "url": "https://www.naukri.com/job-listings-software-engineer-night-shift-fully-remote-pan-india-techbyte-coders-delhi-ncr-0-to-6-years-151026033391",
+      "channel": "Direct Company Career Portal",
+      "proof_screenshot": "C:\\mcp\\job-search-mcp-engine\\screenshots\\2026-10-16\\shift1\\post_submit_techbyte_coders_1792140372760.png",
+      "status": "APPLIED_CONFIRMED",
+      "notes": "Confirmed ATS submission on 2026-10-16T08:46:13.195Z",
+      "timestamp": "2026-10-16T08:46:13.197Z"
+    }
+  ]
+}

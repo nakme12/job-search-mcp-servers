@@ -1,0 +1,170 @@
+[
+  {
+    "name": "placementindia-mcp",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 32,
+    "details": "Scrapes direct recruiter listings live",
+    "latency": "2.39s"
+  },
+  {
+    "name": "remoteok-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 99,
+    "details": "Public REST API live",
+    "latency": "0.93s"
+  },
+  {
+    "name": "remotive-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 16,
+    "details": "Public REST API live",
+    "latency": "0.10s"
+  },
+  {
+    "name": "jobicy-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 20,
+    "details": "Public REST API live",
+    "latency": "0.77s"
+  },
+  {
+    "name": "himalayas-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 20,
+    "details": "Public REST API live",
+    "latency": "0.41s"
+  },
+  {
+    "name": "workingnomads-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 53,
+    "details": "Public REST API live",
+    "latency": "2.30s"
+  },
+  {
+    "name": "weworkremotely-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 5,
+    "details": "RSS XML Feed live",
+    "latency": "3.45s"
+  },
+  {
+    "name": "hackernews-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 1,
+    "details": "Algolia HN API live",
+    "latency": "0.50s"
+  },
+  {
+    "name": "google-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 10,
+    "details": "SerpApi Live Key valid",
+    "latency": "5.60s"
+  },
+  {
+    "name": "greenhouse-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 205,
+    "details": "Greenhouse Public API live",
+    "latency": "0.33s"
+  },
+  {
+    "name": "ashby-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 18,
+    "details": "Ashby Public API live",
+    "latency": "0.43s"
+  },
+  {
+    "name": "lever-jobs-server",
+    "status": "ERROR / INACTIVE",
+    "code": 400,
+    "count": 0,
+    "details": "HTTP 404",
+    "latency": "1.64s"
+  },
+  {
+    "name": "smartrecruiters-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 0,
+    "details": "SmartRecruiters Public API live",
+    "latency": "0.62s"
+  },
+  {
+    "name": "workable-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 0,
+    "details": "Workable endpoint HTTP 404",
+    "latency": "0.38s"
+  },
+  {
+    "name": "themuse-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 20,
+    "details": "TheMuse API live",
+    "latency": "1.07s"
+  },
+  {
+    "name": "instahyre-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 35,
+    "details": "Instahyre API live",
+    "latency": "0.45s"
+  },
+  {
+    "name": "theirstack-jobs-server",
+    "status": "ERROR / INACTIVE",
+    "code": 400,
+    "count": 0,
+    "details": "HTTP 422",
+    "latency": "1.26s"
+  },
+  {
+    "name": "jobspipe-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 0,
+    "details": "JobsPipe Live Key valid",
+    "latency": "2.31s"
+  },
+  {
+    "name": "hirebase-jobs-server",
+    "status": "ERROR / INACTIVE",
+    "code": 400,
+    "count": 0,
+    "details": "HTTP 403",
+    "latency": "0.18s"
+  },
+  {
+    "name": "career-site-jobs-server",
+    "status": "ACTIVE / WORKING",
+    "code": 200,
+    "count": 1,
+    "details": "Apify Live Token valid",
+    "latency": "0.70s"
+  },
+  {
+    "name": "adzuna-jobs-server",
+    "status": "BANNED / DECOMMISSIONED",
+    "code": 0,
+    "count": 0,
+    "details": "Rule 48 Hard Ban (Low quality, dead Cutshort redirects)",
+    "latency": "0s"
+  }
+]

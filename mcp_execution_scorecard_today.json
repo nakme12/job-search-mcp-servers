@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-21",
+  "shift": 2,
+  "updated_at": "2026-10-21T10:46:07.294Z",
+  "metrics": {
+    "Ashby ATS": {
+      "ran": true,
+      "scraped": 2,
+      "verified": 2,
+      "skipped_dup": 53,
+      "skipped_filter": 685
+    },
+    "Lever ATS": {
+      "ran": true,
+      "scraped": 0,
+      "verified": 0,
+      "skipped_dup": 0,
+      "skipped_filter": 0
+    },
+    "RemoteOK": {
+      "ran": true,
+      "scraped": 0,
+      "verified": 0,
+      "skipped_dup": 0,
+      "skipped_filter": 0
+    },
+    "Remotive": {
+      "ran": true,
+      "scraped": 1,
+      "verified": 1,
+      "skipped_dup": 0,
+      "skipped_filter": 9
+    },
+    "Jobicy": {
+      "ran": true,
+      "scraped": 0,
+      "verified": 0,
+      "skipped_dup": 3,
+      "skipped_filter": 46
+    },
+    "Himalayas": {
+      "ran": true,
+      "scraped": 0,
+      "verified": 0,
+      "skipped_dup": 0,
+      "skipped_filter": 20
+    },
+    "Adzuna India": {
+      "ran": true,
+      "scraped": 17,
+      "verified": 17,
+      "skipped_dup": 29,
+      "skipped_filter": 41
+    }
+  },
+  "total_pipeline_today": 20
+}

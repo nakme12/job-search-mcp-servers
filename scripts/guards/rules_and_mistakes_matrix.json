@@ -1,0 +1,302 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-10-19T06:33:05.331Z",
+  "description": "Complete machine-readable rule enforcement matrix across all 83 rules and 38 incidents.",
+  "invariants": {
+    "candidate_profile": {
+      "name": "Pratik Patidar",
+      "email": "pratikpatidar7990@gmail.com",
+      "phone": "+91 82696 47990",
+      "location": "Indore, MP (Open to Relocate / Remote)",
+      "current_ctc_lpa": "2.16",
+      "expected_ctc_lpa": "4.65",
+      "notice_period_days": "15",
+      "total_experience_years": "2",
+      "education": "B.Tech CSE (BUIT Bhopal, 2024, 7.89 CGPA)"
+    },
+    "experience_limits": {
+      "min_yoe": 0,
+      "max_yoe": 2,
+      "strict_drop_patterns": [
+        "3+",
+        "3-5",
+        "4+",
+        "5+",
+        "Senior",
+        "Lead",
+        "Principal",
+        "Architect",
+        "Staff",
+        "Director",
+        "Manager"
+      ]
+    },
+    "salary_floor": {
+      "min_monthly_inr": 20000,
+      "min_annual_lpa": 3,
+      "strict_drop_patterns": [
+        "unpaid",
+        "stipend: 3000",
+        "stipend: 5000",
+        "stipend: 8000",
+        "stipend: 10000",
+        "stipend: 12000",
+        "stipend: 15000"
+      ]
+    },
+    "salutation_blacklist": [
+      "gmail",
+      "yahoo",
+      "hotmail",
+      "outlook",
+      "direct linkedin lead",
+      "tech firm",
+      "unknown",
+      "null",
+      "undefined",
+      "hiring team",
+      "recruiter"
+    ],
+    "authorized_resumes": [
+      "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "Pratik Patidar Resume - React Developer.pdf",
+      "Pratik Patidar Resume - MERN Full Stack.pdf"
+    ],
+    "banned_resume_pattern": "(Updated)",
+    "default_browser": {
+      "name": "Brave Browser",
+      "cdp_port": 9222,
+      "launch_command": "\"C:\\Users\\LENOVO\\AppData\\Local\\BraveSoftware\\Brave-Browser\\Application\\brave.exe\" --remote-debugging-port=9222 --restore-last-session"
+    },
+    "tab_hygiene": {
+      "max_linkedin_tabs": 2,
+      "protect_user_tabs": true,
+      "auto_close_on_submit": true,
+      "timeout_per_portal_ms": 120000
+    },
+    "submission_proof": {
+      "require_physical_screenshot": true,
+      "min_screenshot_bytes": 5000,
+      "vault_path": "C:\\mcp\\job-search-mcp-engine\\screenshots\\<DATE>\\<SHIFT>\\",
+      "require_live_dom_confirmation_string": true
+    }
+  },
+  "timetable": {
+    "cycle1": {
+      "slot1": {
+        "start": "11:00 AM",
+        "end": "11:20 AM",
+        "name": "Inbox Review & Baseline Sync"
+      },
+      "slot2": {
+        "start": "11:20 AM",
+        "end": "12:00 PM",
+        "name": "MCP ATS Fleet Harvest"
+      },
+      "slot3": {
+        "start": "12:00 PM",
+        "end": "12:20 PM",
+        "name": "Dedicated Live Feeds (TG + LI + Naukri)"
+      },
+      "slot4": {
+        "start": "12:20 PM",
+        "end": "01:00 PM",
+        "name": "Merged CDP Audit & Resume Mapping"
+      },
+      "slot5": {
+        "start": "01:00 PM",
+        "end": "01:30 PM",
+        "name": "Direct Email Dispatches (60s Cooldown)"
+      },
+      "slot6": {
+        "start": "01:30 PM",
+        "end": "02:40 PM",
+        "name": "Direct ATS Portal Forms (Min 20 forms)"
+      },
+      "slot7": {
+        "start": "02:40 PM",
+        "end": "03:00 PM",
+        "name": "Cycle 1 Audit & Sync"
+      }
+    },
+    "cycle2": {
+      "slot1": {
+        "start": "03:00 PM",
+        "end": "03:20 PM",
+        "name": "Cycle 2 Inbox Review"
+      },
+      "slot2": {
+        "start": "03:20 PM",
+        "end": "04:00 PM",
+        "name": "Cycle 2 MCP ATS Harvest"
+      },
+      "slot3": {
+        "start": "04:00 PM",
+        "end": "04:20 PM",
+        "name": "Cycle 2 Live Feeds"
+      },
+      "slot4": {
+        "start": "04:20 PM",
+        "end": "05:00 PM",
+        "name": "Cycle 2 CDP DOM Audit"
+      },
+      "slot5": {
+        "start": "05:00 PM",
+        "end": "05:30 PM",
+        "name": "Cycle 2 Direct Email Dispatches"
+      },
+      "slot6": {
+        "start": "05:30 PM",
+        "end": "06:40 PM",
+        "name": "Cycle 2 Direct ATS Portals"
+      },
+      "slot7": {
+        "start": "06:40 PM",
+        "end": "07:00 PM",
+        "name": "Daily Rollover & 5-File Seal"
+      }
+    }
+  },
+  "rules_summary": [
+    {
+      "rule": 1,
+      "name": "Immutable Salutation",
+      "enforcement": "Layer 1 Interceptor: regex check on company name"
+    },
+    {
+      "rule": 2,
+      "name": "Immutable Email Body",
+      "enforcement": "Script template freeze: Zero bullet additions"
+    },
+    {
+      "rule": 3,
+      "name": "Zero Surface Trust (7-Day Freshness & 0-2 YOE)",
+      "enforcement": "Layer 1 & Layer 2: Deep live DOM inspection"
+    },
+    {
+      "rule": 4,
+      "name": "Authorized Resumes Only",
+      "enforcement": "Layer 1: Ban *(Updated).pdf, strictly match 3 approved PDFs"
+    },
+    {
+      "rule": 5,
+      "name": "Zero Phantom Logging",
+      "enforcement": "Layer 3 Storage Guard: Physical screenshot >5KB + live confirmation string required"
+    },
+    {
+      "rule": 6,
+      "name": "LinkedIn Anti-Ban Ceiling",
+      "enforcement": "Layer 1 & Script: Max 2 tabs, zero scraping loops on live account"
+    },
+    {
+      "rule": 8,
+      "name": "5-File Architecture",
+      "enforcement": "Workflow manager: strict dedup against File 1, File 2"
+    },
+    {
+      "rule": 9,
+      "name": "Daily Target Floor",
+      "enforcement": "100 applications daily (min 80 direct ATS forms, min 40/cycle)"
+    },
+    {
+      "rule": 10,
+      "name": "Strict Clock Timetable",
+      "enforcement": "slot_guard.cjs: assertSlot() exits with code 1 if called prematurely"
+    },
+    {
+      "rule": 54,
+      "name": "Canonical Profile Binding",
+      "enforcement": "Scripts strictly read candidate_screening_profile.json"
+    },
+    {
+      "rule": 56,
+      "name": "Live CAPTCHA Loud Alert",
+      "enforcement": "Alert user immediately on Turnstile/reCAPTCHA"
+    },
+    {
+      "rule": 57,
+      "name": "Immediate Post-Submit Tab Close",
+      "enforcement": "page.close() fired right after screenshot saved"
+    },
+    {
+      "rule": 58,
+      "name": "Universal ATS Portal Flow",
+      "enforcement": "universal_ats_engine.cjs: 10-step standardized form filling"
+    },
+    {
+      "rule": 60,
+      "name": "Instant Tab Kill on 3+ YOE",
+      "enforcement": "Immediately page.close() without inspecting further"
+    },
+    {
+      "rule": 65,
+      "name": "Default Brave Browser on Port 9222",
+      "enforcement": "All puppeteer scripts connect to http://127.0.0.1:9222"
+    },
+    {
+      "rule": 69,
+      "name": "Strict Live DOM Confirmation String",
+      "enforcement": "Layer 1 & Layer 3: reject if no 'Thank you' detected"
+    },
+    {
+      "rule": 70,
+      "name": "Pre-Fill Input Reset",
+      "enforcement": "clearAndType() dispatches empty value and backspace first"
+    },
+    {
+      "rule": 71,
+      "name": "Zero Main Agent Thread Blocking",
+      "enforcement": "Heavy automation must run via isolated subagent"
+    },
+    {
+      "rule": 72,
+      "name": "Pending Slot Recovery Mandate",
+      "enforcement": "If time passed, run pending slot before advancing"
+    },
+    {
+      "rule": 73,
+      "name": "Idle Buffer Utilization",
+      "enforcement": "Never idle in buffer time: surf posts/feeds continuously"
+    },
+    {
+      "rule": 74,
+      "name": "Candidate Identity Assertion",
+      "enforcement": "Assert pratikpatidar7990@gmail.com, never nakmeisiliya"
+    },
+    {
+      "rule": 76,
+      "name": "Anti-Spam Same-Portal Interleaving",
+      "enforcement": "Never apply to same domain back-to-back"
+    },
+    {
+      "rule": 77,
+      "name": "Physical Form-Presence Assertion",
+      "enforcement": "Audit must confirm active input/form before marking verified"
+    },
+    {
+      "rule": 81,
+      "name": "Strict Ban on Closing User Tabs",
+      "enforcement": "Never call blind page.close(), track script opened pages only"
+    },
+    {
+      "rule": 82,
+      "name": "Salary Floor Gate",
+      "enforcement": "Layer 1: drop < ₹20,000/mo or unpaid roles"
+    },
+    {
+      "rule": 83,
+      "name": "Verbatim Prompt Comprehension",
+      "enforcement": "Mandatory Step -0: Follow verbatim user instruction"
+    },
+    {
+      "rule": 85,
+      "name": "Zero Drop on Missing Email/Link During Sourcing",
+      "enforcement": "Sourcing qualifies purely on Freshness (<=7d) + Stack + 0-2/0-4 YOE, never discard on missing email/link"
+    },
+    {
+      "rule": 86,
+      "name": "LinkedIn Strict Human-Type Emulation & Bot-Flag Protection Mandate",
+      "enforcement": "Enforce human jitter (3-7s pauses), smooth gradual scrolling, typing delays (50-100ms), max 2 tabs ceiling, and zero high-frequency robotic search loops on LinkedIn"
+    }
+  ]
+}

@@ -39,7 +39,7 @@ export function ageInDays(dateOrRelative, now = new Date()) {
  * @param {number} maxAgeDays
  * @param {boolean} excludeInternships
  */
-export function evaluateFreshness(job, maxAgeDays, excludeInternships) {
+export function evaluateFreshness(job, maxAgeDays = 7, excludeInternships = true) {
   const is_internship = isInternship(job.title, job.employmentType);
 
   const effectiveDate = job.repostedDate ?? job.postedDate ?? null;

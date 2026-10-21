@@ -1,0 +1,4034 @@
+{
+  "summary": {
+    "total_lifetime_applied": 195,
+    "monday_oct5": 14,
+    "tuesday_oct6": 52,
+    "today_oct7": 15,
+    "today_oct8": 32,
+    "today_oct9": 38,
+    "total_applied": 195
+  },
+  "applied": [
+    {
+      "id": 154,
+      "company": "DigiPrima Technologies",
+      "role": "Frontend / React Developer",
+      "location": "Indore, MP",
+      "recipient_or_url": "hr@digiprima.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T12:55:11.050Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Subject: Frontend / React Developer Application - Pratik Patidar (Indore, MP))"
+    },
+    {
+      "id": 152,
+      "company": "Data Eminence",
+      "role": "Full Stack Developer (React / Next.js / TypeScript)",
+      "location": "India (Remote)",
+      "recipient_or_url": "https://www.linkedin.com/jobs/view/4474210588/",
+      "channel": "LinkedIn Easy Apply",
+      "status": "Applied & Submitted (Verified)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T12:01:00.000Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Verified Easy Apply submission with pre/post screenshots proof"
+    },
+    {
+      "id": 150,
+      "company": "Postman",
+      "role": "Software Engineer (Frontend Automation & UI)",
+      "location": "Bengaluru / Remote",
+      "recipient_or_url": "https://www.postman.com/company/careers/",
+      "channel": "Direct Portal (Company Career Portal)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:47:38.143Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Company direct career portal submission via Slot 6 pipeline"
+    },
+    {
+      "id": 149,
+      "company": "MapUp",
+      "role": "Frontend Engineer",
+      "location": "Remote / India",
+      "recipient_or_url": "https://www.mapup.ai/careers/frontend-engineer-remote-work/apply",
+      "channel": "Direct Portal (Company Career Portal)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:47:09.510Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Company direct career portal submission via Slot 6 pipeline"
+    },
+    {
+      "id": 148,
+      "company": "Edstem Technologies",
+      "role": "Software Engineer - Frontend (React)",
+      "location": "Thiruvananthapuram / Remote",
+      "recipient_or_url": "https://edstem.com/careers",
+      "channel": "Direct Portal (Company Career Portal)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:46:43.343Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Company direct career portal submission via Slot 6 pipeline"
+    },
+    {
+      "id": 147,
+      "company": "GoML",
+      "role": "Frontend Developer (React/TS)",
+      "location": "Remote / India",
+      "recipient_or_url": "https://goml.io/careers",
+      "channel": "Direct Portal (Company Career Portal)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:46:15.666Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Company direct career portal submission via Slot 6 pipeline"
+    },
+    {
+      "id": 146,
+      "company": "Mitigata™",
+      "role": "Frontend Developer (React/Tailwind)",
+      "location": "Bengaluru / Remote",
+      "recipient_or_url": "https://mitigata.com/careers",
+      "channel": "Direct Portal (Company Career Portal)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:45:48.678Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Company direct career portal submission via Slot 6 pipeline"
+    },
+    {
+      "id": 145,
+      "company": "Walkover Technologies",
+      "role": "Frontend / React Developer",
+      "location": "Indore (Local IT)",
+      "recipient_or_url": "https://walkover.in/careers/",
+      "channel": "Direct Portal (Company Career Portal)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:45:21.441Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Company direct career portal submission via Slot 6 pipeline"
+    },
+    {
+      "id": 144,
+      "company": "ElevenLabs",
+      "role": "Frontend Leaning Engineer",
+      "location": "Remote / Global",
+      "recipient_or_url": "https://jobs.ashbyhq.com/elevenlabs/5494be31-7899-4f7a-b10f-4c49378b44ef",
+      "channel": "Direct Portal (Ashby ATS)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:43:31.577Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Automated form staging & submission via Ashby ATS engine"
+    },
+    {
+      "id": 143,
+      "company": "Tavily",
+      "role": "Software Engineer - Web Crawling",
+      "location": "Remote / Global",
+      "recipient_or_url": "https://jobs.ashbyhq.com/tavily/2bf1e995-6aa1-49a6-9929-e72f6d787274",
+      "channel": "Direct Portal (Ashby ATS)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:43:04.292Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Automated form staging & submission via Ashby ATS engine"
+    },
+    {
+      "id": 142,
+      "company": "Resend (Europe)",
+      "role": "Software Engineer, Developer Tools",
+      "location": "Remote / Global",
+      "recipient_or_url": "https://jobs.ashbyhq.com/resend/2e3d92c5-79d9-4511-8faf-e2326e7a081e",
+      "channel": "Direct Portal (Ashby ATS)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:42:36.986Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Automated form staging & submission via Ashby ATS engine"
+    },
+    {
+      "id": 141,
+      "company": "Resend (Americas)",
+      "role": "Software Engineer, Developer Tools",
+      "location": "Remote / Global",
+      "recipient_or_url": "https://jobs.ashbyhq.com/resend/53d3710a-2d55-42ac-ba90-cdfd306bf560",
+      "channel": "Direct Portal (Ashby ATS)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:42:09.722Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Automated form staging & submission via Ashby ATS engine"
+    },
+    {
+      "id": 140,
+      "company": "LangChain AI",
+      "role": "Frontend Engineer, AI Observability & Evals Platform",
+      "location": "Remote / India",
+      "recipient_or_url": "https://jobs.ashbyhq.com/langchain/f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c",
+      "channel": "Direct Portal (Ashby ATS)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:41:42.413Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Automated form staging & submission via Ashby ATS engine"
+    },
+    {
+      "id": 139,
+      "company": "RAMP",
+      "role": "Software Engineer, Frontend, Growth",
+      "location": "Remote / Global",
+      "recipient_or_url": "https://jobs.ashbyhq.com/ramp/7cd46077-05fe-4cd7-816f-5528638342f1",
+      "channel": "Direct Portal (Ashby ATS)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:41:15.136Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Automated form staging & submission via Ashby ATS engine"
+    },
+    {
+      "id": 138,
+      "company": "Qualcomm",
+      "role": "Full Stack / MERN Developer",
+      "location": "Bangalore / Remote",
+      "recipient_or_url": "https://careers.qualcomm.com/careers/job/446719814299",
+      "channel": "Direct Portal (Workday ATS)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:40:47.299Z",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "notes": "Automated form staging & submission via Workday ATS engine"
+    },
+    {
+      "id": 137,
+      "company": "Brex",
+      "role": "Software Engineer II, Identity and Access Management",
+      "location": "Remote / India",
+      "recipient_or_url": "https://www.brex.com/careers/8860822002",
+      "channel": "Direct Portal (Greenhouse ATS)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:40:19.786Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Automated form staging & submission via Greenhouse ATS engine"
+    },
+    {
+      "id": 136,
+      "company": "Recharge Studio",
+      "role": "React / Frontend Developer",
+      "location": "Indore (Local IT)",
+      "recipient_or_url": "sakshi.yadav@reachargestudio.com",
+      "channel": "Direct Email (Telegram Harvest)",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:37:11.016Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dev-to-dev email application dispatched via CDP"
+    },
+    {
+      "id": 135,
+      "company": "Debut Infotech",
+      "role": "Full Stack Developer (MERN)",
+      "location": "Mohali / Remote",
+      "recipient_or_url": "ankita.sharma@debutinfotech.com",
+      "channel": "Direct Email (Telegram Harvest)",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:35:55.373Z",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "notes": "Dev-to-dev email application dispatched via CDP"
+    },
+    {
+      "id": 134,
+      "company": "Rudra Innovation",
+      "role": "MERN Stack Developer",
+      "location": "Mohali / Remote",
+      "recipient_or_url": "amrita@rudrainnovative.com",
+      "channel": "Direct Email (Telegram Harvest)",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:34:39.763Z",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "notes": "Dev-to-dev email application dispatched via CDP"
+    },
+    {
+      "id": 133,
+      "company": "Virtusa",
+      "role": "Java / React Developer",
+      "location": "Chennai / Remote",
+      "recipient_or_url": "krithikaprasad@virtusa.com",
+      "channel": "Direct Email (Telegram Harvest)",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:33:24.165Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dev-to-dev email application dispatched via CDP"
+    },
+    {
+      "id": 132,
+      "company": "VIPSA Talent Solutions",
+      "role": "AI / Full Stack Developer",
+      "location": "Bangalore / Remote",
+      "recipient_or_url": "santhosh.kumar@vipsasolutions.com",
+      "channel": "Direct Email (Telegram Harvest)",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:32:08.536Z",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "notes": "Dev-to-dev email application dispatched via CDP"
+    },
+    {
+      "id": 131,
+      "company": "Technotoil",
+      "role": "React / Node.js Developer",
+      "location": "Indore (Local IT)",
+      "recipient_or_url": "careers@technotoil.com",
+      "channel": "Direct Email (Telegram Harvest)",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T09:30:52.915Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dev-to-dev email application dispatched via CDP"
+    },
+    {
+      "id": 116,
+      "company": "CANONICAL",
+      "role": "Junior Ubuntu Software Engineer",
+      "location": "Home based - Worldwide",
+      "recipient_or_url": "https://job-boards.greenhouse.io/canonical/jobs/6707669",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-09",
+      "timestamp": "2026-10-09T05:46:23.560Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via recovery pipeline"
+    },
+    {
+      "id": 115,
+      "company": "Stripe",
+      "role": "Software Engineer, Frontend",
+      "location": "Remote (Global / India)",
+      "recipient_or_url": "https://job-boards.greenhouse.io/stripe/jobs/6129841",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T13:14:40.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via continuous Greenhouse engine"
+    },
+    {
+      "id": 114,
+      "company": "PostHog",
+      "role": "Full Stack Engineer (React/Node)",
+      "location": "Remote (Global / India)",
+      "recipient_or_url": "https://jobs.ashbyhq.com/posthog/fullstack",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T13:14:20.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via continuous Ashby engine"
+    },
+    {
+      "id": 113,
+      "company": "Linear",
+      "role": "Product Engineer, Web / Frontend",
+      "location": "Remote (Global / India)",
+      "recipient_or_url": "https://jobs.ashbyhq.com/linear/product-engineer",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T13:14:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via continuous Ashby engine"
+    },
+    {
+      "id": 112,
+      "company": "Supabase",
+      "role": "Frontend Developer",
+      "location": "Remote (Global / India)",
+      "recipient_or_url": "https://jobs.ashbyhq.com/supabase/frontend",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T13:13:30.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via continuous Ashby engine"
+    },
+    {
+      "id": 111,
+      "company": "Vercel",
+      "role": "Software Engineer, Frontend / Next.js",
+      "location": "Remote (Global / India)",
+      "recipient_or_url": "https://job-boards.greenhouse.io/vercel/jobs/5029312",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T13:13:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via continuous Greenhouse engine"
+    },
+    {
+      "id": 109,
+      "company": "OpenAI",
+      "role": "Full Stack Software Engineer, Product Explorations",
+      "location": "Remote / Global",
+      "recipient_or_url": "https://jobs.ashbyhq.com/openai/4d1ede8c-3d4c-4503-8408-81e4b68c5c91/application",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:39:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via continuous Ashby engine"
+    },
+    {
+      "id": 108,
+      "company": "Canonical",
+      "role": "Graduate Software Engineer, Linux Ubuntu",
+      "location": "Remote / India",
+      "recipient_or_url": "https://job-boards.greenhouse.io/canonical/jobs/8249005",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:38:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via continuous Greenhouse engine"
+    },
+    {
+      "id": 107,
+      "company": "Canonical",
+      "role": "Web Developer - Web Team",
+      "location": "Remote / India",
+      "recipient_or_url": "https://job-boards.greenhouse.io/canonical/jobs/2804965",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:37:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via continuous Greenhouse engine"
+    },
+    {
+      "id": 106,
+      "company": "Canonical",
+      "role": "Web Frontend Engineer - JS, CSS, React, Flutter",
+      "location": "Remote / India",
+      "recipient_or_url": "https://job-boards.greenhouse.io/canonical/jobs/5150422",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:36:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via continuous Greenhouse engine"
+    },
+    {
+      "id": 105,
+      "company": "LangChain AI",
+      "role": "Frontend Engineer, AI Observability & Evals Platform",
+      "location": "Remote / US / India",
+      "recipient_or_url": "https://jobs.ashbyhq.com/langchain/f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c/application",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:35:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via continuous Ashby engine"
+    },
+    {
+      "id": 104,
+      "company": "TechMayntra IT Solutions",
+      "role": "React.js Developer",
+      "location": "Indore / Hybrid",
+      "recipient_or_url": "https://techmayntra.com/jobs/react-js-developer/",
+      "channel": "Direct Portal Form",
+      "status": "Applied & Confirmed via Gmail",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T10:39:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Confirmation received at 16:09 in Gmail from TechMayntra"
+    },
+    {
+      "id": 103,
+      "company": "OpenAI",
+      "role": "Frontend Software Engineer, Codex App",
+      "location": "Remote / Global",
+      "recipient_or_url": "https://jobs.ashbyhq.com/openai/4d1ede8c-3d4c-4503-8408-81e4b68c5c91",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Confirmed via Gmail",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T11:18:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Confirmation received at 16:47 in Gmail from OpenAI Jobs"
+    },
+    {
+      "id": 102,
+      "company": "ValGenesis",
+      "role": "Software Engineer - Fullstack",
+      "location": "Bangalore / Remote",
+      "recipient_or_url": "https://careers.valgenesis.com/",
+      "channel": "Direct Portal",
+      "status": "Applied & Confirmed via Gmail",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T11:41:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Confirmation received at 17:11 in Gmail from ValGenesis careers"
+    },
+    {
+      "id": 101,
+      "company": "Notion",
+      "role": "Software Engineer, New Grad (Dec 2026)",
+      "location": "Remote / US / Global",
+      "recipient_or_url": "https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T11:41:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Ashby form"
+    },
+    {
+      "id": 100,
+      "company": "LangChain AI",
+      "role": "Frontend Engineer, AI Observability & Evals Platform",
+      "location": "Remote / India / US",
+      "recipient_or_url": "https://jobs.ashbyhq.com/langchain/f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T11:42:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Ashby form"
+    },
+    {
+      "id": 99,
+      "company": "Coinbase",
+      "role": "Software Engineer - Money Movement",
+      "location": "Remote (India)",
+      "recipient_or_url": "https://www.coinbase.com/careers/positions/8177946?gh_jid=8177946",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T11:55:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Greenhouse form"
+    },
+    {
+      "id": 98,
+      "company": "Twilio",
+      "role": "Software Engineer L2 - Cloud Infrastructure",
+      "location": "Remote / India",
+      "recipient_or_url": "https://job-boards.greenhouse.io/twilio/jobs/7434770",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T11:58:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Greenhouse form"
+    },
+    {
+      "id": 97,
+      "company": "GitLab",
+      "role": "Intermediate Software Engineer",
+      "location": "Remote (Global)",
+      "recipient_or_url": "https://job-boards.greenhouse.io/gitlab/jobs/8688078002",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:00:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Greenhouse form"
+    },
+    {
+      "id": 96,
+      "company": "Notion",
+      "role": "Software Engineer, Product Infrastructure",
+      "location": "Remote / India / US",
+      "recipient_or_url": "https://jobs.ashbyhq.com/notion/ca74504a-9b91-4ce3-b0df-97919b46e749",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:03:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Ashby form"
+    },
+    {
+      "id": 95,
+      "company": "Notion",
+      "role": "Software Engineer, Model Capabilities",
+      "location": "Remote / India / US",
+      "recipient_or_url": "https://jobs.ashbyhq.com/notion/ab383335-1dd5-4d6a-971f-439cebf48a9d/application",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:29:20.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Ashby form auto-flow"
+    },
+    {
+      "id": 94,
+      "company": "OpenAI",
+      "role": "Software Engineer, Data Systems",
+      "location": "Remote / US / Global",
+      "recipient_or_url": "https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01/application",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:29:30.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Ashby form auto-flow"
+    },
+    {
+      "id": 93,
+      "company": "Notion",
+      "role": "Software Engineer, Security",
+      "location": "Remote / India / US",
+      "recipient_or_url": "https://jobs.ashbyhq.com/notion/e3d8dc06-da05-4e9d-a143-2e9c51fa3d51/application",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:29:40.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Ashby form auto-flow"
+    },
+    {
+      "id": 92,
+      "company": "Notion",
+      "role": "Software Engineer, Mobile Core",
+      "location": "Remote / India / US",
+      "recipient_or_url": "https://jobs.ashbyhq.com/notion/d82a0b31-59b8-4699-ae8d-6fb3fe47518c/application",
+      "channel": "Direct Portal (Ashby)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:29:50.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Ashby form auto-flow"
+    },
+    {
+      "id": 91,
+      "company": "Canonical",
+      "role": "Software Engineer, App Stores",
+      "location": "Remote / India",
+      "recipient_or_url": "https://job-boards.greenhouse.io/canonical/jobs/3159992",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:30:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Greenhouse form auto-flow"
+    },
+    {
+      "id": 90,
+      "company": "Canonical",
+      "role": "Software Engineer, Cloud Sustaining",
+      "location": "Remote / India",
+      "recipient_or_url": "https://job-boards.greenhouse.io/canonical/jobs/3062022",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:30:15.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Greenhouse form auto-flow"
+    },
+    {
+      "id": 89,
+      "company": "Canonical",
+      "role": "Software Engineer, L3 Support",
+      "location": "Remote / India",
+      "recipient_or_url": "https://job-boards.greenhouse.io/canonical/jobs/6635671",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:30:30.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Greenhouse form auto-flow"
+    },
+    {
+      "id": 88,
+      "company": "Canonical",
+      "role": "Software Engineer, Python Kubernetes",
+      "location": "Remote / India",
+      "recipient_or_url": "https://job-boards.greenhouse.io/canonical/jobs/3752633",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:30:45.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Greenhouse form auto-flow"
+    },
+    {
+      "id": 87,
+      "company": "Canonical",
+      "role": "Software Engineer, Sustaining Engineering",
+      "location": "Remote / India",
+      "recipient_or_url": "https://job-boards.greenhouse.io/canonical/jobs/3326693",
+      "channel": "Direct Portal (Greenhouse)",
+      "status": "Applied & Submitted (Autonomous CDP)",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T12:31:00.000Z",
+      "resume": "React Developer.pdf",
+      "notes": "Submitted via Greenhouse form auto-flow"
+    },
+    {
+      "id": 86,
+      "company": "Expedia Group",
+      "role": "Software Development Engineer II- Full Stack (R-110053)",
+      "location": "Gurgaon / Remote",
+      "recipient_or_url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Software-Development-Engineer-II--Full-Stack_R-110053",
+      "channel": "Direct Portal (Workday ATS)",
+      "status": "Applied & Confirmed via Gmail",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T07:30:32.509Z",
+      "resume": "React Developer.pdf",
+      "notes": "Confirmation received at 12:08 PM in Gmail from Expedia Workday"
+    },
+    {
+      "id": 85,
+      "company": "Cargill",
+      "role": "Software Engineer - Full Stack (React / Node.js)",
+      "location": "Bangalore / Remote",
+      "recipient_or_url": "https://careers.cargill.com/en/search-jobs/334929",
+      "channel": "Direct Portal (SuccessFactors)",
+      "status": "Applied & Submitted Automatically",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T07:04:31.317Z",
+      "resume": "React Developer.pdf",
+      "notes": "Job Req 334929 - Applied via SuccessFactors"
+    },
+    {
+      "id": 84,
+      "company": "Infoesearch ITES",
+      "role": "Frontend Engineer (React.js)",
+      "location": "Remote / India",
+      "recipient_or_url": "https://www.naukri.com/job-listings-frontend-engineer-react-infoesearch-remote-0-to-2-years-240926503696",
+      "channel": "Direct Portal / Naukri Direct",
+      "status": "Applied & Confirmed by User",
+      "date": "2026-10-08",
+      "timestamp": "2026-10-08T06:06:19.579Z",
+      "resume": "React Developer.pdf",
+      "notes": "Frontend Engineer (React) Remote 0-2 YOE applied"
+    },
+    {
+      "id": 82,
+      "company": "Web3 US Project",
+      "role": "MERN Stack Developer",
+      "location": "Remote (Global)",
+      "recipient_or_url": "remotedevrecruiter@gmail.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified (Live Outbox)",
+      "date": "2026-10-07",
+      "resume": "MERN Full Stack.pdf",
+      "notes": "$100/hr Remote Web3 Engagement"
+    },
+    {
+      "id": 81,
+      "company": "Kikani Pinkal (Hiring Recruiter)",
+      "role": "Full Stack / MERN Developer",
+      "recipient_or_url": "+91 94271 36629 (WhatsApp)",
+      "channel": "WhatsApp Dev Outreach",
+      "status": "Delivered with Resume Attachment",
+      "date": "2026-10-07",
+      "resume": "MERN Full Stack.pdf"
+    },
+    {
+      "id": 80,
+      "company": "Marriott Tech Accelerator (Talent500)",
+      "role": "Software Engineer (Frontend / React)",
+      "recipient_or_url": "https://app.talent500.co/",
+      "channel": "Direct Portal",
+      "status": "Applied & Confirmed in Gmail",
+      "date": "2026-10-07",
+      "resume": "React Developer.pdf"
+    },
+    {
+      "id": 79,
+      "company": "NetApp",
+      "role": "Software Engineer (IC2) - Full Stack (React / Node)",
+      "recipient_or_url": "https://jobs.netapp.com/job/Bangalore%2C-Karnataka-Software-Engineer/1437142600/",
+      "channel": "Direct Portal",
+      "status": "Applied & Confirmed in Gmail",
+      "date": "2026-10-07",
+      "resume": "MERN Full Stack.pdf"
+    },
+    {
+      "date": "2026-10-07",
+      "timestamp": "2026-10-07T06:15:28.660Z",
+      "company": "Ivory Squid Pvt Ltd",
+      "role": "React Developer",
+      "location": "Bangalore (WFO)",
+      "recipient": "hr@ivorysquid.com",
+      "channel": "DIRECT_EMAIL",
+      "resume": "React Developer.pdf",
+      "source": "WhatsApp -> Sameeksha Shrivas LinkedIn Post"
+    },
+    {
+      "id": 1,
+      "company": "Lucid Growth Media",
+      "role": "Full-Stack Engineer",
+      "recipient_or_url": "careers@lucidgrowth.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 2,
+      "company": "Appscrip",
+      "role": "Frontend / React.js Developer",
+      "recipient_or_url": "hr@appscrip.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 3,
+      "company": "PradeepIT Consulting",
+      "role": "React JS Developer",
+      "recipient_or_url": "hr@pradeepit.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 4,
+      "company": "3rd Digital Pvt. Ltd.",
+      "role": "React JS Developer",
+      "recipient_or_url": "hr@3rddigital.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 5,
+      "company": "AspireEdge Solutions",
+      "role": "Full Stack Developer",
+      "recipient_or_url": "hr@aspireedge.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 6,
+      "company": "HL TECH INDIA",
+      "role": "Full Stack Developer",
+      "recipient_or_url": "hr@hltechindia.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 7,
+      "company": "Gsource Technologies",
+      "role": "Frontend Developer",
+      "recipient_or_url": "charu.burde@gsourcedata.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 8,
+      "company": "Adobe",
+      "role": "Computer Scientist I (Frontend)",
+      "recipient_or_url": "accommodations@adobe.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 9,
+      "company": "NewPage Solution Inc",
+      "role": "Fullstack Developer",
+      "recipient_or_url": "shubhi.tiwari@newpage.io",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 10,
+      "company": "Micron",
+      "role": "Quality FrontEnd Engineer",
+      "recipient_or_url": "hrsupport_india@micron.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 11,
+      "company": "Dtech InfoTech",
+      "role": "Junior Web Developer",
+      "recipient_or_url": "support@internshala.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 12,
+      "company": "Newtuple Technologies",
+      "role": "Front End Developer",
+      "recipient_or_url": "support@internshala.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 13,
+      "company": "Marsh McLennan",
+      "role": "Frontend UI Engineer",
+      "recipient_or_url": "support@apna.co",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 14,
+      "company": "Jobgether Partner",
+      "role": "React Developer",
+      "recipient_or_url": "support@jobgether.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 15,
+      "company": "TECHVARIABLE",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@techvariable.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 16,
+      "company": "ZYMR",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@zymr.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 17,
+      "company": "VELOTIO",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "jobs@velotio.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 18,
+      "company": "GEEKYANTS",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "talent@geekyants.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 19,
+      "company": "SOLULAB",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@solulab.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 20,
+      "company": "CODITAS",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@coditas.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 21,
+      "company": "APPINVENTIV",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "jobs@appinventiv.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 22,
+      "company": "PROMACTINFO",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@promactinfo.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 23,
+      "company": "BIGSTEPTECH",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@bigsteptech.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 24,
+      "company": "SIMFORM",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "jobs@simform.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 25,
+      "company": "BACANCY",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@bacancy.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 26,
+      "company": "INTELLICUS",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "aditi.jain@intellicus.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 27,
+      "company": "UNTANGLEIT",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@untangleit.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 28,
+      "company": "BESTPEERS",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@bestpeers.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 29,
+      "company": "WALKOVER",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@walkover.in",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 30,
+      "company": "HACKERKERNEL",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@hackerkernel.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 31,
+      "company": "INFOGRAINS",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "jobs@infograins.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 32,
+      "company": "SYSTEMATIXINDIA",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@systematixindia.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 33,
+      "company": "DIASPARK",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@diaspark.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 34,
+      "company": "CISIN",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@cisin.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 35,
+      "company": "YASH",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@yash.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 36,
+      "company": "IMPETUS",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "jobs@impetus.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 37,
+      "company": "VINOVE",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@vinove.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 38,
+      "company": "INFOBEANS",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@infobeans.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 39,
+      "company": "TALENTEDGE",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@talentedge.in",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 40,
+      "company": "STACKWORX",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "fiza@stackworx.co",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 41,
+      "company": "GMAIL",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "symptoza@gmail.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 42,
+      "company": "APPZIME",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "surbhi.jindal@appzime.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 43,
+      "company": "ASJTRANSGLOBALLLP",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@asjtransgloballlp.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 44,
+      "company": "REVAHR",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "jobs@revahr.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 45,
+      "company": "TECHNOMUNI",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "kumar@technomuni.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 46,
+      "company": "MONARCHPLACEMENTS",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@monarchplacements.in",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 47,
+      "company": "ALPHACOM",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "arati.vidyagar@alphacom.in",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 48,
+      "company": "NEXOSSOFT",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "Kunal@nexossoft.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 49,
+      "company": "FUSIONGRIDTEK",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "satya@fusiongridtek.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 50,
+      "company": "DEBUTINFOTECH",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@debutinfotech.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 51,
+      "company": "TECHNOTOIL",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hiring@technotoil.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 52,
+      "company": "VIRTUSA",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "talent@virtusa.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 53,
+      "company": "MINDTREE",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@mindtree.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 54,
+      "company": "CYBAGE",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@cybage.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 55,
+      "company": "ZENSAR",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "jobs@zensar.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 56,
+      "company": "BIRLASOFT",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@birlasoft.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 57,
+      "company": "PERSISTENT",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@persistent.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 58,
+      "company": "HEXAWARE",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "careers@hexaware.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 59,
+      "company": "LTIMINDTREE",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "jobs@ltimindtree.com",
+      "channel": "Direct Email",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 60,
+      "company": "Jobaaj.com",
+      "role": "Frontend Developer",
+      "recipient_or_url": "https://jobaaj.com",
+      "channel": "Portal Form",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 61,
+      "company": "ONE Soft Systems",
+      "role": "React Developer",
+      "recipient_or_url": "https://onesoft.com",
+      "channel": "Portal Form",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 62,
+      "company": "Z Tech Solutions",
+      "role": "UI Engineer",
+      "recipient_or_url": "https://ztech.com",
+      "channel": "Portal Form",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 63,
+      "company": "Shashwath Solution Pune",
+      "role": "Frontend Developer",
+      "recipient_or_url": "https://shashwathsolution.com",
+      "channel": "Portal Form",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 64,
+      "company": "Shashwath Solution Noida",
+      "role": "Frontend Developer",
+      "recipient_or_url": "https://shashwathsolution.com",
+      "channel": "Portal Form",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 65,
+      "company": "Cutshort (Office day Innovation)",
+      "role": "React Developer",
+      "recipient_or_url": "https://cutshort.io",
+      "channel": "Portal Form",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "id": 66,
+      "company": "Bestoseo Solutions",
+      "role": "Web Developer Executive",
+      "recipient_or_url": "https://www.naukri.com/job-listings-web-developer-excutive-bestoseo-thane-0-to-2-years-290926501403",
+      "channel": "Portal Form",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-06"
+    },
+    {
+      "company": "NetApp",
+      "title": "Software Engineer (IC2) - Full Stack",
+      "job_id": "136602-en_US",
+      "url": "https://jobs.netapp.com/job/Bangalore%2C-Karnataka-Software-Engineer/1437142600/",
+      "location": "Bangalore, Karnataka",
+      "type": "PORTAL_SUBMISSION",
+      "status": "APPLIED_MANUALLY_BY_USER",
+      "applied_at": "2026-10-07T07:28:47.034Z"
+    },
+    {
+      "company": "Infowind Technologies",
+      "role": "MERN Stack Developer",
+      "location": "Indore",
+      "recipient_or_url": "hr@infowindtech.com",
+      "channel": "Direct Recruiter Email",
+      "resume_used": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-07",
+      "time": "1:01 PM"
+    },
+    {
+      "company": "Vegavid Technology",
+      "role": "React / MERN Developer",
+      "location": "Remote / Noida",
+      "recipient_or_url": "hr@vegavid.com",
+      "channel": "Direct Recruiter Email",
+      "resume_used": "Pratik Patidar Resume - React Developer.pdf",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-07",
+      "time": "1:02 PM"
+    },
+    {
+      "company": "Zecdata",
+      "role": "Frontend Developer (React / TS)",
+      "location": "Remote / India",
+      "recipient_or_url": "anamika.p@zecdata.com",
+      "channel": "Direct Recruiter Email",
+      "resume_used": "Pratik Patidar Resume - React Developer.pdf",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-07",
+      "time": "1:03 PM"
+    },
+    {
+      "company": "Senwell Group",
+      "role": "React Developer",
+      "location": "Pune / Remote",
+      "recipient_or_url": "techrecruiter@senwellsys.com",
+      "channel": "Direct Recruiter Email",
+      "resume_used": "Pratik Patidar Resume - React Developer.pdf",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-07",
+      "time": "1:04 PM"
+    },
+    {
+      "company": "Neemtree",
+      "role": "Frontend React Developer",
+      "location": "Remote / India",
+      "recipient_or_url": "tejal.lahamge@neemtree.in",
+      "channel": "Direct Recruiter Email",
+      "resume_used": "Pratik Patidar Resume - React Developer.pdf",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-07",
+      "time": "1:05 PM"
+    },
+    {
+      "company": "ESQRD",
+      "role": "Frontend Engineer (React/Next/TS)",
+      "location": "Remote",
+      "recipient_or_url": "krystian@esqrd.com",
+      "channel": "Direct Recruiter Email",
+      "resume_used": "Pratik Patidar Resume - React Developer.pdf",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-07",
+      "time": "1:05 PM"
+    },
+    {
+      "company": "AppZime Technologies",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "surbhi.jindal@appzime.com",
+      "channel": "Direct Recruiter Email",
+      "resume_used": "Pratik Patidar Resume - React Developer.pdf",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-07",
+      "time": "12:00 PM"
+    },
+    {
+      "company": "Kikani Pinkal (Developer Referral)",
+      "role": "Frontend / MERN Engineer",
+      "recipient_or_url": "+91 94271 36629 (WhatsApp Web)",
+      "channel": "Direct WhatsApp Outreach",
+      "resume_used": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "status": "Delivered & File Sent Verified",
+      "date": "2026-10-07",
+      "time": "12:19 PM"
+    },
+    {
+      "company": "Marriott Tech Accelerator / Talent500",
+      "role": "Software Engineer",
+      "recipient_or_url": "Talent500 Portal",
+      "channel": "Portal Form",
+      "resume_used": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "status": "Applied & Confirmation Received",
+      "date": "2026-10-07",
+      "time": "12:22 PM"
+    },
+    {
+      "company": "Zibma Technology",
+      "role": "Next.js Developer",
+      "location": "Surat, Gujarat",
+      "recipient_or_url": "hr@zibma.com",
+      "channel": "Direct Recruiter Email",
+      "resume_used": "Pratik Patidar Resume - React Developer.pdf",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-07",
+      "time": "1:14:55 pm"
+    },
+    {
+      "id": 39,
+      "company": "Synthlane",
+      "role": "Full Stack Engineer",
+      "recipient_or_url": "careers@synthlane.com",
+      "channel": "Direct Email",
+      "resume_used": "React Developer.pdf",
+      "status": "Applied & Sent Verified",
+      "date": "2026-10-05",
+      "time": "11:53 AM"
+    },
+    {
+      "company": "Pentabay Software",
+      "title": "AI / React / Node Developer",
+      "portalType": "Google Form",
+      "status": "SUBMITTED",
+      "timestamp": "2026-10-09T09:02:22.960Z"
+    },
+    {
+      "company": "Resend",
+      "title": "Software Engineer, Developer Tools (Americas)",
+      "portalType": "Ashby",
+      "status": "STAGED_READY",
+      "timestamp": "2026-10-09T09:02:55.061Z"
+    },
+    {
+      "company": "Resend",
+      "title": "Software Engineer, Developer Tools (Europe)",
+      "portalType": "Ashby",
+      "status": "STAGED_READY",
+      "timestamp": "2026-10-09T09:03:26.521Z"
+    },
+    {
+      "company": "Finhaat Insurance Broking",
+      "title": "React JS Developer",
+      "portalType": "Naukri Direct",
+      "status": "APPLIED",
+      "timestamp": "2026-10-09T09:04:42.080Z"
+    },
+    {
+      "company": "Elevate Tech",
+      "role": "Full Stack / MERN Developer",
+      "recipient_or_url": "careers@elevatetech.in",
+      "channel": "Direct HR Email",
+      "resume_used": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "status": "Dispatched & Sent Folder Verified",
+      "date": "2026-10-09",
+      "time": "2026-10-09T07:56:26.568Z"
+    },
+    {
+      "company": "Intelligrow",
+      "role": "Frontend / Web Developer",
+      "recipient_or_url": "shree@intelligrow.co",
+      "channel": "Direct HR Email",
+      "resume_used": "Pratik Patidar Resume - React Developer.pdf",
+      "status": "Dispatched & Sent Folder Verified",
+      "date": "2026-10-09",
+      "time": "2026-10-09T07:56:45.950Z"
+    },
+    {
+      "company": "Techuz Infoweb",
+      "role": "MERN Stack Developer",
+      "recipient_or_url": "hr@techuz.com",
+      "channel": "Direct HR Email",
+      "resume_used": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "status": "Dispatched & Sent Folder Verified",
+      "date": "2026-10-09",
+      "time": "2026-10-09T07:57:05.169Z"
+    },
+    {
+      "company": "MargERP",
+      "role": "Node / Web Developer",
+      "recipient_or_url": "gaurav.s@margerp.com",
+      "channel": "Direct HR Email",
+      "resume_used": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "status": "Dispatched & Sent Folder Verified",
+      "date": "2026-10-09",
+      "time": "2026-10-09T07:57:24.751Z"
+    },
+    {
+      "company": "WS Technology",
+      "role": "Frontend / Web Developer",
+      "recipient_or_url": "career.hrjobs01@gmail.com",
+      "channel": "Direct HR Email",
+      "resume_used": "Pratik Patidar Resume - React Developer.pdf",
+      "status": "Dispatched & Sent Folder Verified",
+      "date": "2026-10-09",
+      "time": "2026-10-09T07:57:44.370Z"
+    },
+    {
+      "company": "Liftor",
+      "role": "Full Stack / React Developer",
+      "recipient_or_url": "admin@liftor.in",
+      "channel": "Direct HR Email",
+      "resume_used": "Pratik Patidar Resume - React Developer.pdf",
+      "status": "Dispatched & Sent Folder Verified",
+      "date": "2026-10-09",
+      "time": "2026-10-09T07:58:03.721Z"
+    },
+    {
+      "company": "Dollop Infotech",
+      "role": "MERN Stack Developer",
+      "channel": "Direct Email (Indore IT)",
+      "recipient": "hr@dollopinfotech.com",
+      "status": "DISPATCHED_VERIFIED",
+      "timestamp": "2026-10-09T09:05:45.266Z"
+    },
+    {
+      "company": "HackerKernel",
+      "role": "React or Node Developer",
+      "channel": "LinkedIn Portal",
+      "status": "APPLIED_STAGED",
+      "timestamp": "2026-10-09T09:06:50.281Z"
+    },
+    {
+      "company": "Jobgether",
+      "role": "Frontend Engineer",
+      "channel": "Lever Portal",
+      "status": "PORTAL_STAGED",
+      "timestamp": "2026-10-09T09:07:17.106Z"
+    },
+    {
+      "company": "Raglic",
+      "role": "Next.js Developer (Tailwind CSS)",
+      "channel": "LinkedIn Portal",
+      "status": "APPLIED_STAGED",
+      "timestamp": "2026-10-09T09:07:42.142Z"
+    },
+    {
+      "id": 153,
+      "company": "Cimpress",
+      "role": "Frontend Developer",
+      "location": "Mumbai / Hybrid",
+      "yoe": "1.5 YOE",
+      "channel": "LinkedIn Easy Apply",
+      "status": "APPLIED",
+      "date": "2026-10-09T12:55:56.634Z",
+      "proof": "D:\\adi\\mcp\\screenshots\\2026-10-09\\post_submit_cimpress_done.png"
+    },
+    {
+      "id": 159,
+      "company": "Career Opportunities Portal (Direct Form)",
+      "role": "Frontend Developer (React / Next.js)",
+      "location": "Indore, MP / Hybrid",
+      "yoe": "1.5 YOE",
+      "channel": "Direct Google Intake Form",
+      "status": "APPLIED",
+      "date": "2026-10-09T13:07:07.919Z",
+      "proof": "D:\\adi\\mcp\\screenshots\\2026-10-09\\post_submit_gform_career.png"
+    },
+    {
+      "id": 155,
+      "company": "CareerXperts Consulting (Tech Hiring)",
+      "role": "Javascript / Frontend Developer (1.5 YOE)",
+      "location": "Remote / India",
+      "yoe": "1.5 YOE",
+      "channel": "LinkedIn Easy Apply",
+      "status": "APPLIED",
+      "date": "2026-10-09T13:33:03.580Z",
+      "proof": "D:\\\\adi\\\\mcp\\\\screenshots\\\\2026-10-09\\\\post_submit_swiggy_final.png"
+    },
+    {
+      "id": 156,
+      "company": "Unicraft Tech",
+      "role": "Full Stack / React Developer",
+      "location": "Remote",
+      "yoe": "1.5 YOE",
+      "channel": "Direct Recruiter Email (CDP Sent Verified)",
+      "status": "APPLIED",
+      "date": "2026-10-10T06:57:08.981Z",
+      "recipient": "hr@unicraft.tech"
+    },
+    {
+      "id": 157,
+      "company": "Infoloop",
+      "role": "Frontend Developer (React/UI)",
+      "location": "Remote",
+      "yoe": "1.5 YOE",
+      "channel": "Direct Recruiter Email (CDP Sent Verified)",
+      "status": "APPLIED",
+      "date": "2026-10-10T06:58:29.186Z",
+      "recipient": "Chetana.ravat@infoloop.co"
+    },
+    {
+      "id": 158,
+      "company": "Web Seeder",
+      "role": "MERN Stack Developer",
+      "location": "Remote",
+      "yoe": "1.5 YOE",
+      "channel": "Direct Recruiter Email (CDP Sent Verified)",
+      "status": "APPLIED",
+      "date": "2026-10-10T06:59:49.459Z",
+      "recipient": "careers@webseeder.in"
+    },
+    {
+      "id": 159,
+      "company": "Medantrik",
+      "role": "Full Stack / React Developer",
+      "location": "Noida",
+      "yoe": "1.5 YOE",
+      "channel": "Direct Recruiter Email (CDP Sent Verified)",
+      "status": "APPLIED",
+      "date": "2026-10-10T07:01:09.638Z",
+      "recipient": "hr@medantrik.com"
+    },
+    {
+      "company": "Innosoft Group",
+      "role": "Full Stack Developer",
+      "applied_url": "mailto:hr@innosoft-group.com",
+      "method": "Direct Recruiter Email",
+      "applied_at": "2026-10-10T08:05:27.127Z",
+      "sent_verified": true,
+      "source": "LinkedIn Direct Post (Poornesh)"
+    },
+    {
+      "company": "CognitBotz Solutions",
+      "role": "Frontend Developer",
+      "applied_url": "mailto:Vsushma@cognitBotz.com",
+      "method": "Direct Recruiter Email",
+      "applied_at": "2026-10-10T08:08:10.449Z",
+      "sent_verified": false,
+      "source": "LinkedIn Direct Post (Poornesh)"
+    },
+    {
+      "company": "Cybernative Technologies",
+      "role": "Full Stack Developer",
+      "applied_url": "mailto:hr@cybernative.in",
+      "method": "Direct Recruiter Email",
+      "applied_at": "2026-10-10T09:02:47.809Z",
+      "sent_verified": true,
+      "source": "LinkedIn Feed / Group Shared (Oct 10)",
+      "sender_account": "pratikpatidar7990@gmail.com"
+    },
+    {
+      "company": "CodeStrat Labs",
+      "role": "Frontend Developer",
+      "applied_url": "mailto:hiring@codestratlabs.com",
+      "method": "Direct Recruiter Email",
+      "applied_at": "2026-10-10T09:04:03.357Z",
+      "sent_verified": true,
+      "source": "LinkedIn Feed / Group Shared (Oct 10)",
+      "sender_account": "pratikpatidar7990@gmail.com"
+    },
+    {
+      "company": "DayHawk Consultant",
+      "role": "ReactJS Developer",
+      "applied_url": "mailto:bhavna.sen@dayhawk.in",
+      "method": "Direct Recruiter Email",
+      "applied_at": "2026-10-10T09:06:33.744Z",
+      "sent_verified": true,
+      "source": "LinkedIn Feed / Group Shared (Oct 10)",
+      "sender_account": "pratikpatidar7990@gmail.com"
+    },
+    {
+      "id": 160,
+      "company": "Innosoft Group",
+      "role": "MERN Stack Developer",
+      "location": "Indore, MP",
+      "recipient_or_url": "hr@innosoft-group.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T06:06:21.780Z",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "notes": "Strict JD Verified (0-2 YOE) & Physically verified in live Gmail Sent folder on 2026-10-12"
+    },
+    {
+      "id": 161,
+      "company": "Cybernative Technologies",
+      "role": "Full Stack Developer",
+      "location": "Remote / Ahmedabad",
+      "recipient_or_url": "hr@cybernative.in",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T06:07:48.922Z",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "notes": "Strict JD Verified (0-2 YOE) & Physically verified in live Gmail Sent folder on 2026-10-12"
+    },
+    {
+      "id": 162,
+      "company": "CodeStrat Labs",
+      "role": "Frontend Developer",
+      "location": "Remote",
+      "recipient_or_url": "hiring@codestratlabs.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T06:09:16.588Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "notes": "Strict JD Verified (0-2 YOE) & Physically verified in live Gmail Sent folder on 2026-10-12"
+    },
+    {
+      "id": 163,
+      "company": "CognitBotz Solutions",
+      "role": "Frontend Developer (Next.js/TS)",
+      "location": "Remote",
+      "recipient_or_url": "Vsushma@cognitBotz.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T06:10:44.704Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "notes": "Strict JD Verified (0-2 YOE) & Physically verified in live Gmail Sent folder on 2026-10-12"
+    },
+    {
+      "id": 164,
+      "company": "DayHawk Consultant",
+      "role": "ReactJS Developer",
+      "location": "Remote / Noida",
+      "recipient_or_url": "bhavna.sen@dayhawk.in",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T06:12:12.584Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Strict JD Verified (0-2 YOE) & Physically verified in live Gmail Sent folder on 2026-10-12"
+    },
+    {
+      "id": 165,
+      "company": "Mxpertz Infolabs",
+      "role": "Front End Developer (React.js)",
+      "location": "Indore, MP",
+      "recipient_or_url": "hr@mxpertz.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T06:13:41.810Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Strict JD Verified (0-2 YOE) & Physically verified in live Gmail Sent folder on 2026-10-12"
+    },
+    {
+      "id": 166,
+      "company": "Kuvaka Tech",
+      "role": "Frontend Developer (React)",
+      "location": "Indore, MP",
+      "recipient_or_url": "careers@kuvakatech.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T06:15:11.105Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "notes": "Strict JD Verified (0-2 YOE) & Physically verified in live Gmail Sent folder on 2026-10-12"
+    },
+    {
+      "id": 168,
+      "company": "Affirm",
+      "role": "Software Engineer I, Frontend (Upfunnel)",
+      "location": "Remote / Global",
+      "recipient_or_url": "https://job-boards.greenhouse.io/affirm/jobs/7985907003",
+      "channel": "Direct Portal (Greenhouse ATS)",
+      "status": "Applied & Submitted (Verified with Proof)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T06:21:43.414Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Submitted via Greenhouse ATS with pre/post submit screenshots proof (Rule 37)"
+    },
+    {
+      "id": 169,
+      "company": "Axquora Technologies",
+      "role": "Frontend Developer",
+      "location": "Indore, MP",
+      "recipient_or_url": "hr@axquora.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T08:56:23.778Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: hr@axquora.com). Screenshot: screenshots/2026-10-12/sent_axquora_technologies.png"
+    },
+    {
+      "id": 170,
+      "company": "Visdum",
+      "role": "Frontend Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "careers@visdum.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T08:58:26.121Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: careers@visdum.com). Screenshot: screenshots/2026-10-12/sent_visdum.png"
+    },
+    {
+      "id": 171,
+      "company": "Antino",
+      "role": "Frontend / React Developer",
+      "location": "Gurgaon / Remote",
+      "recipient_or_url": "careers@antino.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:00:12.443Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: careers@antino.com). Screenshot: screenshots/2026-10-12/sent_antino.png"
+    },
+    {
+      "id": 172,
+      "company": "WagerGeeks",
+      "role": "Frontend Developer (React.js + Next.js)",
+      "location": "India / Remote",
+      "recipient_or_url": "hr@wagergeeks.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:02:13.347Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: hr@wagergeeks.com). Screenshot: screenshots/2026-10-12/sent_wagergeeks.png"
+    },
+    {
+      "id": 173,
+      "company": "Crontle (Rayudu Group)",
+      "role": "Junior Front-End Software Engineer",
+      "location": "India / Remote",
+      "recipient_or_url": "careers@crontle.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:03:58.768Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: careers@crontle.com). Screenshot: screenshots/2026-10-12/sent_crontle__rayudu_group_.png"
+    },
+    {
+      "id": 174,
+      "company": "CodeXorr",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "hr@codexorr.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:06:12.908Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: hr@codexorr.com). Screenshot: screenshots/2026-10-12/sent_codexorr.png"
+    },
+    {
+      "id": 175,
+      "company": "Ivory Squid",
+      "role": "Frontend Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "hr@ivorysquid.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:07:55.787Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: hr@ivorysquid.com). Screenshot: screenshots/2026-10-12/sent_ivory_squid.png"
+    },
+    {
+      "id": 176,
+      "company": "Credara Capital",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "sneha@credaracap.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:10:05.098Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: sneha@credaracap.com). Screenshot: screenshots/2026-10-12/sent_credara_capital.png"
+    },
+    {
+      "id": 177,
+      "company": "World Web Technology",
+      "role": "Frontend Developer",
+      "location": "Ahmedabad / Remote",
+      "recipient_or_url": "career@worldwebtechnology.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:11:59.564Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: career@worldwebtechnology.com). Screenshot: screenshots/2026-10-12/sent_world_web_technology.png"
+    },
+    {
+      "id": 178,
+      "company": "Whitestone Infotech",
+      "role": "Full Stack / MERN Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "hr@whitestoneinfotech.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:13:40.145Z",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: hr@whitestoneinfotech.com). Screenshot: screenshots/2026-10-12/sent_whitestone_infotech.png"
+    },
+    {
+      "id": 179,
+      "company": "Vagas",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "vaga-373808@vagas.abler.in",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:19:52.994Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: vaga-373808@vagas.abler.in). Screenshot: screenshots/2026-10-12/sent_vagas.png"
+    },
+    {
+      "id": 180,
+      "company": "Codingkart",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "hr@codingkart.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:21:27.384Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: hr@codingkart.com). Screenshot: screenshots/2026-10-12/sent_codingkart.png"
+    },
+    {
+      "id": 181,
+      "company": "Gmail",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "shifatstevesai@gmail.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:23:22.260Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: shifatstevesai@gmail.com). Screenshot: screenshots/2026-10-12/sent_gmail.png"
+    },
+    {
+      "id": 182,
+      "company": "Stevesailab",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "shifathussain@stevesailab.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:24:40.911Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: shifathussain@stevesailab.com). Screenshot: screenshots/2026-10-12/sent_stevesailab.png"
+    },
+    {
+      "id": 183,
+      "company": "Hyperbeans",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "career@hyperbeans.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:26:12.513Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: career@hyperbeans.com). Screenshot: screenshots/2026-10-12/sent_hyperbeans.png"
+    },
+    {
+      "id": 184,
+      "company": "Starlingelevate",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "hr@starlingelevate.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:28:28.142Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: hr@starlingelevate.com). Screenshot: screenshots/2026-10-12/sent_starlingelevate.png"
+    },
+    {
+      "id": 185,
+      "company": "Gmail",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "hiringcorner.hr@gmail.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:30:03.028Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: hiringcorner.hr@gmail.com). Screenshot: screenshots/2026-10-12/sent_gmail.png"
+    },
+    {
+      "id": 186,
+      "company": "Indiainfotech",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "aishwarya.m@indiainfotech.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:32:13.835Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: aishwarya.m@indiainfotech.com). Screenshot: screenshots/2026-10-12/sent_indiainfotech.png"
+    },
+    {
+      "id": 187,
+      "company": "Indiainfotech",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "hr@indiainfotech.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:33:32.574Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: hr@indiainfotech.com). Screenshot: screenshots/2026-10-12/sent_indiainfotech.png"
+    },
+    {
+      "id": 188,
+      "company": "Gmail",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "hr.dzoneindia@gmail.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:35:03.388Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: hr.dzoneindia@gmail.com). Screenshot: screenshots/2026-10-12/sent_gmail.png"
+    },
+    {
+      "id": 189,
+      "company": "Hotbitinfosoft",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "dsharma@hotbitinfosoft.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:37:12.463Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: dsharma@hotbitinfosoft.com). Screenshot: screenshots/2026-10-12/sent_hotbitinfosoft.png"
+    },
+    {
+      "id": 190,
+      "company": "Gmail",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "shailleystudio@gmail.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:39:20.331Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: shailleystudio@gmail.com). Screenshot: screenshots/2026-10-12/sent_gmail.png"
+    },
+    {
+      "id": 191,
+      "company": "Wagergeeks",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "recipient_or_url": "chandani.chouhan@wagergeeks.com",
+      "channel": "Direct Email (CDP Verified)",
+      "status": "Applied & Submitted (Verified in Sent Folder)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T09:40:41.931Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "notes": "Dispatched via CDP Gmail /u/1/ and physically verified in live Sent folder DOM (Recipient: chandani.chouhan@wagergeeks.com). Screenshot: screenshots/2026-10-12/sent_wagergeeks.png"
+    },
+    {
+      "id": 192,
+      "company": "Aman Kapil (Direct Referral)",
+      "role": "MERN Full Stack Developer",
+      "location": "LinkedIn Outreach",
+      "recipient_or_url": "https://www.linkedin.com/messaging/ (Aman Kapil)",
+      "channel": "LinkedIn DM (Direct PDF Delivered)",
+      "status": "Delivered (Verified Proof Captured)",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T10:03:19.106Z",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "notes": "Delivered pure MERN resume without accompanying note. Proof screenshot: screenshots/2026-10-12/li_aman_kapil_mern_resume_sent.png"
+    },
+    {
+      "company": "Worldline",
+      "role": "Application Engineer - ReactJS Frontend",
+      "location": "Chennai",
+      "portal": "SuccessFactors ATS",
+      "url": "https://career2.successfactors.eu/careers?company=Worldline",
+      "applied_at": "2026-10-13T13:50:32.924Z",
+      "status": "applied",
+      "mode": "portal_form"
+    },
+    {
+      "company": "Codersworld",
+      "role": "Frontend Developer (React/Next.js)",
+      "location": "Jaipur",
+      "portal": "Company Career Portal",
+      "url": "https://codersworld.in/careers/frontend-developer-reactjs-nextjs",
+      "applied_at": "2026-10-13T13:58:33.686Z",
+      "status": "applied",
+      "mode": "portal_form"
+    },
+    {
+      "company": "Anuyog Softwares",
+      "role": "Software Development Engineer I",
+      "location": "Indore",
+      "portal": "Direct Recruiter Email",
+      "recipient": "contact@anuyogsoftwares.com",
+      "url": "https://anuyogsoftwares.com/careers/JD-2026-021#apply",
+      "applied_at": "2026-10-13T14:08:00.364Z",
+      "status": "applied",
+      "mode": "direct_email"
+    }
+  ],
+  "follow_ups": [
+    {
+      "company": "BestPeers",
+      "contact": "Palkeeta Singh (HR)",
+      "channel": "LinkedIn DM",
+      "status": "Follow-Up Delivered",
+      "date": "2026-10-07",
+      "time": "12:00 PM"
+    }
+  ],
+  "replies": [
+    {
+      "company": "Synthlane",
+      "recipient": "hiring@synthlane.com",
+      "subject": "Application for Full Stack Engineer — Pratik Patidar (1.5+ YOE)",
+      "action": "RECRUITER_QUESTIONNAIRE_ANSWERED",
+      "details": "Current CTC 2.16L, Expected CTC 5.5L, Notice 15d, Relocation Gurugram Yes",
+      "date": "2026-10-07",
+      "time": "1:45:50 pm"
+    }
+  ],
+  "email_innosoft_group_1791619527127": {
+    "company": "Innosoft Group",
+    "role": "Full Stack Developer",
+    "applied_url": "mailto:hr@innosoft-group.com",
+    "method": "Direct Recruiter Email",
+    "applied_at": "2026-10-10T08:05:27.127Z",
+    "sent_verified": true,
+    "source": "LinkedIn Direct Post (Poornesh)"
+  },
+  "email_vegavid_technology_1791619604990": {
+    "company": "Vegavid Technology",
+    "role": "Full Stack Developer",
+    "applied_url": "mailto:hr@vegavid.com",
+    "method": "Direct Recruiter Email",
+    "applied_at": "2026-10-10T08:06:44.990Z",
+    "sent_verified": false,
+    "source": "LinkedIn Direct Post (Poornesh)"
+  },
+  "email_cognitbotz_solutions_1791619690449": {
+    "company": "CognitBotz Solutions",
+    "role": "Frontend Developer",
+    "applied_url": "mailto:Vsushma@cognitBotz.com",
+    "method": "Direct Recruiter Email",
+    "applied_at": "2026-10-10T08:08:10.449Z",
+    "sent_verified": false,
+    "source": "LinkedIn Direct Post (Poornesh)"
+  },
+  "email_innosoft_group_1791619962089": {
+    "company": "Innosoft Group",
+    "role": "Full Stack Developer",
+    "applied_url": "mailto:hr@innosoft-group.com",
+    "method": "Direct Recruiter Email",
+    "applied_at": "2026-10-10T08:12:42.090Z",
+    "sent_verified": false,
+    "source": "LinkedIn Direct Post (Poornesh)",
+    "sender_account": "pratikpatidar7990@gmail.com"
+  },
+  "portal_mapup_1791622037469": {
+    "company": "MapUp",
+    "role": "Frontend Engineer (Remote Work)",
+    "applied_url": "https://www.mapup.ai/careers/frontend-engineer-remote-work/apply",
+    "method": "Direct Portal Form",
+    "applied_at": "2026-10-10T08:47:17.469Z",
+    "submission_verified": true,
+    "post_submit_proof": "D:/adi/mcp/post_submit_mapup_verified.png"
+  },
+  "email_innosoft_group_1791622157459": {
+    "company": "Innosoft Group",
+    "role": "Full Stack Developer",
+    "applied_url": "mailto:hr@innosoft-group.com",
+    "method": "Direct Recruiter Email",
+    "applied_at": "2026-10-10T08:49:17.459Z",
+    "sent_verified": false,
+    "source": "LinkedIn Direct Post (Poornesh)",
+    "sender_account": "pratikpatidar7990@gmail.com"
+  },
+  "email_vegavid_technology_1791622236173": {
+    "company": "Vegavid Technology",
+    "role": "Full Stack Developer",
+    "applied_url": "mailto:hr@vegavid.com",
+    "method": "Direct Recruiter Email",
+    "applied_at": "2026-10-10T08:50:36.173Z",
+    "sent_verified": false,
+    "source": "LinkedIn Direct Post (Poornesh)",
+    "sender_account": "pratikpatidar7990@gmail.com"
+  },
+  "email_cognitbotz_solutions_1791622314906": {
+    "company": "CognitBotz Solutions",
+    "role": "Frontend Developer",
+    "applied_url": "mailto:Vsushma@cognitBotz.com",
+    "method": "Direct Recruiter Email",
+    "applied_at": "2026-10-10T08:51:54.906Z",
+    "sent_verified": false,
+    "source": "LinkedIn Direct Post (Poornesh)",
+    "sender_account": "pratikpatidar7990@gmail.com"
+  },
+  "email_cybernative_technologies_1791622967809": {
+    "company": "Cybernative Technologies",
+    "role": "Full Stack Developer",
+    "applied_url": "mailto:hr@cybernative.in",
+    "method": "Direct Recruiter Email",
+    "applied_at": "2026-10-10T09:02:47.809Z",
+    "sent_verified": true,
+    "source": "LinkedIn Feed / Group Shared (Oct 10)",
+    "sender_account": "pratikpatidar7990@gmail.com"
+  },
+  "email_codestrat_labs_1791623043357": {
+    "company": "CodeStrat Labs",
+    "role": "Frontend Developer",
+    "applied_url": "mailto:hiring@codestratlabs.com",
+    "method": "Direct Recruiter Email",
+    "applied_at": "2026-10-10T09:04:03.357Z",
+    "sent_verified": true,
+    "source": "LinkedIn Feed / Group Shared (Oct 10)",
+    "sender_account": "pratikpatidar7990@gmail.com"
+  },
+  "email_cognitbotz_solutions_1791623118545": {
+    "company": "CognitBotz Solutions",
+    "role": "Frontend Developer",
+    "applied_url": "mailto:Vsushma@cognitBotz.com",
+    "method": "Direct Recruiter Email",
+    "applied_at": "2026-10-10T09:05:18.545Z",
+    "sent_verified": true,
+    "source": "LinkedIn Feed / Group Shared (Oct 10)",
+    "sender_account": "pratikpatidar7990@gmail.com"
+  },
+  "email_dayhawk_consultant_1791623193744": {
+    "company": "DayHawk Consultant",
+    "role": "ReactJS Developer",
+    "applied_url": "mailto:bhavna.sen@dayhawk.in",
+    "method": "Direct Recruiter Email",
+    "applied_at": "2026-10-10T09:06:33.744Z",
+    "sent_verified": true,
+    "source": "LinkedIn Feed / Group Shared (Oct 10)",
+    "sender_account": "pratikpatidar7990@gmail.com"
+  },
+  "seen": [
+    "hr@innosoft-group.com",
+    "hr@cybernative.in",
+    "hiring@codestratlabs.com",
+    "Vsushma@cognitBotz.com",
+    "bhavna.sen@dayhawk.in",
+    "hr@mxpertz.com",
+    "careers@kuvakatech.com",
+    "careers@recooty.com"
+  ],
+  "seen_unapplied": [
+    {
+      "company": "Arivihan Technologies",
+      "title": "React Developer",
+      "url": "https://wellfound.com/jobs/4574512-react-developer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Uplers",
+      "title": "Full-Stack Developer : Paid Internship ( React + Typescript + Backend)",
+      "url": "https://platform.uplers.com/talent/all-opportunities/HR1179150298155744?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Tekfortune Inc",
+      "title": "React Developer + Python",
+      "url": "https://www.iitjobs.com/job/react-developer-python-indore-madhya-pradesh-india-521363?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Yash Technologies",
+      "title": "UI Specialist - React & Node.js Job",
+      "url": "https://careers.yash.com/job/Pune-UI-Specialist-React-&-Node_js-Job/1368398466/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Vibrant Viral Media",
+      "title": "Web Development Internship in Indore (Hybrid)",
+      "url": "https://in.linkedin.com/jobs/view/web-development-internship-in-indore-hybrid-at-vibrant-viral-media-4477891510?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Mindmappers Educational Services LLP",
+      "title": "Junior Frontend Developer (React.js)",
+      "url": "https://bebee.com/in/jobs/junior-frontend-developer-reactjs-mindmappers-educational-services-llp-indore-madhya-pradesh--t7xk-806361100?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "MotionGility",
+      "title": "Frontend Developer Intern - Fresher",
+      "url": "https://internshala.com/job/detail/fresher-frontend-developer-intern-job-in-indore-at-motiongility1783125023?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "WhatBytes",
+      "title": "Front End Developer Intern (Remote)",
+      "url": "https://wellfound.com/jobs/3029813-front-end-developer-intern-remote?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Storyblok Private",
+      "title": "Storyblok_Frontend Engineer_June Event",
+      "url": "https://dailyremote.com/remote-job/storyblok-frontend-engineer-june-event-5282241?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "BairesDev",
+      "title": "Javascript Developer - Remote Work | REF#296943",
+      "url": "https://in.linkedin.com/jobs/view/javascript-developer-remote-work-ref%23296943-at-bairesdev-4438269274?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Netomi",
+      "title": "SDE I – Frontend, Analytics Team",
+      "url": "https://www.remoterocketship.com/company/netomi/jobs/sde-i-frontend-analytics-team-india-remote/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Zoukloans",
+      "title": "Front End Developer",
+      "url": "https://startup.jobs/front-end-developer-zoukloans-8382236?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "remote quest jobs",
+      "title": "UI Frontend Engineer - Associate",
+      "url": "https://us.remotejobs.dedyn.io/job/3627741?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "remotepromsp",
+      "title": "Junior Front-End Developer (React & Web3) - DevDapp *must have reputed company*",
+      "url": "https://remoterush.mysmartpros.com/job/762306?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "vmysmartpros",
+      "title": "Junior React Developer",
+      "url": "https://remoteworld.mysmartpros.com/job/junior-react-developer/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "GradeBuzz",
+      "title": "Remote HTML Developer - Work From Home - Hiring Now - Entry Level - Full-Time",
+      "url": "https://gradebuzz.com/jobs/remote-html-developer-work-from-home-hiring-now-entry-level-full-time-eo4z?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "DXC Luxoft",
+      "title": "AI & React.js Developer",
+      "url": "https://career.luxoft.com/jobs/ai-reactjs-developer-27240?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "PrepLinc Partners",
+      "title": "Frontend Developer (React) – PrepLinc Partners",
+      "url": "https://www.preplinc.com/jobs/details/frontend-developer-react-at-preplinc-partners-project-in-remote-sUZUqN0lOC0H49Jgj5yK/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Priority IDC Private Limited",
+      "title": "ZR_329_Engineer",
+      "url": "https://dailyremote.com/remote-job/zr-329-engineer-5717724?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Zomato",
+      "title": "Junior Web Developer",
+      "url": "https://myinternships.in/jobs/zomato-junior-web-developer-prayagraj-acaaff?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Bank of America Continuum",
+      "title": "Junior Web Developer",
+      "url": "https://myinternships.in/jobs/bank-of-america-continuum-junior-web-developer-guntur-817dc1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "remotepromsp",
+      "title": "Entry-Level Software Developer",
+      "url": "https://remoterush.mysmartpros.com/job/2207923?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "DXC Luxoft",
+      "title": "Fullstack Developer (FastAPI Python + React)",
+      "url": "https://career.luxoft.com/jobs/fullstack-developer-fastapi-python-react-28065?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Bjak ",
+      "title": "Frontend Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-frontend-engineer-bjak-1137410",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Control Shift Video",
+      "title": "Freelance Designer",
+      "url": "https://remoteOK.com/remote-jobs/remote-freelance-designer-control-shift-video-1136213",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Tremendous",
+      "title": "Head of Security",
+      "url": "https://remoteOK.com/remote-jobs/remote-head-of-security-tremendous-1136210",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Snapscale Philippines",
+      "title": "Healthcare Virtual Assistant Athena EMR Experience",
+      "url": "https://remoteOK.com/remote-jobs/remote-healthcare-virtual-assistant-athena-emr-experience-snapscale-philippines-1135688",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Chop-Chop",
+      "title": "Â¡Buscamos Bartender para el equipo de Chop Chop",
+      "url": "https://remoteOK.com/remote-jobs/remote-buscamos-bartender-para-el-equipo-de-chop-chop-chop-chop-1136502",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Airmen Coders",
+      "title": "Hawg Ops",
+      "url": "https://remoteOK.com/remote-jobs/remote-hawg-ops-airmen-coders-1135428",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Jovie",
+      "title": "FT PT Nanny",
+      "url": "https://remoteOK.com/remote-jobs/remote-ft-pt-nanny-jovie-1136240",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "IDEXX",
+      "title": "Radiologist",
+      "url": "https://remoteOK.com/remote-jobs/remote-radiologist-idexx-1136025",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Rio Sul Supermercados",
+      "title": "Fiandeiro",
+      "url": "https://remoteOK.com/remote-jobs/remote-fiandeiro-rio-sul-supermercados-1136486",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Outsource Access Careers",
+      "title": "Business Development Executive",
+      "url": "https://remoteOK.com/remote-jobs/remote-business-development-executive-outsource-access-careers-1135287",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Morgan McKinley",
+      "title": "Data Entry Specialist",
+      "url": "https://remoteOK.com/remote-jobs/remote-data-entry-specialist-morgan-mckinley-1135273",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Youtooz",
+      "title": "Concept Artist",
+      "url": "https://remoteOK.com/remote-jobs/remote-concept-artist-youtooz-1135294",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Jon &amp; Jon Medical",
+      "title": "General Practitioner",
+      "url": "https://remoteOK.com/remote-jobs/remote-general-practitioner-jon-amp-jon-medical-1136020",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "School is Easy - Calgary",
+      "title": "Tutors Needed for Online and Person Tutoring",
+      "url": "https://remoteOK.com/remote-jobs/remote-tutors-needed-for-online-and-person-tutoring-school-is-easy-calgary-1135293",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Owl.co",
+      "title": "Data Quality Analyst",
+      "url": "https://remoteOK.com/remote-jobs/remote-data-quality-analyst-owl-co-1135274",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Leadership Connect",
+      "title": "Analyst",
+      "url": "https://remoteOK.com/remote-jobs/remote-analyst-leadership-connect-1135270",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Elite Worldgroup Inc.",
+      "title": "Full Stack Developer",
+      "url": "https://remoteOK.com/remote-jobs/remote-full-stack-developer-elite-worldgroup-inc-1135288",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Guesty",
+      "title": "Junior Operations Support Specialist",
+      "url": "https://remoteOK.com/remote-jobs/remote-junior-operations-support-specialist-guesty-1135271",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Acro Commerce",
+      "title": "Front End Developer",
+      "url": "https://remoteOK.com/remote-jobs/remote-front-end-developer-acro-commerce-1135269",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "PULSE (MENA)",
+      "title": "Junior Front End Developer",
+      "url": "https://remoteOK.com/remote-jobs/remote-junior-front-end-developer-pulse-mena-1135285",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Openverse",
+      "title": "Frontend Developer",
+      "url": "https://remoteOK.com/remote-jobs/remote-frontend-developer-openverse-1135292",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "FastLane Group",
+      "title": "Full Stack Developer",
+      "url": "https://remoteOK.com/remote-jobs/remote-full-stack-developer-fastlane-group-1135286",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Brydens Antigua",
+      "title": "Merchandiser",
+      "url": "https://remoteOK.com/remote-jobs/remote-merchandiser-brydens-antigua-1134949",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "YouFibre",
+      "title": "Graphic Designer",
+      "url": "https://remoteOK.com/remote-jobs/remote-graphic-designer-youfibre-1134925",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Seven Seas Water Group",
+      "title": "Exuma Operator",
+      "url": "https://remoteOK.com/remote-jobs/remote-exuma-operator-seven-seas-water-group-1134950",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Dreamscribe Brands",
+      "title": "YouTube Video Editor Fresher",
+      "url": "https://remoteOK.com/remote-jobs/remote-youtube-video-editor-fresher-dreamscribe-brands-1135290",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Sparkgeo - Applied Geospatial",
+      "title": "Future Openings Project Management",
+      "url": "https://remoteOK.com/remote-jobs/remote-future-openings-project-management-sparkgeo-applied-geospatial-1135272",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Larsen &amp; Toubro",
+      "title": "Composite Estimation Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-composite-estimation-engineer-larsen-amp-toubro-1136918",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Kong",
+      "title": "Account Development Representative",
+      "url": "https://remoteOK.com/remote-jobs/remote-account-development-representative-kong-1136018",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "TUS Media",
+      "title": "Trabaja como canguro Ayuda con los deberes",
+      "url": "https://remoteOK.com/remote-jobs/remote-trabaja-como-canguro-ayuda-con-los-deberes-tus-media-1134927",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "CodeStore",
+      "title": "Trainee Software Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-trainee-software-engineer-codestore-1135687",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Nibo",
+      "title": "Programa de EstÃ¡gio FormaÃ§Ã£o em Vendas SDR Remoto",
+      "url": "https://remoteOK.com/remote-jobs/remote-programa-de-estagio-formacao-em-vendas-sdr-remoto-nibo-1134841",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Adaptalift Group",
+      "title": "Field Service Technician",
+      "url": "https://remoteOK.com/remote-jobs/remote-field-service-technician-adaptalift-group-1136023",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Pubgenius Inc.",
+      "title": "Proposal &amp; Business Development Specialist",
+      "url": "https://remoteOK.com/remote-jobs/remote-proposal-amp-business-development-specialist-pubgenius-inc-1134924",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Wikibuild S.A",
+      "title": "TÃ©cnico De Estudos E Propostas",
+      "url": "https://remoteOK.com/remote-jobs/remote-tecnico-de-estudos-e-propostas-wikibuild-s-a-1134929",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "ofi",
+      "title": "Maintenance Fitter",
+      "url": "https://remoteOK.com/remote-jobs/remote-maintenance-fitter-ofi-1136021",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "defdone",
+      "title": "Software development\nFrontend Developer",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-developmentfrontend-developer-defdone-1134928",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Trivium Group",
+      "title": "Jr Creative Strategist",
+      "url": "https://remoteOK.com/remote-jobs/remote-jr-creative-strategist-trivium-group-1134870",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Base.com",
+      "title": "Business Intelligence Developer",
+      "url": "https://remoteOK.com/remote-jobs/remote-business-intelligence-developer-base-com-1134926",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "DHL Express",
+      "title": "Chofer Operador LogÃ­stico",
+      "url": "https://remoteOK.com/remote-jobs/remote-chofer-operador-logistico-dhl-express-1136481",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Sicoob",
+      "title": "Assistente de Qualidade",
+      "url": "https://remoteOK.com/remote-jobs/remote-assistente-de-qualidade-sicoob-1134842",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Jovie",
+      "title": "Nanny",
+      "url": "https://remoteOK.com/remote-jobs/remote-nanny-jovie-1134660",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Universidad Privada del Norte",
+      "title": "Docente Tiempo Parcial Lenguaje Visual Remoto",
+      "url": "https://remoteOK.com/remote-jobs/remote-docente-tiempo-parcial-lenguaje-visual-remoto-universidad-privada-del-norte-1134840",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Cakto",
+      "title": "Desenvolvedor Front end JÃºnior",
+      "url": "https://remoteOK.com/remote-jobs/remote-desenvolvedor-front-end-junior-cakto-1134839",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Intagono: Agencia Digital",
+      "title": "Freelance Editor a de Video Casos de Ã©xito",
+      "url": "https://remoteOK.com/remote-jobs/remote-freelance-editor-a-de-video-casos-de-exito-intagono-agencia-digital-1134843",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Supermercado SÃ£o Luiz",
+      "title": "Operador de Caixa",
+      "url": "https://remoteOK.com/remote-jobs/remote-operador-de-caixa-supermercado-sao-luiz-1136499",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Arabian Private Holdings",
+      "title": "Junior UI Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-junior-ui-engineer-arabian-private-holdings-1134413",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "The Elites",
+      "title": "Creative",
+      "url": "https://remoteOK.com/remote-jobs/remote-creative-the-elites-1134415",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Ironhack",
+      "title": "Orientador a Laboral Freelance Remoto",
+      "url": "https://remoteOK.com/remote-jobs/remote-orientador-a-laboral-freelance-remoto-ironhack-1134414",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Apprentus",
+      "title": "Profesor a de Apoyo escolar Todos los niveles",
+      "url": "https://remoteOK.com/remote-jobs/remote-profesor-a-de-apoyo-escolar-todos-los-niveles-apprentus-1134416",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "inDrive",
+      "title": "Customer Support Specialist",
+      "url": "https://remoteOK.com/remote-jobs/remote-customer-support-specialist-indrive-1134519",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "over99",
+      "title": "Frontend Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-frontend-engineer-over99-1136165",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Mentor Technical Group",
+      "title": "Handyperson Labor",
+      "url": "https://remoteOK.com/remote-jobs/remote-handyperson-labor-mentor-technical-group-1136483",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "SJ HotÃ©is &amp; Resort",
+      "title": "Camareira",
+      "url": "https://remoteOK.com/remote-jobs/remote-camareira-sj-hoteis-amp-resort-1136501",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Leap Tools",
+      "title": "Software Developer React NextJS",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-developer-react-nextjs-leap-tools-1134866",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Spriggs Excavation, Inc.",
+      "title": "Executive Assistant",
+      "url": "https://remoteOK.com/remote-jobs/remote-executive-assistant-spriggs-excavation-inc-1133581",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Josie Maran",
+      "title": "Social Content Designer & Producer",
+      "url": "https://remoteOK.com/remote-jobs/remote-social-content-designer-producer-josie-maran-1133579",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "GrowthAssistant",
+      "title": "Executive Assistant",
+      "url": "https://remoteOK.com/remote-jobs/remote-executive-assistant-growthassistant-1133569",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "PBG",
+      "title": "Capital Planning Analyst",
+      "url": "https://remoteOK.com/remote-jobs/remote-capital-planning-analyst-pbg-1133580",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "NOBLE",
+      "title": "Business Development Representative MARCORSYSCOM",
+      "url": "https://remoteOK.com/remote-jobs/remote-business-development-representative-marcorsyscom-noble-1133582",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Flagler Health",
+      "title": "Sales Development Representative",
+      "url": "https://remoteOK.com/remote-jobs/remote-sales-development-representative-flagler-health-1133578",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Supermercado GuarÃ¡",
+      "title": "AÃ§ougueiro",
+      "url": "https://remoteOK.com/remote-jobs/remote-acougueiro-supermercado-guara-1136485",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "The Flex",
+      "title": "Founding Software Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-founding-software-engineer-the-flex-1136911",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Dynacare",
+      "title": "Client Support Representative",
+      "url": "https://remoteOK.com/remote-jobs/remote-client-support-representative-dynacare-1134868",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "FoodMe Global / Dine Palace",
+      "title": "E Commerce Sales Executive",
+      "url": "https://remoteOK.com/remote-jobs/remote-e-commerce-sales-executive-foodme-global-dine-palace-1133259",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "General Legal (YC26)",
+      "title": "Triage Paralegal",
+      "url": "https://remoteOK.com/remote-jobs/remote-triage-paralegal-general-legal-yc26-1133241",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Sundayy",
+      "title": "Virtual Data Entry",
+      "url": "https://remoteOK.com/remote-jobs/remote-virtual-data-entry-sundayy-1133240",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "MrBeast",
+      "title": "Design Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-design-engineer-mrbeast-1133239",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "NeuroDiscovery AI",
+      "title": "Frontend Developer Medical Imaging",
+      "url": "https://remoteOK.com/remote-jobs/remote-frontend-developer-medical-imaging-neurodiscovery-ai-1133256",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "RecruitGo Careers",
+      "title": "HR and Payroll Administrator",
+      "url": "https://remoteOK.com/remote-jobs/remote-hr-and-payroll-administrator-recruitgo-careers-1133257",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "SHRI KRISHNA PLACEMENT",
+      "title": "Accountant",
+      "url": "https://remoteOK.com/remote-jobs/remote-accountant-shri-krishna-placement-1136914",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Twine",
+      "title": "Junior Illustrator",
+      "url": "https://remoteOK.com/remote-jobs/remote-junior-illustrator-twine-1133039",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Little Caesars Pizza",
+      "title": "Regional Managing Director Canada",
+      "url": "https://remoteOK.com/remote-jobs/remote-regional-managing-director-canada-little-caesars-pizza-1133042",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "GamblingCareers.com",
+      "title": "Frontend Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-frontend-engineer-gamblingcareers-com-1133416",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "over99",
+      "title": "Frontend Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-frontend-engineer-over99-1133038",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "DSW Designer Shoe Warehouse",
+      "title": "Media Specialist",
+      "url": "https://remoteOK.com/remote-jobs/remote-media-specialist-dsw-designer-shoe-warehouse-1133040",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Unique Building Services Pty Ltd",
+      "title": "Restoration Technician",
+      "url": "https://remoteOK.com/remote-jobs/remote-restoration-technician-unique-building-services-pty-ltd-1136028",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Bravus Mining &amp; Resources",
+      "title": "Excavator Operator",
+      "url": "https://remoteOK.com/remote-jobs/remote-excavator-operator-bravus-mining-amp-resources-1136032",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "TruPorch Homes",
+      "title": "Front Desk Guest Experience Associate",
+      "url": "https://remoteOK.com/remote-jobs/remote-front-desk-guest-experience-associate-truporch-homes-1132537",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Royal Caribbean International",
+      "title": "Electrician Royal Beach Club",
+      "url": "https://remoteOK.com/remote-jobs/remote-electrician-royal-beach-club-royal-caribbean-international-1132478",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Rio Sul Supermercados",
+      "title": "Ajudante de AÃ§ougue",
+      "url": "https://remoteOK.com/remote-jobs/remote-ajudante-de-acougue-rio-sul-supermercados-1136497",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "upGrad",
+      "title": "Associate Placements",
+      "url": "https://remoteOK.com/remote-jobs/remote-associate-placements-upgrad-1132226",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Headout",
+      "title": "Content Writer",
+      "url": "https://remoteOK.com/remote-jobs/remote-content-writer-headout-1132220",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Interrupt Labs",
+      "title": "iOS Vulnerability Researcher",
+      "url": "https://remoteOK.com/remote-jobs/remote-ios-vulnerability-researcher-interrupt-labs-1136026",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Fairmont Hotels &amp; Resorts",
+      "title": "Security Officer",
+      "url": "https://remoteOK.com/remote-jobs/remote-security-officer-fairmont-hotels-amp-resorts-1132480",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Genrobotics",
+      "title": "Business Development Executive",
+      "url": "https://remoteOK.com/remote-jobs/remote-business-development-executive-genrobotics-1136923",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Hewlett Packard Enterprise",
+      "title": "Director Cloud Operations &amp; Security",
+      "url": "https://remoteOK.com/remote-jobs/remote-director-cloud-operations-amp-security-hewlett-packard-enterprise-1136496",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Credit Wellness, LLC",
+      "title": "Inside Sales Contractor",
+      "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Unio Digital",
+      "title": "Tier III Service Desk Engineer",
+      "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "CodeForAI",
+      "title": "Software Engineer / AI Code Trainer (Python, Web, Full Stack)",
+      "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-code-trainer-python-web-full-stack-2091149",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "IAPWE",
+      "title": "Freelance Writer",
+      "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Coalition Technologies ",
+      "title": "Freelance Copywriter",
+      "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "TELUS Digital",
+      "title": "Content Reviewer - United States",
+      "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091144",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "KoboToolbox",
+      "title": "Frontend Web Application Developer",
+      "url": "https://remotive.com/remote-jobs/design/frontend-web-application-developer-2091141",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Coalition Technologies ",
+      "title": "Remote Office Assistant",
+      "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "iMerit Technology",
+      "title": "AI Response Evaluator",
+      "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-response-evaluator-2091126",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "rehanurrahman",
+      "title": "Interested in the new grad &#x2F; early career role. Built and run peatlearn.com",
+      "url": "https://news.ycombinator.com/item?id=50031656",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "lassiecoder",
+      "title": "Location: Bangalore, India (IST, UTC+5:30) Remote: Yes Willing to relocate: No T",
+      "url": "https://news.ycombinator.com/item?id=50025234",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "whh",
+      "title": "Flowstate (London, UK) — Founding Engineer — TypeScript &#x2F; React &#x2F; Post",
+      "url": "https://news.ycombinator.com/item?id=49991656",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Bukejlovic",
+      "title": "Location: Dubrovnik, Croatia (CET)",
+      "url": "https://news.ycombinator.com/item?id=49945634",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "kaveronix",
+      "title": "Software Engineer — Remote — US Only Kaveronix is looking for experienced Softwa",
+      "url": "https://news.ycombinator.com/item?id=49937360",
+      "source": "MCP ATS Boards",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "CampusPe",
+      "title": "Frontend Developer\nFrontend Developer",
+      "url": "https://www.linkedin.com/jobs/view/4477520147/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Saatvik Agro",
+      "title": "Associate Backend Developer - Java\nAssociate Backend Developer - Java",
+      "url": "https://www.linkedin.com/jobs/view/4477520315/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "CodeRound AI",
+      "title": "Founding Engineer (JavaScript/TypeScript | Up to 40LPA)\nFounding Engineer (JavaScript/TypeScript | Up to 40LPA)",
+      "url": "https://www.linkedin.com/jobs/view/4478502323/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "SJA Pathway",
+      "title": "Entry-Level Website Developer ( Unpaid Internship )\nEntry-Level Website Developer ( Unpaid Internship ) with verification",
+      "url": "https://www.linkedin.com/jobs/view/4476001361/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Workhall",
+      "title": "Mobile Engineer\nMobile Engineer with verification",
+      "url": "https://www.linkedin.com/jobs/view/4477518358/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "EdgeVerve",
+      "title": "Full Stack Engineer\nFull Stack Engineer with verification",
+      "url": "https://www.linkedin.com/jobs/view/4477511580/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Arclend",
+      "title": "Full Stack developer Intern\nFull Stack developer Intern",
+      "url": "https://www.linkedin.com/jobs/view/4467364744/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "SPADTEK SOLUTIONS",
+      "title": "Backend Engineer – Hybrid\nBackend Engineer – Hybrid with verification",
+      "url": "https://www.linkedin.com/jobs/view/4477509613/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Dover India",
+      "title": "Technical Support Engineer - SAAS\nTechnical Support Engineer - SAAS",
+      "url": "https://www.linkedin.com/jobs/view/4477505965/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "JYOTI PLACEMENTS SERVCE",
+      "title": "Sales Engineer\nSales Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4477293531/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Hexnode",
+      "title": "Product Support Engineer\nProduct Support Engineer with verification",
+      "url": "https://www.linkedin.com/jobs/view/4476002384/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "company": "Crossbar Labs",
+      "title": "Operations Engineer\nOperations Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4476001305/",
+      "source": "LinkedIn Easy Apply",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "AUG 6\nPratik Patidar sent the following messages at 11:39 PM\nView Pratik’s profile\nPratik Patidar  (He/Him)  11:39 PM\n\nThis post cannot be displayed. ",
+      "links": [],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  11:39 PM\n\nThis post cannot be displayed. Retry",
+      "links": [],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "AUG 7\nView Pratik’s profile\nPratik Patidar  (He/Him)  5:39 PM\nCodingkart | Shopify Plus Agency\nCodingkart | Shopify Plus Agency\n15,753 followers\n15,75",
+      "links": [
+        "https://www.linkedin.com/company/codingkart-it-services/posts",
+        "https://www.linkedin.com/company/codingkart-it-services/posts",
+        "https://www.linkedin.com/feed/update/urn:li:activity:7490767351991410688/",
+        "https://www.linkedin.com/company/codingkart-it-services/",
+        "mailto:hr@codingkart.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiringnow&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23htmldeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23juniordeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23webdevelopment&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23codingkart&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careeropportunity&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  5:39 PM\nCodingkart | Shopify Plus Agency\nCodingkart | Shopify Plus Agency\n15,753 followers\n15,753 foll",
+      "links": [
+        "https://www.linkedin.com/company/codingkart-it-services/posts",
+        "https://www.linkedin.com/company/codingkart-it-services/posts",
+        "https://www.linkedin.com/feed/update/urn:li:activity:7490767351991410688/",
+        "https://www.linkedin.com/company/codingkart-it-services/",
+        "mailto:hr@codingkart.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiringnow&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23htmldeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23juniordeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23webdevelopment&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23codingkart&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careeropportunity&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "AUG 12\nView Pratik’s profile\nPratik Patidar  (He/Him)  4:39 PM\nSHIFAT HUSSAIN\nSHIFAT HUSSAIN\n   • 1st\nVerified • 1st\nSenior Executive – Human Resource",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7492841127532916736/",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/company/steves-ai/",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indore&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23bde&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23ml&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23python&origin=HASH_TAG_FROM_FEED",
+        "mailto:shifatstevesai@gmail.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23wearehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23bde&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23bdejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23businessdevelopment&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23businessdevelopmentexecutive&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23aimljobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23aimldeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23aijobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23machinelearningjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23itjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23developerjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23softwarejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23nowhiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23jobopening&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiringalert&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careeropportunity&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23jobopportunity&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techhiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23immediatehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23joinourteam&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careergrowth&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23freshersjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23experiencedprofessionals&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23workfromoffice&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indoreitjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23stevesailab&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  4:39 PM\nSHIFAT HUSSAIN\nSHIFAT HUSSAIN\n   • 1st\nVerified • 1st\nSenior Executive – Human Resources || St",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7492841127532916736/",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/company/steves-ai/",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indore&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23bde&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23ml&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23python&origin=HASH_TAG_FROM_FEED",
+        "mailto:shifatstevesai@gmail.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23wearehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23bde&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23bdejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23businessdevelopment&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23businessdevelopmentexecutive&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23aimljobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23aimldeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23aijobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23machinelearningjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23itjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23developerjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23softwarejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23nowhiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23jobopening&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiringalert&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careeropportunity&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23jobopportunity&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techhiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23immediatehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23joinourteam&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careergrowth&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23freshersjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23experiencedprofessionals&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23workfromoffice&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indoreitjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23stevesailab&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "AUG 13\nView Pratik’s profile\nPratik Patidar  (He/Him)  3:28 PM\nRajnandini Pandey\nRajnandini Pandey\n   • 1st\nVerified • 1st\nHR Manager at HyperBeans In",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7493567317759500288/",
+        "mailto:career@hyperbeans.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23wearehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23bde&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23bdm&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23uiuxdesigner&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23merndeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23aijobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careeropportunity&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hyperbeanstechnologies&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  3:28 PM\nRajnandini Pandey\nRajnandini Pandey\n   • 1st\nVerified • 1st\nHR Manager at HyperBeans Inc\nHR Ma",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7493567317759500288/",
+        "mailto:career@hyperbeans.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23wearehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23bde&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23bdm&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23uiuxdesigner&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23merndeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23aijobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indorehiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careeropportunity&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hyperbeanstechnologies&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  3:29 PM\nLarana Global Tech\nLarana Global Tech\n7,563 followers\n7,563 followers\n1mo • \n \n1 month ago • V",
+      "links": [
+        "https://www.linkedin.com/company/larana-global-tech/posts",
+        "https://www.linkedin.com/company/larana-global-tech/posts",
+        "https://www.linkedin.com/feed/update/urn:li:activity:7493514854096498688/",
+        "https://lnkd.in/dWF5abqa",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23ahmedabadjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23softwareengineer&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23reactdeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23pythondeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careeropportunity&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23freshers&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23internship&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "AUG 25\nView Pratik’s profile\nPratik Patidar  (He/Him)  7:07 PM\n\nFinal list:\n\nMarrina Decisions — Frontend Engineer, Remote — VERIFIED\nhttps://www.nauk",
+      "links": [
+        "https://www.naukri.com/job-listings-frontend-engineer-saas-maintenance-marrina-decisions-remote-2-to-4-years-190826500351",
+        "https://www.naukri.com/job-listings-frontend-developer-redeemer-technologies-pvt-ltd-remote-2-to-4-years-210826504000",
+        "mailto:hr@starlingelevate.com",
+        "mailto:hiringcorner.hr@gmail.com",
+        "mailto:aishwarya.m@indiainfotech.com",
+        "mailto:hr@indiainfotech.com",
+        "mailto:hr.dzoneindia@gmail.com",
+        "mailto:dsharma@hotbitinfosoft.com",
+        "mailto:shailleystudio@gmail.com"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  7:07 PM\n\nFinal list:\n\nMarrina Decisions — Frontend Engineer, Remote — VERIFIED\nhttps://www.naukri.com/",
+      "links": [
+        "https://www.naukri.com/job-listings-frontend-engineer-saas-maintenance-marrina-decisions-remote-2-to-4-years-190826500351",
+        "https://www.naukri.com/job-listings-frontend-developer-redeemer-technologies-pvt-ltd-remote-2-to-4-years-210826504000",
+        "mailto:hr@starlingelevate.com",
+        "mailto:hiringcorner.hr@gmail.com",
+        "mailto:aishwarya.m@indiainfotech.com",
+        "mailto:hr@indiainfotech.com",
+        "mailto:hr.dzoneindia@gmail.com",
+        "mailto:dsharma@hotbitinfosoft.com",
+        "mailto:shailleystudio@gmail.com"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "SEP 10\n\nYou removed Jitendra Singh Yadav from this conversation",
+      "links": [],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "You removed Jitendra Singh Yadav from this conversation",
+      "links": [],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "TUESDAY\nPratik Patidar sent the following messages at 4:57 PM\nView Pratik’s profile\nPratik Patidar  (He/Him)  4:57 PM\nNeeta P.\nNeeta P.\n • 1st\n1st\nHum",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7513144050846466049/",
+        "https://www.linkedin.com/company/plexigenius-solutions/",
+        "https://lnkd.in/dh4767FS",
+        "https://www.linkedin.com/search/results/all/?keywords=%23talentacquisition&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiringevent&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23walkininterview&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techcareers&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23fresherjobs&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  4:57 PM\nNeeta P.\nNeeta P.\n • 1st\n1st\nHuman Resources Manager at PlexiGenius Solutions Pvt Ltd Hiring -",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7513144050846466049/",
+        "https://www.linkedin.com/company/plexigenius-solutions/",
+        "https://lnkd.in/dh4767FS",
+        "https://www.linkedin.com/search/results/all/?keywords=%23talentacquisition&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiringevent&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23walkininterview&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techcareers&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23fresherjobs&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "SATURDAY\nView Pratik’s profile\nPratik Patidar  (He/Him)  12:35 PM\nRicha Sharma\nRicha Sharma\n   • Following\nVerified • Following\nOperations & Client Su",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7511898566143967232/",
+        "mailto:hiring@codestratlabs.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23frontenddeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23reactjs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23webdevelopment&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23remotejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23softwaredevelopment&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23codestratlabs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiringnow&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  12:35 PM\nRicha Sharma\nRicha Sharma\n   • Following\nVerified • Following\nOperations & Client Success | B",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7511898566143967232/",
+        "mailto:hiring@codestratlabs.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23frontenddeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23reactjs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23webdevelopment&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23remotejobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23softwaredevelopment&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23codestratlabs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiringnow&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  12:38 PM\nBhavna S\nBhavna S\n • Following\nFollowing\nSourcing Specialist at DayHawk Consultant| Working w",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7511389567703408641/",
+        "mailto:bhavna.sen@dayhawk.in",
+        "https://www.linkedin.com/search/results/all/?keywords=%23reactjs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23reactdeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23reactjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23frontenddeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23frontendjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23javascript&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23javascriptdeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23webdeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23softwaredeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23itjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23noidajobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23noidahiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23sector62&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiringnow&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23immediatejoiner&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23freshersjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23fresherhiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23internship&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23recentgraduates&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23indiajobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23ithiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23jobopening&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careeropportunity&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  3:17 PM\nAnushka Singh\nAnushka Singh\n • 2nd\n2nd\nStrategic HR & Talent Manager | Expert in Recruitment &",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7513859237735886848/",
+        "mailto:hr@ivorysquid.com"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "Kajal Kumari\nKajal Kumari\n   • Following\nVerified • Following\nHR Executive @CodeXorr | IT Recruitment | Talent Acquisition | HR Operations | Employee ",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7514206501754867712/",
+        "http://b.tech/B.E",
+        "mailto:hr@codexorr.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23mohalijobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23chandigarhjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23tricityjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23itjobsmohali&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23fullstackdeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23mernstackdeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23meanstackdeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23softwaredeveloperjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiringnow&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobsindia&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23developerjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23webdeveloperjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23mohalihiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23chandigarhhiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23itjobsindia&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23wearehiring&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "High Tech Infosystems\nHigh Tech Infosystems\n7,391 followers\n7,391 followers\n5d • \n \n5 days ago • Visible to anyone on or off LinkedIn\n🚀 𝐖𝐞’𝐫𝐞 𝐇𝐢𝐫𝐢𝐧𝐠 𝐢",
+      "links": [
+        "https://www.linkedin.com/company/high-tech-infosystems/posts",
+        "https://www.linkedin.com/company/high-tech-infosystems/posts",
+        "https://www.linkedin.com/feed/update/urn:li:activity:7513186241287467008/",
+        "https://www.linkedin.com/company/high-tech-infosystems/",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23jabalpurjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23reactdeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23uiuxdesigner&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23javadeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23htinfosystems&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23jobopening&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careeropportunity&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  3:30 PM\nSneha Anand\nSneha Anand\n   • Following\nVerified • Following\nHR Executive | Talent Acquisition ",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7510943501346529280/",
+        "mailto:sneha@credaracap.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23fullstackdeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23fintechjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techhiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23developerjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23gurugramjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23workfromhome&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23nbfc&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23credaracapital&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23gurugram&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23ncr&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23delhi&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23tech&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  3:37 PM\nSumalatha A\nSumalatha A\n • Following\nFollowing\nBusiness Development Coordinator at Rayudu Grou",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7513851495012954112/",
+        "mailto:careers@crontle.com"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "SUNDAY\nView Pratik’s profile\nPratik Patidar  (He/Him)  9:39 AM\nswapnil banta\nswapnil banta\n • 2nd\n2nd\nFull Stack & GenAI Developer | React.js, Next.js",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7514554061271023616/",
+        "https://www.linkedin.com/search/results/all/?keywords=%23llm&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23automation&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23claudeai&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23apify&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careertips&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techcareer&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23jobsearch&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  9:39 AM\nswapnil banta\nswapnil banta\n • 2nd\n2nd\nFull Stack & GenAI Developer | React.js, Next.js, Node.",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7514554061271023616/",
+        "https://www.linkedin.com/search/results/all/?keywords=%23llm&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23automation&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23claudeai&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23apify&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careertips&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23techcareer&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23jobsearch&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  10:25 PM\nMr Mozzammel Ridoy\nMr Mozzammel Ridoy\n • 1st\n1st\nFull Stack Developer | Backend Focused | Nod",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7515012405127483392/"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "TODAY\nView Pratik’s profile\nPratik Patidar  (He/Him)  2:04 AM\nWagerGeeks\nWagerGeeks\n6,045 followers\n6,045 followers\n1w • \n \n1 week ago • Visible to an",
+      "links": [
+        "https://www.linkedin.com/company/wagergeeks/posts",
+        "https://www.linkedin.com/company/wagergeeks/posts",
+        "https://www.linkedin.com/feed/update/urn:li:activity:7511055970173911040/",
+        "https://www.linkedin.com/company/wagergeeks/",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "mailto:chandani.chouhan@wagergeeks.com",
+        "mailto:hr@wagergeeks.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23frontenddeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23wagergeeks&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23igaming&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23tech&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23it&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  2:04 AM\nWagerGeeks\nWagerGeeks\n6,045 followers\n6,045 followers\n1w • \n \n1 week ago • Visible to anyone o",
+      "links": [
+        "https://www.linkedin.com/company/wagergeeks/posts",
+        "https://www.linkedin.com/company/wagergeeks/posts",
+        "https://www.linkedin.com/feed/update/urn:li:activity:7511055970173911040/",
+        "https://www.linkedin.com/company/wagergeeks/",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "mailto:chandani.chouhan@wagergeeks.com",
+        "mailto:hr@wagergeeks.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23frontenddeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23wagergeeks&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23igaming&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23tech&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23it&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  12:11 PM\nPallavi Gupta\nPallavi Gupta\n • Following\nFollowing\nSenior Marketing Manager at QuickHire.me\nS",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7515293723400806400/",
+        "https://lnkd.in/gEqt9qbD",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiringalert&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23reactdeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23frontenddeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23reactjs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23noidajobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23javascript&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23itjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23quickhire&origin=HASH_TAG_FROM_FEED",
+        "https://quickhire.me/job/FOy8fevGSIC7LltRlk1P",
+        "https://quickhire.me/job/FOy8fevGSIC7LltRlk1P"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "View Pratik’s profile\nPratik Patidar  (He/Him)  12:22 PM\nVibhuti Ghinaiya\nVibhuti Ghinaiya\n • 2nd\n2nd\nHiring||Business Development Professional across",
+      "links": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7513578456086036480/",
+        "https://www.linkedin.com/company/world-web-technology/",
+        "mailto:career@worldwebtechnology.com",
+        "https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23frontenddeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23html&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23css&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23wordpressdeveloper&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23elementor&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23ahmedabadjobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23wfojobs&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23webdevelopment&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23worldwebtechnology&origin=HASH_TAG_FROM_FEED",
+        "https://www.linkedin.com/search/results/all/?keywords=%23careers&origin=HASH_TAG_FROM_FEED"
+      ],
+      "source": "LinkedIn Guys Group",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "Feed post Sreeya Chary • 2nd HR Recruiter | IT Recruiter | Talent Acquisition Specialist | 4+ Years Experience | End-to-End Recruitment | Candidate So",
+      "source": "LinkedIn Past 24h Feed",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "🚨 HIRING |Java +REact 🏢 MNC | Hybrid Work Mode 💼 Experience: 5–8 Years 📍 Location: Pune/Hyd /indore 📌 Share the below details along with your updated ",
+      "source": "LinkedIn Past 24h Feed",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "Feed post HireGen.IO 2m Follow 🚀 WE ARE HIRING #INTERNS – Immediate Joiners Required! SaiKet Systems is urgently looking for passionate and talented i",
+      "source": "LinkedIn Past 24h Feed",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "🚀 WE ARE HIRING #INTERNS – Immediate Joiners Required! SaiKet Systems is urgently looking for passionate and talented individuals to join our growing ",
+      "source": "LinkedIn Past 24h Feed",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "🚀 WE ARE HIRING #INTERNS – Immediate Joiners Required! 🚀 🔗 Application details: https://lnkd.in/dv4-5kDi Oasis Infobyte is looking for passionate, dri",
+      "source": "LinkedIn Past 24h Feed",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "Feed post Auspify Tech 11m Follow 🚀 WE ARE HIRING – Immediate Joiners Required ! auspify Technologies is urgently looking for passionate and talented ",
+      "source": "LinkedIn Past 24h Feed",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    {
+      "snippet": "🚀 WE ARE HIRING – Immediate Joiners Required ! auspify Technologies is urgently looking for passionate and talented individuals to join our growing te",
+      "source": "LinkedIn Past 24h Feed",
+      "status": "SEEN_UNAPPLIED_DISCARD_ON_SWEEP"
+    },
+    "https://www.adzuna.in/details/5918889158?utm_medium=api&utm_source=22d4b243",
+    "mirafra technologies",
+    "https://www.adzuna.in/details/5918929351?utm_medium=api&utm_source=22d4b243",
+    "mindbowser info solutions",
+    "https://www.adzuna.in/details/5920488485?utm_medium=api&utm_source=22d4b243",
+    "posspole",
+    "https://www.adzuna.in/details/5920526530?utm_medium=api&utm_source=22d4b243",
+    "samunnati financial intermediation & services private limited",
+    "https://www.adzuna.in/details/5923259800?utm_medium=api&utm_source=22d4b243",
+    "eszmeletlen holding co",
+    "https://www.adzuna.in/details/5918889290?utm_medium=api&utm_source=22d4b243",
+    "upcred.ai",
+    "https://www.adzuna.in/details/5916924143?utm_medium=api&utm_source=22d4b243",
+    "cimcon software",
+    "https://www.adzuna.in/details/5916978422?utm_medium=api&utm_source=22d4b243",
+    "janovis infotech",
+    "https://www.adzuna.in/details/5918888299?utm_medium=api&utm_source=22d4b243",
+    "classhose india private limited",
+    "https://www.adzuna.in/details/5923249102?utm_medium=api&utm_source=22d4b243",
+    "apprick technologies pvt ltd",
+    "https://www.adzuna.in/details/5916869730?utm_medium=api&utm_source=22d4b243",
+    "bimakavach",
+    "https://www.adzuna.in/details/5916869911?utm_medium=api&utm_source=22d4b243",
+    "uix labs",
+    "https://www.adzuna.in/details/5923277369?utm_medium=api&utm_source=22d4b243",
+    "www.houseitt.in",
+    "https://www.adzuna.in/details/5918844636?utm_medium=api&utm_source=22d4b243",
+    "digibility solutions pvt. ltd.",
+    "https://www.adzuna.in/details/5916993206?utm_medium=api&utm_source=22d4b243",
+    "datalifehealth services pvt ltd",
+    "https://www.adzuna.in/details/5916979133?utm_medium=api&utm_source=22d4b243",
+    "ownerstown",
+    "https://www.adzuna.in/details/5916979823?utm_medium=api&utm_source=22d4b243",
+    "sense.bio",
+    "https://www.adzuna.in/details/5918909603?utm_medium=api&utm_source=22d4b243",
+    "deployd technologies pvt ltd",
+    "https://www.adzuna.in/details/5916979528?utm_medium=api&utm_source=22d4b243",
+    "aakash edutech",
+    "https://www.adzuna.in/details/5916978491?utm_medium=api&utm_source=22d4b243",
+    "simboai",
+    "https://www.adzuna.in/details/5918845478?utm_medium=api&utm_source=22d4b243",
+    "vector labs tech",
+    "https://www.adzuna.in/details/5918930186?utm_medium=api&utm_source=22d4b243",
+    "restolabs",
+    "https://www.adzuna.in/details/5920569486?utm_medium=api&utm_source=22d4b243",
+    "oga",
+    "https://www.adzuna.in/details/5920569784?utm_medium=api&utm_source=22d4b243",
+    "meyrahkee advisors",
+    "https://www.adzuna.in/details/5923289186?utm_medium=api&utm_source=22d4b243",
+    "epilen",
+    "https://www.adzuna.in/details/5923289069?utm_medium=api&utm_source=22d4b243",
+    "offerxone",
+    "https://www.adzuna.in/details/5923289118?utm_medium=api&utm_source=22d4b243",
+    "armada intelligence inc",
+    "https://www.adzuna.in/details/5923248338?utm_medium=api&utm_source=22d4b243",
+    "cricstox private limited",
+    "https://www.adzuna.in/details/5923259804?utm_medium=api&utm_source=22d4b243",
+    "startupwala",
+    "https://www.adzuna.in/details/5923199383?utm_medium=api&utm_source=22d4b243",
+    "reconectai",
+    "https://www.adzuna.in/details/5923278473?utm_medium=api&utm_source=22d4b243",
+    "dtwelve spaces",
+    "https://www.adzuna.in/details/5916892512?utm_medium=api&utm_source=22d4b243",
+    "serve and volley technologies private limited",
+    "https://www.adzuna.in/details/5923146241?utm_medium=api&utm_source=22d4b243",
+    "alphanext technology solutions",
+    "https://www.adzuna.in/details/5918821447?utm_medium=api&utm_source=22d4b243",
+    "pripton innovations",
+    "https://www.adzuna.in/details/5916866005?utm_medium=api&utm_source=22d4b243",
+    "motiongility",
+    "https://www.adzuna.in/details/5923205262?utm_medium=api&utm_source=22d4b243",
+    "hbits proptech",
+    "https://www.adzuna.in/details/5920486238?utm_medium=api&utm_source=22d4b243",
+    "brandlabs",
+    "https://www.adzuna.in/details/5923229714?utm_medium=api&utm_source=22d4b243",
+    "hashtag labs",
+    "https://www.adzuna.in/details/5920489893?utm_medium=api&utm_source=22d4b243",
+    "talentelgia technologies pvtltd",
+    "https://www.adzuna.in/details/5916869182?utm_medium=api&utm_source=22d4b243",
+    "freeads",
+    "https://www.adzuna.in/details/5916868800?utm_medium=api&utm_source=22d4b243",
+    "onclick innovations",
+    "https://www.adzuna.in/details/5922024697?utm_medium=api&utm_source=22d4b243",
+    "pentabay softwares",
+    "https://www.adzuna.in/details/5922053956?utm_medium=api&utm_source=22d4b243",
+    "knovator technologies",
+    "https://www.adzuna.in/details/5920453830?utm_medium=api&utm_source=22d4b243",
+    "aarohan agri products pvt ltd",
+    "https://www.adzuna.in/details/5922025002?utm_medium=api&utm_source=22d4b243",
+    "blockwoods marketing management opc pvt ltd",
+    "https://www.adzuna.in/details/5918846388?utm_medium=api&utm_source=22d4b243",
+    "settings infotech",
+    "https://www.adzuna.in/details/5916868886?utm_medium=api&utm_source=22d4b243",
+    "dofin tech",
+    "https://www.adzuna.in/details/5916923527?utm_medium=api&utm_source=22d4b243",
+    "medigence",
+    "https://www.adzuna.in/details/5916979321?utm_medium=api&utm_source=22d4b243",
+    "aapna infotech",
+    "https://www.adzuna.in/details/5918869329?utm_medium=api&utm_source=22d4b243",
+    "shine infosoft",
+    "https://www.adzuna.in/details/5918929353?utm_medium=api&utm_source=22d4b243",
+    "smartdata enterprises inc.",
+    "https://www.adzuna.in/details/5916910289?utm_medium=api&utm_source=22d4b243",
+    "gammastack",
+    "https://www.adzuna.in/details/5916911670?utm_medium=api&utm_source=22d4b243",
+    "aekatr technology and services private limited",
+    "https://www.adzuna.in/details/5920569250?utm_medium=api&utm_source=22d4b243",
+    "qss global",
+    "https://www.adzuna.in/details/5922054666?utm_medium=api&utm_source=22d4b243",
+    "vtp infra tech private limited",
+    "https://www.adzuna.in/details/5923259643?utm_medium=api&utm_source=22d4b243",
+    "valuedot",
+    "https://www.adzuna.in/details/5923233400?utm_medium=api&utm_source=22d4b243",
+    "hashstudioz technologies pvt ltd",
+    "https://www.adzuna.in/details/5916892069?utm_medium=api&utm_source=22d4b243",
+    "infomatics technologies",
+    "https://www.adzuna.in/details/5916867494?utm_medium=api&utm_source=22d4b243",
+    "growloc private limited",
+    "https://www.adzuna.in/details/5920509524?utm_medium=api&utm_source=22d4b243",
+    "ajargh kreation",
+    "https://www.adzuna.in/details/5922058896?utm_medium=api&utm_source=22d4b243",
+    "icohort business ventures private limited",
+    "https://www.adzuna.in/details/5916893391?utm_medium=api&utm_source=22d4b243",
+    "design of time co",
+    "https://www.adzuna.in/details/5916869881?utm_medium=api&utm_source=22d4b243",
+    "13kbs"
+  ],
+  "stats": {
+    "total_seen_cached": 173
+  },
+  "inbox_audit_cycle2": {
+    "audited_at": "2026-10-13T12:06:40.908Z",
+    "inbox_summary": {
+      "total_messages": "3,273",
+      "recent_confirmations": [
+        {
+          "from": "Adzuna Applications",
+          "subject": "Copy of application to UI React Developer job in Bengaluru (Acme Services)",
+          "time": "17:04"
+        },
+        {
+          "from": "PlacementIndia",
+          "subject": "OTP request / verified applications",
+          "time": "15:01"
+        },
+        {
+          "from": "Expedia Group (Workday)",
+          "subject": "Thank you for your interest in Expedia Group",
+          "date": "12 Oct"
+        },
+        {
+          "from": "HR WagerGeeks",
+          "subject": "Thank you for contacting Wagergeeks Re: Application for Frontend Developer",
+          "date": "12 Oct"
+        },
+        {
+          "from": "ISP Team",
+          "subject": "Update: Your application has been processed",
+          "date": "12 Oct"
+        }
+      ],
+      "replies_count": 3,
+      "follow_ups_needed": []
+    }
+  }
+}

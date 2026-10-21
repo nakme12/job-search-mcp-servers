@@ -1,0 +1,30 @@
+[
+  {
+    "company": "Direct HR",
+    "role": "Full Stack Developer (MERN / React)",
+    "location": "Remote",
+    "email": "contact@procyn.in",
+    "resume": "Pratik Patidar Resume - MERN Full Stack.pdf"
+  },
+  {
+    "company": "Direct HR",
+    "role": "Frontend / React Developer",
+    "location": "India / Remote",
+    "email": "himangisinghal30091994@gmail.com",
+    "resume": "Pratik Patidar Resume - React Developer.pdf"
+  },
+  {
+    "company": "Direct HR",
+    "role": "Full Stack Developer (MERN / React)",
+    "location": "Remote",
+    "email": "apply@triedge.in",
+    "resume": "Pratik Patidar Resume - MERN Full Stack.pdf"
+  },
+  {
+    "company": "Direct HR",
+    "role": "MERN Stack Developer",
+    "location": "Pune",
+    "email": "hr@nititechnologiesindia.com",
+    "resume": "Pratik Patidar Resume - MERN Full Stack.pdf"
+  }
+]

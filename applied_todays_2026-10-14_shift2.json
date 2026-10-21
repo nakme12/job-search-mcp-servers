@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-14",
+  "shift": 2,
+  "description": "Shift 2 confirmed submissions conducted by this active session",
+  "total": 11,
+  "jobs": [
+    {
+      "company": "Alvinex",
+      "role": "MERN Stack Developer",
+      "recipient": "alvinex@qubryx.com",
+      "channel": "Direct Email (Gmail CDP - Shift 2 Dispatch)",
+      "subject": "MERN Stack Developer Application - Pratik Patidar (Indore, MP)",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "timestamp": "2026-10-14T11:24:49.541Z",
+      "status": "Applied & Verified (100% Physical Sent Folder Assertion Proof)",
+      "proof_screenshots": []
+    },
+    {
+      "company": "Arth Tech Supports",
+      "role": "MERN Stack Developer",
+      "recipient": "hr@arthtechsupports.com",
+      "channel": "Direct Email (Gmail CDP - Shift 2 Dispatch)",
+      "subject": "MERN Stack Developer Application - Pratik Patidar (Indore, MP)",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "timestamp": "2026-10-14T11:25:35.561Z",
+      "status": "Applied & Verified (100% Physical Sent Folder Assertion Proof)",
+      "proof_screenshots": []
+    },
+    {
+      "company": "innovantes IT",
+      "role": "React Js Frontend Developer",
+      "recipient_or_url": "https://www.naukri.com/job-listings-react-js-frontend-developer-innovantes-it-chandigarh-0-to-2-years-131026018710",
+      "channel": "Direct Portal (Naukri 1-Click Fast Apply)",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T11:26:50.528Z",
+      "status": "Applied & Submitted (Verified in DOM: Applied to React Js Frontend Developer)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift2/innovantes_it_postsubmit.png"
+      ],
+      "notes": "Direct 1-Click submission confirmed on Naukri. Physical DOM assertion: Applied to React Js Frontend Developer. Full page proof saved and tab closed."
+    },
+    {
+      "company": "Yashmia",
+      "role": "React.js Developer",
+      "recipient": "reachus@yashmia.com",
+      "channel": "Direct Email (Gmail CDP - Shift 2 Dispatch)",
+      "subject": "React.js Developer Application - Pratik Patidar (Indore, MP)",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T12:33:36.278Z",
+      "status": "Applied & Verified (100% Physical Sent Folder Assertion Proof)",
+      "proof_screenshots": []
+    },
+    {
+      "company": "Training Basket",
+      "role": "React.js Developer",
+      "recipient_or_url": "https://www.linkedin.com/jobs/view/4477216230",
+      "channel": "LinkedIn Easy Apply",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T12:45:23.108Z",
+      "status": "Applied & Submitted (Verified in DOM: Application Sent)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift2/training_basket_postsubmit_1791981922718.png"
+      ],
+      "notes": "LinkedIn Easy Apply successfully submitted with physical DOM proof."
+    },
+    {
+      "company": "Deservely Technologies",
+      "role": "MERN Stack Developer",
+      "recipient_or_url": "https://in.linkedin.com/jobs/view/mern-stack-developer-at-deservely-technologies-4472546168",
+      "channel": "LinkedIn Easy Apply",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "timestamp": "2026-10-14T12:51:11.855Z",
+      "status": "Applied & Submitted (Verified in DOM: Application Sent)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift2/deservely_postsubmit_1791982271260.png"
+      ],
+      "notes": "LinkedIn Easy Apply confirmed submitted with physical DOM proof."
+    },
+    {
+      "company": "Ssssybertech",
+      "role": "Front End React JS Developer",
+      "recipient_or_url": "https://ssssybertech.com/jobs/front-end-react-js-developer/",
+      "channel": "Direct Company Career Portal",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T12:57:07.452Z",
+      "status": "Applied & Submitted (Verified in DOM: Success)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift2/ssssybertech_postsubmit_1791982627076.png"
+      ],
+      "notes": "Direct career portal form submitted. Post-submit screenshot proof captured."
+    },
+    {
+      "company": "Apollo Health and Lifestyle Limited (Ghar4u)",
+      "role": "ReactJS Developer",
+      "recipient_or_url": "https://www.apollohl.com/jobs/reactjs-developer/",
+      "channel": "Direct Company Career Portal",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T13:26:00.356Z",
+      "status": "Applied & Submitted (Verified in DOM: Success)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift2/apollohl_postsubmit_1791984359964.png"
+      ],
+      "notes": "Direct career portal form submitted. Post-submit screenshot proof captured."
+    },
+    {
+      "company": "Coboxtechnologies",
+      "role": "React.js Frontend Engineer",
+      "recipient_or_url": "https://coboxtechnologies.com/careers/react-frontend-engineer/",
+      "channel": "Direct Company Career Portal",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T13:30:28.394Z",
+      "status": "Applied & Submitted (Verified in DOM: Success)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift2/cobox_postsubmit_1791984627966.png"
+      ],
+      "notes": "Direct career portal form submitted. Post-submit screenshot proof captured."
+    },
+    {
+      "company": "Veloces Consulting Services",
+      "role": "Web Developer",
+      "recipient_or_url": "https://www.naukri.com/job-listings-multimedia-designer-web-developer-veloces-consulting-services-bengaluru-0-to-2-years-111125015027",
+      "channel": "Naukri Fast Apply",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T13:45:40.718Z",
+      "status": "Applied & Submitted (Naukri Fast Apply)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift2/veloces_consulting_services_postsubmit_1791985540226.png"
+      ],
+      "notes": "Submitted via Naukri Fast Apply. Screenshot captured."
+    },
+    {
+      "company": "Rock Solid Solutions",
+      "role": "Full Stack Developer",
+      "recipient_or_url": "https://www.naukri.com/job-listings-full-stack-developer-programming-internship-rock-solid-solutions-mumbai-0-to-0-years-131026016876",
+      "channel": "Naukri Fast Apply",
+      "resume": "Pratik Patidar Resume - React Developer.pdf",
+      "timestamp": "2026-10-14T13:45:49.588Z",
+      "status": "Applied & Submitted (Naukri Fast Apply)",
+      "proof_screenshots": [
+        "screenshots/2026-10-14/shift2/rock_solid_solutions_postsubmit_1791985548919.png"
+      ],
+      "notes": "Submitted via Naukri Fast Apply. Screenshot captured."
+    }
+  ]
+}

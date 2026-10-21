@@ -5,7 +5,7 @@ export const SENIOR_WORD = /\b(senior|sr\.?|lead|staff|principal|architect|head 
 
 export const NON_STACK_WORD = /\b(recruiter|recruiting|talent acquisition|hr coordinator|sourcer|linux kernel|c\+\+|rust|embedded|hardware|firmware|devops|site reliability|sre|security engineer|brand designer|graphic designer|copywriter|translator|linguist|ios|android|mobile developer|flutter developer|react native)\b/i;
 
-export const POSITIVE_FRONTEND_WORD = /\b(frontend|front-end|front end|react|react\.js|reactjs|next\.js|nextjs|javascript|typescript|web developer|web engineer|ui developer|ui engineer|full stack|fullstack|mern|product engineer|software engineer)\b/i;
+export const POSITIVE_FRONTEND_WORD = /\b(frontend|front-end|front end|react|react\.js|reactjs|next\.js|nextjs|javascript|typescript|web developer|web engineer|web development|ui developer|ui engineer|ui\/ux developer|full stack|fullstack|mern|product engineer|software engineer|software developer)\b/i;
 
 export function detectMinYearsExperience(text) {
   if (!text) return null;
@@ -20,7 +20,13 @@ export function detectMinYearsExperience(text) {
 }
 
 export function looksSenior(title, description) {
-  return SENIOR_WORD.test(title || "") || SENIOR_WORD.test(description || "");
+  // Title-First Seniority: Drop if title is explicitly Senior / Lead / Staff / Architect / Principal / Manager
+  if (SENIOR_WORD.test(title || "")) return true;
+  // If description explicitly specifies "Senior Developer required" or "Lead Developer role"
+  if (/\b(senior developer|sr\. developer|lead developer|lead engineer|principal engineer|architect role|engineering manager)\b/i.test(description || "")) {
+    return true;
+  }
+  return false;
 }
 
 export function isNonStack(title, description) {

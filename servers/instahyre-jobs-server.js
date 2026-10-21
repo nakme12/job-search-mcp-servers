@@ -152,7 +152,12 @@ server.registerTool(
         const title = job.title || job.candidate_title || "";
         if (titleRegexes.length && !titleRegexes.some((re) => re.test(title))) continue;
 
-        const exp = evaluateExperience({ title, description: null }, maxYearsExperience, excludeSeniorTitles);
+        const keywordsText = (job.keywords || []).join(" ");
+        const exp = evaluateExperience(
+          { title, description: keywordsText },
+          maxYearsExperience,
+          excludeSeniorTitles
+        );
         const fresh = evaluateFreshness({ title, employmentType: null, postedDate: null }, maxAgeDays, excludeInternships);
         const exclude = exp.exclude || fresh.exclude;
 

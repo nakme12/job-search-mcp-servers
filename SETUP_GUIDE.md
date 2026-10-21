@@ -46,15 +46,16 @@ cp .env.example .env
 
 ---
 
-### **Step 4: Launch Chrome with Remote Debugging (Port 9222)**
-Before running CDP dispatch or browser verification scripts, start Chrome with remote debugging:
+### **Step 4: Launch Brave Browser with Remote Debugging (Port 9222)**
+Before running CDP dispatch or browser verification scripts, start Brave Browser (Default Engine) with remote debugging:
 
 **On Windows:**
 ```powershell
-& "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\ChromeDebugProfile"
+& "C:\Users\LENOVO\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe" --remote-debugging-port=9222 --restore-last-session
 ```
+*(Chrome Alternative: `& "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\ChromeDebugProfile"`)*
 
-> 💡 **Tip:** In this opened Chrome window, log in to:
+> 💡 **Tip:** In this opened browser window, log in to:
 > 1. `pratikpatidar7990@gmail.com` (Gmail)
 > 2. `linkedin.com` (LinkedIn)
 > 3. `web.whatsapp.com` (WhatsApp Web)

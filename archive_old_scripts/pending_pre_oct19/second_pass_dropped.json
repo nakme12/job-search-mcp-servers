@@ -1,0 +1,17 @@
+[
+  {
+    "id": 89,
+    "company": "Capgemini",
+    "role": "Full Stack Developer - Node/ React/ AWS",
+    "location": "Dallas, TX",
+    "url": "https://www.capgemini.com/jobs/571398-en_US_SAPBTP/",
+    "source": "TheirStack",
+    "resume_mapped": "Pratik Patidar Resume - MERN Full Stack.pdf",
+    "date_posted": "2026-10-14",
+    "status": "VERIFIED_AUDITED",
+    "discovered_at": "2026-10-15T06:07:29.446Z",
+    "live_date_parsed": "location is $82,082 to $193,440",
+    "audited_at": "2026-10-15T13:16:56.617Z",
+    "second_pass_drop": "NO_LIVE_FORM_OR_APPLY_BUTTON"
+  }
+]

@@ -1,0 +1,3711 @@
+{
+  "last_updated": "2026-10-14T07:31:14.421Z",
+  "summary": {
+    "total": 431,
+    "applied": 252,
+    "skipped": 90,
+    "unapplied_ready": 89
+  },
+  "jobs": [
+    {
+      "status": "APPLIED",
+      "company": "DigiPrima Technologies",
+      "role": "Frontend / React Developer",
+      "location": "Indore, MP",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@digiprima.com",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Data Eminence",
+      "role": "Full Stack Developer (React / Next.js / TypeScript)",
+      "location": "India (Remote)",
+      "channel": "LinkedIn Easy Apply",
+      "url_or_recipient": "https://www.linkedin.com/jobs/view/4474210588/",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Postman",
+      "role": "Software Engineer (Frontend Automation & UI)",
+      "location": "Bengaluru / Remote",
+      "channel": "Direct Portal (Company Career Portal)",
+      "url_or_recipient": "https://www.postman.com/company/careers/",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "MapUp",
+      "role": "Frontend Engineer",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Company Career Portal)",
+      "url_or_recipient": "https://www.mapup.ai/careers/frontend-engineer-remote-work/apply",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Edstem Technologies",
+      "role": "Software Engineer - Frontend (React)",
+      "location": "Thiruvananthapuram / Remote",
+      "channel": "Direct Portal (Company Career Portal)",
+      "url_or_recipient": "https://edstem.com/careers",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "GoML",
+      "role": "Frontend Developer (React/TS)",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Company Career Portal)",
+      "url_or_recipient": "https://goml.io/careers",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Mitigata™",
+      "role": "Frontend Developer (React/Tailwind)",
+      "location": "Bengaluru / Remote",
+      "channel": "Direct Portal (Company Career Portal)",
+      "url_or_recipient": "https://mitigata.com/careers",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Walkover Technologies",
+      "role": "Frontend / React Developer",
+      "location": "Indore (Local IT)",
+      "channel": "Direct Portal (Company Career Portal)",
+      "url_or_recipient": "https://walkover.in/careers/",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "ElevenLabs",
+      "role": "Frontend Leaning Engineer",
+      "location": "Remote / Global",
+      "channel": "Direct Portal (Ashby ATS)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/elevenlabs/5494be31-7899-4f7a-b10f-4c49378b44ef",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Tavily",
+      "role": "Software Engineer - Web Crawling",
+      "location": "Remote / Global",
+      "channel": "Direct Portal (Ashby ATS)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/tavily/2bf1e995-6aa1-49a6-9929-e72f6d787274",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Resend (Europe)",
+      "role": "Software Engineer, Developer Tools",
+      "location": "Remote / Global",
+      "channel": "Direct Portal (Ashby ATS)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/resend/2e3d92c5-79d9-4511-8faf-e2326e7a081e",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Resend (Americas)",
+      "role": "Software Engineer, Developer Tools",
+      "location": "Remote / Global",
+      "channel": "Direct Portal (Ashby ATS)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/resend/53d3710a-2d55-42ac-ba90-cdfd306bf560",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "LangChain AI",
+      "role": "Frontend Engineer, AI Observability & Evals Platform",
+      "location": "Remote / India / US",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/langchain/f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "RAMP",
+      "role": "Software Engineer, Frontend, Growth",
+      "location": "Remote / Global",
+      "channel": "Direct Portal (Ashby ATS)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/ramp/7cd46077-05fe-4cd7-816f-5528638342f1",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Qualcomm",
+      "role": "Full Stack / MERN Developer",
+      "location": "Bangalore / Remote",
+      "channel": "Direct Portal (Workday ATS)",
+      "url_or_recipient": "https://careers.qualcomm.com/careers/job/446719814299",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Brex",
+      "role": "Software Engineer II, Identity and Access Management",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Greenhouse ATS)",
+      "url_or_recipient": "https://www.brex.com/careers/8860822002",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Recharge Studio",
+      "role": "React / Frontend Developer",
+      "location": "Indore (Local IT)",
+      "channel": "Direct Email (Telegram Harvest)",
+      "url_or_recipient": "sakshi.yadav@reachargestudio.com",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Debut Infotech",
+      "role": "Full Stack Developer (MERN)",
+      "location": "Mohali / Remote",
+      "channel": "Direct Email (Telegram Harvest)",
+      "url_or_recipient": "ankita.sharma@debutinfotech.com",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Rudra Innovation",
+      "role": "MERN Stack Developer",
+      "location": "Mohali / Remote",
+      "channel": "Direct Email (Telegram Harvest)",
+      "url_or_recipient": "amrita@rudrainnovative.com",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Virtusa",
+      "role": "Java / React Developer",
+      "location": "Chennai / Remote",
+      "channel": "Direct Email (Telegram Harvest)",
+      "url_or_recipient": "krithikaprasad@virtusa.com",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "VIPSA Talent Solutions",
+      "role": "AI / Full Stack Developer",
+      "location": "Bangalore / Remote",
+      "channel": "Direct Email (Telegram Harvest)",
+      "url_or_recipient": "santhosh.kumar@vipsasolutions.com",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Technotoil",
+      "role": "React / Node.js Developer",
+      "location": "Indore (Local IT)",
+      "channel": "Direct Email (Telegram Harvest)",
+      "url_or_recipient": "careers@technotoil.com",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "CANONICAL",
+      "role": "Junior Ubuntu Software Engineer",
+      "location": "Home based - Worldwide",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/canonical/jobs/6707669",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Stripe",
+      "role": "Software Engineer, Frontend",
+      "location": "Remote (Global / India)",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/stripe/jobs/6129841",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "PostHog",
+      "role": "Full Stack Engineer (React/Node)",
+      "location": "Remote (Global / India)",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/posthog/fullstack",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Linear",
+      "role": "Product Engineer, Web / Frontend",
+      "location": "Remote (Global / India)",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/linear/product-engineer",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Supabase",
+      "role": "Frontend Developer",
+      "location": "Remote (Global / India)",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/supabase/frontend",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Vercel",
+      "role": "Software Engineer, Frontend / Next.js",
+      "location": "Remote (Global / India)",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/vercel/jobs/5029312",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "OpenAI",
+      "role": "Full Stack Software Engineer, Product Explorations",
+      "location": "Remote / Global",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/openai/4d1ede8c-3d4c-4503-8408-81e4b68c5c91/application",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Canonical",
+      "role": "Graduate Software Engineer, Linux Ubuntu",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/canonical/jobs/8249005",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Canonical",
+      "role": "Web Developer - Web Team",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/canonical/jobs/2804965",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Canonical",
+      "role": "Web Frontend Engineer - JS, CSS, React, Flutter",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/canonical/jobs/5150422",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "LangChain AI",
+      "role": "Frontend Engineer, AI Observability & Evals Platform",
+      "location": "Remote / US / India",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/langchain/f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c/application",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "TechMayntra IT Solutions",
+      "role": "React.js Developer",
+      "location": "Indore / Hybrid",
+      "channel": "Direct Portal Form",
+      "url_or_recipient": "https://techmayntra.com/jobs/react-js-developer/",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "OpenAI",
+      "role": "Frontend Software Engineer, Codex App",
+      "location": "Remote / Global",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/openai/4d1ede8c-3d4c-4503-8408-81e4b68c5c91",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "ValGenesis",
+      "role": "Software Engineer - Fullstack",
+      "location": "Bangalore / Remote",
+      "channel": "Direct Portal",
+      "url_or_recipient": "https://careers.valgenesis.com/",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Notion",
+      "role": "Software Engineer, New Grad (Dec 2026)",
+      "location": "Remote / US / Global",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Coinbase",
+      "role": "Software Engineer - Money Movement",
+      "location": "Remote (India)",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://www.coinbase.com/careers/positions/8177946?gh_jid=8177946",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Twilio",
+      "role": "Software Engineer L2 - Cloud Infrastructure",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/twilio/jobs/7434770",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "GitLab",
+      "role": "Intermediate Software Engineer",
+      "location": "Remote (Global)",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/gitlab/jobs/8688078002",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Notion",
+      "role": "Software Engineer, Product Infrastructure",
+      "location": "Remote / India / US",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/notion/ca74504a-9b91-4ce3-b0df-97919b46e749",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Notion",
+      "role": "Software Engineer, Model Capabilities",
+      "location": "Remote / India / US",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/notion/ab383335-1dd5-4d6a-971f-439cebf48a9d/application",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "OpenAI",
+      "role": "Software Engineer, Data Systems",
+      "location": "Remote / US / Global",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01/application",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Notion",
+      "role": "Software Engineer, Security",
+      "location": "Remote / India / US",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/notion/e3d8dc06-da05-4e9d-a143-2e9c51fa3d51/application",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Notion",
+      "role": "Software Engineer, Mobile Core",
+      "location": "Remote / India / US",
+      "channel": "Direct Portal (Ashby)",
+      "url_or_recipient": "https://jobs.ashbyhq.com/notion/d82a0b31-59b8-4699-ae8d-6fb3fe47518c/application",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Canonical",
+      "role": "Software Engineer, App Stores",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/canonical/jobs/3159992",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Canonical",
+      "role": "Software Engineer, Cloud Sustaining",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/canonical/jobs/3062022",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Canonical",
+      "role": "Software Engineer, L3 Support",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/canonical/jobs/6635671",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Canonical",
+      "role": "Software Engineer, Python Kubernetes",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/canonical/jobs/3752633",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Canonical",
+      "role": "Software Engineer, Sustaining Engineering",
+      "location": "Remote / India",
+      "channel": "Direct Portal (Greenhouse)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/canonical/jobs/3326693",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Expedia Group",
+      "role": "Software Development Engineer II- Full Stack (R-110053)",
+      "location": "Gurgaon / Remote",
+      "channel": "Direct Portal (Workday ATS)",
+      "url_or_recipient": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Software-Development-Engineer-II--Full-Stack_R-110053",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Cargill",
+      "role": "Software Engineer - Full Stack (React / Node.js)",
+      "location": "Bangalore / Remote",
+      "channel": "Direct Portal (SuccessFactors)",
+      "url_or_recipient": "https://careers.cargill.com/en/search-jobs/334929",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Infoesearch ITES",
+      "role": "Frontend Engineer (React.js)",
+      "location": "Remote / India",
+      "channel": "Direct Portal / Naukri Direct",
+      "url_or_recipient": "https://www.naukri.com/job-listings-frontend-engineer-react-infoesearch-remote-0-to-2-years-240926503696",
+      "date": "2026-10-08"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Web3 US Project",
+      "role": "MERN Stack Developer",
+      "location": "Remote (Global)",
+      "channel": "Direct Email",
+      "url_or_recipient": "remotedevrecruiter@gmail.com",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Kikani Pinkal (Hiring Recruiter)",
+      "role": "Full Stack / MERN Developer",
+      "location": "India",
+      "channel": "WhatsApp Dev Outreach",
+      "url_or_recipient": "+91 94271 36629 (WhatsApp)",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Marriott Tech Accelerator (Talent500)",
+      "role": "Software Engineer (Frontend / React)",
+      "location": "India",
+      "channel": "Direct Portal",
+      "url_or_recipient": "https://app.talent500.co/",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "NetApp",
+      "role": "Software Engineer (IC2) - Full Stack",
+      "location": "Bangalore, Karnataka",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://jobs.netapp.com/job/Bangalore%2C-Karnataka-Software-Engineer/1437142600/",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Ivory Squid Pvt Ltd",
+      "role": "React Developer",
+      "location": "Bangalore (WFO)",
+      "channel": "DIRECT_EMAIL",
+      "url_or_recipient": "ivory squid pvt ltd",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Lucid Growth Media",
+      "role": "Full-Stack Engineer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@lucidgrowth.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Appscrip",
+      "role": "Frontend / React.js Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@appscrip.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "PradeepIT Consulting",
+      "role": "React JS Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@pradeepit.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "3rd Digital Pvt. Ltd.",
+      "role": "React JS Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@3rddigital.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "AspireEdge Solutions",
+      "role": "Full Stack Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@aspireedge.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "HL TECH INDIA",
+      "role": "Full Stack Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@hltechindia.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Gsource Technologies",
+      "role": "Frontend Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "charu.burde@gsourcedata.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Adobe",
+      "role": "Computer Scientist I (Frontend)",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "accommodations@adobe.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "NewPage Solution Inc",
+      "role": "Fullstack Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "shubhi.tiwari@newpage.io",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Micron",
+      "role": "Quality FrontEnd Engineer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hrsupport_india@micron.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Newtuple Technologies",
+      "role": "Front End Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "support@internshala.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Marsh McLennan",
+      "role": "Frontend UI Engineer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "support@apna.co",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Jobgether Partner",
+      "role": "React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "support@jobgether.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "TECHVARIABLE",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@techvariable.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "ZYMR",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@zymr.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "VELOTIO",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "jobs@velotio.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "GEEKYANTS",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "talent@geekyants.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "SOLULAB",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@solulab.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "CODITAS",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@coditas.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "APPINVENTIV",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "jobs@appinventiv.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "PROMACTINFO",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@promactinfo.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "BIGSTEPTECH",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@bigsteptech.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "SIMFORM",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "jobs@simform.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "BACANCY",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@bacancy.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "INTELLICUS",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "aditi.jain@intellicus.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "UNTANGLEIT",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@untangleit.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "BESTPEERS",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@bestpeers.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "WALKOVER",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@walkover.in",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "HACKERKERNEL",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@hackerkernel.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "INFOGRAINS",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "jobs@infograins.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "SYSTEMATIXINDIA",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@systematixindia.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "DIASPARK",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@diaspark.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "CISIN",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@cisin.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "YASH",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@yash.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "IMPETUS",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "jobs@impetus.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "VINOVE",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@vinove.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "INFOBEANS",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@infobeans.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "TALENTEDGE",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@talentedge.in",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "STACKWORX",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "fiza@stackworx.co",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "GMAIL",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "symptoza@gmail.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "AppZime Technologies",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Recruiter Email",
+      "url_or_recipient": "surbhi.jindal@appzime.com",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "ASJTRANSGLOBALLLP",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@asjtransgloballlp.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "REVAHR",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "jobs@revahr.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "TECHNOMUNI",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "kumar@technomuni.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "MONARCHPLACEMENTS",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@monarchplacements.in",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "ALPHACOM",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "arati.vidyagar@alphacom.in",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "NEXOSSOFT",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "Kunal@nexossoft.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "FUSIONGRIDTEK",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "satya@fusiongridtek.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "DEBUTINFOTECH",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@debutinfotech.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "TECHNOTOIL",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hiring@technotoil.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "VIRTUSA",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "talent@virtusa.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "MINDTREE",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@mindtree.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "CYBAGE",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@cybage.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "ZENSAR",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "jobs@zensar.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "BIRLASOFT",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@birlasoft.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "PERSISTENT",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "hr@persistent.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "HEXAWARE",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@hexaware.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "LTIMINDTREE",
+      "role": "Frontend / React Developer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "jobs@ltimindtree.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Jobaaj.com",
+      "role": "Frontend Developer",
+      "location": "India",
+      "channel": "Portal Form",
+      "url_or_recipient": "https://jobaaj.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "ONE Soft Systems",
+      "role": "React Developer",
+      "location": "India",
+      "channel": "Portal Form",
+      "url_or_recipient": "https://onesoft.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Z Tech Solutions",
+      "role": "UI Engineer",
+      "location": "India",
+      "channel": "Portal Form",
+      "url_or_recipient": "https://ztech.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Shashwath Solution Noida",
+      "role": "Frontend Developer",
+      "location": "India",
+      "channel": "Portal Form",
+      "url_or_recipient": "https://shashwathsolution.com",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Cutshort (Office day Innovation)",
+      "role": "React Developer",
+      "location": "India",
+      "channel": "Portal Form",
+      "url_or_recipient": "https://cutshort.io",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Bestoseo Solutions",
+      "role": "Web Developer Executive",
+      "location": "India",
+      "channel": "Portal Form",
+      "url_or_recipient": "https://www.naukri.com/job-listings-web-developer-excutive-bestoseo-thane-0-to-2-years-290926501403",
+      "date": "2026-10-06"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Infowind Technologies",
+      "role": "MERN Stack Developer",
+      "location": "Indore",
+      "channel": "Direct Recruiter Email",
+      "url_or_recipient": "hr@infowindtech.com",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Vegavid Technology",
+      "role": "React / MERN Developer",
+      "location": "Remote / Noida",
+      "channel": "Direct Recruiter Email",
+      "url_or_recipient": "hr@vegavid.com",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Zecdata",
+      "role": "Frontend Developer (React / TS)",
+      "location": "Remote / India",
+      "channel": "Direct Recruiter Email",
+      "url_or_recipient": "anamika.p@zecdata.com",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Senwell Group",
+      "role": "React Developer",
+      "location": "Pune / Remote",
+      "channel": "Direct Recruiter Email",
+      "url_or_recipient": "techrecruiter@senwellsys.com",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Neemtree",
+      "role": "Frontend React Developer",
+      "location": "Remote / India",
+      "channel": "Direct Recruiter Email",
+      "url_or_recipient": "tejal.lahamge@neemtree.in",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "ESQRD",
+      "role": "Frontend Engineer (React/Next/TS)",
+      "location": "Remote",
+      "channel": "Direct Recruiter Email",
+      "url_or_recipient": "krystian@esqrd.com",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Kikani Pinkal (Developer Referral)",
+      "role": "Frontend / MERN Engineer",
+      "location": "India",
+      "channel": "Direct WhatsApp Outreach",
+      "url_or_recipient": "+91 94271 36629 (WhatsApp Web)",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Marriott Tech Accelerator / Talent500",
+      "role": "Software Engineer",
+      "location": "India",
+      "channel": "Portal Form",
+      "url_or_recipient": "Talent500 Portal",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Zibma Technology",
+      "role": "Next.js Developer",
+      "location": "Surat, Gujarat",
+      "channel": "Direct Recruiter Email",
+      "url_or_recipient": "hr@zibma.com",
+      "date": "2026-10-07"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Synthlane",
+      "role": "Full Stack Engineer",
+      "location": "India",
+      "channel": "Direct Email",
+      "url_or_recipient": "careers@synthlane.com",
+      "date": "2026-10-05"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Pentabay Software",
+      "role": "AI / React / Node Developer",
+      "location": "India",
+      "channel": "Email/Portal",
+      "url_or_recipient": "ai / react / node developer",
+      "date": "2026-10-09T09:02:22.960Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Resend",
+      "role": "Software Engineer, Developer Tools (Americas)",
+      "location": "India",
+      "channel": "Email/Portal",
+      "url_or_recipient": "software engineer, developer tools (americas)",
+      "date": "2026-10-09T09:02:55.061Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Resend",
+      "role": "Software Engineer, Developer Tools (Europe)",
+      "location": "India",
+      "channel": "Email/Portal",
+      "url_or_recipient": "software engineer, developer tools (europe)",
+      "date": "2026-10-09T09:03:26.521Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Finhaat Insurance Broking",
+      "role": "React JS Developer",
+      "location": "India",
+      "channel": "Email/Portal",
+      "url_or_recipient": "react js developer",
+      "date": "2026-10-09T09:04:42.080Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Elevate Tech",
+      "role": "Full Stack / MERN Developer",
+      "location": "India",
+      "channel": "Direct HR Email",
+      "url_or_recipient": "careers@elevatetech.in",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Intelligrow",
+      "role": "Frontend / Web Developer",
+      "location": "India",
+      "channel": "Direct HR Email",
+      "url_or_recipient": "shree@intelligrow.co",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Techuz Infoweb",
+      "role": "MERN Stack Developer",
+      "location": "India",
+      "channel": "Direct HR Email",
+      "url_or_recipient": "hr@techuz.com",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "MargERP",
+      "role": "Node / Web Developer",
+      "location": "India",
+      "channel": "Direct HR Email",
+      "url_or_recipient": "gaurav.s@margerp.com",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "WS Technology",
+      "role": "Frontend / Web Developer",
+      "location": "India",
+      "channel": "Direct HR Email",
+      "url_or_recipient": "career.hrjobs01@gmail.com",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Liftor",
+      "role": "Full Stack / React Developer",
+      "location": "India",
+      "channel": "Direct HR Email",
+      "url_or_recipient": "admin@liftor.in",
+      "date": "2026-10-09"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Dollop Infotech",
+      "role": "MERN Stack Developer",
+      "location": "India",
+      "channel": "Direct Email (Indore IT)",
+      "url_or_recipient": "dollop infotech",
+      "date": "2026-10-09T09:05:45.266Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "HackerKernel",
+      "role": "React or Node Developer",
+      "location": "India",
+      "channel": "LinkedIn Portal",
+      "url_or_recipient": "hackerkernel",
+      "date": "2026-10-09T09:06:50.281Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Jobgether",
+      "role": "Frontend Engineer",
+      "location": "India",
+      "channel": "Lever Portal",
+      "url_or_recipient": "jobgether",
+      "date": "2026-10-09T09:07:17.106Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Raglic",
+      "role": "Next.js Developer (Tailwind CSS)",
+      "location": "India",
+      "channel": "LinkedIn Portal",
+      "url_or_recipient": "raglic",
+      "date": "2026-10-09T09:07:42.142Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Cimpress",
+      "role": "Frontend Developer",
+      "location": "Mumbai / Hybrid",
+      "channel": "LinkedIn Easy Apply",
+      "url_or_recipient": "cimpress",
+      "date": "2026-10-09T12:55:56.634Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Career Opportunities Portal (Direct Form)",
+      "role": "Frontend Developer (React / Next.js)",
+      "location": "Indore, MP / Hybrid",
+      "channel": "Direct Google Intake Form",
+      "url_or_recipient": "career opportunities portal (direct form)",
+      "date": "2026-10-09T13:07:07.919Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "CareerXperts Consulting (Tech Hiring)",
+      "role": "Javascript / Frontend Developer (1.5 YOE)",
+      "location": "Remote / India",
+      "channel": "LinkedIn Easy Apply",
+      "url_or_recipient": "careerxperts consulting (tech hiring)",
+      "date": "2026-10-09T13:33:03.580Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Unicraft Tech",
+      "role": "Full Stack / React Developer",
+      "location": "Remote",
+      "channel": "Direct Recruiter Email (CDP Sent Verified)",
+      "url_or_recipient": "unicraft tech",
+      "date": "2026-10-10T06:57:08.981Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Infoloop",
+      "role": "Frontend Developer (React/UI)",
+      "location": "Remote",
+      "channel": "Direct Recruiter Email (CDP Sent Verified)",
+      "url_or_recipient": "infoloop",
+      "date": "2026-10-10T06:58:29.186Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Web Seeder",
+      "role": "MERN Stack Developer",
+      "location": "Remote",
+      "channel": "Direct Recruiter Email (CDP Sent Verified)",
+      "url_or_recipient": "web seeder",
+      "date": "2026-10-10T06:59:49.459Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Medantrik",
+      "role": "Full Stack / React Developer",
+      "location": "Noida",
+      "channel": "Direct Recruiter Email (CDP Sent Verified)",
+      "url_or_recipient": "medantrik",
+      "date": "2026-10-10T07:01:09.638Z"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Innosoft Group",
+      "role": "Full Stack Developer",
+      "location": "India",
+      "channel": "Email/Portal",
+      "url_or_recipient": "innosoft group",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "CognitBotz Solutions",
+      "role": "Frontend Developer",
+      "location": "India",
+      "channel": "Email/Portal",
+      "url_or_recipient": "cognitbotz solutions",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Cybernative Technologies",
+      "role": "Full Stack Developer",
+      "location": "India",
+      "channel": "Email/Portal",
+      "url_or_recipient": "cybernative technologies",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "CodeStrat Labs",
+      "role": "Frontend Developer",
+      "location": "India",
+      "channel": "Email/Portal",
+      "url_or_recipient": "codestrat labs",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "DayHawk Consultant",
+      "role": "ReactJS Developer",
+      "location": "India",
+      "channel": "Email/Portal",
+      "url_or_recipient": "dayhawk consultant",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Innosoft Group",
+      "role": "MERN Stack Developer",
+      "location": "Indore, MP",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@innosoft-group.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Cybernative Technologies",
+      "role": "Full Stack Developer",
+      "location": "Remote / Ahmedabad",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@cybernative.in",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "CodeStrat Labs",
+      "role": "Frontend Developer",
+      "location": "Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hiring@codestratlabs.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "CognitBotz Solutions",
+      "role": "Frontend Developer (Next.js/TS)",
+      "location": "Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "Vsushma@cognitBotz.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "DayHawk Consultant",
+      "role": "ReactJS Developer",
+      "location": "Remote / Noida",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "bhavna.sen@dayhawk.in",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Mxpertz Infolabs",
+      "role": "Front End Developer (React.js)",
+      "location": "Indore, MP",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@mxpertz.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Kuvaka Tech",
+      "role": "Frontend Developer (React)",
+      "location": "Indore, MP",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "careers@kuvakatech.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Affirm",
+      "role": "Software Engineer I, Frontend (Upfunnel)",
+      "location": "Remote / Global",
+      "channel": "Direct Portal (Greenhouse ATS)",
+      "url_or_recipient": "https://job-boards.greenhouse.io/affirm/jobs/7985907003",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Axquora Technologies",
+      "role": "Frontend Developer",
+      "location": "Indore, MP",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@axquora.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Visdum",
+      "role": "Frontend Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "careers@visdum.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Antino",
+      "role": "Frontend / React Developer",
+      "location": "Gurgaon / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "careers@antino.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "WagerGeeks",
+      "role": "Frontend Developer (React.js + Next.js)",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@wagergeeks.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Crontle (Rayudu Group)",
+      "role": "Junior Front-End Software Engineer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "careers@crontle.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "CodeXorr",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@codexorr.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Ivory Squid",
+      "role": "Frontend Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@ivorysquid.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Credara Capital",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "sneha@credaracap.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "World Web Technology",
+      "role": "Frontend Developer",
+      "location": "Ahmedabad / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "career@worldwebtechnology.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Whitestone Infotech",
+      "role": "Full Stack / MERN Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@whitestoneinfotech.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Vagas",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "vaga-373808@vagas.abler.in",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Codingkart",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@codingkart.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Gmail",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "shifatstevesai@gmail.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Stevesailab",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "shifathussain@stevesailab.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Hyperbeans",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "career@hyperbeans.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Starlingelevate",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@starlingelevate.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Gmail",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hiringcorner.hr@gmail.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Indiainfotech",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "aishwarya.m@indiainfotech.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Indiainfotech",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@indiainfotech.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Gmail",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr.dzoneindia@gmail.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Hotbitinfosoft",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "dsharma@hotbitinfosoft.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Gmail",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "shailleystudio@gmail.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Wagergeeks",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "chandani.chouhan@wagergeeks.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Aman Kapil (Direct Referral)",
+      "role": "MERN Full Stack Developer",
+      "location": "LinkedIn Outreach",
+      "channel": "LinkedIn DM (Direct PDF Delivered)",
+      "url_or_recipient": "https://www.linkedin.com/messaging/ (Aman Kapil)",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Worldline",
+      "role": "Application Engineer - ReactJS Frontend",
+      "location": "Chennai",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://career2.successfactors.eu/careers?company=Worldline",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Codersworld",
+      "role": "Frontend Developer (React/Next.js)",
+      "location": "Jaipur",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://codersworld.in/careers/frontend-developer-reactjs-nextjs",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Anuyog Softwares",
+      "role": "Software Development Engineer I",
+      "location": "Indore",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://anuyogsoftwares.com/careers/JD-2026-021#apply",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Co Commers",
+      "role": "Web Developer (React / Frontend)",
+      "location": "Indore / Katni / MP",
+      "channel": "PlacementIndia Direct Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/web-developer-in-co-commers-at-guwahati-1280398.htm",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Cerbosys Technologies Inc.",
+      "role": "Software Developer (Node.js & React.js)",
+      "location": "Indore (Face-to-Face / In-office)",
+      "channel": "PlacementIndia Direct Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/software-developer-jobs-in-indore-for-cerbosys-technologies-inc-1014116.htm",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "SyStos Placements",
+      "role": "Full Stack Developer",
+      "location": "Indore (Face-to-Face / In-office)",
+      "channel": "PlacementIndia Direct Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-jobs-in-indore-for-systos-placements-1025792.htm",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Saviesa Infotech",
+      "role": "MERN Stack Developer",
+      "location": "Indore (Face-to-Face / In-office)",
+      "channel": "PlacementIndia Direct Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/mern-stack-developer-jobs-in-indore-for-saviesa-infotech-1107099.htm",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "ControlF5",
+      "role": "React JS Developer",
+      "location": "Indore (In-office / WFH)",
+      "channel": "PlacementIndia Direct Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/react-js-developer-in-controlf5-at-indore-1220883.htm",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Acme Services Private Limited",
+      "role": "UI React Developer",
+      "location": "Bengaluru",
+      "channel": "Adzuna Direct Easy Apply",
+      "url_or_recipient": "https://www.adzuna.in/details/5917523560",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Redsag",
+      "role": "Junior Frontend Developer",
+      "location": "Tiruppur (On-site)",
+      "channel": "Direct Company Career Portal",
+      "url_or_recipient": "https://www.red-sag.com/careers/apply/junior-frontend-developer",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Ilizien Pvt Ltd",
+      "role": "Angular Frontend Developer",
+      "location": "Delhi (On-site)",
+      "channel": "LinkedIn Easy Apply",
+      "url_or_recipient": "https://www.linkedin.com/jobs/view/4398232702/",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Integrated Wireless Solutions",
+      "role": ".NET React Developer",
+      "location": "Gurgaon (Hybrid)",
+      "channel": "LinkedIn Easy Apply",
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/4476095189",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Boolment Software Development Pvt. Ltd",
+      "role": "Frontend Developer",
+      "location": "Gurgaon Sector 74",
+      "channel": "PlacementIndia Direct Portal",
+      "url_or_recipient": "PlacementIndia Direct Portal",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Finflock Systems",
+      "role": "Full Stack Developer",
+      "location": "Delhi / WFH",
+      "channel": "PlacementIndia Direct Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-finflock-systems-private-limited-at-delhi-1376651.htm",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Zunderdog",
+      "role": "Junior Web Developer (Fresher)",
+      "location": "Pune (Remote for now)",
+      "channel": "Direct Company Career Portal",
+      "url_or_recipient": "https://www.zunderdog.com/careers/junior-web-developer-fresher-pune?utm_source=adzuna&utm_medium=adzuna",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "HBSPL",
+      "role": "MERN Stack Developer – Freshers & Experienced",
+      "location": "Bengaluru / Hybrid / WFH",
+      "channel": "Direct Company Career Portal",
+      "url_or_recipient": "https://hbspl.in/jobs/mern-stack-developer-hbspl-wfh-entry-level-jobs/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Creuto",
+      "role": "MERN Stack Developer",
+      "location": "India (OpenAI Partner)",
+      "channel": "Direct Company Career Portal",
+      "url_or_recipient": "https://creuto.com/careers/apply?position=MERN%20Stack%20Developer&jobId=69fe315bab54fb2fca546108",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Anvtech Solutions",
+      "role": "Mern Stack Developer",
+      "location": "Surat",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "tohr@anvtech.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Anisht",
+      "role": "Full Stack Developer",
+      "location": "Delhi / Chandigarh",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "gkmathscience@gmail.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Mekanism Technologies",
+      "role": "React Js Developer",
+      "location": "Ahmedabad",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "parthvi.meka@gmail.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Planet Placements",
+      "role": "Full Stack Developer",
+      "location": "Ahmedabad",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "jobs.planetplacements@gmail.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Vijaya Management Services",
+      "role": "Full Stack Developer",
+      "location": "Pune",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "deepak.vijayamgmt@gmail.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "TrueNorth",
+      "role": "Full Stack Developer",
+      "location": "Pan-India",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "raj.truenorth@gmail.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Rising Next Move India",
+      "role": "Full Stack Developer",
+      "location": "Delhi / Noida",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@nextmoveindia.in",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Protective Collar Ai",
+      "role": "Full Stack Developer",
+      "location": "Noida",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "support@dailytrades.in",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Alba IT Consulting",
+      "role": "MERN Stack Developer",
+      "location": "Remote",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "contact@albaitconsulting.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Interhaul Logistics",
+      "role": "Looking For Software Web Developer (MERN Stack)",
+      "location": "Delhi (WFH)",
+      "channel": "PlacementIndia Direct Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/mern-stack-developer-in-interhaul-logistics-at-work-from-home-1333584.htm",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "GVM Technologies",
+      "role": "Front End Developer",
+      "location": "Surat",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "career@gvmtechnologies.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Anvtech",
+      "role": "MERN Stack Developer",
+      "location": "Surat",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@anvtech.co",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Ats Software Solution",
+      "role": "Full Stack Developer",
+      "location": "Surat",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@atssoftwaresolution.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Savannah Labs",
+      "role": "MERN Full Stack Developer",
+      "location": "Ahmedabad",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@savannah-labs.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Skyfish Global",
+      "role": "Frontend Developer",
+      "location": "Bangalore",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "careers@skyfishglobal.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Zectagon Technologies",
+      "role": "MERN Stack Developer",
+      "location": "Jaipur",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "team@zectagon.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Engineers Hub",
+      "role": "Frontend Developer",
+      "location": "Indore",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "abhijeetvyas2474@gmail.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Quest Digiflex",
+      "role": "MERN Stack Developer",
+      "location": "Indore",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@digiflex.ai",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Logical Softtech",
+      "role": "MERN Stack Developer",
+      "location": "India",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hrlogicalsofttech@gmail.com",
+      "date": "2026-10-13"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Arth Tech Support",
+      "role": "Full Stack Developer",
+      "location": "Mohali (On-site / Remote)",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@arthtechsupports.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Lytiva",
+      "role": "Node.js / Next.js Developer",
+      "location": "Ahmedabad (Relocate / Remote)",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "hr@lytiva.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Cyber Infrastructure (CIS)",
+      "role": "Junior Front End Developer",
+      "location": "Indore, India (New IT Park, Pardesipura)",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "career@cisin.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Ideal IT Techno",
+      "role": "Full Stack Developer (Python + React/Next.js)",
+      "location": "Indore, MP (Sinhasa/Dhar Rd)",
+      "channel": "Direct Email (CDP Verified)",
+      "url_or_recipient": "jobs@idealittechno.com",
+      "date": "2026-10-12"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Lifease Solutions LLP",
+      "role": "Full Stack Developer (1-4 Years)",
+      "location": "India",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-lifease-solutions-llp-at-sector-135-noida-1360632.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Axquora",
+      "role": "Frontend Developer",
+      "location": "Indore",
+      "channel": "Email/Portal",
+      "url_or_recipient": "axquora",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Elevate Tech",
+      "role": "Full Stack / MERN Developer",
+      "location": "Remote",
+      "channel": "Email/Portal",
+      "url_or_recipient": "elevate tech",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Cybersify",
+      "role": "Full Stack Developer",
+      "location": "Mohali",
+      "channel": "Email/Portal",
+      "url_or_recipient": "cybersify",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Liftor",
+      "role": "Full Stack Developer",
+      "location": "Surat",
+      "channel": "Email/Portal",
+      "url_or_recipient": "liftor",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Recharge Studio",
+      "role": "React Developer",
+      "location": "Indore",
+      "channel": "Email/Portal",
+      "url_or_recipient": "recharge studio",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Niti Technologies India Software",
+      "role": "MERN Stack Developer",
+      "location": "Kharadi, Pune",
+      "channel": "Email/Portal",
+      "url_or_recipient": "niti technologies india software",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Tech Erudite",
+      "role": "MERN Stack Developer",
+      "location": "Ahmedabad",
+      "channel": "Email/Portal",
+      "url_or_recipient": "tech erudite",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Infosys Limited",
+      "role": "React JS Developer (0 - 1 Years)",
+      "location": "Pune, India",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.foundit.in/job/react-js-developer-infosys-limited-pune-69362856",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Sanchit Life Insurance",
+      "role": "Junior Frontend Developer- Freshers",
+      "location": "Delhi",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/frontend-developer-in-lavenya-creators-at-delhi-1420904.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Gloomshine Services Private Limited",
+      "role": "Freshers For React JS Developer - Noida",
+      "location": "Noida Sector 63",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/react-js-developer-in-gloomshine-services-private-limited-at-sector-63-noida-1350158.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Therapy Mantra",
+      "role": "Full Stack Developer",
+      "location": "Delhi",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-therapy-mantra-at-delhi-1355155.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Emet Infotech Solutions",
+      "role": "Software Developer",
+      "location": "Delhi",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/software-developer-in-emet-infotech-solutions-at-delhi-1320264.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Kishan Freelancer",
+      "role": "Web Developer",
+      "location": "Delhi",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/web-developer-in-kishan-freelancer-at-delhi-1299351.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Rakesh Shopping",
+      "role": "Looking For Web Developer",
+      "location": "Bilaspur / Delhi NCR",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/web-developer-in-rakesh-shopping-at-muzaffarpur-vaishali-bilaspur-1285196.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "NeurolinkX",
+      "role": "Full Stack Developer Jobs For Freshers",
+      "location": "Kanpur / Noida",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-neurolinkx-at-kanpur-noida-1362376.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Midbrains Technologies",
+      "role": "Front-end Developer",
+      "location": "Pune",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/front-end-developer-in-midbrains-technologies-at-wakad-pune-1378072.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Novartis",
+      "role": "Full Stack Developer",
+      "location": "Delhi",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/looking-for-full-stack-developer-fresher-jobs-in-pune-delhi-for-novartis-1276907.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Anisht",
+      "role": "Full Stack Developer",
+      "location": "Chandigarh",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-anisht-at-chandigarh-ramkote-hyderabad-1350684.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "CDAT Pvt. Ltd",
+      "role": "React Js Developer",
+      "location": "Pune",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/react-js-developer-in-cdat-pvt-ltd-at-navale-bridge-pune-1317459.htm",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Ignitefortune Tech",
+      "role": "Java Full Stack Developer (React)",
+      "location": "Remote",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.naukri.com/job-listings-java-full-stack-developer-react-ignitefortune-tech-pune-0-to-1-years-131026000406",
+      "date": "Previous"
+    },
+    {
+      "status": "APPLIED",
+      "company": "Creative Hands HR",
+      "role": "Junior Developer",
+      "location": "Bengaluru, Chennai, Hyderabad",
+      "channel": "Email/Portal",
+      "url_or_recipient": "https://www.naukri.com/job-listings-junior-developer-creative-hands-hr-hyderabad-chennai-bengaluru-0-to-2-years-121026002003",
+      "date": "Previous"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Sequence",
+      "role": "React Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5920557821?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Deltacubes",
+      "role": "React.JS Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923249572?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Creeno Solutions Private Limited",
+      "role": "React JS Developer",
+      "location": "Pune, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5913245482?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Vrinda International",
+      "role": "FRONTEND DEVELOPER",
+      "location": "Hyderabad, Telangana",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5913832693?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Weekday AI",
+      "role": "Frontend Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5917483223?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Weekday AI",
+      "role": "Frontend Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916983426?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "ICE",
+      "role": "Frontend Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5924608625?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Eagle Power",
+      "role": "Frontend Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916978191?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Weekday AI",
+      "role": "Frontend Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918771882?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "MANAS AI",
+      "role": "Frontend Developer",
+      "location": "Hyderabad, Telangana",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923258984?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Oceanfrogs Software",
+      "role": "Frontend Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923276871?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Evnek Technologies Pvt Ltd",
+      "role": "Full Stack Python Developer",
+      "location": "Indiranagar, Bangalore",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5917567186?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Ridge Tech Corporation",
+      "role": "Full Stack MERN Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918846071?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "eNoah iSolution",
+      "role": "MERN Stack Developer",
+      "location": "Chennai, Tamil Nadu",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916978709?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Populace World Solutions",
+      "role": "Frontend Developer with React",
+      "location": "Pune, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/frontend-developer-with-react-at-populace-world-solutions-4478321974?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Info Origin Inc.",
+      "role": "Hiring Full Stack Developer (Python + React.js, Golang), Pune.",
+      "location": "Pune, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/hiring-full-stack-developer-python-%2B-react-js-golang-pune-at-info-origin-inc-4477289904?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Vodafone",
+      "role": "SharePoint & React Developer - VOIS",
+      "location": "Pune, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://jobs.vodafone.com/careers/job/563018698142845-sharepoint-react-developer-vois-pune-maharashtra-india?domain=vodafone.com&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Innovature",
+      "role": "Full Stack Developer (PHP &#038; Vue.js/React.js)",
+      "location": "Kochi, Keralam",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/full-stack-developer-php-%23038-vue-js-react-js-at-innovature-4477905739?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Hitachi Global",
+      "role": "React + Java Developer",
+      "location": "Bengaluru, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://careers.hitachi.com/react-java-developer/job/IRC304356?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "concertcare india pvt. ltd.",
+      "role": "Frontend Developers",
+      "location": "Chennai, Tamil Nadu",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.simplyhired.co.in/job/3nn6hD-Jnb7DWL0ZlK-KPGdtFBa-dZWj-gu1ph7Y0cYPuAiJCcpaCw?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Zudu AI",
+      "role": "Frontend Developer — Intern / Fresher",
+      "location": "Chennai, Tamil Nadu",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.oneroadmap.io/jobs/6ac2d1f036c2e1375dc933ff?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Klenty",
+      "role": "MERN Stack Developers",
+      "location": "Chennai, Tamil Nadu",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.shine.com/jobs/mern-stack-developers/klenty/19733740?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Integrated Wireless Solutions",
+      "role": ".NET React Developer",
+      "location": "Gurugram, Haryana",
+      "reason": "No Apply Button",
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/net-react-developer-at-integrated-wireless-solutions-4476095189?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Virtusa",
+      "role": "React JS- P",
+      "location": "Chennai, Tamil Nadu",
+      "reason": "Senior: 7+ YOE",
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/react-js-p-at-virtusa-4475657875?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "TechUnity Software Systems India Pvt. Ltd.",
+      "role": "Hiring React Developer",
+      "location": "Guwahati, Assam",
+      "reason": "No Apply Button",
+      "url_or_recipient": "https://www.glassdoor.co.in/job-listing/jv?jl=1010289505942&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Ducat India",
+      "role": "Java mern stack Trainer",
+      "location": "New Delhi, Delhi",
+      "reason": "No Apply Button",
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/java-mern-stack-trainer-at-ducat-india-4477582050?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Aristocrat",
+      "role": "AI Full Stack Software Developer",
+      "location": "Chennai",
+      "reason": "Senior: 6+ YOE",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/ai-full-stack-software-developer-in-aristocrat-at-chennai-1439520.htm"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Mirafra Technologies",
+      "role": "React Developer with ROR",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918889158?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "MindBowser Info Solutions",
+      "role": "python react developer",
+      "location": "Pune, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918929351?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Posspole",
+      "role": "Python  React Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5920488485?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "samunnati financial intermediation & services private limited",
+      "role": "Front End React Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5920526530?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Eszmeletlen Holding Co",
+      "role": "React.js Developer",
+      "location": "Mumbai, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923259800?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "upcred.ai",
+      "role": "React.js Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918889290?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "CIMCON Software",
+      "role": "React Js Developer",
+      "location": "Ahmedabad, Gujarat",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916924143?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Janovis Infotech",
+      "role": "React.js Developer",
+      "location": "Ahmedabad, Gujarat",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916978422?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Classhose India Private Limited",
+      "role": "React Js Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918888299?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Apprick Technologies Pvt Ltd",
+      "role": "Frontend Developer",
+      "location": "Mumbai, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923249102?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Bimakavach",
+      "role": "Frontend Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916869730?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "UIX Labs",
+      "role": "Frontend Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916869911?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "www.Houseitt.in",
+      "role": "Frontend Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923277369?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Datalifehealth Services Pvt Ltd",
+      "role": "Frontend Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916993206?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Ownerstown",
+      "role": "Frontend Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916979133?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "sense.bio",
+      "role": "Frontend Developer",
+      "location": "Mumbai, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916979823?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Deployd Technologies Pvt Ltd",
+      "role": "Frontend Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918909603?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Aakash Edutech",
+      "role": "Frontend Developer",
+      "location": "Delhi, India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916979528?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "SIMBOAI",
+      "role": "Frontend Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916978491?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "RESTOLABS",
+      "role": "Frontend Developer",
+      "location": "Noida, Ghaziabad",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918930186?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Oga",
+      "role": "Frontend Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5920569486?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Meyrahkee Advisors",
+      "role": "Frontend Developer",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5920569784?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Epilen",
+      "role": "Frontend Developer",
+      "location": "Delhi, India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923289186?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Offerxone",
+      "role": "Frontend Developer",
+      "location": "Noida, Ghaziabad",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923289069?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Armada Intelligence Inc",
+      "role": "Frontend Developer",
+      "location": "Ahmedabad, Gujarat",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923289118?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Startupwala",
+      "role": "Frontend Developer",
+      "location": "Pune, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923259804?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Dtwelve Spaces",
+      "role": "Frontend Developer",
+      "location": "Delhi, India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923278473?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Serve And Volley Technologies Private Limited",
+      "role": "Full-Stack Developer (Next.js)",
+      "location": "Bangalore, Karnataka",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916892512?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Alphanext Technology Solutions",
+      "role": "AI Fullstack Engineer",
+      "location": "Indore, Madhya Pradesh",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923146241?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "MotionGility",
+      "role": "Full Stack Developer",
+      "location": "Indore, Madhya Pradesh",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916866005?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "hBits Proptech",
+      "role": "Software Engineer - Frontend & Backend",
+      "location": "Mumbai, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923205262?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Hashtag labs",
+      "role": "MERN Developer",
+      "location": "Lucknow, Uttar Pradesh",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923229714?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Onclick Innovations",
+      "role": "Mern Stack Developer",
+      "location": "Mohali, Punjab",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916868800?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Pentabay Softwares",
+      "role": "Mern Stack Developer",
+      "location": "Chennai, Tamil Nadu",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5922024697?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Knovator Technologies",
+      "role": "MERN Stack Developer",
+      "location": "Surat, Gujarat",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5922053956?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Blockwoods Marketing Management OPC Pvt Ltd",
+      "role": "MERN Stack Developer",
+      "location": "Chennai, Tamil Nadu",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5922025002?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Settings Infotech",
+      "role": "MERN Stack Developer",
+      "location": "Surat, Gujarat",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918846388?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "MediGence",
+      "role": "MERN Stack Developer",
+      "location": "Noida, Ghaziabad",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916923527?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Aapna Infotech",
+      "role": "MERN Stack Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916979321?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "smartdata enterprises inc.",
+      "role": "MERN Stack Developer",
+      "location": "Nagpur, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918929353?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Gammastack",
+      "role": "MERN Stack Developer",
+      "location": "Indore, Madhya Pradesh",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916910289?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Aekatr Technology and Services Private Limited",
+      "role": "MERN Stack Developer",
+      "location": "Delhi, India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916911670?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "QSS Global",
+      "role": "MERN Stack Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5920569250?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "VTP Infra Tech Private Limited",
+      "role": "MERN Stack Developer",
+      "location": "Surat, Gujarat",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5922054666?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "ValueDot",
+      "role": "MERN Stack Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923259643?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Hashstudioz Technologies Pvt Ltd",
+      "role": "MERN stack Developer",
+      "location": "Mohali, Punjab",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923233400?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Growloc Private Limited",
+      "role": "MERN Full Stack Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916867494?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Ajargh Kreation",
+      "role": "Full stack developer MERN",
+      "location": "Koramangala, Bangalore",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5920509524?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "ICohort Business Ventures Private Limited",
+      "role": "MERN (Full Stack) Developer",
+      "location": "Kozhikode, Kerala",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5922058896?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "13KBS",
+      "role": "Full Stack Engineer (MERN) 1 - 3 YOE, WFO Rajkot",
+      "location": "Rajkot, Gujarat",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916869881?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Digibility Solutions Pvt. Ltd.",
+      "role": "Frontend Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918844636?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Vector Labs Tech",
+      "role": "Frontend Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918845478?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "CricStox Private Limited",
+      "role": "Frontend Developer",
+      "location": "Pune, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923248338?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Reconectai",
+      "role": "Frontend Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5923199383?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "PRIPTON INNOVATIONS",
+      "role": "Fullstack Product Engineer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918821447?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "BrandLabs",
+      "role": "Fullstack Engineer",
+      "location": "Thane, Maharashtra",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5920486238?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Talentelgia Technologies PvtLtd",
+      "role": "Full Stack MERN Developer",
+      "location": "Mohali, Punjab",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5920489893?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "FreeADS",
+      "role": "MERN Fullstack Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916869182?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Aarohan agri products pvt ltd",
+      "role": "Mern Stack developer",
+      "location": "Bhopal, Madhya Pradesh",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5920453830?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Dofin Tech",
+      "role": "MERN Stack Developer",
+      "location": "India",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916868886?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Shine infosoft",
+      "role": "MERN STACK DEVELOPER",
+      "location": "Ahmedabad, Gujarat",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5918869329?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Infomatics Technologies",
+      "role": "Backend Developer - MERN Stack",
+      "location": "Raipur, Chhattisgarh",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916892069?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "SKIPPED",
+      "company": "Design of time co",
+      "role": "Mern Stack Deveeloper",
+      "location": "Indore, Madhya Pradesh",
+      "reason": "Experience / Closed / Non-compliant",
+      "url_or_recipient": "https://www.adzuna.in/details/5916893391?utm_medium=api&utm_source=22d4b243"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Direct HR",
+      "role": "Full Stack Developer (MERN / React)",
+      "location": "Remote",
+      "verified_apply_btn": null,
+      "url_or_recipient": "contact@procyn.in"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Direct HR",
+      "role": "Frontend / React Developer",
+      "location": "India / Remote",
+      "verified_apply_btn": null,
+      "url_or_recipient": "himangisinghal30091994@gmail.com"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Direct HR",
+      "role": "Full Stack Developer (MERN / React)",
+      "location": "Remote",
+      "verified_apply_btn": null,
+      "url_or_recipient": "apply@triedge.in"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Direct HR",
+      "role": "MERN Stack Developer",
+      "location": "Pune",
+      "verified_apply_btn": null,
+      "url_or_recipient": "hr@nititechnologiesindia.com"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Redsag",
+      "role": "Junior Frontend Developer",
+      "location": "Tiruppur, Tamil Nadu",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/junior-frontend-developer-at-redsag-4477269828?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Cognizant",
+      "role": "AEM FullStack (Backend+ Frontend)  Developer",
+      "location": "Coimbatore, Tamil Nadu",
+      "verified_apply_btn": "Apply now",
+      "url_or_recipient": "https://careers.cognizant.com/india-en/jobs/00069935361/aem-fullstack-backendplus-frontend-developer/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Cognizant",
+      "role": "Frontend Developer Intern at Cognizant",
+      "location": "Chennai, Tamil Nadu",
+      "verified_apply_btn": "Apply on Company Website ↗",
+      "url_or_recipient": "https://myinternships.in/internships/cognizant-is-hiring-frontend-developer-intern-chennai-2t557?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Ilizien Pvt Ltd",
+      "role": "Angular Frontend Developer",
+      "location": "New Delhi, Delhi",
+      "verified_apply_btn": "Apply Now",
+      "url_or_recipient": "https://www.foundit.in/job/angular-frontend-developer-ilizien-pvt-ltd-delhi-69433352?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Nameless",
+      "role": "MERN Stack Developer - Start Now (Hyderabad)",
+      "location": "Hyderabad, Telangana",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.shine.com/jobs/mern-stack-developer-start-now-hyderabad/nameless/19708621?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Creuto",
+      "role": "MERN Stack Developer",
+      "location": "India",
+      "verified_apply_btn": "Apply Now",
+      "url_or_recipient": "https://creuto.com/careers/mern-stack-developer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Tavily",
+      "role": "Front-End Engineer",
+      "location": "New York City",
+      "verified_apply_btn": "Apply for this Job",
+      "url_or_recipient": "https://jobs.ashbyhq.com/tavily/fabd9b1b-a85b-4e74-a0ee-44f7251df743"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "PolicyMe",
+      "role": "Junior Software Engineer",
+      "location": "Canada",
+      "verified_apply_btn": "Apply for this job",
+      "url_or_recipient": "https://jobicy.com/jobs/153164-junior-software-engineer-2"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Fueled",
+      "role": "Full Stack Web Engineer",
+      "location": "LATAM",
+      "verified_apply_btn": "Apply for this job",
+      "url_or_recipient": "https://jobicy.com/jobs/155231-full-stack-web-engineer"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Docplanner",
+      "role": "Junior Software Engineer – Early Career (Strong Problem solving & Coding Focus) - 100% Remote within Spain",
+      "location": "Spain",
+      "verified_apply_btn": "Apply for this job",
+      "url_or_recipient": "https://jobicy.com/jobs/155228-junior-software-engineer-early-career-strong-problem-solving-coding-focus-100-remote-within-spain-2"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Dataiku",
+      "role": "Fullstack Software Engineer - Core",
+      "location": "France,  Germany,  Netherlands,  Spain,  UK",
+      "verified_apply_btn": "Apply for this job",
+      "url_or_recipient": "https://jobicy.com/jobs/152707-fullstack-software-engineer-core"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Impact Hr & Km Solutions",
+      "role": "Full Stack Developer - Full Time - Freshers",
+      "location": "Nashik",
+      "verified_apply_btn": "Apply Now",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-impact-hr-km-solutions-at-nashik-1467115.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Aristoverse",
+      "role": "Fresher – AI Full Stack Developer",
+      "location": "Chennai",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/ai-full-stack-developer-in-aristoverse-at-chennai-1459026.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Nexgen",
+      "role": "Fresher hiring for React JS Developer",
+      "location": "Pune",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/react-js-developer-in-nexgen-at-pune-1456045.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Growfinix Technology",
+      "role": "Interview For Full Stack Developer || B.C.A - Freshers",
+      "location": "Latur",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-growfinix-technology-at-latur-1447560.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Srites India",
+      "role": "Hiring Fresher / Full Stack Developer / B.C.A",
+      "location": "Hyderabad",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-srites-india-at-hyderabad-1445984.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "NeurolinkX",
+      "role": "Looking For Full Stack Developer (Female Candidates Preferred)",
+      "location": "Noida",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-neurolinkx-at-noida-1435606.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "RGS Hire World",
+      "role": "Interview For Full Stack Developer || B.E - Freshers",
+      "location": "Salem",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-rgs-hire-world-at-salem-1427417.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Vattara Solutions Private Limited",
+      "role": "Freshers For React JS Developer - Vellore",
+      "location": "Vellore",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/react-developer-in-vattara-solutions-private-limited-at-vellore-1418393.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "RGS Hire World",
+      "role": "Freshers & Experience || Full Time || Mern Stack Developer",
+      "location": "Salem",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/mern-stack-developer-in-rgs-hire-world-at-salem-1424185.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "United Technology",
+      "role": "Fresher - Opening For Full Stack Developer",
+      "location": "Tiruppur",
+      "verified_apply_btn": "Apply Now",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-united-technology-services-at-tiruppur-1405441.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "United Technology",
+      "role": "B.Sc Freshers For Mern Stack Developer",
+      "location": "Madurai",
+      "verified_apply_btn": "Apply Now",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/mern-stack-developer-in-united-technology-services-at-madurai-1413403.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "United Technology",
+      "role": "Telephonic Interview For React JS Developer Jobs (Freshers)",
+      "location": "Chennai +1 Coimbatore",
+      "verified_apply_btn": "Apply Now",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/react-js-developer-in-united-technology-services-at-chennai-coimbatore-1327454.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "JobAssist",
+      "role": "Freshers & Experience || Full Time || Web Developer",
+      "location": "Mumbai",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/web-developer-in-jobassist-at-mumbai-1462908.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "RGS Hire World",
+      "role": "B.C.A Freshers For Frontend Web Developer",
+      "location": "Salem",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/front-end-developer-in-rgs-hire-world-at-salem-1463015.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "JobAssist",
+      "role": "Frontend Web Developer Jobs For 12th Pass Freshers",
+      "location": "Mumbai",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/front-end-developer-in-jobassist-at-mumbai-1418906.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Vams Biome Innovations Pvt. Ltd.",
+      "role": "Hiring Fresher / Frontend Web Developer / B.Sc",
+      "location": "Vijayawada",
+      "verified_apply_btn": "Apply",
+      "url_or_recipient": "https://www.placementindia.com/job-detail/front-end-web-developer-in-vams-biome-innovations-pvt-ltd-at-vijayawada-1417674.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Nimblix Technologies",
+      "role": "Hiring Fresher - Frontend Web Developer - Bangalore",
+      "location": "Bangalore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/frontend-developer-in-nimblix-technologies-at-bangalore-1385864.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "TechMafia",
+      "role": "Freshers & Experience || Full Time || Software Web Developer",
+      "location": "Goa",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/software-web-developer-in-techmafia-at-goa-1369181.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Webx infotech",
+      "role": "Opening For Website & Frontend Developer Intern",
+      "location": "Delhi NCR",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/front-end-developer-intern-in-webx-infotech-at-delhi-ncr-1317982.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "WebSenor InfoTech",
+      "role": "Frontend Developer",
+      "location": "Udaipur",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/frontend-developer-in-websenor-at-udaipur-1268586.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Spehre",
+      "role": "Looking For Full Stack Developer",
+      "location": "Roorkee",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-spehre-at-work-from-home-1287137.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Avenirya Solutions Opc Pvt Ltd",
+      "role": "Frontend Developer (0-2 Years)",
+      "location": "Pune",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/frontend-developer-in-avenirya-solutions-opc-pvt-ltd-at-pune-1260795.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Immensphere",
+      "role": "Frontend Developer",
+      "location": "Bangalore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/frontend-developer-in-immensphere-at-bangalore-1250278.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "TechPlusD2C",
+      "role": "Frontend Developer - Nagpur",
+      "location": "Nagpur",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/frontend-developer-in-techplusd2c-at-nagpur-1252345.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Engineers Hub",
+      "role": "Hiring For Frontend Developer",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/frontend-developer-in-engineers-hub-at-indore-1255067.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Teciza Web Solution",
+      "role": "Frontend Developer (Full Time)",
+      "location": "Nikol Ahmedabad",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/frontend-developer-in-teciza-web-solution-at-nikol-ahmedabad-1253372.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Saisource Solutions",
+      "role": "Web Developer",
+      "location": "Bangalore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/web-developer-in-saisource-solutions-at-bangalore-1266641.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Codepoetry",
+      "role": "Frontend Developer",
+      "location": "Siliguri",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/frontend-developer-in-codepoetry-at-siliguri-1225213.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Yaazhtech Group of Company",
+      "role": "Hiring For Frontend Developer",
+      "location": "Bangalore +3 Chennai, Coimbatore, Hyderabad",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/frontend-developer-in-yaazhtech-group-company-at-bangalore-chennai-coimbatore-1235671.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Teciza Web Solution",
+      "role": "Urgent Requirement For Frontend Developer",
+      "location": "Nikol Ahmedabad",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/frontend-developer-in-teciza-web-solution-at-nikol-ahmedabad-1253332.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Maitretech Solution",
+      "role": "React JS Developer",
+      "location": "Bhopal",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/react-js-developer-jobs-in-bhopal-for-maitretech-1032768.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Finle",
+      "role": "Full Stack Developer",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-finle-at-indore-1320168.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "GeoupsApp",
+      "role": "Opening For Full Stack Developer",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-geoupsapp-at-indore-1226571.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Cornerstone Solutions",
+      "role": "Full Stack Developer",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-developer-in-cornerstone-solutions-at-indore-1210417.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Employ Berry",
+      "role": "React JS Developer",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/react-js-developer-in-employ-berry-at-indore-1195119.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Codegate Technologies",
+      "role": "PHP Web Developer",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/full-stack-web-developer-jobs-in-indore-for-codegate-technologies-1157397.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Logical Softtech",
+      "role": "Looking For Mern Stack Developer",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://www.placementindia.com/job-detail/mern-stack-developer-in-logical-softtech-at-indore-1272462.htm"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Anuyogsoftwares",
+      "role": "Software Development Engineer I",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/software-development-engineer-i-4477962963"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Cureza the Studio of Design",
+      "role": "Full Stack Developer",
+      "location": "Jaipur",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/full-stack-developer-4477540852"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Headout",
+      "role": "Frontend Engineer",
+      "location": "Bengaluru",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/frontend-engineer-at-headout-4474684900"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Dusker AI",
+      "role": "Web Developer",
+      "location": "Jaipur",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/web-developer-at-dusker-ai-4475661338"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Yashmia",
+      "role": "React.js Developer",
+      "location": "Chennai",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/react-js-developer-4477259671"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Fuzionest",
+      "role": "Frontend Developer",
+      "location": "Coimbatore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/frontend-developer-4477238009"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Elements Energy",
+      "role": "Software Developer",
+      "location": "Chennai",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/software-developer-at-elements-energy-4478077363"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Quest Global",
+      "role": "React Developer",
+      "location": "Bengaluru",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/react-developer-at-quest-global-4476815984"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Quest Global",
+      "role": "Frontend Engineer",
+      "location": "Bengaluru",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/frontend-engineer-at-quest-global-4476278770"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Outnovate",
+      "role": "Front-End Developer",
+      "location": "Bengaluru",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/front-end-developer-4477215189"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "GROWLOC",
+      "role": "Software Development Engineer",
+      "location": "Pune",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/software-development-engineer-at-growloc-4476294513"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "NexDuo",
+      "role": "Frontend Engineer",
+      "location": "Kolkata",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/frontend-engineer-at-nexduo-4476875006"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Solvebyte",
+      "role": "Full Stack Developer",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/full-stack-developer-4476807026"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Vasudev Technolabs",
+      "role": "Frontend Developer",
+      "location": "Ahmedabad",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/frontend-developer-at-vasudev-technolabs-4476858710"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Training Basket",
+      "role": "React.js Developer",
+      "location": "Gurugram",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/react-js-developer-at-training-basket-4477216230"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Redgrape Technologies",
+      "role": "UI/UX Developer - React (Noida role)",
+      "location": "Gurugram",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/ui-ux-developer-react-in-noida-at-redgrape-technologies-private-limited-4478007057"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Algorithus",
+      "role": "React JS Developer",
+      "location": "Lucknow",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/react-js-developer-4476252373"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "BlackRock",
+      "role": "Associate, Full Stack Developer",
+      "location": "Mumbai",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/associate-full-stack-developer-at-blackrock-4475939799"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Qualys",
+      "role": "Front End Software Engineer",
+      "location": "Pune",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/front-end-software-engineer-at-qualys-4476285181"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Mitigata",
+      "role": "Frontend Developer",
+      "location": "Bengaluru",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/frontend-developer-at-mitigata%E2%84%A2-full-stack-cyber-resilience-4475771876"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Deqode",
+      "role": "Software Engineer",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/software-engineer-at-deqode-4474460153"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Vena Solutions",
+      "role": "Software Developer 2",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/software-developer-2-at-vena-solutions-4476163020"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "HAMMOQ Inc.",
+      "role": "MERN Stack Developer",
+      "location": "Indore",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/mern-stack-developer-at-hammoq-inc-4475340361"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Infosys",
+      "role": "React JS Developer",
+      "location": "Pune",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/react-js-developer-at-infosys-4472561383"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "ktree.com",
+      "role": "React Developer",
+      "location": "Hyderabad",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/react-developer-at-ktree-com-4474372426"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Surya Software Systems",
+      "role": "Front-End Developer",
+      "location": "Bengaluru",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/front-end-developer-at-surya-software-systems-private-limited-4475530138"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Penthara Technologies",
+      "role": "React JS Developer",
+      "location": "Mohali/Punjab",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/react-js-developer-at-penthara-technologies-4474123694"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "ITC Infotech",
+      "role": "Front End Developer",
+      "location": "Bengaluru",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/front-end-developer-at-itc-infotech-4465509178"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Infosys",
+      "role": "React JS and Node JS Developer",
+      "location": "Chennai",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://in.linkedin.com/jobs/view/react-js-and-node-js-developer-at-infosys-4472559469"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Cloudworx Technologies",
+      "role": "Frontend Developer (React/Three.js/R3F)",
+      "location": "Bengaluru",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://wellfound.com/jobs/776124-frontend-three-js-r3f-developer"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Timbre",
+      "role": "Full Stack JavaScript Developer",
+      "location": "Remote (India)",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://wellfound.com/jobs/4809513-full-stack-javascript-developer"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "FOXO",
+      "role": "Web Developer",
+      "location": "Bengaluru",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://wellfound.com/jobs/4810236-web-developer"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Moshi Moshi",
+      "role": "Shopify Developer",
+      "location": "Bengaluru",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://wellfound.com/jobs/4781460-shopify-developer"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "Elovient Software Solutions",
+      "role": "Full-Stack Software Developer",
+      "location": "Mumbai",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://wellfound.com/jobs/4811809-full-stack-software-developer-clone"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "SquareYards",
+      "role": "MERN Stack Developer - Backend & Distributed Systems",
+      "location": "Mumbai",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://wellfound.com/jobs/4814835-mern-stack-developer-backend-distributed-systems"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "CredX",
+      "role": "Frontend Engineer",
+      "location": "Hyderabad",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://wellfound.com/jobs/4817670-frontend-engineer"
+    },
+    {
+      "status": "UNAPPLIED_READY",
+      "company": "flintzy",
+      "role": "Frontend Developer (React / Next.js)",
+      "location": "Hyderabad",
+      "verified_apply_btn": null,
+      "url_or_recipient": "https://wellfound.com/jobs/4809485-frontend-developer-react-next-js"
+    }
+  ]
+}

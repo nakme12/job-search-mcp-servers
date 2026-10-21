@@ -1,0 +1,912 @@
+[
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Worldline",
+    "role": "Application Engineer - ReactJS Frontend",
+    "location": "Chennai",
+    "posted": "17 minutes ago",
+    "url": "https://in.linkedin.com/jobs/view/application-engineer-reactjs-frontend-at-worldline-4469882087",
+    "notes": "Official listing states 1-4 yrs professional experience - fits band well"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Viamagus Select",
+    "role": "Frontend Developer",
+    "location": "Hyderabad",
+    "posted": "44 minutes ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-developer-at-viamagus-select-4478787049",
+    "notes": "Viamagus Select is a candidate-vetting/placement service (not a direct employer) - posting is on behalf of one of their GCC clients"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Anuyogsoftwares",
+    "role": "Software Development Engineer I",
+    "location": "Indore",
+    "posted": "2 hours ago",
+    "url": "https://in.linkedin.com/jobs/view/software-development-engineer-i-4477962963",
+    "notes": "Legit small company (8 employees, IIIT Hyderabad founders); real SDE roles confirmed"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Codersworld",
+    "role": "Frontend Developer (React/Next.js)",
+    "location": "Jaipur",
+    "posted": "2 hours ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-developer-%E2%80%93-react-js-next-js-4477965943",
+    "notes": "Own career page (codersworld.in/careers) confirms 1-5 yrs - fits band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Ssssybertech",
+    "role": "Front End React JS Developer",
+    "location": "Delhi",
+    "posted": "2 hours ago",
+    "url": "https://in.linkedin.com/jobs/view/front-end-react-js-developer-4477972673",
+    "notes": "Legit small company (11-50 employees), own career page exists"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "JRD Systems",
+    "role": "UI Developer (AWS)",
+    "location": "Bengaluru",
+    "posted": "3 hours ago",
+    "url": "https://in.linkedin.com/jobs/view/ui-developer-aws-at-jrd-systems-4478754897",
+    "notes": "This is a staffing/outsourcing firm; their other open UI Developer roles need 4-6 or 6+ yrs - verify this specific posting's exp requirement before applying"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Moolya",
+    "role": "Frontend Developer",
+    "location": "Bengaluru",
+    "posted": "3 hours ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-developer-at-moolya-4477956971",
+    "notes": "Company's own career page shows ALL their React/Frontend roles require 4-6, 6-12 or 7-12 yrs exp - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "TCS",
+    "role": "Reactjs Developer",
+    "location": "Bengaluru",
+    "posted": "22 hours ago",
+    "url": "https://in.linkedin.com/jobs/view/reactjs-developer-at-tata-consultancy-services-4478511534",
+    "notes": "TCS general React roles confirmed 1-4 yrs - fits band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Ghar4u.com",
+    "role": "ReactJS Developer",
+    "location": "Hyderabad",
+    "posted": "23 hours ago",
+    "url": "https://in.linkedin.com/jobs/view/reactjs-developer-4477551357",
+    "notes": "Ghar4u is a real-estate brokerage/advisory firm (not a software company) - plausible they need an in-house web dev, but unusual; no exp data found to confirm fit"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Cureza the Studio of Design",
+    "role": "Full Stack Developer",
+    "location": "Jaipur",
+    "posted": "23 hours ago",
+    "url": "https://in.linkedin.com/jobs/view/full-stack-developer-4477540852",
+    "notes": "Jaipur Full Stack roles at this company generally range fresher to 2-5yrs, no mismatch evidence found"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Headout",
+    "role": "Frontend Engineer",
+    "location": "Bengaluru",
+    "posted": "1 day ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-engineer-at-headout-4474684900",
+    "notes": "Company has 1-3yr and 1-4yr Frontend/SE-Web tiers distinct from their 6-8yr Lead role - fits band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "HuntingCube",
+    "role": "Frontend Engineer",
+    "location": "Bengaluru",
+    "posted": "1 day ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-engineer-at-huntingcube-4478332617",
+    "notes": "HuntingCube is a recruitment/staffing consultancy (not direct employer), posting on behalf of a client; their typical Frontend reqs need 4-6 yrs - verify this specific posting's exp"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Dusker AI",
+    "role": "Web Developer",
+    "location": "Jaipur",
+    "posted": "1 day ago",
+    "url": "https://in.linkedin.com/jobs/view/web-developer-at-dusker-ai-4475661338",
+    "notes": "Company's own listing explicitly states Junior/Entry level"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "tiket.com",
+    "role": "Software Engineer I (Frontend)",
+    "location": "Gurugram",
+    "posted": "1 day ago",
+    "url": "https://in.linkedin.com/jobs/view/software-engineer-i-frontend-at-tiket-com-4477513910",
+    "notes": "Company's own 'Software Engineer I' tier is up to 2 yrs - matches band. (Note: a different, older tiket.com Senior SE posting job id 3605861986 also exists - do not confuse with this one)"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "NAV Fund Services",
+    "role": "Full Stack Engineer",
+    "location": "Jaipur",
+    "posted": "1 day ago",
+    "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-nav-fund-services-4475688743",
+    "notes": "Company has multiple tiers for this title (1-3yr, 3-5yr, 4-8yr) - a junior tier exists but exact match unconfirmed"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Atlas Copco Group",
+    "role": "Senior Software Engineer",
+    "location": "Pune",
+    "posted": "1 day ago",
+    "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-at-atlas-copco-group-4477525281",
+    "notes": "Confirmed Senior Software Engineer roles at this company need 5-7 or 6-10+ yrs - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Yashmia",
+    "role": "React.js Developer",
+    "location": "Chennai",
+    "posted": "1 day ago",
+    "url": "https://in.linkedin.com/jobs/view/react-js-developer-4477259671",
+    "notes": "Own career page also confirms: https://yashmia.com/career/ (2-4 yrs per their site)"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Virtusa",
+    "role": "React JS- P",
+    "location": "Chennai",
+    "posted": "1 day ago",
+    "url": "https://in.linkedin.com/jobs/view/react-js-p-at-virtusa-4475657875",
+    "notes": "Every other Virtusa React role found needs 3-8, 5-8, 4-6 or 7+ yrs - this grade (P) is unconfirmed, likely skews senior too"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "360 Technology",
+    "role": "React Developer with Java",
+    "location": "Chennai",
+    "posted": "1 day ago",
+    "url": "https://in.linkedin.com/jobs/view/react-developer-with-java-at-360-technology-4477284632",
+    "notes": "Could not confirm - search found unrelated companies with similar names (CodeForce 360, 360 Degree Technosoft, etc.)"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Weekday (YC W21)",
+    "role": "\"Platform Engineer",
+    "location": "Full Stack (UI-heavy)\"",
+    "posted": "Chennai",
+    "url": "1 day ago",
+    "notes": "https://in.linkedin.com/jobs/view/platform-engineer-full-stack-ui-heavy-at-weekday-yc-w21-4475691196,\"Listing states 2-4yrs floor but explicitly says 'it's a senior role, level set by what you demonstrate', salary 34-85LPA (senior-tier comp) - likely not truly junior-friendly"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Fuzionest",
+    "role": "Frontend Developer",
+    "location": "Coimbatore",
+    "posted": "2 days ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-developer-4477238009",
+    "notes": "Company's related Full Stack Developer posting is 2-5 yrs - reasonable fit"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Coboxtechnologies",
+    "role": "React.js Frontend Engineer",
+    "location": "Indore",
+    "posted": "2 days ago",
+    "url": "https://in.linkedin.com/jobs/view/react-js-frontend-engineer-4477225493",
+    "notes": "2-5 yrs exp required per own careers page - upper edge of band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Local Business Marketing",
+    "role": "Full Stack Engineer",
+    "location": "India",
+    "posted": "2 days ago",
+    "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-local-business-marketing-4477247771",
+    "notes": "Could not find company details - obscure/unconfirmed"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Techlumas",
+    "role": "Full Stack Engineer (React + Node.js)",
+    "location": "India",
+    "posted": "2 days ago",
+    "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-react-%2B-node-js-at-techlumas-4477253232",
+    "notes": "Could not find any independent info on this company - could not confirm legitimacy or exp requirement"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Bluehost",
+    "role": "Full Stack Engineer",
+    "location": "Mumbai",
+    "posted": "2 days ago",
+    "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-bluehost-4469239563",
+    "notes": "Company's India engineering roles found all need 5-9 yrs experience - likely does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "PUMA Group",
+    "role": "Lead Engineer (Web) - Consumer Experience",
+    "location": "Pune",
+    "posted": "2 days ago",
+    "url": "https://in.linkedin.com/jobs/view/lead-engineer-web-consumer-experience-engineering-at-puma-group-4459896186",
+    "notes": "Title says Lead - verify exp before applying"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Elements Energy",
+    "role": "Software Developer",
+    "location": "Chennai",
+    "posted": "2 days ago",
+    "url": "https://in.linkedin.com/jobs/view/software-developer-at-elements-energy-4478077363",
+    "notes": "Own career page confirms exactly 0-2 yrs - IIT Madras incubated, great match"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Fuller",
+    "role": "Front End Developer II",
+    "location": "Chennai",
+    "posted": "2 days ago",
+    "url": "https://in.linkedin.com/jobs/view/front-end-developer-ii-at-fuller-4450700423",
+    "notes": "Own careers listing confirms this role needs 4-5+ yrs professional experience, does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Quest Global",
+    "role": "React Developer",
+    "location": "Bengaluru",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/react-developer-at-quest-global-4476815984",
+    "notes": "Company's own careers portal confirms React.js Developer (Bangalore) tier is 1-5 yrs - fits band. role 1 of 2 at this company"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Quest Global",
+    "role": "Frontend Engineer",
+    "location": "Bengaluru",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-engineer-at-quest-global-4476278770",
+    "notes": "Same 1-5 yr tier confirmation as above. role 2 of 2 at this company"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Outnovate",
+    "role": "Front-End Developer",
+    "location": "Bengaluru",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/front-end-developer-4477215189",
+    "notes": "Own career page (outnov.com/career) confirms real Front-End Developer role, no mismatch found"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "GROWLOC",
+    "role": "Software Development Engineer",
+    "location": "Pune",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/software-development-engineer-at-growloc-4476294513",
+    "notes": "Company has MERN Developer 1-3yr (Entry) and SDE-2 2-5yr tiers - good fit either way"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "NexDuo",
+    "role": "Frontend Engineer",
+    "location": "Kolkata",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-engineer-at-nexduo-4476875006",
+    "notes": "Confirmed 1-3 yrs, 4-8 LPA - fits band well"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Sonata Software",
+    "role": "Frontend Developer - React/TypeScript",
+    "location": "Pune",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-developer-%E2%80%93-react-typescript-at-sonata-software-4477822531",
+    "notes": "Confirmed via matching listing: 5-8 yrs software development experience required - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "IT Guru Solutions",
+    "role": "Frontend Developer",
+    "location": "Noida",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-developer-at-it-guru-solutions-4477672630",
+    "notes": "JD opened directly: 200+ applicants genuinely active but requires 3+ yrs exp (upper edge of band)"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Solvebyte",
+    "role": "Full Stack Developer",
+    "location": "Indore",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/full-stack-developer-4476807026",
+    "notes": "Legit iGaming company, no mismatch evidence found"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Citi",
+    "role": "Java React Developer",
+    "location": "Pune",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/java-react-developer-at-citi-4476847839",
+    "notes": "Citi has many grades for this title, lowest confirmed is 3+ yrs (Java FullStack Developer-React), others 4-8/7-11 yrs - exact grade for this listing unconfirmed"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "CGI",
+    "role": "Java Front End Engineer",
+    "location": "Chennai",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/jave-front-end-engineer-at-cgi-4477874150",
+    "notes": "Confirmed: matching listing is for a Senior position needing 7-9 yrs experience - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Vasudev Technolabs",
+    "role": "Frontend Developer",
+    "location": "Ahmedabad",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-developer-at-vasudev-technolabs-4476858710",
+    "notes": "Small genuine dev shop (50+ people), no red flags, own career page exists"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Training Basket",
+    "role": "React.js Developer",
+    "location": "Gurugram",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/react-js-developer-at-training-basket-4477216230",
+    "notes": "Legit company, role described with junior/basic React hooks skills, no mismatch found"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Redgrape Technologies",
+    "role": "UI/UX Developer - React (Noida role)",
+    "location": "Gurugram",
+    "posted": "3 days ago",
+    "url": "https://in.linkedin.com/jobs/view/ui-ux-developer-react-in-noida-at-redgrape-technologies-private-limited-4478007057",
+    "notes": "Company's own posting explicitly states entry-level seniority"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "ACL Digital",
+    "role": "User Interface Engineer",
+    "location": "Bengaluru",
+    "posted": "4 days ago",
+    "url": "https://in.linkedin.com/jobs/view/user-interface-engineer-at-acl-digital-4475791548",
+    "notes": "Could not confirm this specific role's experience requirement; some ACL Digital roles found need 8-10 yrs - verify before applying"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "KAI Nest",
+    "role": "Frontend Engineer (SDE 2)",
+    "location": "Ahmedabad",
+    "posted": "4 days ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-engineer-sde-2-at-kai-nest-4477642997",
+    "notes": "JD responsibilities ('own complex features, drive architectural decisions') + salary 15-28LPA suggest this is senior-level despite no explicit yr count - verify before applying"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Algorithus",
+    "role": "React JS Developer",
+    "location": "Lucknow",
+    "posted": "4 days ago",
+    "url": "https://in.linkedin.com/jobs/view/react-js-developer-4476252373",
+    "notes": "Own career page description has no seniority markers, basic React/Redux skills listed - entry-level sounding, no mismatch found"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Advance Agility India",
+    "role": "React JS Developer",
+    "location": "Pune",
+    "posted": "4 days ago",
+    "url": "https://in.linkedin.com/jobs/view/react-js-developer-4476239999",
+    "notes": "Could not confirm exact exp for this specific India posting; general Pune market rate for this title is 2-5yrs"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "BlackRock",
+    "role": "\"Associate",
+    "location": "Full Stack Developer\"",
+    "posted": "Mumbai",
+    "url": "4 days ago",
+    "notes": "https://in.linkedin.com/jobs/view/associate-full-stack-developer-at-blackrock-4475939799,\"Own careers site confirms ~3 yrs hands-on (one listing even shows 0-1 yr variant) - fits band well"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Orion Innovation",
+    "role": "Developer - React & Python",
+    "location": "Chennai",
+    "posted": "4 days ago",
+    "url": "https://in.linkedin.com/jobs/view/developer-react-python-at-orion-innovation-4476284330",
+    "notes": "Company's similar roles elsewhere are described as mid-level 3-5+ yrs - verify this specific posting's exact requirement"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Qualys",
+    "role": "Front End Software Engineer",
+    "location": "Pune",
+    "posted": "4 days ago",
+    "url": "https://in.linkedin.com/jobs/view/front-end-software-engineer-at-qualys-4476285181",
+    "notes": "Confirmed 0-4 yrs entry-level per official posting. Caution: Google search surfaced a DIFFERENT, much older stale Qualys posting (job id 3210262530) for the same title - that one is an evergreen repost. This id (4476285181) is the genuinely current, correct one."
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Capco",
+    "role": "React.Js Developer",
+    "location": "Bengaluru",
+    "posted": "5 days ago",
+    "url": "https://in.linkedin.com/jobs/view/react-js-developer-at-capco-4475752738",
+    "notes": "Every Capco React role found (own site/job boards) needs 4-9, 6+, 7+ or 8+ yrs - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Mitigata",
+    "role": "Frontend Developer",
+    "location": "Bengaluru",
+    "posted": "5 days ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-developer-at-mitigata%E2%84%A2-full-stack-cyber-resilience-4475771876",
+    "notes": "Legit cyber-insurance company; has a non-senior Frontend Developer tier distinct from their Senior React.js Developer (5-8yr) role"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Deqode",
+    "role": "Software Engineer",
+    "location": "Indore",
+    "posted": "5 days ago",
+    "url": "https://in.linkedin.com/jobs/view/software-engineer-at-deqode-4474460153",
+    "notes": "Confirmed: company's Indore Software Developer openings are 0-3 yrs, 2-6L - fits band well"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "TransUnion",
+    "role": "Developer - React",
+    "location": "Pune",
+    "posted": "5 days ago",
+    "url": "https://in.linkedin.com/jobs/view/developer-react-at-transunion-4475449362",
+    "notes": "Confirmed 4+ yrs required - at upper edge of 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "VOIS",
+    "role": "SharePoint & React Developer",
+    "location": "Pune",
+    "posted": "5 days ago",
+    "url": "https://in.linkedin.com/jobs/view/sharepoint-react-developer-vois-at-vois-4474449115",
+    "notes": "Own job listing confirms 6-8 yrs overall professional experience required - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "CGI",
+    "role": "UI/UX Developer",
+    "location": "Bengaluru",
+    "posted": "6 days ago",
+    "url": "https://in.linkedin.com/jobs/view/ui-ux-developer-at-cgi-4471686180",
+    "notes": "Matching CGI UI/UX Developer role found is actually 'Senior Front End/UI Developer, Lead Analyst' needing 7+ yrs - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Datum Technologies Group",
+    "role": "Frontend Developer",
+    "location": "Mumbai",
+    "posted": "6 days ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-developer-at-datum-technologies-group-4474907587",
+    "notes": "Company's own listings for this exact title are explicitly 'Senior Frontend Developer' needing 6-8+ yrs - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "SWISStours",
+    "role": "Full Stack Developer (React.js + .NET)",
+    "location": "Mumbai",
+    "posted": "6 days ago",
+    "url": "https://in.linkedin.com/jobs/view/full-stack-developer-react-js-%2B-net-at-swisstours-4473496935",
+    "notes": "SWISStours is a Swiss airline/travel company; no tech-role exp data found on their careers page - unconfirmed"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Edstem Technologies",
+    "role": "Software Engineer - Frontend (React)",
+    "location": "Thiruvananthapuram",
+    "posted": "6 days ago",
+    "url": "https://in.linkedin.com/jobs/view/software-engineer-frontend-react-at-edstem-technologies-4475143912",
+    "notes": "Matches company's 'Intermediate Frontend Developer ReactJS' tier (Trivandrum), distinct from their Senior React Developer role (Kochi)"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Hewlett Packard Enterprise",
+    "role": "Data Fabric Cloud Engineer",
+    "location": "Pune",
+    "posted": "6 days ago",
+    "url": "https://in.linkedin.com/jobs/view/data-fabric-cloud-engineer-at-hewlett-packard-enterprise-4476166770",
+    "notes": "Confirmed: role is explicitly categorized as 'senior level', Master's degree desirable, salary 22-36L - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Purchasing Power",
+    "role": "UI Developer",
+    "location": "Chennai",
+    "posted": "6 days ago",
+    "url": "https://in.linkedin.com/jobs/view/ui-developer-chennai-tamil-nadu-india-at-purchasing-power-4474941963",
+    "notes": "No exp data found for this specific role; company's other Chennai roles (Product Owner 5-7yr, Mobile Dev 3-7yr) skew mid-senior"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Vena Solutions",
+    "role": "Software Developer 2",
+    "location": "Indore",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/software-developer-2-at-vena-solutions-4476163020",
+    "notes": "Confirmed 3+ yrs back-end experience required - fits within band, salary 14-19LPA"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Ascentt",
+    "role": "Full Stack Developer",
+    "location": "Indore",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/full-stack-developer-at-ascentt-4473610536",
+    "notes": "Company's own listing for this exact title confirms 5-7 yrs professional experience - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "HAMMOQ Inc.",
+    "role": "MERN Stack Developer",
+    "location": "Indore",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/mern-stack-developer-at-hammoq-inc-4475340361",
+    "notes": "Company confirmed to have 0yr fresher, 3-4yr mid, and senior tiers - likely fits one of the junior/mid tiers"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Deservely Technologies",
+    "role": "MERN Stack Developer",
+    "location": "Indore",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/mern-stack-developer-at-deservely-technologies-4472546168",
+    "notes": "This company's matching MERN posting is explicitly 'Senior MERN Full Stack Developer' needing 6-10 yrs - does not fit 0-4yr band. Also a staffing/recruitment firm."
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Linedata",
+    "role": "Consultant - React",
+    "location": "Mumbai",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/consultant-react-at-linedata-4389856145",
+    "notes": "Company's own job page confirms this exact role needs 4-6 yrs - exceeds upper end of 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Deltatre",
+    "role": "Front-End Software Engineer",
+    "location": "Mumbai",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/front-end-software-engineer-at-deltatre-4471723821",
+    "notes": "Confirmed this is the 'Mid-Level' tier distinct from their Senior tier - but 'Mid-Level' may still mean 3-6yrs at this company, exact yrs unconfirmed"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Infosys",
+    "role": "React JS Developer",
+    "location": "Pune",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/react-js-developer-at-infosys-4472561383",
+    "notes": "Confirmed 2+ yrs minimum for Pune React roles - fits lower end of band. duplicate reqs also seen: 4474652620 and 4472557618"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Blue Yonder",
+    "role": "\"Software Engineer II - React JS",
+    "location": "TS",
+    "posted": "HTML5/CSS3\"",
+    "url": "Hyderabad",
+    "notes": "1 week ago,https://in.linkedin.com/jobs/view/software-engineer-ii-react-js-javascript-typescript-html5-css3-at-blue-yonder-4473708504,\"Company has both 2-4yr (Pune) and 3-5yr (Bengaluru) tiers for same title - this Hyderabad listing's exact tier unconfirmed, plausible fit"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Chegg India",
+    "role": "Software Engineer II",
+    "location": "Delhi",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/software-engineer-ii-at-chegg-india-4454703438",
+    "notes": "Chegg's 'Software Engineer II' roles confirmed as 3-6 yrs (some say 4+ yrs) - exceeds upper edge of 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "ktree.com",
+    "role": "React Developer",
+    "location": "Hyderabad",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/react-developer-at-ktree-com-4474372426",
+    "notes": "Company separates 'React Developer' from 'Senior React Developer' as distinct tiers on own career page - this is the non-senior one"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Surya Software Systems",
+    "role": "Front-End Developer",
+    "location": "Bengaluru",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/front-end-developer-at-surya-software-systems-private-limited-4475530138",
+    "notes": "Confirmed React 19+TypeScript, 2-4 yrs, 10-13 LPA - matches band well"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Penthara Technologies",
+    "role": "React JS Developer",
+    "location": "Mohali/Punjab",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/react-js-developer-at-penthara-technologies-4474123694",
+    "notes": "Confirmed via own Zoho career portal - exact matching React JS Developer role exists, no senior-only signal"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Merit Tutoring",
+    "role": "Full Stack Engineer",
+    "location": "Coimbatore",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-merit-tutoring-4472531436",
+    "notes": "Search results confused with an unrelated UK tutoring company of same name - could not independently confirm this company or role"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Thales",
+    "role": "Software Engineer",
+    "location": "Noida",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/software-engineer-at-thales-4473973485",
+    "notes": "Thales 'Software Engineer' (backend+frontend) roles confirmed need 4-5+ yrs; their separate UI Developer React role needs 3-6 yrs - neither fits 0-4yr band well"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "ITC Infotech",
+    "role": "Front End Developer",
+    "location": "Bengaluru",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/front-end-developer-at-itc-infotech-4465509178",
+    "notes": "Average salary for this role (₹3.84L, 43% below national avg) suggests entry-level friendly, no senior signal found"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "GE Vernova",
+    "role": "Software Engineer",
+    "location": "Bengaluru",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/software-engineer-at-ge-vernova-4475567327",
+    "notes": "Company has multiple tiers under similar titles (Frontend 3-5yr, Full Stack 2-5yr, Staff/Sr 5+yr) - verify which this specific listing is before applying"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Comviva",
+    "role": "Full Stack UI Frontend Developer",
+    "location": "Bengaluru",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/full-stack-ui-frontend-developer-at-comviva-4474149311",
+    "notes": "Confirmed 4-5 yrs required - exceeds upper edge of 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Honeywell Technologies",
+    "role": "Software Engr II - React and SQL",
+    "location": "Pune",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/software-engr-ii-react-and-sql-at-honeywell-technologies-4473709711",
+    "notes": "Confirmed minimum 4 yrs required - at upper edge of 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Infosys",
+    "role": "React JS and Node JS Developer",
+    "location": "Chennai",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/react-js-and-node-js-developer-at-infosys-4472559469",
+    "notes": "Same company-wide 2+ yrs confirmation as the other Infosys entries - fits lower end of band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "UST",
+    "role": "React Full Stack",
+    "location": "Chennai",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/react-full-stack-at-ust-4464290442",
+    "notes": "Low estimated salary (4-8L) suggests junior-friendly, but company's general Full Stack Developer roles are 2-6 yrs - ambiguous exact fit"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Money Forward India",
+    "role": "Frontend Engineer (React / TypeScript)",
+    "location": "Chennai",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/frontend-engineer-react-typescript-at-money-forward-india-4473621118",
+    "notes": "Company's own Zoho career portal confirms 4+ yrs professional experience required - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "MISMATCH",
+    "company": "Cognizant",
+    "role": "Hiring for UI/UX Engineer (HITL)",
+    "location": "Chennai",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/hiring-for-ui-ux-engineer-hitl-at-cognizant-4474279784",
+    "notes": "Official Cognizant careers listing for this exact role confirms 5+ yrs React/UI engineering experience - does not fit 0-4yr band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CAUTION",
+    "company": "Exreed",
+    "role": "Front End Developer - ReactJS",
+    "location": "Hyderabad",
+    "posted": "1 week ago",
+    "url": "https://in.linkedin.com/jobs/view/front-end-developer-reactjs-at-exreed-4474199091",
+    "notes": "Could not find any independent company info or exp data - could not confirm company legitimacy"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Cloudworx Technologies",
+    "role": "Frontend Developer (React/Three.js/R3F)",
+    "location": "Bengaluru",
+    "posted": "7 days ago",
+    "url": "https://wellfound.com/jobs/776124-frontend-three-js-r3f-developer",
+    "notes": "Confirmed via Wellfound: 3 yrs experience, 8-24L+equity - fits band, startup"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Timbre",
+    "role": "Full Stack JavaScript Developer",
+    "location": "Remote (India)",
+    "posted": "1 week ago",
+    "url": "https://wellfound.com/jobs/4809513-full-stack-javascript-developer",
+    "notes": "Confirmed via Wellfound: 2 yrs experience - fits band, startup"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "FOXO",
+    "role": "Web Developer",
+    "location": "Bengaluru",
+    "posted": "7 days ago",
+    "url": "https://wellfound.com/jobs/4810236-web-developer",
+    "notes": "Confirmed via Wellfound: 2 yrs experience - fits band, startup, in-office"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Moshi Moshi",
+    "role": "Shopify Developer",
+    "location": "Bengaluru",
+    "posted": "1 week ago",
+    "url": "https://wellfound.com/jobs/4781460-shopify-developer",
+    "notes": "Confirmed via Wellfound: 2 yrs experience, 3-7L - fits band, startup"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "Elovient Software Solutions",
+    "role": "Full-Stack Software Developer",
+    "location": "Mumbai",
+    "posted": "6 days ago",
+    "url": "https://wellfound.com/jobs/4811809-full-stack-software-developer-clone",
+    "notes": "Confirmed via Wellfound: 1 yr experience, 25-35k/month - fits band, startup"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "SquareYards",
+    "role": "MERN Stack Developer - Backend & Distributed Systems",
+    "location": "Mumbai",
+    "posted": "6 days ago",
+    "url": "https://wellfound.com/jobs/4814835-mern-stack-developer-backend-distributed-systems",
+    "notes": "Confirmed via Wellfound: 3 yrs experience, 13-18L - fits band"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "CredX",
+    "role": "Frontend Engineer",
+    "location": "Hyderabad",
+    "posted": "6 days ago",
+    "url": "https://wellfound.com/jobs/4817670-frontend-engineer",
+    "notes": "Confirmed via Wellfound: 4 yrs experience, 10-14L - fits band (upper edge), startup"
+  },
+  {
+    "tier": "VERIFIED_WITH_LINK",
+    "status": "CONFIRMED_GOOD",
+    "company": "flintzy",
+    "role": "Frontend Developer (React / Next.js)",
+    "location": "Hyderabad",
+    "posted": "1 week ago",
+    "url": "https://wellfound.com/jobs/4809485-frontend-developer-react-next-js",
+    "notes": "Confirmed via Wellfound: 3 yrs experience, 10-14L, early-stage startup - fits band"
+  },
+  {
+    "tier": "SUSPECTED_REPOST",
+    "status": "MISMATCH",
+    "company": "InvoiceCloud Inc.",
+    "role": "Front End Developer",
+    "location": "Hyderabad",
+    "posted": "2 days ago (claimed)",
+    "url": "https://in.linkedin.com/jobs/view/front-end-developer-at-invoicecloud-inc-4351239737",
+    "notes": "Job ID (4351239737) is far below the current Oct-2026 batch range (4469000000-4478999999) seen on all genuinely fresh postings this session - likely an evergreen/stale repost despite the '2 days ago' label. Do not treat as fresh."
+  }
+]

@@ -1,0 +1,81 @@
+| 1 | Weekday AI | React Developer | India | Past 7 Days (Verified Fresh) | 2+ YOE | Adzuna India (MCP) |
+| 2 | Weekday AI | React Developer | Pune, Maharashtra | Past 7 Days (Verified Fresh) | 2+ YOE | Adzuna India (MCP) |
+| 3 | Acme Services Private Limited | UI React Developer | Richmond Town, Bangalore | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 4 | Mirafra Technologies | React Developer with ROR | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 5 | MindBowser Info Solutions | python react developer | Pune, Maharashtra | Past 7 Days (Verified Fresh) | 2+ YOE | Adzuna India (MCP) |
+| 6 | Posspole | Python  React Developer | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 7 | samunnati financial intermediation & services private limited | Front End React Developer | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 2-6 YOE | Adzuna India (MCP) |
+| 8 | Eszmeletlen Holding Co | React.js Developer | Mumbai, Maharashtra | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 9 | upcred.ai | React.js Developer | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 1-5 YOE | Adzuna India (MCP) |
+| 10 | Infosys Limited | React JS Developer | Pune, Maharashtra | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 11 | CIMCON Software | React Js Developer | Ahmedabad, Gujarat | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 12 | Janovis Infotech | React.js Developer | Ahmedabad, Gujarat | Past 7 Days (Verified Fresh) | 1-2 YOE | Adzuna India (MCP) |
+| 13 | Classhose India Private Limited | React Js Developer | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 14 | Apprick Technologies Pvt Ltd | Frontend Developer | Mumbai, Maharashtra | Past 7 Days (Verified Fresh) | 2-5 YOE | Adzuna India (MCP) |
+| 15 | Bimakavach | Frontend Developer | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 2-5 YOE | Adzuna India (MCP) |
+| 16 | UIX Labs | Frontend Developer | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 17 | www.Houseitt.in | Frontend Developer | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 18 | Digibility Solutions Pvt. Ltd. | Frontend Developer | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 19 | Datalifehealth Services Pvt Ltd | Frontend Developer | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 20 | Ownerstown | Frontend Developer | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 21 | sense.bio | Frontend Developer | Mumbai, Maharashtra | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 22 | Deployd Technologies Pvt Ltd | Frontend Developer | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 2-5 YOE | Adzuna India (MCP) |
+| 23 | Aakash Edutech | Frontend Developer | Delhi, India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 24 | SIMBOAI | Frontend Developer | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 25 | Vector Labs Tech | Frontend Developer | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 26 | RESTOLABS | Frontend Developer | Noida, Ghaziabad | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 27 | Oga | Frontend Developer | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 28 | Meyrahkee Advisors | Frontend Developer | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 29 | Epilen | Frontend Developer | Delhi, India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 30 | Offerxone | Frontend Developer | Noida, Ghaziabad | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 31 | Armada Intelligence Inc | Frontend Developer | Ahmedabad, Gujarat | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 32 | CricStox Private Limited | Frontend Developer | Pune, Maharashtra | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 33 | Startupwala | Frontend Developer | Pune, Maharashtra | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 34 | Reconectai | Frontend Developer | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 35 | Dtwelve Spaces | Frontend Developer | Delhi, India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 36 | Serve And Volley Technologies Private Limited | Full-Stack Developer (Next.js) | Bangalore, Karnataka | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 37 | Zunderdog | Junior Web Developer (Fresher) | Pune, Maharashtra | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 38 | Alphanext Technology Solutions | AI Fullstack Engineer | Indore, Madhya Pradesh | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 39 | PRIPTON INNOVATIONS | Fullstack Product Engineer | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 40 | MotionGility | Full Stack Developer | Indore, Madhya Pradesh | Past 7 Days (Verified Fresh) | 2-3 YOE | Adzuna India (MCP) |
+| 41 | hBits Proptech | Software Engineer - Frontend & Backend | Mumbai, Maharashtra | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 42 | BrandLabs | Fullstack Engineer | Thane, Maharashtra | Past 7 Days (Verified Fresh) | 1-2 YOE | Adzuna India (MCP) |
+| 43 | Hashtag labs | MERN Developer | Lucknow, Uttar Pradesh | Past 7 Days (Verified Fresh) | 2+ YOE | Adzuna India (MCP) |
+| 44 | Talentelgia Technologies PvtLtd | Full Stack MERN Developer | Mohali, Punjab | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 45 | FreeADS | MERN Fullstack Developer | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 46 | Onclick Innovations | Mern Stack Developer | Mohali, Punjab | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 47 | Pentabay Softwares | Mern Stack Developer | Chennai, Tamil Nadu | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 48 | Knovator Technologies | MERN Stack Developer | Surat, Gujarat | Past 7 Days (Verified Fresh) | 1+ YOE | Adzuna India (MCP) |
+| 49 | Aarohan agri products pvt ltd | Mern Stack developer | Bhopal, Madhya Pradesh | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 50 | Blockwoods Marketing Management OPC Pvt Ltd | MERN Stack Developer | Chennai, Tamil Nadu | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 51 | Settings Infotech | MERN Stack Developer | Surat, Gujarat | Past 7 Days (Verified Fresh) | 1-2 YOE | Adzuna India (MCP) |
+| 52 | Dofin Tech | MERN Stack Developer | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 53 | MediGence | MERN Stack Developer | Noida, Ghaziabad | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 54 | Aapna Infotech | MERN Stack Developer | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 55 | Shine infosoft | MERN STACK DEVELOPER | Ahmedabad, Gujarat | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 56 | smartdata enterprises inc. | MERN Stack Developer | Nagpur, Maharashtra | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 57 | Gammastack | MERN Stack Developer | Indore, Madhya Pradesh | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 58 | Aekatr Technology and Services Private Limited | MERN Stack Developer | Delhi, India | Past 7 Days (Verified Fresh) | 2+ YOE | Adzuna India (MCP) |
+| 59 | QSS Global | MERN Stack Developer | India | Past 7 Days (Verified Fresh) | 2+ YOE | Adzuna India (MCP) |
+| 60 | VTP Infra Tech Private Limited | MERN Stack Developer | Surat, Gujarat | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 61 | ValueDot | MERN Stack Developer | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 62 | Hashstudioz Technologies Pvt Ltd | MERN stack Developer | Mohali, Punjab | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 63 | TheKalki | Web Developer (MERN Stack) | Madurai, Tamil Nadu | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 64 | Infomatics Technologies | Backend Developer - MERN Stack | Raipur, Chhattisgarh | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 65 | Growloc Private Limited | MERN Full Stack Developer | India | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 66 | Ajargh Kreation | Full stack developer MERN | Koramangala, Bangalore | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 67 | ICohort Business Ventures Private Limited | MERN (Full Stack) Developer | Kozhikode, Kerala | Past 7 Days (Verified Fresh) | 2-5 YOE | Adzuna India (MCP) |
+| 68 | Design of time co | Mern Stack Deveeloper | Indore, Madhya Pradesh | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Adzuna India (MCP) |
+| 69 | 13KBS | Full Stack Engineer (MERN) 1 - 3 YOE, WFO Rajkot | Rajkot, Gujarat | Past 7 Days (Verified Fresh) | 1-3 YOE | Adzuna India (MCP) |
+| 70 | Integrated Wireless Solutions | .NET React Developer | Gurugram, Haryana | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Google Jobs (SerpApi) |
+| 71 | Virtusa | React JS- P | Chennai, Tamil Nadu | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Google Jobs (SerpApi) |
+| 72 | TechUnity Software Systems India Pvt. Ltd. | Hiring React Developer | Guwahati, Assam | Past 7 Days (Verified Fresh) | 2-5 YOE | Google Jobs (SerpApi) |
+| 73 | Redsag | Junior Frontend Developer | Tiruppur, Tamil Nadu | Past 7 Days (Verified Fresh) | 0-1 YOE | Google Jobs (SerpApi) |
+| 74 | Cognizant | AEM FullStack (Backend+ Frontend)  Developer | Coimbatore, Tamil Nadu | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Google Jobs (SerpApi) |
+| 75 | Cognizant | Frontend Developer Intern at Cognizant | Chennai, Tamil Nadu | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Google Jobs (SerpApi) |
+| 76 | Ilizien Pvt Ltd | Angular Frontend Developer | New Delhi, Delhi | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Google Jobs (SerpApi) |
+| 77 | Ducat India | Java mern stack Trainer | New Delhi, Delhi | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Google Jobs (SerpApi) |
+| 78 | HBSPL | MERN Stack Developer – Freshers & Experienced  HBSPL | Bengaluru, Karnataka (+4 others) | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Google Jobs (SerpApi) |
+| 79 | Nameless | MERN Stack Developer - Start Now (Hyderabad) | Hyderabad, Telangana | 1 week ago | 0-5 YOE | Google Jobs (SerpApi) |
+| 80 | Creuto | MERN Stack Developer | India | Past 7 Days (Verified Fresh) | 2+ YOE | Google Jobs (SerpApi) |
+| 81 | Tavily | Front-End Engineer | New York City | Past 7 Days (Verified Fresh) | 0-2 YOE (Eligible) | Ashby (tavily) |

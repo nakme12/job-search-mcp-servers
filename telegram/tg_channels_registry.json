@@ -1,0 +1,44 @@
+[
+  {
+    "username": "merntech",
+    "name": "Developer Hub | Jobs & Referrals",
+    "category": "MERN & React Focus",
+    "status": "VERIFIED_ACTIVE"
+  },
+  {
+    "username": "placementlelo",
+    "name": "Placement Lelo",
+    "category": "Campus & Off-Campus Hiring",
+    "status": "VERIFIED_ACTIVE"
+  },
+  {
+    "username": "freshersvoice",
+    "name": "Freshers Voice",
+    "category": "Freshers & Entry Level",
+    "status": "VERIFIED_ACTIVE"
+  },
+  {
+    "username": "freshershunt",
+    "name": "Freshers Hunt",
+    "category": "Fresher Openings",
+    "status": "VERIFIED_ACTIVE"
+  },
+  {
+    "username": "offcampusjobs4u",
+    "name": "Off Campus Jobs 4U",
+    "category": "Freshers & 0-2 YOE Tech",
+    "status": "VERIFIED_ACTIVE"
+  },
+  {
+    "username": "placement_drive",
+    "name": "Placement Drive",
+    "category": "Off-Campus SDE Drives",
+    "status": "VERIFIED_ACTIVE"
+  },
+  {
+    "username": "techjobsalert",
+    "name": "Tech Jobs Alert",
+    "category": "IT & Software Openings",
+    "status": "VERIFIED_ACTIVE"
+  }
+]

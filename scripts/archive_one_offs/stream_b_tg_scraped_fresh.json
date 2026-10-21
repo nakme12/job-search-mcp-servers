@@ -1,0 +1,90 @@
+[
+  {
+    "company": "Softbay",
+    "title": "Frontend Engineer",
+    "location": "Delhi NCR",
+    "posted_date": "2026-10-12",
+    "experience": "0-2 YOE",
+    "tech_stack": "React.js, JavaScript, HTML/CSS, REST APIs",
+    "url": "https://t.me/merntech/1222",
+    "contact_email": "nitya.pande@softbay.com",
+    "source": "Telegram"
+  },
+  {
+    "company": "Axquora",
+    "title": "Frontend Engineer",
+    "location": "Indore",
+    "posted_date": "2026-10-12",
+    "experience": "1-2 YOE",
+    "tech_stack": "React.js, JavaScript, HTML/CSS, REST APIs",
+    "url": "https://t.me/merntech/1231",
+    "contact_email": "hr@axquora.com",
+    "source": "Telegram"
+  },
+  {
+    "company": "Tech Company",
+    "title": "Frontend Developer",
+    "location": "India / Remote",
+    "posted_date": "2026-10-12",
+    "experience": "0-2 YOE",
+    "tech_stack": "React.js, JavaScript, HTML/CSS, REST APIs",
+    "url": "https://www.placementindia.com/job-detail/full-stack-mern-developer-jobs-in-surat-utran-surat-for-appsly-infotech-1057691.htm",
+    "contact_email": "",
+    "source": "Telegram"
+  },
+  {
+    "company": "Lytiva",
+    "title": "Next.js Developer",
+    "location": "Ahmedabad",
+    "posted_date": "2026-10-10",
+    "experience": "0-1 YOE (Fresher / Junior)",
+    "tech_stack": "Next.js, Node.js",
+    "url": "https://t.me/merntech/1217",
+    "contact_email": "hr@lytiva.com",
+    "source": "Telegram"
+  },
+  {
+    "company": "Tech Company",
+    "title": "React.js Developer",
+    "location": "Remote",
+    "posted_date": "2026-09-16",
+    "experience": "0-2 YOE",
+    "tech_stack": "React.js, TypeScript, JavaScript, REST APIs",
+    "url": "https://www.upwork.com/freelance-jobs/apply/React-Developer-Needed-for-Long-Term-Part-Time-Remote-Work_~022099839291870230198/",
+    "contact_email": "",
+    "source": "Telegram"
+  },
+  {
+    "company": "Tech Company",
+    "title": "Frontend Engineer",
+    "location": "Remote",
+    "posted_date": "2026-08-30",
+    "experience": "0-2 YOE",
+    "tech_stack": "React.js, TypeScript, JavaScript, HTML/CSS",
+    "url": "https://dynamitejobs.com/company/maxanapay/remote-job/frontend-developer",
+    "contact_email": "",
+    "source": "Telegram"
+  },
+  {
+    "company": "Tech Company",
+    "title": "Web Developer",
+    "location": "Bangalore",
+    "posted_date": "2026-10-12",
+    "experience": "0-2 YOE",
+    "tech_stack": "React.js, JavaScript, HTML/CSS, REST APIs",
+    "url": "https://offcampusjobs4u.com/sage-recruitment-2026-web-developer-bangalore/",
+    "contact_email": "",
+    "source": "Telegram"
+  },
+  {
+    "company": "Tech Company",
+    "title": "Frontend Developer",
+    "location": "Delhi NCR",
+    "posted_date": "2025-08-23",
+    "experience": "0-2 YOE",
+    "tech_stack": "React.js",
+    "url": "https://www.linkedin.com/posts/sanjayrajpoot_were-hiring-react-native-developer-gurgaon-activity-7364618958223630336-IEXw?utm_source=share&utm_medium=member_android&rcm=ACoAACj4IBwBSZNd8WGz2JT8KZqGJI-2JdcNVTU",
+    "contact_email": "",
+    "source": "Telegram"
+  }
+]

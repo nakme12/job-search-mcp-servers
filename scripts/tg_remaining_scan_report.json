@@ -1,0 +1,98 @@
+[
+  {
+    "num": 10,
+    "username": "software_engineering_jobs",
+    "name": "Software Engineering Jobs",
+    "totalPosts": 0,
+    "status": "DROP",
+    "lastPostSnippet": ""
+  },
+  {
+    "num": 11,
+    "username": "web_development_jobs",
+    "name": "Веб-разработка | Вакансии",
+    "totalPosts": 3,
+    "status": "KEEP",
+    "lastPostSnippet": "🔥🔥🔥🔥🔥 Вакансия: Backend разработчик Зарплата: 140’000 - 200’000 ₽  О нас: Федеральная торговая компания.  Мы производим надгробные памятники. Мы не являемся флагманом ИТ-отрасли Мы являемся флагм"
+  },
+  {
+    "num": 12,
+    "username": "hire_developers",
+    "name": "Channel",
+    "totalPosts": 1,
+    "status": "DROP",
+    "lastPostSnippet": "Channel created"
+  },
+  {
+    "num": 13,
+    "username": "techjobsalert",
+    "name": "Tech_job_alert_pune🎯",
+    "totalPosts": 4,
+    "status": "KEEP",
+    "lastPostSnippet": "Channel name was changed to «Tech_job_alert_pune🎯»"
+  },
+  {
+    "num": 14,
+    "username": "react_india",
+    "name": "React India Jobs",
+    "totalPosts": 0,
+    "status": "DROP",
+    "lastPostSnippet": ""
+  },
+  {
+    "num": 15,
+    "username": "placement_drive",
+    "name": "Off Campus Drive(Placement and Internship)",
+    "totalPosts": 20,
+    "status": "KEEP",
+    "lastPostSnippet": "https://lnkd.in/p/dtP8bz7x"
+  },
+  {
+    "num": 16,
+    "username": "remote_jobs_india",
+    "name": "Remote Jobs India",
+    "totalPosts": 0,
+    "status": "DROP",
+    "lastPostSnippet": ""
+  },
+  {
+    "num": 17,
+    "username": "freshersopenings",
+    "name": "Freshers Openings",
+    "totalPosts": 0,
+    "status": "DROP",
+    "lastPostSnippet": ""
+  },
+  {
+    "num": 18,
+    "username": "jobsearchindia",
+    "name": "Job Search India",
+    "totalPosts": 0,
+    "status": "DROP",
+    "lastPostSnippet": ""
+  },
+  {
+    "num": 19,
+    "username": "devjobsindia",
+    "name": "Dev Jobs India",
+    "totalPosts": 0,
+    "status": "DROP",
+    "lastPostSnippet": ""
+  },
+  {
+    "num": 20,
+    "username": "developers_india",
+    "name": "Developers India",
+    "totalPosts": 0,
+    "status": "DROP",
+    "lastPostSnippet": ""
+  },
+  {
+    "num": 21,
+    "username": "tech_jobs_hub",
+    "name": "Tech Jobs Hub",
+    "totalPosts": 0,
+    "status": "DROP",
+    "lastPostSnippet": ""
+  }
+]

@@ -90,7 +90,7 @@ server.registerTool(
         .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
       maxAgeDays: z
         .number()
-        .default(90)
+        .default(7)
         .describe("Drop jobs posted more than this many days ago (parsed from Google's relative date strings). Set high (e.g. 9999) to disable."),
       excludeInternships: z
         .boolean()

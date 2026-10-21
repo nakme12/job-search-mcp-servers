@@ -82,7 +82,7 @@ server.registerTool(
         .describe("Drop jobs whose title/description reads as Senior/Lead/Staff/Principal/Architect/Manager/Director."),
       maxAgeDays: z
         .number()
-        .default(90)
+        .default(7)
         .describe(
           "Client-side safety net against `created`. `max_days_old` above is Adzuna's own server-side filter - " +
             "use both together or either alone. Set high (e.g. 9999) to disable."

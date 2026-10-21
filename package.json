@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node cli_job_viewer.js",
+    "brave": "node scripts/ensure_brave_cdp.cjs",
+    "brave:check": "node scripts/ensure_brave_cdp.cjs --check-only",
     "himalayas-jobs": "node servers/himalayas-jobs-server.js"
   },
   "author": "",

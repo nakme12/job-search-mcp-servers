@@ -1,0 +1,44 @@
+[
+  {
+    "id": 3,
+    "company": "Sequence",
+    "role": "React Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5920557821?utm_medium=api&utm_source=22d4b243",
+    "source": "Adzuna India (MCP)",
+    "posted_date": "Within past 7 days",
+    "verified_exp": "3+ YOE",
+    "is_closed": false,
+    "is_over_exp": true,
+    "mapped_resume": "Pratik Patidar Resume - React Developer.pdf",
+    "status": "DROPPED"
+  },
+  {
+    "id": 13,
+    "company": "Deltacubes",
+    "role": "React.JS Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5923249572?utm_medium=api&utm_source=22d4b243",
+    "source": "Adzuna India (MCP)",
+    "posted_date": "Within past 7 days",
+    "verified_exp": "5+ YOE",
+    "is_closed": false,
+    "is_over_exp": true,
+    "mapped_resume": "Pratik Patidar Resume - React Developer.pdf",
+    "status": "DROPPED"
+  },
+  {
+    "id": 15,
+    "company": "Creeno Solutions Private Limited",
+    "role": "React JS Developer",
+    "location": "Pune, Maharashtra",
+    "url": "https://www.adzuna.in/details/5913245482?utm_medium=api&utm_source=22d4b243",
+    "source": "Adzuna India (MCP)",
+    "posted_date": "Within past 7 days",
+    "verified_exp": "8-10 YOE",
+    "is_closed": false,
+    "is_over_exp": true,
+    "mapped_resume": "Pratik Patidar Resume - React Developer.pdf",
+    "status": "DROPPED"
+  }
+]
