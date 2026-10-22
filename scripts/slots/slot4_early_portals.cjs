@@ -51,6 +51,25 @@ async function runSlot4(force = false) {
   }
 
   log(`Processing Batch 1 early portals with zero phantom logging...`);
+  // Import hardened Ashby / ATS submitter engine
+  try {
+    const { applyAshbyJob } = require('../ashby_auto_fill_engine.cjs');
+    const puppeteer = require('puppeteer-core');
+    const browser = await puppeteer.connect({ browserURL: 'http://127.0.0.1:9222' });
+    
+    // Process up to 5 early portal forms
+    const earlyBatch = pendingJobs.slice(0, 5);
+    for (const job of earlyBatch) {
+      if ((job.url || '').includes('ashbyhq.com')) {
+        const page = await browser.newPage();
+        await applyAshbyJob(page, job).catch(e => log(`Error submitting ${job.company}: ${e.message}`));
+        await page.close().catch(() => {});
+      }
+    }
+    log(`✅ Batch 1 Early Portals processing complete.`);
+  } catch (err) {
+    log(`Warning during early portals execution: ${err.message}`);
+  }
 }
 
 if (require.main === module) {
