@@ -1,6 +1,6 @@
 {
   "description": "All historical jobs seen/applied/skipped before today",
-  "total": 568,
+  "total": 569,
   "jobs": [
     {
       "id": 154,
@@ -6808,5 +6808,5 @@
       "date": "2026-10-21"
     }
   ],
-  "last_updated": "2026-10-20T14:14:14.287Z"
+  "last_updated": "2026-10-22T07:04:38.836Z"
 }

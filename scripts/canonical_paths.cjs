@@ -33,28 +33,28 @@ const CANONICAL_PATHS = {
   CDP_PORT: 9222,
   CDP_URL: 'http://127.0.0.1:9222',
   RESUMES_DIR: path.join(ENGINE_ROOT, 'resumes'),
-  PROFILE_FILE: fs.existsSync(path.join(MCP_ROOT, 'data', 'candidate', 'candidate_screening_profile.json'))
-    ? path.join(MCP_ROOT, 'data', 'candidate', 'candidate_screening_profile.json')
+  PROFILE_FILE: fs.existsSync(path.join(ENGINE_ROOT, 'data', 'candidate', 'candidate_screening_profile.json'))
+    ? path.join(ENGINE_ROOT, 'data', 'candidate', 'candidate_screening_profile.json')
     : path.join(ENGINE_ROOT, 'candidate_screening_profile.json'),
   
   // Daily 5-File Architecture (points to clean data/ structure)
   getFile3Today: (dateStr = getTodayString()) => {
-    const cleanPath = path.join(MCP_ROOT, 'data', 'daily', `total_todays_${dateStr}.json`);
+    const cleanPath = path.join(ENGINE_ROOT, 'data', 'daily', `total_todays_${dateStr}.json`);
     return cleanPath;
   },
   getFile4Verified: (dateStr = getTodayString()) => {
-    const cleanPath = path.join(MCP_ROOT, 'data', 'daily', `verified_todays_${dateStr}.json`);
+    const cleanPath = path.join(ENGINE_ROOT, 'data', 'daily', `verified_todays_${dateStr}.json`);
     return cleanPath;
   },
   getFile5Applied: (dateStr = getTodayString()) => {
-    const cleanPath = path.join(MCP_ROOT, 'data', 'daily', `applied_todays_${dateStr}.json`);
+    const cleanPath = path.join(ENGINE_ROOT, 'data', 'daily', `applied_todays_${dateStr}.json`);
     return cleanPath;
   },
   getFile1Historical: () => {
-    return path.join(MCP_ROOT, 'data', 'historical', 'total_historical_except_today.json');
+    return path.join(ENGINE_ROOT, 'data', 'historical', 'total_historical_except_today.json');
   },
   getFile2LifetimeApplied: () => {
-    return path.join(MCP_ROOT, 'data', 'historical', 'applied_lifetime_except_today.json');
+    return path.join(ENGINE_ROOT, 'data', 'historical', 'applied_lifetime_except_today.json');
   }
 };
 

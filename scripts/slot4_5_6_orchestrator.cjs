@@ -4,8 +4,8 @@
  * - Step 1 (Slot 4): Open URL, check live DOM, ensure active, check YOE <= 2 years
  * - Step 2 (Slot 5/6): If Easy Apply or Direct ATS form, fill via canonical profile
  *   If external redirect / email found, dispatch or keep ready
- * - Step 3: Check confirmation, take post-submit screenshot to screenshots/2026-10-14/shift2/
- * - Step 4: Immediately close tab & append to applied_todays_2026-10-14_shift2.json
+ * - Step 3: Check confirmation, take post-submit screenshot to screenshots/
+ * - Step 4: Immediately close tab & append to applied_todays.json
  * - Mandate Rule 59: Granular live console logs for every step
  */
 
@@ -15,7 +15,7 @@ const puppeteer = require('puppeteer-core');
 
 const PROFILE_PATH = path.join(__dirname, '..', 'candidate_screening_profile.json');
 const QUEUE_PATH = path.join(__dirname, '..', 'claude_ready_to_apply_queue.json');
-const APPLIED_SHIFT2_PATH = path.join(__dirname, '..', 'applied_todays_2026-10-14_shift2.json');
+const APPLIED_SHIFT2_PATH = path.join(__dirname, '..', 'applied_todays.json');
 const SHIFT2_SS_DIR = path.join(__dirname, '..', 'screenshots', '2026-10-14', 'shift2');
 
 if (!fs.existsSync(SHIFT2_SS_DIR)) {
@@ -220,14 +220,14 @@ async function run() {
                   resume: "Pratik Patidar Resume - React Developer.pdf",
                   timestamp: new Date().toISOString(),
                   status: "Applied & Submitted (Verified in DOM: Application Sent)",
-                  proof_screenshots: [`screenshots/2026-10-14/shift2/${ssName}`],
+                  proof_screenshots: [`screenshots/${ssName}`],
                   notes: "Verified & submitted via live LinkedIn Easy Apply. Post-submit screenshot captured."
                 };
 
                 appliedData.jobs.push(appliedRecord);
                 appliedData.total = appliedData.jobs.length;
                 fs.writeFileSync(APPLIED_SHIFT2_PATH, JSON.stringify(appliedData, null, 2));
-                console.log(`[Job ${i+1}/${queue.length}] ${company} — Successfully logged to applied_todays_2026-10-14_shift2.json! Current total: ${appliedData.total}`);
+                console.log(`[Job ${i+1}/${queue.length}] ${company} — Successfully logged to applied_todays.json! Current total: ${appliedData.total}`);
                 submitted = true;
                 break;
               }
@@ -268,3 +268,4 @@ async function run() {
 }
 
 run().catch(console.error);
+
