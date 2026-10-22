@@ -2,6 +2,16 @@
   "date": "2026-10-22",
   "cycle": "Cycle 1 (11:00 AM - 03:00 PM)",
   "description": "Confirmed submissions on 2026-10-22 with live DOM confirmation & physical screenshot proof",
-  "total": 0,
-  "jobs": []
+  "total": 1,
+  "jobs": [
+    {
+      "company": "TVM Infotech",
+      "role": "React, MEAN/MERN & Node.js Developers - Freshers",
+      "url": "https://www.naukri.com/job-listings-react-mean-mern-node-js-developers-freshers-chennai-tvm-infotech-chennai-0-to-1-years-161026019268",
+      "channel": "Naukri Direct 1-Click (Slot 7 Fully Automated)",
+      "proof_screenshot": "C:\\mcp\\job-search-mcp-engine\\screenshots\\2026-10-22\\shift2\\naukri_tvm_infotech_1792676922449.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-22T13:48:42.941Z"
+    }
+  ]
 }
