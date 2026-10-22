@@ -44,30 +44,51 @@ async function runSlot3(force = false) {
 
   log(`Input Leads to Audit (File 3): ${rawList.length}`);
 
-  // Quality Filter: 0-2 YOE, Exclude Senior/Lead
+  // Hardened REA Quality Filter (0-2 YOE, Strict Stack, Exclude Senior/Lead)
+  const { evaluateExperience } = require('../../servers/experience-filter.js');
   const passed = [];
+  const discarded = [];
+
   for (const job of rawList) {
-    const title = (job.role || job.title || '').toLowerCase();
-    const desc = (job.description || job.jd || '').toLowerCase();
+    const title = job.role || job.title || '';
+    const description = job.description || job.jd || '';
 
-    const isSenior = title.includes('senior') || title.includes('lead') || title.includes('principal') || title.includes('architect');
-    const isOutRangeExp = desc.includes('3+ years') || desc.includes('4+ years') || desc.includes('5+ years');
-
-    if (!isSenior && !isOutRangeExp) {
+    // Check with universal REA experience filter
+    const ev = evaluateExperience({ title, description }, 2, true);
+    if (!ev.exclude && ev.passes_whitelist && !ev.is_non_stack) {
       passed.push(job);
+    } else {
+      discarded.push({ company: job.company, role: title, reason: ev });
     }
+  }
+
+  // Preserve existing File 4 verified leads without blind overwrite
+  let finalFile4Jobs = passed;
+  if (fs.existsSync(file4Path)) {
+    try {
+      const existingF4 = JSON.parse(fs.readFileSync(file4Path, 'utf8'));
+      const existingList = Array.isArray(existingF4) ? existingF4 : (existingF4.jobs || []);
+      const seenUrls = new Set(passed.map(j => (j.url || '').toLowerCase()));
+      for (const ej of existingList) {
+        if (!seenUrls.has((ej.url || '').toLowerCase())) {
+          seenUrls.add((ej.url || '').toLowerCase());
+          finalFile4Jobs.push(ej);
+        }
+      }
+    } catch (e) {}
   }
 
   // Write verified leads to File 4
   const file4Data = {
     date: new Date().toISOString().split('T')[0],
     description: 'Slot 3 Verified Batch 1 Clean Jobs',
-    total: passed.length,
-    jobs: passed
+    total: finalFile4Jobs.length,
+    jobs: finalFile4Jobs
   };
   fs.writeFileSync(file4Path, JSON.stringify(file4Data, null, 2));
 
-  log(`✅ Slot 3 Audit Complete. Passed (0-2 YOE): ${passed.length} | Discarded: ${rawList.length - passed.length}`);
+  log(`✅ Slot 3 Audit Complete. Passed (0-2 YOE): ${passed.length} | Discarded: ${discarded.length}`);
+  log(`Total Cumulative Verified Staged in File 4: ${finalFile4Jobs.length}`);
   log(`Output staged to File 4: ${file4Path}`);
 }
 
