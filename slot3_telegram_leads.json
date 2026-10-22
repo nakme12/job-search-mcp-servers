@@ -1,27 +1,27 @@
 {
   "source": "Telegram Channels (Past 7 Days - Verified 7 Channels)",
-  "date": "2026-10-21",
-  "total": 48,
+  "date": "2026-10-22",
+  "total": 55,
   "channel_breakdown": {
     "merntech": {
-      "total_scraped": 96,
-      "qualified": 22
+      "total_scraped": 97,
+      "qualified": 25
     },
     "placementlelo": {
       "total_scraped": 80,
-      "qualified": 5
+      "qualified": 4
     },
     "freshersvoice": {
-      "total_scraped": 60,
+      "total_scraped": 40,
       "qualified": 2
     },
     "freshershunt": {
       "total_scraped": 60,
-      "qualified": 7
+      "qualified": 8
     },
     "offcampusjobs4u": {
       "total_scraped": 60,
-      "qualified": 12
+      "qualified": 16
     },
     "placement_drive": {
       "total_scraped": 60,
@@ -34,18 +34,7 @@
   },
   "jobs": [
     {
-      "id": "tg_merntech_1792581077131_wmyqx",
-      "channel": "@merntech",
-      "company": ": MERN Developer  Shenzyn",
-      "role": "Full Stack Developer",
-      "recipient": "monika.mj@shenzyn.com",
-      "url": "https://t.me/merntech/1269",
-      "application_type": "Direct Recruiter Email",
-      "date_posted": "2026-10-15T11:12:30+00:00",
-      "raw_text": "🚀 Hiring: MERN Developer | Shenzyn\n📍 Location: Pune\n💼 Experience: 2–8 Years\n🎓 Qualification: B.Tech (CS/IT) / BCA / MCA\n🔹 Required Skills: MongoDB, Express.js, React.js, Node.js, Next.js, SSR/SSG, REST APIs, Server Actions, Mocha, Chai, SEO & Core Web Vitals.\n⭐️ Good to Have: AWS/GCP, DevOps\n📩"
-    },
-    {
-      "id": "tg_merntech_1792581077132_qjgfb",
+      "id": "tg_merntech_1792671504530_vu356",
       "channel": "@merntech",
       "company": "Alaan",
       "role": "Full Stack Developer",
@@ -56,7 +45,7 @@
       "raw_text": "Full Stack Developer — Freshers\n🏢 Company: Alaan\n📍 Location: Bengaluru\n💼 Experience: Freshers\n🔗 Apply Online:\nhttps://ats.rippling.com/alaan-careers/jobs/5a84497e-6c95-4e99-8e42-279fef26e85c\n#FreshersJobs #FullStackDeveloper #BengaluruJobs"
     },
     {
-      "id": "tg_merntech_1792581077132_p788w",
+      "id": "tg_merntech_1792671504531_srz0y",
       "channel": "@merntech",
       "company": "Differenz System Pvt. Ltd.",
       "role": "Full Stack Developer",
@@ -67,7 +56,7 @@
       "raw_text": "Full Stack & AI Developer\n🏢 Company: Differenz System Pvt. Ltd.\n📍 Location: Surat, Gujarat\n💼 Experience: 2+ Years\n📩 Apply: nishi.lekhadia@differenzsystem.com\n📱 Contact: 6353632376\n\n#FullStackDeveloper #AIJobs #SuratJobs"
     },
     {
-      "id": "tg_merntech_1792581077132_ffzj6",
+      "id": "tg_merntech_1792671504531_etvx9",
       "channel": "@merntech",
       "company": "Outlook",
       "role": "Frontend Developer",
@@ -78,7 +67,7 @@
       "raw_text": "React.js Developer\n🏢 Company: Outlook\n📍 Location: Bengaluru\n💼 Experience: 2+ Years\n📩 Apply: hrhuddle@outlook.com\n\n#ReactJS #FrontendDeveloper #BengaluruJobs"
     },
     {
-      "id": "tg_merntech_1792581077132_w4t8z",
+      "id": "tg_merntech_1792671504531_0g03q",
       "channel": "@merntech",
       "company": "Sculpt Software",
       "role": "Frontend Developer",
@@ -89,7 +78,7 @@
       "raw_text": "React.js Developer\n🏢 Company: Sculpt Software\n📍 Location: Ahmedabad\n💼 Experience: 2–3 Years\n📩 Apply: mayur.makwana@sculptsoft.com\n\n#ReactDeveloper #FrontendJobs #AhmedabadJobs"
     },
     {
-      "id": "tg_merntech_1792581077133_5mazg",
+      "id": "tg_merntech_1792671504532_v59m4",
       "channel": "@merntech",
       "company": "Amnex Infotechnologies",
       "role": "AI/ML Engineer",
@@ -100,7 +89,7 @@
       "raw_text": "🤖 Hiring: AI/ML Engineer\n🏢 Company: Amnex Infotechnologies\n📍 Location: Ahmedabad\n💼 Experience: 2+ Years\n👨‍💻 Role: AI/ML Engineer\n📩 Apply via Email:\namar@amnex.com\nhanisha@amnex.com\n#AIMLJobs #MachineLearning #ArtificialIntelligence #AhmedabadJobs #Hiring #MERNTechCommunity"
     },
     {
-      "id": "tg_merntech_1792581077133_3yk95",
+      "id": "tg_merntech_1792671504532_flxxy",
       "channel": "@merntech",
       "company": "Authenticode",
       "role": "MERN Stack Developer",
@@ -111,7 +100,7 @@
       "raw_text": "🔥 Hiring: MERN Stack Developer\n🏢 Company: Authenticode\n📍 Location: Mohali\n💼 Experience: 0–1 Year\n👨‍💻 Role: MERN Stack Developer\n📩 Apply via Email: career@authenticode.in\n🎯 Suitable for freshers and early-career developers.\n#MERNStackDeveloper #MERNJobs #FresherJobs #MohaliJobs #ReactJS #Node"
     },
     {
-      "id": "tg_merntech_1792581077133_in9hr",
+      "id": "tg_merntech_1792671504532_q9p7r",
       "channel": "@merntech",
       "company": "MyPCOT",
       "role": "Java Developer",
@@ -122,7 +111,7 @@
       "raw_text": "🎯 Hiring: Java Developer | Freshers\n🏢 Company: MyPCOT\n📍 Location: Remote\n💼 Experience: Freshers\n👨‍💻 Role: Java Developer\n📩 Apply via Email: pooja@mypcot.com\n🚀 An opportunity for freshers starting their Java development careers.\n#JavaDeveloper #JavaJobs #FresherJobs #RemoteJobs #EntryLevelJob"
     },
     {
-      "id": "tg_merntech_1792581077133_1i59n",
+      "id": "tg_merntech_1792671504532_lbdic",
       "channel": "@merntech",
       "company": "QPlus Staffing",
       "role": "Full Stack Developer / Java Developer",
@@ -133,7 +122,7 @@
       "raw_text": "🚀 HIRING ALERT: Full Stack / Java Developer\n🏢 Company: QPlus Staffing\n📍 Location: Lucknow\n💼 Experience: 1–3 Years\n👨‍💻 Role: Full Stack Developer / Java Developer\n📩 Apply via Email:\nkaushiki.srivastava@qplusstaffing.com\n\n#FullStackDeveloper #JavaDeveloper #LucknowJobs #ITJobs #Hiring #MERNTech"
     },
     {
-      "id": "tg_merntech_1792581077133_eu0jr",
+      "id": "tg_merntech_1792671504532_ef2he",
       "channel": "@merntech",
       "company": "Securium Solutions",
       "role": "Full Stack Developer",
@@ -144,7 +133,7 @@
       "raw_text": "🚀 HIRING ALERT: Full Stack Developer\n🏢 Company: Securium Solutions\n📍 Location: Noida\n💼 Experience: 1+ Years\n👨‍💻 Role: Full Stack Developer\n📩 Apply via Email:\nhimanshi@securiumsolutions.com\n#FullStackDeveloper #NoidaJobs #WebDevelopment #SoftwareEngineer #ITJobs #Hiring #MERNTechCommunity"
     },
     {
-      "id": "tg_merntech_1792581077133_whqeq",
+      "id": "tg_merntech_1792671504532_cq94d",
       "channel": "@merntech",
       "company": "Innomax IT Solutions",
       "role": "Full Stack Developer",
@@ -155,7 +144,7 @@
       "raw_text": "🤖 HIRING ALERT: Python / Java / AI Developer\n🏢 Company: Innomax IT Solutions\n📍 Location: Hyderabad\n💼 Experience: Freshers\n👨‍💻 Roles: Python Developer / Java Developer / AI Developer\n🎯 Opportunity for freshers interested in software development and AI.\n📩 Apply via Email:\ncareers@innomaxsol.co"
     },
     {
-      "id": "tg_merntech_1792581077133_9scp7",
+      "id": "tg_merntech_1792671504532_wkbhd",
       "channel": "@merntech",
       "company": "Intellicus",
       "role": "Frontend Developer",
@@ -166,7 +155,7 @@
       "raw_text": "🎨 HIRING ALERT: Frontend Developer\n🏢 Company: Intellicus\n📍 Location: Noida\n💼 Experience: 2–4 Years\n👨‍💻 Role: Frontend Developer\n📩 Apply via Email:\naditi.jain@intellicus.com\n#FrontendDeveloper #ReactJS #FrontendJobs #NoidaJobs #WebDevelopment #ITJobs #Hiring #MERNTechCommunity"
     },
     {
-      "id": "tg_merntech_1792581077133_5vp2c",
+      "id": "tg_merntech_1792671504532_gxkkd",
       "channel": "@merntech",
       "company": "Y5 Lab",
       "role": "Full Stack Developer",
@@ -177,7 +166,7 @@
       "raw_text": "🎯 HIRING ALERT: Full Stack Developer | Freshers\n🏢 Company: Y5 Lab\n📍 Location: Faridabad\n💼 Experience: Freshers\n👨‍💻 Role: Full Stack Developer\n📩 Apply via Email:\nhr@they5labs.com\n📞 Contact Number:\n9654217721\n\n🚀 An opportunity for freshers looking to begin their full stack development careers"
     },
     {
-      "id": "tg_merntech_1792581077133_0w5z3",
+      "id": "tg_merntech_1792671504532_lgm1c",
       "channel": "@merntech",
       "company": "TOPS Infosolutions",
       "role": "Python Developer",
@@ -188,7 +177,7 @@
       "raw_text": "🐍 HIRING ALERT: Python Developer\n🏢 Company: TOPS Infosolutions\n📍 Location: Ahmedabad\n💼 Experience: 1+ Years\n👨‍💻 Role: Python Developer\n📩 Apply via Email:\nzurin@topsinfosolutions.com\n📞 Contact Number:\n9664810373\n\n#PythonDeveloper #PythonJobs #AhmedabadJobs #BackendDeveloper #SoftwareDevelopme"
     },
     {
-      "id": "tg_merntech_1792581077133_nxtg1",
+      "id": "tg_merntech_1792671504532_2a5s3",
       "channel": "@merntech",
       "company": "Avalogy",
       "role": "Full Stack Developer",
@@ -199,7 +188,7 @@
       "raw_text": "🚀 HIRING ALERT: Full Stack Developer\n🏢 Company: Avalogy\n📍 Location: Mohali\n💼 Experience: 1–2 Years\n👨‍💻 Role: Full Stack Developer\n📩 Apply via Email:\nhravology@gmail.com\n📞 Contact Number:\n8091097028\n\n#FullStackDeveloper #MohaliJobs #WebDevelopment #SoftwareEngineer #ITJobs #Hiring #MERNTechCo"
     },
     {
-      "id": "tg_merntech_1792581077133_2zcw9",
+      "id": "tg_merntech_1792671504532_augsw",
       "channel": "@merntech",
       "company": "Enterpret",
       "role": "Frontend / Full Stack Developer",
@@ -210,7 +199,7 @@
       "raw_text": "🚀 HIRING: BACKEND SOFTWARE ENGINEERING INTERN\n🏢 Company: Enterpret\n📍 Location: Bengaluru (On-site)\n💼 Experience: Internship opportunity\n🛠 Domain: Backend Engineering, AI Integration, AWS, Serverless Computing\n🔹 What you'll work on:\n• Build backend components and scalable systems.\n• Explore bac"
     },
     {
-      "id": "tg_merntech_1792581077133_l6ckk",
+      "id": "tg_merntech_1792671504532_z019r",
       "channel": "@merntech",
       "company": "ZoflowX (Zoho Partner)",
       "role": "Full Stack Developer",
@@ -221,7 +210,7 @@
       "raw_text": "🤖 HIRING: AI ROLE — FRESHERS\n🏢 Company: ZoflowX (Zoho Partner)\n📍 Location: Chennai\n💼 Experience: Freshers\n🛠 Domain: Artificial Intelligence\n📩 HR Contact:\nhr@zoflowx.com\n📌 Contact HR to confirm the exact job title, eligibility, and application process before applying.\n📢 More Tech Jobs: https:"
     },
     {
-      "id": "tg_merntech_1792581077133_nndoi",
+      "id": "tg_merntech_1792671504532_kh4vx",
       "channel": "@merntech",
       "company": "Xccelera",
       "role": "Full Stack Developer",
@@ -232,7 +221,7 @@
       "raw_text": "🚀 HIRING: AI DEVELOPER / PYTHON DEVELOPER\n🏢 Company: Xccelera\n📍 Location: Noida\n💼 Experience: 0–1 Year\n🛠 Skills: Python, Artificial Intelligence\n📩 Recruiter Contact:\nneha.rana@xccelera.ai\n🎯 Suitable for candidates with relevant Python skills and an interest in AI development.\n📌 Confirm the j"
     },
     {
-      "id": "tg_merntech_1792581077133_hhsnu",
+      "id": "tg_merntech_1792671504532_t9mx9",
       "channel": "@merntech",
       "company": "EXC Managed Services",
       "role": "https://www.linkedin.com/in/dakshita-sharma-3094aa1b6/",
@@ -243,7 +232,7 @@
       "raw_text": "💻 HIRING: JAVA / SPRING BOOT\n🏢 Company: EXC Managed Services\n📍 Location: Gurugram\n💼 Experience: Freshers\n🛠 Skills: Java, Spring Boot\n👤 Recruiter / Contact Profile:\nhttps://www.linkedin.com/in/dakshita-sharma-3094aa1b6/\n📌 Contact the recruiter through LinkedIn to confirm the opening and applic"
     },
     {
-      "id": "tg_merntech_1792581077133_m0re2",
+      "id": "tg_merntech_1792671504532_pplus",
       "channel": "@merntech",
       "company": "BQarlson Software Technologies",
       "role": "Full Stack Developer",
@@ -254,7 +243,7 @@
       "raw_text": "📢 HIRING: JAVA FULL STACK / AI ROLES\n🏢 Company: BQarlson Software Technologies\n📍 Location: Pan India (as provided in the job list)\n💼 Experience: Freshers\n🛠 Domains:\n• Java Full Stack Development\n• Artificial Intelligence\n📩 HR Contact:\nhr@bqarlson.tech\n📌 Mention your preferred role and attach "
     },
     {
-      "id": "tg_merntech_1792581077133_lx8uk",
+      "id": "tg_merntech_1792671504532_obmmh",
       "channel": "@merntech",
       "company": "GE Vernova",
       "role": "Full Stack Developer",
@@ -265,7 +254,7 @@
       "raw_text": "🌟 HIRING: SOFTWARE ENGINEERING SPECIALIST — PYTHON FULL STACK\n🏢 Company: GE Vernova\n📍 Location: Bengaluru\n💼 Experience: 1–2 Years\n🆔 Job ID: R5054450\n💼 Employment: Full-time\n🛠 Key Skills:\n• Python backend development\n• Frontend development (Angular preferred; React/Vue also considered)\n• REST "
     },
     {
-      "id": "tg_merntech_1792581077133_c98k1",
+      "id": "tg_merntech_1792671504532_n9jas",
       "channel": "@merntech",
       "company": "Quantum Heaps India",
       "role": "Full Stack Developer",
@@ -276,18 +265,51 @@
       "raw_text": "⚛️ FRONTEND ENGINEER — REACT.JS\n🏢 Company: Quantum Heaps India\n📍 Location: India\n💼 Experience: 1–3 Years\n🛠 Skills:\n• React.js\n• JavaScript / TypeScript\n• Frontend development\n• API integration\n• Component libraries and UI development\n💼 Employment: Full-time\n🔗 Original Job Listing:\nhttps://www."
     },
     {
-      "id": "tg_placementlelo_1792581088726_rqy3l",
-      "channel": "@placementlelo",
-      "company": "Hiring Team",
-      "role": "Frontend / Full Stack Developer",
+      "id": "tg_merntech_1792671504533_8lcg0",
+      "channel": "@merntech",
+      "company": "Bain & Company",
+      "role": "Full Stack Developer",
       "recipient": null,
-      "url": "https://careers.qualcomm.com/careers/job/446719784235",
+      "url": "https://careers.bain.com/jobs/Login?folderId=107186&source=Linked-In",
       "application_type": "Online Link",
-      "date_posted": "2026-10-14T12:57:43+00:00",
-      "raw_text": "QualComm Mass Hiring Associate Software Engineer:\n\nGraduation Year: 2027\n\nSalary: 19 LPA\n\nLocation: Hyderabad / Bangalore / Chennai / Noida\n\nApply Link: https://careers.qualcomm.com/careers/job/446719784235\n\nFollow on WhatsApp for more jobs: https://whatsapp.com/channel/0029Va4bojk90x2rq1LgdD1a"
+      "date_posted": "2026-10-22T06:49:16+00:00",
+      "raw_text": "🚀 HIRING: FULL STACK DEVELOPER\n🏢 Company: Bain & Company\n📍 Location: Delhi, India\n💼 Experience: 0–4 Years\n🧑‍💻 Position: Full Stack Developer\n🔗 Application Link:\nhttps://careers.bain.com/jobs/Login?folderId=107186&source=Linked-In\n📢 Candidates are advised to review the complete job descriptio"
     },
     {
-      "id": "tg_placementlelo_1792581088726_ns999",
+      "id": "tg_merntech_1792671504533_ybwl1",
+      "channel": "@merntech",
+      "company": "VE3",
+      "role": "Frontend Developer",
+      "recipient": null,
+      "url": "https://ve3.zohorecruit.in/jobs/Careers/80399000019316858/React-JS-Intern",
+      "application_type": "Online Link",
+      "date_posted": "2026-10-22T06:50:02+00:00",
+      "raw_text": "🚀 HIRING: REACT JS DEVELOPER INTERN\n🏢 Company: VE3\n📍 Location: Pune, India\n💼 Experience: 0–1 Year\n🛠 Skills: React.js, Frontend Development\n🔗 Direct Application:\nhttps://ve3.zohorecruit.in/jobs/Careers/80399000019316858/React-JS-Intern\n📢 Freshers and aspiring frontend developers can review the"
+    },
+    {
+      "id": "tg_merntech_1792671504533_6es2i",
+      "channel": "@merntech",
+      "company": ": FULL STACK DEVELOPER",
+      "role": "Full Stack Developer",
+      "recipient": "vrsainiplacement@gmail.com",
+      "url": "https://t.me/merntech/1338",
+      "application_type": "Direct Recruiter Email",
+      "date_posted": "2026-10-22T06:50:13+00:00",
+      "raw_text": "🚀 HIRING: FULL STACK DEVELOPER\n🏢 Recruiter: VR Saini Placement\n📍 Location: Noida, India\n💼 Experience: 2–5 Years\n🧑‍💻 Position: Full Stack Developer\n📩 Recruiter Email: vrsainiplacement@gmail.com\n📞 Contact Number: 8847544457\n📢 Interested candidates may contact the recruiter for further informa"
+    },
+    {
+      "id": "tg_merntech_1792671504533_p3k61",
+      "channel": "@merntech",
+      "company": "AHOM Technologies Pvt. Ltd.",
+      "role": "Frontend Developer",
+      "recipient": "jyoti.singh@ahomtech.com",
+      "url": "https://ahomtech.com",
+      "application_type": "Direct Recruiter Email",
+      "date_posted": "2026-10-22T06:50:45+00:00",
+      "raw_text": "🚀 HIRING: FRONTEND DEVELOPER\n🏢 Company: AHOM Technologies Pvt. Ltd.\n📍 Location: Gurugram, India\n💼 Experience: 2+ Years\n🧑‍💻 Position: Frontend Developer\n📩 Recruiter Email: jyoti.singh@ahomtech.com\n🌐 Company Website: https://ahomtech.com\n📢 Interested candidates can contact the recruiter or vi"
+    },
+    {
+      "id": "tg_placementlelo_1792671517171_af5bj",
       "channel": "@placementlelo",
       "company": "Cisco  Software Engineer:",
       "role": "Frontend / Full Stack Developer",
@@ -298,7 +320,7 @@
       "raw_text": "Cisco Hiring Software Engineer:\n\nGraduation Year: 2027\n\nSalary: 12 to 15 LPA\n\nLocation: Bangalore\n\nApply Link: https://careers.cisco.com/global/en/job/2009166/Software-Engineer-Internal-Applications-New-Grad-UHR\n\nFollow on WhatsApp for more jobs: https://whatsapp.com/channel/0029Va4bojk90x2rq1LgdD1a"
     },
     {
-      "id": "tg_placementlelo_1792581088726_apj5d",
+      "id": "tg_placementlelo_1792671517171_czmmv",
       "channel": "@placementlelo",
       "company": "Stripe  Software Engineer Intern:",
       "role": "Frontend / Full Stack Developer",
@@ -309,7 +331,7 @@
       "raw_text": "Stripe Hiring Software Engineer Intern:\n\nGraduation Year: 2027 / 2028\n\nStipend: 1L per month\n\nLocation: Bengaluru\n\nApply Link: https://stripe.com/careers/listing/software-engineer-intern/8031833\n\nFollow on WhatsApp for more jobs: https://whatsapp.com/channel/0029Va4bojk90x2rq1LgdD1a"
     },
     {
-      "id": "tg_placementlelo_1792581088726_0dbb1",
+      "id": "tg_placementlelo_1792671517171_krty1",
       "channel": "@placementlelo",
       "company": "American Express  Software Engineer I:",
       "role": "Frontend / Full Stack Developer",
@@ -320,7 +342,7 @@
       "raw_text": "American Express Hiring Software Engineer I:\n\nGraduation Year: 2023 / 2024 / 2025\n\nExperience: 1 to 2 years\n\nStipend: 17 LPA\n\nLocation: Gurgaon (Hybrid)\n\nApply Link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014930\n\nFollow on WhatsApp for more jobs: https://wh"
     },
     {
-      "id": "tg_placementlelo_1792581088726_8izn8",
+      "id": "tg_placementlelo_1792671517171_fn1bx",
       "channel": "@placementlelo",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -331,7 +353,7 @@
       "raw_text": "Enterpret Hiring Software Engineering Intern - Backend:\n\nGraduation Year: 2026 / 2027\n\nStipend: 25k per month\n\nLocation: Bengaluru\n\nApply Link: https://job-boards.greenhouse.io/enterpret/jobs/7847134003\n\nFollow on WhatsApp for more jobs: https://whatsapp.com/channel/0029Va4bojk90x2rq1LgdD1a"
     },
     {
-      "id": "tg_freshersvoice_1792581100399_op7tp",
+      "id": "tg_freshersvoice_1792671530216_opvs8",
       "channel": "@freshersvoice",
       "company": "Hiring Team",
       "role": "Software Engineering AMTS",
@@ -342,7 +364,7 @@
       "raw_text": "Salesforce Off Campus Drive 2026 – Details:\n\nJob Role: Software Engineering AMTS\n\nQualification: B.E/B.Tech\n\nBatch: 2027\n\nExperience: Freshers\n\nJob location: Bangalore/Hyderabad\n\nLast date: ASAP\n\nApply @ https://fvoice.site/ag7y"
     },
     {
-      "id": "tg_freshersvoice_1792581100399_h085o",
+      "id": "tg_freshersvoice_1792671530216_m5dm0",
       "channel": "@freshersvoice",
       "company": "Microsoft Recruitment 2026 – Details:",
       "role": "Software Engineer",
@@ -353,29 +375,7 @@
       "raw_text": "Microsoft Recruitment 2026 – Details:\n\nJob Role: Software Engineer\n\nQualification: B.E/B.Tech/B.Sc/BCA\n\nExperience: Freshers/Experienced\n\nLast Date: ASAP\n\nApply @ https://fvoice.site/7ur0"
     },
     {
-      "id": "tg_freshershunt_1792581112742_xceui",
-      "channel": "@freshershunt",
-      "company": "IBM India Systems Development Lab (ISDL)",
-      "role": "Software Engineer",
-      "recipient": null,
-      "url": "https://freshershunt.in/ibm-isdl-software-engineer-2026/",
-      "application_type": "Online Link",
-      "date_posted": "2026-10-17T15:32:12+00:00",
-      "raw_text": "🚨 𝗜𝗕𝗠 𝗜𝗦𝗗𝗟 — 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 (𝗙𝗿𝗲𝘀𝗵𝗲𝗿𝘀)! 🎯\n\nSending Test Mail.\n\n🏢 Company: IBM India Systems Development Lab (ISDL)\n💼 Role: Software Engineer\n📍 Location: Hyderabad / Pune / Bangalore (Hybrid)\n💰 Salary: Not disclosed (reported ₹4–12 LPA)\n🎓 Eligibility: Bachelor"
-    },
-    {
-      "id": "tg_freshershunt_1792581112742_2z64r",
-      "channel": "@freshershunt",
-      "company": "IBM India Systems Development Lab (ISDL)",
-      "role": "Software Engineer",
-      "recipient": null,
-      "url": "https://freshershunt.in/ibm-isdl-software-engineer-2026/",
-      "application_type": "Online Link",
-      "date_posted": "2026-10-18T09:46:23+00:00",
-      "raw_text": "🚨 𝗜𝗕𝗠 𝗜𝗦𝗗𝗟 — 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 (𝗙𝗿𝗲𝘀𝗵𝗲𝗿𝘀)! 🎯\n\nSending Test Mail.\n\n🏢 Company: IBM India Systems Development Lab (ISDL)\n💼 Role: Software Engineer\n📍 Location: Hyderabad / Pune / Bangalore (Hybrid)\n💰 Salary: Not disclosed (reported ₹4–12 LPA)\n🎓 Eligibility: Bachelor"
-    },
-    {
-      "id": "tg_freshershunt_1792581112743_ohwsz",
+      "id": "tg_freshershunt_1792671543134_nzc7a",
       "channel": "@freshershunt",
       "company": "Accenture",
       "role": "Custom Software Engineering Associate",
@@ -386,7 +386,7 @@
       "raw_text": "🚨 𝗔𝗖𝗖𝗘𝗡𝗧𝗨𝗥𝗘 — 𝗖𝘂𝘀𝘁𝗼𝗺 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿! 🎯\n\n🏢 Company: Accenture\n💼 Role: Custom Software Engineering Associate\n📍 Location: Bengaluru\n💰 Salary: ₹3.2–6.6 LPA\n🎓 Eligibility: 15 years full-time education (Any Graduate)\n💼 Experience: 0–2 years\n\n🔗 https://freshershun"
     },
     {
-      "id": "tg_freshershunt_1792581112743_7cd8q",
+      "id": "tg_freshershunt_1792671543134_u9smr",
       "channel": "@freshershunt",
       "company": "Walmart Global Tech (India Development Centre)",
       "role": "Software Engineer II",
@@ -397,7 +397,7 @@
       "raw_text": "🚨 𝗪𝗔𝗟𝗠𝗔𝗥𝗧 — 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 𝗜𝗜! 🎯\n\n🏢 Company: Walmart Global Tech (India Development Centre)\n💼 Role: Software Engineer II | R-2533616\n📍 Location: Bangalore\n💰 Salary: Not disclosed (reported ₹15–21 LPA)\n🎓 Eligibility: Class of 2026 — CS / Software Engineering\n💼 Expe"
     },
     {
-      "id": "tg_freshershunt_1792581112743_zm6to",
+      "id": "tg_freshershunt_1792671543134_c77vg",
       "channel": "@freshershunt",
       "company": "Akamai Technologies",
       "role": "Software Engineer",
@@ -408,7 +408,7 @@
       "raw_text": "🚨 𝗔𝗞𝗔𝗠𝗔𝗜 — 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 (𝗥𝗲𝗺𝗼𝘁𝗲 𝗜𝗻𝗱𝗶𝗮)! 🎯\n\n🏢 Company: Akamai Technologies\n💼 Role: Software Engineer\n📍 Location: Remote – India\n💰 Salary: ₹12–19 LPA\n🎓 Eligibility: Bachelor's / Master's in Computer Science or related\n💼 Experience: 0–2 years\n\n🔗 https://fr"
     },
     {
-      "id": "tg_freshershunt_1792581112743_ugpah",
+      "id": "tg_freshershunt_1792671543134_094o1",
       "channel": "@freshershunt",
       "company": "Kulfi",
       "role": "Software Engineer I – Product / Full-Stack",
@@ -419,7 +419,7 @@
       "raw_text": "🚨 𝗞𝗨𝗟𝗙𝗜 — 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 𝗜 (𝗙𝘂𝗹𝗹-𝗦𝘁𝗮𝗰𝗸)! 🎯\n\n🏢 Company: Kulfi\n💼 Role: Software Engineer I – Product / Full-Stack\n📍 Location: Jayanagar, Bengaluru (In-office)\n💰 Salary: ₹9–15 LPA + ESOPs\n🎓 Eligibility: Any graduate – CS degree not required\n💼 Experience: 0–1 ye"
     },
     {
-      "id": "tg_freshershunt_1792581112743_piyhz",
+      "id": "tg_freshershunt_1792671543135_prtds",
       "channel": "@freshershunt",
       "company": "IBM India Systems Development Lab (ISDL)",
       "role": "Software Engineer",
@@ -430,7 +430,40 @@
       "raw_text": "🚨 𝗜𝗕𝗠 𝗜𝗦𝗗𝗟 — 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 (𝗙𝗿𝗲𝘀𝗵𝗲𝗿𝘀)! 🎯\n\nSending Test Mail.\n\n🏢 Company: IBM India Systems Development Lab (ISDL)\n💼 Role: Software Engineer\n📍 Location: Hyderabad / Pune / Bangalore (Hybrid)\n💰 Salary: Not disclosed (reported ₹4–12 LPA)\n🎓 Eligibility: Bachelor"
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124649_qv30d",
+      "id": "tg_freshershunt_1792671543135_j8l50",
+      "channel": "@freshershunt",
+      "company": "Skyhigh Security",
+      "role": "Associate Software Engineer",
+      "recipient": null,
+      "url": "https://freshershunt.in/skyhigh-security-off-campus-drive-2026/",
+      "application_type": "Online Link",
+      "date_posted": "2026-10-21T14:35:54+00:00",
+      "raw_text": "🚨 𝗦𝗞𝗬𝗛𝗜𝗚𝗛 𝗦𝗘𝗖𝗨𝗥𝗜𝗧𝗬 — 𝗔𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗲 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿! 🎯\n\n🏢 Company: Skyhigh Security\n💼 Role: Associate Software Engineer | JR0037995\n📍 Location: Bangalore (Hybrid)\n💰 Salary: Not disclosed\n🎓 Eligibility: BE / BTech / MTech / MCA\n💼 Experience: Entry level\n\n\ud83d"
+    },
+    {
+      "id": "tg_freshershunt_1792671543135_vwfcu",
+      "channel": "@freshershunt",
+      "company": "Accenture",
+      "role": "Custom Software Engineering Associate",
+      "recipient": null,
+      "url": "https://freshershunt.in/accenture-custom-software-engineer-2026/",
+      "application_type": "Online Link",
+      "date_posted": "2026-10-21T16:35:09+00:00",
+      "raw_text": "🚨 𝗔𝗖𝗖𝗘𝗡𝗧𝗨𝗥𝗘 — 𝗖𝘂𝘀𝘁𝗼𝗺 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿! 🎯\n\n🏢 Company: Accenture\n💼 Role: Custom Software Engineering Associate\n📍 Location: Bengaluru\n💰 Salary: ₹3.2–6.6 LPA\n🎓 Eligibility: 15 years full-time education (Any Graduate)\n💼 Experience: 0–2 years\n\n🔗 https://freshershun"
+    },
+    {
+      "id": "tg_freshershunt_1792671543135_y78gn",
+      "channel": "@freshershunt",
+      "company": "IBM India Systems Development Lab (ISDL)",
+      "role": "Software Engineer",
+      "recipient": null,
+      "url": "https://freshershunt.in/ibm-isdl-software-engineer-2026/",
+      "application_type": "Online Link",
+      "date_posted": "2026-10-22T07:43:13+00:00",
+      "raw_text": "🚨 𝗜𝗕𝗠 𝗜𝗦𝗗𝗟 — 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 (𝗙𝗿𝗲𝘀𝗵𝗲𝗿𝘀)! 🎯\n\nSending Test Mail.\n\n🏢 Company: IBM India Systems Development Lab (ISDL)\n💼 Role: Software Engineer\n📍 Location: Hyderabad / Pune / Bangalore (Hybrid)\n💰 Salary: Not disclosed (reported ₹4–12 LPA)\n🎓 Eligibility: Bachelor"
+    },
+    {
+      "id": "tg_offcampusjobs4u_1792671555492_vsj06",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -441,7 +474,7 @@
       "raw_text": "Wayfair Off Campus Drive 2026 – Software Engineer Intern (AI & GenAI)\n\nApply Link- https://offcampusjobs4u.com/wayfair-off-campus-drive-2026-software-engineer-intern/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https://t"
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124649_25hwa",
+      "id": "tg_offcampusjobs4u_1792671555492_aosxj",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -452,7 +485,7 @@
       "raw_text": "Mastercard Recruitment 2026 – Software Engineer I | 0–3 Years | Pune\n\nApply Link- https://offcampusjobs4u.com/mastercard-recruitment-2026-software-engineer-i/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https://telegram."
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124649_gt912",
+      "id": "tg_offcampusjobs4u_1792671555492_x3g51",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -463,7 +496,7 @@
       "raw_text": "Cisco Recruitment 2026 | Software Engineer | Bangalore\n\nApply Link- https://offcampusjobs4u.com/cisco-recruitment-2026-software-engineer-bangalore-3/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https://telegram.me/offcam"
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124649_hazyu",
+      "id": "tg_offcampusjobs4u_1792671555492_5jwlb",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -474,7 +507,7 @@
       "raw_text": "Kaplan Recruitment 2026 | Software Engineer I | Bangalore\n\nApply Link- https://offcampusjobs4u.com/kaplan-recruitment-2026-software-engineer-i-bangalore/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https://telegram.me/of"
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124650_z2lz6",
+      "id": "tg_offcampusjobs4u_1792671555492_qb49i",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -485,7 +518,7 @@
       "raw_text": "Infor Recruitment 2026 | Software Engineer, Associate | Hyderabad\n\nApply Link- https://offcampusjobs4u.com/infor-recruitment-2026-software-engineer-associate-hyderabad/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https:/"
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124650_6onlb",
+      "id": "tg_offcampusjobs4u_1792671555493_ocqje",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -496,7 +529,7 @@
       "raw_text": "Mastercard Off Campus Drive 2026 Hiring Freshers As Software Engineer For BE/BTech/ME/MTech\n\nApply Link- https://offcampusjobs4u.com/mastercard-off-campus-drive-2024-hiring/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- ht"
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124650_k9ok1",
+      "id": "tg_offcampusjobs4u_1792671555493_v31hw",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -507,7 +540,7 @@
       "raw_text": "Cisco Recruitment 2026 – Software Engineer | Freshers | India\n\nApply Link- https://offcampusjobs4u.com/cisco-recruitment-2026-software-engineer-2/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https://telegram.me/offcampus"
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124650_rm7kd",
+      "id": "tg_offcampusjobs4u_1792671555493_8zknn",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -518,7 +551,7 @@
       "raw_text": "Microsoft Recruitment 2026 | Software Engineer | Hyderabad\n\nApply Link- https://offcampusjobs4u.com/microsoft-recruitment-2026-software-engineer/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https://telegram.me/offcampusj"
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124650_6vezx",
+      "id": "tg_offcampusjobs4u_1792671555493_lhho4",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -529,7 +562,7 @@
       "raw_text": "Kulfi Recruitment 2026: Software Engineer I – Full-Stack\n\nApply Link- https://offcampusjobs4u.com/kulfi-recruitment-2026-software-engineer-full-stack/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https://telegram.me/offca"
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124650_1169j",
+      "id": "tg_offcampusjobs4u_1792671555493_r5aw8",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -540,7 +573,7 @@
       "raw_text": "Akamai Recruitment 2026: Software Engineer | Bangalore\n\nApply Link- https://offcampusjobs4u.com/akamai-recruitment-2026-software-engineer-bangalore/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https://telegram.me/offcamp"
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124650_a0y4h",
+      "id": "tg_offcampusjobs4u_1792671555493_zk1ym",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -551,7 +584,7 @@
       "raw_text": "Walmart Off Campus Drive 2026 – Software Engineer II, Bangalore | R-2533616\n\nApply Link- https://offcampusjobs4u.com/walmart-off-campus-drive-2026-software-engineer-ii-2/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https"
     },
     {
-      "id": "tg_offcampusjobs4u_1792581124650_ahu9b",
+      "id": "tg_offcampusjobs4u_1792671555493_1obr8",
       "channel": "@offcampusjobs4u",
       "company": "Hiring Team",
       "role": "Frontend / Full Stack Developer",
@@ -560,6 +593,50 @@
       "application_type": "Online Link",
       "date_posted": "2026-10-21T10:51:02+00:00",
       "raw_text": "Mouser Electronics Recruitment 2026: Web Developer\n\nApply Link- https://offcampusjobs4u.com/mouser-electronics-recruitment-2026-web-developer/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https://telegram.me/offcampusjobs"
+    },
+    {
+      "id": "tg_offcampusjobs4u_1792671555493_4xydv",
+      "channel": "@offcampusjobs4u",
+      "company": "Hiring Team",
+      "role": "Frontend / Full Stack Developer",
+      "recipient": null,
+      "url": "https://offcampusjobs4u.com/franklin-templeton-recruitment-2026-associate-software-engineer/",
+      "application_type": "Online Link",
+      "date_posted": "2026-10-21T11:50:56+00:00",
+      "raw_text": "Franklin Templeton Recruitment 2026 – Associate Software Engineer | Hyderabad\n\nApply Link- https://offcampusjobs4u.com/franklin-templeton-recruitment-2026-associate-software-engineer/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram"
+    },
+    {
+      "id": "tg_offcampusjobs4u_1792671555493_n6h4v",
+      "channel": "@offcampusjobs4u",
+      "company": "Hiring Team",
+      "role": "Frontend Developer",
+      "recipient": null,
+      "url": "https://offcampusjobs4u.com/pennep-software-engineer-intern-2026/",
+      "application_type": "Online Link",
+      "date_posted": "2026-10-21T14:33:34+00:00",
+      "raw_text": "PENNEP Recruitment 2026: Software Engineer Intern – React.js\n\nApply Link- https://offcampusjobs4u.com/pennep-software-engineer-intern-2026/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https://telegram.me/offcampusjobs4u"
+    },
+    {
+      "id": "tg_offcampusjobs4u_1792671555493_rbqoe",
+      "channel": "@offcampusjobs4u",
+      "company": "Hiring Team",
+      "role": "Frontend / Full Stack Developer",
+      "recipient": null,
+      "url": "https://offcampusjobs4u.com/friday-media-group-recruitment-2026-software-engineer-intern/",
+      "application_type": "Online Link",
+      "date_posted": "2026-10-21T16:04:48+00:00",
+      "raw_text": "Friday Media Group Recruitment 2026: Software Engineer Intern\n\nApply Link- https://offcampusjobs4u.com/friday-media-group-recruitment-2026-software-engineer-intern/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Telegram Group- https://tel"
+    },
+    {
+      "id": "tg_offcampusjobs4u_1792671555494_1x8zi",
+      "channel": "@offcampusjobs4u",
+      "company": "Hiring Team",
+      "role": "Frontend / Full Stack Developer",
+      "recipient": null,
+      "url": "https://offcampusjobs4u.com/accenture-recruitment-2026-custom-software-engineer-bangalore-gurugram/",
+      "application_type": "Online Link",
+      "date_posted": "2026-10-22T06:30:50+00:00",
+      "raw_text": "Accenture Recruitment 2026: Custom Software Engineer | Bangalore & Gurugram\n\nApply Link- https://offcampusjobs4u.com/accenture-recruitment-2026-custom-software-engineer-bangalore-gurugram/\n\n✅ Join Our Official WhatsApp Channel- https://whatsapp.com/channel/0029VaAPZElC1Fu3jPABoQ3x 🚀\n\n✅ Join Our Tel"
     }
   ]
 }

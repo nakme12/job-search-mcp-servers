@@ -1,34 +1,26 @@
-const puppeteer = require('puppeteer-core');
+const playwright = require('C:/mcp/naukri-auto-apply-engine/node_modules/playwright');
 
-(async () => {
-  const browser = await puppeteer.connect({ browserURL: 'http://127.0.0.1:9222', defaultViewport: null });
-  const pages = await browser.pages();
-  let p = pages.find(page => page.url().includes('cursor.com/careers'));
-  if (!p) {
-    console.log('No Cursor careers page found!');
-    return;
-  }
-
-  const inputs = await p.evaluate(() => {
-    const form = document.querySelector('form');
-    if (!form) return 'No form found';
-    return Array.from(form.querySelectorAll('input, select, textarea, button')).map(el => {
-      let label = el.closest('label') ? el.closest('label').innerText : '';
-      if (!label && el.id) {
-        const lbl = document.querySelector(`label[for="${el.id}"]`);
-        if (lbl) label = lbl.innerText;
-      }
-      return {
-        tag: el.tagName,
-        type: el.type,
-        name: el.name,
-        id: el.id,
-        placeholder: el.placeholder,
-        label: label.trim(),
-        text: el.innerText ? el.innerText.trim() : ''
-      };
-    });
+async function checkCursorPage() {
+  const browser = await playwright.chromium.connectOverCDP('http://127.0.0.1:9222');
+  const context = browser.contexts()[0];
+  const page = await context.newPage();
+  
+  await page.goto('https://jobs.ashbyhq.com/cursor/fa7a821b-ca2b-43fe-8942-07f215a060c7/application', { waitUntil: 'domcontentloaded' });
+  await new Promise(r => setTimeout(r, 3000));
+  
+  const formAnalysis = await page.evaluate(() => {
+    const inputs = Array.from(document.querySelectorAll('input, textarea, select')).map(el => ({
+      name: el.name || el.id || el.placeholder,
+      type: el.type,
+      required: el.required || el.getAttribute('aria-required') === 'true'
+    }));
+    const captcha = document.querySelector('.g-recaptcha, iframe[src*="recaptcha"], iframe[src*="turnstile"], #cf-turnstile');
+    const errors = Array.from(document.querySelectorAll('.ashby-application-form-error, [class*="error"]')).map(e => e.innerText.trim()).filter(Boolean);
+    return { title: document.title, inputsCount: inputs.length, inputs: inputs.slice(0, 10), hasCaptcha: !!captcha, errors };
   });
 
-  console.log('Cursor form inputs:\n', JSON.stringify(inputs, null, 2));
-})();
+  console.log('Cursor Ashby Analysis:', JSON.stringify(formAnalysis, null, 2));
+  await page.close();
+}
+
+checkCursorPage().catch(console.error);

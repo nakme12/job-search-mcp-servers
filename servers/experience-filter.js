@@ -10,12 +10,22 @@ export const POSITIVE_FRONTEND_WORD = /\b(frontend|front-end|front end|react|rea
 export function detectMinYearsExperience(text) {
   if (!text) return null;
   const years = [];
+  // "6yrs-12yrs", "3-6 years", "3 to 6 years"
+  for (const m of text.matchAll(/(\d+(?:\.\d+)?)\s*(?:years?|yrs?|yoe)?\s*(?:-|to|–|—)\s*(\d+(?:\.\d+)?)\s*(?:years?|yrs?|yoe)/gi)) {
+    years.push(parseFloat(m[1]));
+  }
   // "3+ years", "5+ Years of experience", "3+ YOE", "4+ yrs"
-  for (const m of text.matchAll(/(\d+(?:\.\d+)?)\s*\+\s*(?:years?|yrs?|yoe)/gi)) years.push(parseFloat(m[1]));
-  // "3-6 years", "3 to 6 years", "3–6 years", "Experience Required: 3 + Years"
-  for (const m of text.matchAll(/(\d+(?:\.\d+)?)\s*(?:-|to|–|—)\s*(\d+(?:\.\d+)?)\s*\+?\s*(?:years?|yrs?|yoe)/gi)) years.push(parseFloat(m[1]));
+  for (const m of text.matchAll(/(\d+(?:\.\d+)?)\s*\+\s*(?:years?|yrs?|yoe)/gi)) {
+    years.push(parseFloat(m[1]));
+  }
+  // Standalone "6yrs", "5 years", "3 YOE"
+  for (const m of text.matchAll(/(\d+(?:\.\d+)?)\s*(?:years?|yrs?|yoe)\b/gi)) {
+    years.push(parseFloat(m[1]));
+  }
   // "minimum 3 years", "at least 3 years", "min. 3 years"
-  for (const m of text.matchAll(/(?:minimum|at least|min\.?)\s*(?:of\s*)?(\d+(?:\.\d+)?)\s*\+?\s*(?:years?|yrs?|yoe)/gi)) years.push(parseFloat(m[1]));
+  for (const m of text.matchAll(/(?:minimum|at least|min\.?)\s*(?:of\s*)?(\d+(?:\.\d+)?)\s*\+?\s*(?:years?|yrs?|yoe)/gi)) {
+    years.push(parseFloat(m[1]));
+  }
   return years.length ? Math.min(...years) : null;
 }
 

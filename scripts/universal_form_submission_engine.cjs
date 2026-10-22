@@ -1,3 +1,5 @@
+const { StorageWriteGuard } = require('./guards/storage_write_guard.cjs');
+const { UniversalGuard } = require('./guards/universal_guard_interceptor.cjs');
 /**
  * UNIFIED PRODUCTION ATS & PORTAL FORM SUBMISSION ENGINE (POINTS 1, 2, 3, 4)
  * 
