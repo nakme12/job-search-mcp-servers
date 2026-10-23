@@ -32,7 +32,7 @@ async function fillGreenhouseForm(page, job) {
   // 2. Resume injection
   const fileInput = page.locator('input[type="file"]').first();
   if (await fileInput.count() > 0) {
-    const resumePath = path.join(CANONICAL_PATHS.RESUMES_DIR, 'Pratik Patidar Resume - React Developer.pdf');
+    const resumePath = path.join(CANONICAL_PATHS.RESUMES_DIR, 'Pratik Patidar Resume - MERN Full Stack.pdf');
     if (fs.existsSync(resumePath)) {
       await fileInput.setInputFiles(resumePath).catch(() => undefined);
       console.log(`[Greenhouse-Engine] Attached resume: ${path.basename(resumePath)}`);

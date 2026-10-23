@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const puppeteer = require('puppeteer-core');
 
-const RESUME_PATH = path.resolve(__dirname, '..', 'resumes', 'Pratik Patidar Resume - React Developer.pdf');
+const RESUME_PATH = path.resolve(__dirname, '..', 'resumes', 'Pratik Patidar Resume - MERN Full Stack.pdf');
 const APPLIED_SHIFT2_PATH = path.join(__dirname, '..', 'applied_todays_2026-10-14_shift2.json');
 
 const EMAIL_BODY = `Hi Yashmia Hiring Team,
@@ -110,7 +110,7 @@ async function dispatchEmail() {
       recipient: "reachus@yashmia.com",
       channel: "Direct Email (Gmail CDP - Shift 2 Dispatch)",
       subject: "React.js Developer Application - Pratik Patidar (Indore, MP)",
-      resume: "Pratik Patidar Resume - React Developer.pdf",
+      resume: "Pratik Patidar Resume - MERN Full Stack.pdf",
       timestamp: new Date().toISOString(),
       status: "Applied & Verified (100% Physical Sent Folder Assertion Proof)",
       proof_screenshots: []

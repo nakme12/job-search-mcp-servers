@@ -54,7 +54,7 @@ async function submitCurrent() {
       role: "React.js Developer",
       recipient_or_url: "https://www.linkedin.com/jobs/view/4477216230",
       channel: "LinkedIn Easy Apply",
-      resume: "Pratik Patidar Resume - React Developer.pdf",
+      resume: "Pratik Patidar Resume - MERN Full Stack.pdf",
       timestamp: new Date().toISOString(),
       status: "Applied & Submitted (Verified in DOM: Application Sent)",
       proof_screenshots: [`screenshots/2026-10-14/shift2/${ssName}`],

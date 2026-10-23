@@ -35,9 +35,9 @@ function getBestResume(roleTitle) {
     return path.join(RESUME_DIR, 'Pratik Patidar Resume - MERN Full Stack.pdf');
   }
   if (t.includes('react') || t.includes('ui') || t.includes('front end') || t.includes('frontend')) {
-    return path.join(RESUME_DIR, 'Pratik Patidar Resume - React Developer.pdf');
+    return path.join(RESUME_DIR, 'Pratik Patidar Resume - MERN Full Stack.pdf');
   }
-  return path.join(RESUME_DIR, 'Pratik Patidar Resume - Frontend Engineer.pdf');
+  return path.join(RESUME_DIR, 'Pratik Patidar Resume - MERN Full Stack.pdf');
 }
 
 async function fillAshby(page, roleTitle = '') {

@@ -241,9 +241,9 @@ async function runRigorousSlot4Audit() {
       };
       if (!cleanJob.resume_mapped) {
         const lower = cleanJob.role.toLowerCase();
-        if (lower.includes('react')) cleanJob.resume_mapped = 'Pratik Patidar Resume - React Developer.pdf';
+        if (lower.includes('react')) cleanJob.resume_mapped = 'Pratik Patidar Resume - MERN Full Stack.pdf';
         else if (lower.includes('fullstack') || lower.includes('full stack') || lower.includes('mern')) cleanJob.resume_mapped = 'Pratik Patidar Resume - MERN Full Stack.pdf';
-        else cleanJob.resume_mapped = 'Pratik Patidar Resume - Frontend Engineer.pdf';
+        else cleanJob.resume_mapped = 'Pratik Patidar Resume - MERN Full Stack.pdf';
       }
       verifiedClean.push(cleanJob);
 

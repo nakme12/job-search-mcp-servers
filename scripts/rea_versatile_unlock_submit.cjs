@@ -51,7 +51,7 @@ ws.on('open', async () => {
     nodeId: doc.root.nodeId,
     selector: '#resume'
   });
-  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf';
   await send('DOM.setFileInputFiles', {
     nodeId: node.nodeId,
     files: [resumePath]

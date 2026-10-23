@@ -8,7 +8,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   const company = 'Developer Bazaar Technologies';
   const role = 'Frontend Intern';
   const url = 'https://getfirsthire.com/jobs/18dd85a6d805b2f1035dc821bcffc36f7978e3261c665bf23b825a121bb5ca46?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic';
-  const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - Frontend Engineer.pdf');
+  const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
   const screenshotDir = 'C:/mcp/job-search-mcp-engine/screenshots/2026-10-21/shift2';
   fs.mkdirSync(screenshotDir, { recursive: true });
 
@@ -85,7 +85,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
       status: 'CONFIRMED_SUBMITTED',
       applied_at: new Date().toISOString(),
       confirmation_screenshot: screenshotPath,
-      resume_used: 'Pratik Patidar Resume - Frontend Engineer.pdf'
+      resume_used: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     });
     f5.total = f5.jobs.length;
     f5.updated_at = new Date().toISOString();

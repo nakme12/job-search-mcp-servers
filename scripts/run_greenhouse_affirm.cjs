@@ -87,7 +87,7 @@ async function executeAffirmSubmission() {
 
   // 2. Resume
   console.log('[Step 2] Attaching Resume...');
-  const resumePath = path.join(CANONICAL_PATHS.RESUMES_DIR, 'Pratik Patidar Resume - React Developer.pdf');
+  const resumePath = path.join(CANONICAL_PATHS.RESUMES_DIR, 'Pratik Patidar Resume - MERN Full Stack.pdf');
   const fileInput = await page.$('input[type="file"]');
   if (fileInput) {
     await fileInput.uploadFile(resumePath);

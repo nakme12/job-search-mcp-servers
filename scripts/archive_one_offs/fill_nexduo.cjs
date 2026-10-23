@@ -51,7 +51,7 @@ async function fillNexDuo() {
   }, profile);
 
   // 2. Upload Resume
-  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
   const fileInput = await page.$('#app-resume');
   if (fileInput) {
     console.log('Uploading authorized resume:', resumePath);

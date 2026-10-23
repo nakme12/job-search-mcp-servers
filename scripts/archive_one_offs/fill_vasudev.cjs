@@ -1,7 +1,7 @@
 const path = require('path');
 const puppeteer = require('puppeteer-core');
 
-const RESUME_PATH = path.resolve(__dirname, '..', 'resumes', 'Pratik Patidar Resume - React Developer.pdf');
+const RESUME_PATH = path.resolve(__dirname, '..', 'resumes', 'Pratik Patidar Resume - MERN Full Stack.pdf');
 
 async function fillVasudev() {
   const res = await fetch('http://127.0.0.1:9222/json/version');

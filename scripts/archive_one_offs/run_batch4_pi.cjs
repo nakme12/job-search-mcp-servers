@@ -120,21 +120,21 @@ async function processPlacementIndiaJob(p, job) {
       company: 'United Technology',
       role: 'Telephonic Interview For React JS Developer Jobs (Freshers)',
       url: 'https://www.placementindia.com/job-detail/react-js-developer-in-united-technology-services-at-chennai-coimbatore-1327454.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'jobassist_web',
       company: 'JobAssist',
       role: 'Freshers & Experience || Full Time || Web Developer',
       url: 'https://www.placementindia.com/job-detail/web-developer-in-jobassist-at-mumbai-1462908.htm',
-      resume: 'Pratik Patidar Resume - Frontend Engineer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'rgs_bca_fe',
       company: 'RGS Hire World',
       role: 'B.C.A Freshers For Frontend Web Developer',
       url: 'https://www.placementindia.com/job-detail/front-end-developer-in-rgs-hire-world-at-salem-1463015.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     }
   ];
 

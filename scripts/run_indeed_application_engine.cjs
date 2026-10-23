@@ -133,7 +133,7 @@ async function runIndeedWorker() {
       await sleep(1500);
 
       // Upload Resume if input exists (Rule 58 Step 3)
-      const resumeFile = job.resume_mapped || 'Pratik Patidar Resume - React Developer.pdf';
+      const resumeFile = job.resume_mapped || 'Pratik Patidar Resume - MERN Full Stack.pdf';
       const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes', resumeFile);
       const fileInput = await formPage.$('input[type="file"]');
       if (fileInput && fs.existsSync(resumePath)) {

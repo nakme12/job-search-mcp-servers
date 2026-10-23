@@ -23,7 +23,7 @@ const discoveredLeads = [
     role: "Full Stack / React Developer",
     location: "Indore, MP",
     email: "bharti.shweta@fxbytes.com",
-    resume: "Pratik Patidar Resume - React Developer.pdf",
+    resume: "Pratik Patidar Resume - MERN Full Stack.pdf",
     source: "LinkedIn Group (Shweta Bharti - HR Manager)",
     days: "Wednesday (2 days ago)"
   },
@@ -41,7 +41,7 @@ const discoveredLeads = [
     role: "Frontend / React Developer",
     location: "India / Hybrid",
     email: "career@worldwebtechnology.com",
-    resume: "Pratik Patidar Resume - Frontend Engineer.pdf",
+    resume: "Pratik Patidar Resume - MERN Full Stack.pdf",
     source: "LinkedIn Group",
     days: "Monday (4 days ago)"
   },
@@ -59,7 +59,7 @@ const discoveredLeads = [
     role: "Web / Frontend Tech",
     location: "India",
     email: "sneha@credaracap.com",
-    resume: "Pratik Patidar Resume - Frontend Engineer.pdf",
+    resume: "Pratik Patidar Resume - MERN Full Stack.pdf",
     source: "LinkedIn Group",
     days: "6 days ago"
   }

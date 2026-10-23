@@ -27,7 +27,7 @@ const PROFILE = {
   expectedCtcRaw: '465000',
   noticeDays: '15',
   experienceYears: '1.5',
-  resumePath: 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf'
+  resumePath: 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf'
 };
 
 const TARGET_DIRECT_JOBS = [

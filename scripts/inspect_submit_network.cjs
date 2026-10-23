@@ -19,7 +19,7 @@ async function checkConsoleAndNetwork() {
 
   await page.locator('input[name="_systemfield_name"]').fill('Pratik Patidar');
   await page.locator('input[name="_systemfield_email"]').fill('pratikpatidar7990@gmail.com');
-  await page.locator('input#_systemfield_resume').setInputFiles('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf');
+  await page.locator('input#_systemfield_resume').setInputFiles('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
 
   // Fill textareas and text inputs
   await page.evaluate(() => {

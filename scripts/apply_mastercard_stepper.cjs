@@ -23,7 +23,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
     await sleep(4000);
     
     // Upload Resume
-    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - Frontend Engineer.pdf');
+    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
     console.log('[MASTERCARD] Uploading resume:', resumePath);
     const fileInput = await page.$('input[type="file"]');
     if (fileInput) {

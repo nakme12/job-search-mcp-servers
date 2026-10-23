@@ -5,7 +5,7 @@ const path = require('path');
   const browser = await puppeteer.connect({ browserURL: 'http://127.0.0.1:9222' });
   const pages = await browser.pages();
   const page = pages[0];
-  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - Frontend Engineer.pdf';
+  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf';
 
   console.log('Targeting page:', page.url());
 

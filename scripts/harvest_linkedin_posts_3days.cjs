@@ -114,7 +114,7 @@ async function runLinkedInHarvest() {
         if (/mern/i.test(pText)) role = 'MERN Stack Developer';
         else if (/react/i.test(pText)) role = 'React Developer';
 
-        let resume = 'Pratik Patidar Resume - React Developer.pdf';
+        let resume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
         if (/mern|full stack/i.test(pText)) resume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
 
         const newJob = {

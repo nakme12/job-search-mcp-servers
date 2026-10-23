@@ -10,7 +10,7 @@ async function applyAiPrise() {
   await page.goto(url, { waitUntil: 'networkidle2', timeout: 35000 });
 
   // 1. Upload resume
-  const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf');
+  const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
   console.log('[AiPrise Ashby] Uploading resume:', resumePath);
   const fileInputs = await page.$$('input[type="file"]');
   const targetFileInput = fileInputs.length > 1 ? fileInputs[1] : fileInputs[0];

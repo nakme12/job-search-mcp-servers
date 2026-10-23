@@ -9,7 +9,7 @@ const TARGETS = [
     email: 'hr@axquora.com',
     role: 'Frontend Developer',
     location: 'Indore',
-    resumeName: 'Pratik Patidar Resume - Frontend Engineer.pdf',
+    resumeName: 'Pratik Patidar Resume - MERN Full Stack.pdf',
     subject: 'Application for Frontend Developer - Pratik Patidar (1.5+ YOE | React.js / Frontend)'
   },
   {
@@ -45,7 +45,7 @@ const TARGETS = [
     email: 'sakshi.yadav@reachargestudio.com',
     role: 'React Developer',
     location: 'Indore',
-    resumeName: 'Pratik Patidar Resume - React Developer.pdf',
+    resumeName: 'Pratik Patidar Resume - MERN Full Stack.pdf',
     subject: 'Application for React Developer - Pratik Patidar (1.5+ YOE | React.js / Web)'
   }
 ];

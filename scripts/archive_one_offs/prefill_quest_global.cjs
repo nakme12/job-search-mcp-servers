@@ -18,7 +18,7 @@ async function fillQuestGlobal() {
   console.log('Prefilling Quest Global Phenom ATS form...');
 
   // 1. Upload Resume
-  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
   const fileInput = await page.$('input[type="file"]');
   if (fileInput) {
     console.log('Uploading resume:', resumePath);

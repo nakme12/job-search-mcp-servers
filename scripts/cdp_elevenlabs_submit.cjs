@@ -103,7 +103,7 @@ async function runDirectCdpSubmit() {
   });
   console.log('[CDP] Resume File NodeId:', node.nodeId);
 
-  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - Frontend Engineer.pdf';
+  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf';
   console.log('[CDP] Setting Resume File Path:', resumePath);
   await send('DOM.setFileInputFiles', {
     nodeId: node.nodeId,

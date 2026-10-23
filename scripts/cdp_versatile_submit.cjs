@@ -60,7 +60,7 @@ ws.on('open', async () => {
   });
   console.log('[Versatile Direct] Resume node ID:', node.nodeId);
 
-  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf';
   await send('DOM.setFileInputFiles', {
     nodeId: node.nodeId,
     files: [resumePath]

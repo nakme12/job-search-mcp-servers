@@ -23,7 +23,7 @@ const PROFILE = {
   lastWorkingDay: 'October 2026',
   ctc: '2.16 LPA',
   experience: '1.5 Years',
-  resumePath: 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf'
+  resumePath: 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf'
 };
 
 async function applyAshbyUniversal(job) {

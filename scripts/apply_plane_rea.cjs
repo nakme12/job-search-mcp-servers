@@ -9,7 +9,7 @@ async function fillAndSubmitPlane() {
   const page = pages.find(p => p.url().includes('jobs.ashbyhq.com/plane')) || pages[0];
   console.log('[REA Plane] Found target page:', page.url());
 
-  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf';
 
   // 1. Upload Resume
   const fileInput = await page.$('input[type="file"]');

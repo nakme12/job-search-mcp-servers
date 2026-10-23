@@ -10,7 +10,7 @@ async function applyHangDirectProps() {
   await page.goto(url, { waitUntil: 'networkidle2', timeout: 35000 });
 
   // 1. Upload resume to the file input first
-  const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf');
+  const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
   console.log('[Hang Ashby REA] Uploading resume...');
   const resumeInput = await page.$('#_systemfield_resume') || (await page.$$('input[type="file"]'))[1] || (await page.$('input[type="file"]'));
   if (resumeInput) {

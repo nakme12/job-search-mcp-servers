@@ -13,7 +13,7 @@ async function testDirectCdpFill() {
   const fileInput = await page.$('input[type="file"]');
   if (fileInput) {
     console.log('Uploading resume...');
-    await fileInput.uploadFile('C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf');
+    await fileInput.uploadFile('C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf');
     await new Promise(r => setTimeout(r, 2000));
   }
 

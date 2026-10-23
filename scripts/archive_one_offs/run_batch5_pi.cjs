@@ -113,14 +113,14 @@ async function processPlacementIndiaJob(p, job) {
       company: 'JobAssist',
       role: 'Frontend Web Developer Jobs For 12th Pass Freshers',
       url: 'https://www.placementindia.com/job-detail/front-end-developer-in-jobassist-at-mumbai-1418906.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'vams_biome_fe',
       company: 'Vams Biome Innovations Pvt. Ltd.',
       role: 'Hiring Fresher / Frontend Web Developer / B.Sc',
       url: 'https://www.placementindia.com/job-detail/front-end-web-developer-in-vams-biome-innovations-pvt-ltd-at-vijayawada-1417674.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     }
   ];
 

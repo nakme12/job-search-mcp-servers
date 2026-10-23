@@ -18,7 +18,7 @@ async function prepCaptchaJob(job) {
   await new Promise(r => setTimeout(r, 2500));
 
   // Resume path
-  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf';
 
   // Fill Ashby Form Fields
   console.log(`[${job.company}] Injecting candidate profile into form...`);

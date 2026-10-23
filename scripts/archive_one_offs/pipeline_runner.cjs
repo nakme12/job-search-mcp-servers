@@ -25,7 +25,7 @@ const fs = require('fs');
 const { auditJobText } = require('./job_gatekeeper.cjs');
 
 const PROFILE_PATH = 'C:/mcp/job-search-mcp-engine/candidate_screening_profile.json';
-const RESUME_PATH = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+const RESUME_PATH = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
 
 async function connectBrowser() {
   const res = await fetch('http://127.0.0.1:9222/json/version');

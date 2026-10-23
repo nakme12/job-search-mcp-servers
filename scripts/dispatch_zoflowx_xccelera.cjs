@@ -30,7 +30,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
         company: 'Xccelera',
         recipient: 'neha.rana@xccelera.ai',
         role: 'Full Stack Developer',
-        resume: 'Pratik Patidar Resume - Frontend Engineer.pdf'
+        resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
       }
     ];
 

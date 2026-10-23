@@ -69,11 +69,11 @@ async function main() {
     }
 
     // Assign authorized resume
-    let resume = 'Pratik Patidar Resume - React Developer.pdf';
+    let resume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
     if (/mern|full stack|fullstack/i.test(lead.raw_text || lead.role)) {
       resume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
     } else if (/frontend|front-end|ui/i.test(lead.raw_text || lead.role)) {
-      resume = 'Pratik Patidar Resume - Frontend Engineer.pdf';
+      resume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
     }
 
     if (isEmail) {
@@ -151,7 +151,7 @@ async function main() {
     if (existingIds.has(uniqueKey)) continue;
     existingIds.add(uniqueKey);
 
-    let resume = 'Pratik Patidar Resume - React Developer.pdf';
+    let resume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
     if (/mern|full stack|fullstack/i.test(n.title)) {
       resume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
     }

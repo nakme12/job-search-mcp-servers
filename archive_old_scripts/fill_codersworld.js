@@ -31,7 +31,7 @@ GitHub: https://github.com/pratikpatidar`;
     await page.type('#cover_letter', coverPitch, { delay: 20 });
 
     // Upload Resume
-    const resumePath = path.resolve('resumes/Pratik Patidar Resume - Frontend Engineer.pdf');
+    const resumePath = path.resolve('resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
     console.log('Attaching resume:', resumePath);
     const fileInput = await page.$('input[type="file"]#resume');
     if (fileInput) {

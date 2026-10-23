@@ -50,7 +50,7 @@ async function submitApollo() {
     role: 'ReactJS Developer',
     recipient_or_url: 'https://www.apollohl.com/jobs/reactjs-developer/',
     channel: 'Direct Company Career Portal',
-    resume: 'Pratik Patidar Resume - React Developer.pdf',
+    resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
     timestamp: new Date().toISOString(),
     status: 'Applied & Submitted (Verified in DOM: Success)',
     proof_screenshots: [`screenshots/2026-10-14/shift2/apollohl_postsubmit_${ts}.png`],

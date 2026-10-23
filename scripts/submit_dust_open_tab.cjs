@@ -106,7 +106,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
       role: 'Software Engineer',
       url: p.url(),
       channel: 'Direct ATS Portal Form (Ashby)',
-      resume: 'Pratik Patidar Resume - React Developer.pdf',
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
       screenshot: proofPath,
       status: 'CONFIRMED_APPLIED',
       timestamp: new Date().toISOString()

@@ -13,7 +13,7 @@ async function run() {
     await new Promise(r => setTimeout(r, 2000));
     
     // 1. Resume
-    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf');
+    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
     const fileInput = await page.$('input[name="resume"]');
     if (fileInput) {
       await fileInput.uploadFile(resumePath);
@@ -101,7 +101,7 @@ async function run() {
         recipient: 'Lever Portal',
         channel: 'Direct ATS Portal (Lever)',
         job_url: appUrl,
-        resume: 'Pratik Patidar Resume - React Developer.pdf',
+        resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
         timestamp: new Date().toISOString(),
         status: 'Applied & Verified (100% Post-Submit Confirmation Screenshot)',
         proof_screenshots: ['screenshots/2026-10-14/drivetrain_fe_postsubmit.png']

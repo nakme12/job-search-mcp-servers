@@ -8,19 +8,19 @@ const targetPortals = [
     company: 'Elements Energy',
     role: 'Software Developer',
     url: 'https://elementsenergy.in/careers',
-    resume: 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf'
+    resume: 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf'
   },
   {
     company: 'Outnovate',
     role: 'Front-End Developer',
     url: 'https://outnov.com/career',
-    resume: 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf'
+    resume: 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf'
   },
   {
     company: 'Vasudev Technolabs',
     role: 'Frontend Developer',
     url: 'https://vasudevtechnolabs.com/career/',
-    resume: 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf'
+    resume: 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf'
   }
 ];
 

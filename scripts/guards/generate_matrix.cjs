@@ -39,8 +39,8 @@ const matrix = {
       "tech firm", "unknown", "null", "undefined", "hiring team", "recruiter"
     ],
     authorized_resumes: [
-      "Pratik Patidar Resume - Frontend Engineer.pdf",
-      "Pratik Patidar Resume - React Developer.pdf",
+      "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "Pratik Patidar Resume - MERN Full Stack.pdf",
       "Pratik Patidar Resume - MERN Full Stack.pdf"
     ],
     banned_resume_pattern: "(Updated)",

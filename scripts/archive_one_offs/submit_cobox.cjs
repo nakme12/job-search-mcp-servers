@@ -19,7 +19,7 @@ async function stageAndSubmitCobox() {
   await new Promise(r => setTimeout(r, 2000));
 
   const profile = JSON.parse(fs.readFileSync('candidate_screening_profile.json', 'utf8')).profile;
-  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
 
   console.log('--- POPULATING COBOX FORM ---');
   console.log('Name:', profile.name);
@@ -94,7 +94,7 @@ async function stageAndSubmitCobox() {
     role: 'React.js Frontend Engineer',
     recipient_or_url: 'https://coboxtechnologies.com/careers/react-frontend-engineer/',
     channel: 'Direct Company Career Portal',
-    resume: 'Pratik Patidar Resume - React Developer.pdf',
+    resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
     timestamp: new Date().toISOString(),
     status: 'Applied & Submitted (Verified in DOM: Success)',
     proof_screenshots: [`screenshots/2026-10-14/shift2/cobox_postsubmit_${ts}.png`],

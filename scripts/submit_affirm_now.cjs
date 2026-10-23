@@ -24,7 +24,7 @@ const fs = require('fs');
   });
 
   // Upload Resume
-  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf';
   const fileInput = await page.$('input[type="file"]');
   if (fileInput) {
     await fileInput.uploadFile(resumePath);

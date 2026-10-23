@@ -21,7 +21,7 @@ const dmTargets = [
     company: 'Xonier Technologies',
     role: 'React JS Developer',
     recipient: 'hr@xoniertech.com',
-    resume: 'Pratik Patidar Resume - React Developer.pdf'
+    resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
   },
   {
     company: 'Netu Techno',

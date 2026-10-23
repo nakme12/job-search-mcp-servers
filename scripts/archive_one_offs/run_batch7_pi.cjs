@@ -114,7 +114,7 @@ async function processPlacementIndiaJob(p, job) {
       role: 'Hiring Fresher - Frontend Web Developer - Bangalore',
       location: 'Bangalore',
       url: 'https://www.placementindia.com/job-detail/frontend-developer-in-nimblix-technologies-at-bangalore-1385864.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'techmafia_web_goa',
@@ -122,7 +122,7 @@ async function processPlacementIndiaJob(p, job) {
       role: 'Freshers & Experience || Full Time || Software Web Developer',
       location: 'Goa',
       url: 'https://www.placementindia.com/job-detail/software-web-developer-in-techmafia-at-goa-1369181.htm',
-      resume: 'Pratik Patidar Resume - Frontend Engineer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'websenor_fe_udaipur',
@@ -130,7 +130,7 @@ async function processPlacementIndiaJob(p, job) {
       role: 'Frontend Developer',
       location: 'Udaipur',
       url: 'https://www.placementindia.com/job-detail/frontend-developer-in-websenor-at-udaipur-1268586.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'spehre_fs_wfh',
@@ -146,7 +146,7 @@ async function processPlacementIndiaJob(p, job) {
       role: 'Frontend Developer (0-2 Years)',
       location: 'Pune',
       url: 'https://www.placementindia.com/job-detail/frontend-developer-in-avenirya-solutions-opc-pvt-ltd-at-pune-1260795.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     }
   ];
 

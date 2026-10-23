@@ -15,7 +15,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PROFILE_PATH = 'C:/mcp/job-search-mcp-engine/candidate_screening_profile.json';
-const RESUME_PATH = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+const RESUME_PATH = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
 
 async function autoFillAshby(targetUrl = null) {
   const profileData = JSON.parse(fs.readFileSync(PROFILE_PATH, 'utf8'));

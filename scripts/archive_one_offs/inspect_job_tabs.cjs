@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer-core');
 const path = require('path');
 const fs = require('fs');
 
-const RESUME_PATH = path.resolve('D:/adi/mcp/Pratik Patidar Resume - React Developer.pdf');
+const RESUME_PATH = path.resolve('D:/adi/mcp/Pratik Patidar Resume - MERN Full Stack.pdf');
 
 async function main() {
   const browser = await puppeteer.connect({

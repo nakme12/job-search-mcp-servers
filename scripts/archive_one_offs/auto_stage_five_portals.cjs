@@ -17,7 +17,7 @@ const VERIFIED_SHIFT2_PATH = path.join(__dirname, '..', 'verified_todays_2026-10
 const APPLIED_SHIFT2_PATH = path.join(__dirname, '..', 'applied_todays_2026-10-14_shift2.json');
 const SHIFT2_SS_DIR = path.join(__dirname, '..', 'screenshots', '2026-10-14', 'shift2');
 const PROFILE_PATH = path.join(__dirname, '..', 'candidate_screening_profile.json');
-const RESUME_PATH = path.resolve(__dirname, '..', 'resumes', 'Pratik Patidar Resume - React Developer.pdf');
+const RESUME_PATH = path.resolve(__dirname, '..', 'resumes', 'Pratik Patidar Resume - MERN Full Stack.pdf');
 
 const profile = JSON.parse(fs.readFileSync(PROFILE_PATH, 'utf8')).profile;
 

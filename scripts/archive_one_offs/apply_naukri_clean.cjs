@@ -47,7 +47,7 @@ async function applyNaukriClean(jobUrl, companyName, roleName) {
       role: roleName,
       recipient_or_url: jobUrl,
       channel: 'Naukri Fast Apply',
-      resume: 'Pratik Patidar Resume - React Developer.pdf',
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
       timestamp: new Date().toISOString(),
       status: 'Applied & Submitted (Naukri Fast Apply)',
       proof_screenshots: ['screenshots/2026-10-14/shift2/' + cleanComp + '_postsubmit_' + ts + '.png'],

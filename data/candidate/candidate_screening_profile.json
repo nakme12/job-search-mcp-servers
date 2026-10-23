@@ -3,8 +3,8 @@
     "name": "Pratik Patidar",
     "first_name": "Pratik",
     "last_name": "Patidar",
-    "role": "Frontend Engineer / React Developer",
-    "headline": "Frontend Engineer | React.js | Next.js | TypeScript | 1.5 Years Exp",
+    "role": "Full Stack Developer / MERN Developer",
+    "headline": "Full Stack Developer | MERN Stack | React.js | Node.js | TypeScript | 1.5+ Years Exp",
     "email": "pratikpatidar7990@gmail.com",
     "phone": "+91 82696 47990",
     "phone_raw": "8269647990",
@@ -41,10 +41,10 @@
       "cgpa": "7.89"
     },
     "exact_education_text": "B.Tech in CSE (BUIT Bhopal, 2024, 7.89 CGPA)",
-    "exact_experience_text": "1.5 Years (React.js, Next.js, TypeScript, REST APIs)",
+    "exact_experience_text": "1.5 - 2 Years (React.js, Node.js, Express.js, MongoDB, TypeScript, REST APIs)",
     "exact_current_ctc_text": "2.16 LPA",
     "exact_preferred_location_text": "Open to Relocate (Bangalore, Pune, Gurgaon, Noida, Remote, Indore)",
-    "exact_preferred_profile": "Frontend / React.js Developer"
+    "exact_preferred_profile": "Full Stack / MERN Developer"
   },
   "standard_screening_answers": {
     "Email": "pratikpatidar7990@gmail.com",

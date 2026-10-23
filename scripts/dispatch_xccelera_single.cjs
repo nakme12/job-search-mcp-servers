@@ -22,7 +22,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
     const company = 'Xccelera';
     const recipient = 'neha.rana@xccelera.ai';
     const role = 'Full Stack Developer';
-    const resume = 'Pratik Patidar Resume - Frontend Engineer.pdf';
+    const resume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
     const subject = `Application for ${role} - Pratik Patidar`;
     const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes', resume);
 

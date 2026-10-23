@@ -18,7 +18,7 @@ const FRESH_LEADS = [
     company: 'CloudXtreme',
     role: 'Frontend Engineer',
     recipient: 'mubashira.shaik@mycloudxtreme.com',
-    resume: 'Pratik Patidar Resume - Frontend Engineer.pdf'
+    resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
   },
   {
     company: 'ElevenX Capital',
@@ -30,7 +30,7 @@ const FRESH_LEADS = [
     company: 'Aschpro',
     role: 'Frontend Engineer',
     recipient: 'sindhuja.pabbathi@aschpro.com',
-    resume: 'Pratik Patidar Resume - React Developer.pdf'
+    resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
   },
   {
     company: 'Arth Tech Supports',

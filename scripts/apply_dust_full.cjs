@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PROFILE = JSON.parse(fs.readFileSync('C:\\mcp\\job-search-mcp-engine\\candidate_screening_profile.json', 'utf8')).profile;
-const RESUME_PATH = path.resolve('C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf');
+const RESUME_PATH = path.resolve('C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf');
 const SCREENSHOT_DIR = 'C:\\mcp\\job-search-mcp-engine\\screenshots\\2026-10-19\\shift1';
 const APPLIED_FILE = 'C:\\mcp\\job-search-mcp-engine\\applied_todays_2026-10-19.json';
 
@@ -22,7 +22,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   console.log('[Job 1/1] Dust — JD verified (Software Engineer, Product/Engineering) ✅');
 
   // 1. Upload Resume
-  console.log('[Job 1/1] Dust — Attaching Resume (Pratik Patidar Resume - React Developer.pdf)...');
+  console.log('[Job 1/1] Dust — Attaching Resume (Pratik Patidar Resume - MERN Full Stack.pdf)...');
   const fileInput = await p.$('input[type="file"]');
   if (fileInput) {
     await fileInput.uploadFile(RESUME_PATH);
@@ -124,7 +124,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
       role: 'Software Engineer',
       url: url,
       channel: 'Direct ATS Portal Form (Ashby)',
-      resume: 'Pratik Patidar Resume - React Developer.pdf',
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
       screenshot: proofPath,
       status: 'CONFIRMED_APPLIED',
       timestamp: new Date().toISOString()

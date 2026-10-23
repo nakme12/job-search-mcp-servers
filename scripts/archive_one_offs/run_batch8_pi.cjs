@@ -114,7 +114,7 @@ async function processPlacementIndiaJob(p, job) {
       role: 'Frontend Developer',
       location: 'Bangalore',
       url: 'https://www.placementindia.com/job-detail/frontend-developer-in-immensphere-at-bangalore-1250278.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'techplusd2c_fe_nagpur',
@@ -122,7 +122,7 @@ async function processPlacementIndiaJob(p, job) {
       role: 'Frontend Developer - Nagpur',
       location: 'Nagpur',
       url: 'https://www.placementindia.com/job-detail/frontend-developer-in-techplusd2c-at-nagpur-1252345.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'engineers_hub_fe_indore',
@@ -130,7 +130,7 @@ async function processPlacementIndiaJob(p, job) {
       role: 'Hiring For Frontend Developer',
       location: 'Indore',
       url: 'https://www.placementindia.com/job-detail/frontend-developer-in-engineers-hub-at-indore-1255067.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'teciza_fe_nikol',
@@ -138,7 +138,7 @@ async function processPlacementIndiaJob(p, job) {
       role: 'Frontend Developer (Full Time)',
       location: 'Nikol Ahmedabad',
       url: 'https://www.placementindia.com/job-detail/frontend-developer-in-teciza-web-solution-at-nikol-ahmedabad-1253372.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'saisource_web_bangalore',
@@ -146,7 +146,7 @@ async function processPlacementIndiaJob(p, job) {
       role: 'Web Developer',
       location: 'Bangalore',
       url: 'https://www.placementindia.com/job-detail/web-developer-in-saisource-solutions-at-bangalore-1266641.htm',
-      resume: 'Pratik Patidar Resume - Frontend Engineer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     }
   ];
 

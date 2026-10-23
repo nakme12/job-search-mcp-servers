@@ -31,7 +31,7 @@ const puppeteer = require('puppeteer-core');
   console.log('--- 2. Uploading Resume ---');
   const fileInput = await page.$('input[type="file"]');
   if (fileInput) {
-    await fileInput.uploadFile('C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf');
+    await fileInput.uploadFile('C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf');
     console.log('Resume uploaded.');
   }
 

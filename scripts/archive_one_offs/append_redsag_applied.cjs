@@ -9,7 +9,7 @@ if (!exists) {
     role: 'Junior Frontend Developer',
     recipient_or_url: 'https://www.red-sag.com/careers/apply/junior-frontend-developer',
     channel: 'Direct Company Career Portal',
-    resume: 'Pratik Patidar Resume - React Developer.pdf',
+    resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
     timestamp: '2026-10-14T08:01:08.000Z',
     status: 'Applied & Submitted (Verified in DOM: Application Submitted! Thank you for applying to the Junior Frontend Developer position)',
     proof_screenshots: [

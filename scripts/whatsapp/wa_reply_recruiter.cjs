@@ -18,7 +18,7 @@ const customText = customTextArg ? customTextArg.replace('--custom-text=', '').r
 // Canonical Profile
 const profilePath = 'C:/mcp/job-search-mcp-engine/candidate_screening_profile.json';
 const profileData = JSON.parse(fs.readFileSync(profilePath, 'utf8')).profile;
-const defaultResumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf';
+const defaultResumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf';
 
 function getTabs() {
   return new Promise((resolve, reject) => {

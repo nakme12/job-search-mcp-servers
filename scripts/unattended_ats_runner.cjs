@@ -65,7 +65,7 @@ async function run() {
       }
 
       // Handle Greenhouse / Direct ATS form
-      const resumeFile = job.resume_mapped || 'Pratik Patidar Resume - Frontend Engineer.pdf';
+      const resumeFile = job.resume_mapped || 'Pratik Patidar Resume - MERN Full Stack.pdf';
       const resumePath = path.join(ROOT_DIR, 'resumes', resumeFile);
 
       console.log(`  -> Injecting fields & resume (${resumeFile})...`);

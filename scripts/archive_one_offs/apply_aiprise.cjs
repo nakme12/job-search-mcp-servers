@@ -26,7 +26,7 @@ async function run() {
     }
     
     // Resume
-    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf');
+    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
     const fileInputs = await page.$$('input[type="file"]');
     if (fileInputs.length > 0) {
       const targetFileInput = fileInputs.length > 1 ? fileInputs[1] : fileInputs[0];
@@ -66,7 +66,7 @@ async function run() {
         recipient: 'Ashby Portal',
         channel: 'Direct ATS Portal (Ashby)',
         job_url: appUrl,
-        resume: 'Pratik Patidar Resume - React Developer.pdf',
+        resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
         timestamp: new Date().toISOString(),
         status: 'Applied & Verified (100% Post-Submit Confirmation Screenshot)',
         proof_screenshots: ['screenshots/2026-10-14/aiprise_postsubmit.png']

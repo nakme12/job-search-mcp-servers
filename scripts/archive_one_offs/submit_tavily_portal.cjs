@@ -12,7 +12,7 @@ const fs = require('fs');
     await new Promise(r => setTimeout(r, 4000));
 
     // Upload resume to _systemfield_resume
-    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf');
+    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
     console.log('Resume path:', resumePath, 'exists:', fs.existsSync(resumePath));
 
     const fileInput = await page.$('input#_systemfield_resume') || await page.$('input[type="file"]');

@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer-core');
 
 const SHIFT2_SS_DIR = path.join(__dirname, '..', 'screenshots', '2026-10-14', 'shift2');
 const APPLIED_SHIFT2_PATH = path.join(__dirname, '..', 'applied_todays_2026-10-14_shift2.json');
-const RESUME_PATH = path.resolve(__dirname, '..', 'resumes', 'Pratik Patidar Resume - React Developer.pdf');
+const RESUME_PATH = path.resolve(__dirname, '..', 'resumes', 'Pratik Patidar Resume - MERN Full Stack.pdf');
 
 async function submitVasudevCareerForm() {
   const res = await fetch('http://127.0.0.1:9222/json/version');
@@ -83,7 +83,7 @@ async function submitVasudevCareerForm() {
       role: "Frontend Developer",
       recipient_or_url: "https://vasudevs.com/career/frontend-developer/",
       channel: "Direct Company Career Portal",
-      resume: "Pratik Patidar Resume - React Developer.pdf",
+      resume: "Pratik Patidar Resume - MERN Full Stack.pdf",
       timestamp: new Date().toISOString(),
       status: "Applied & Submitted (Verified in DOM: CF7 Output)",
       proof_screenshots: [`screenshots/2026-10-14/shift2/${ssName}`],

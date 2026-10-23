@@ -29,7 +29,7 @@ async function run() {
     }
     
     // 3. Upload Resume
-    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - Frontend Engineer.pdf');
+    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
     console.log('[Soulside AI] Uploading Resume:', resumePath);
     const fileInputs = await page.$$('input[type="file"]');
     if (fileInputs.length > 0) {
@@ -85,7 +85,7 @@ async function run() {
         recipient: 'Ashby Portal',
         channel: 'Direct ATS Portal (Ashby)',
         job_url: appUrl,
-        resume: 'Pratik Patidar Resume - Frontend Engineer.pdf',
+        resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
         timestamp: new Date().toISOString(),
         status: 'Applied & Verified (100% Post-Submit Confirmation Screenshot)',
         proof_screenshots: ['screenshots/2026-10-14/soulside_ai_postsubmit.png']

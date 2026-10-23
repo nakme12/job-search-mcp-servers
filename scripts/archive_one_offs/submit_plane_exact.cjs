@@ -77,7 +77,7 @@ async function run() {
       recipient: 'Ashby Portal',
       channel: 'Direct ATS Portal (Ashby)',
       job_url: 'https://jobs.ashbyhq.com/plane/15cf6387-af74-4616-924f-3659fb76de01/application',
-      resume: 'Pratik Patidar Resume - React Developer.pdf',
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
       timestamp: new Date().toISOString(),
       status: 'Applied & Verified (100% Post-Submit Confirmation Screenshot)',
       proof_screenshots: ['screenshots/2026-10-14/plane_fe_postsubmit.png']

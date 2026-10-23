@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer-core');
 const path = require('path');
 
-const RESUME_PATH = 'D:\\adi\\mcp\\Pratik Patidar Resume - React Developer.pdf';
+const RESUME_PATH = 'D:\\adi\\mcp\\Pratik Patidar Resume - MERN Full Stack.pdf';
 
 async function stepThroughApplication(page) {
   for (let step = 1; step <= 10; step++) {

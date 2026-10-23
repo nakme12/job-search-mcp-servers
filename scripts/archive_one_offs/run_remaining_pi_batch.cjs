@@ -120,7 +120,7 @@ async function processPlacementIndiaJob(p, job) {
       company: 'Nexgen',
       role: 'Fresher hiring for React JS Developer',
       url: 'https://www.placementindia.com/job-detail/react-js-developer-in-nexgen-at-pune-1456045.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'growfinix',

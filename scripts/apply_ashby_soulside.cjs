@@ -10,7 +10,7 @@ async function applySoulside() {
   await page.goto(url, { waitUntil: 'networkidle2', timeout: 35000 });
 
   // 1. Upload resume to file input
-  const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - Frontend Engineer.pdf');
+  const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
   console.log('[Soulside AI] Attaching resume:', resumePath);
   const resumeInput = await page.$('#_systemfield_resume') || (await page.$$('input[type="file"]'))[1] || (await page.$('input[type="file"]'));
   if (resumeInput) {

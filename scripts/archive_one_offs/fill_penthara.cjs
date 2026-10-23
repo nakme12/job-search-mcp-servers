@@ -81,7 +81,7 @@ async function fillPenthara() {
   }, profile);
 
   // 3. Upload Resume
-  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
   const fileInputs = await page.$$('input[type="file"]');
   for (const fi of fileInputs) {
     const name = await page.evaluate(el => el.name || el.id, fi);

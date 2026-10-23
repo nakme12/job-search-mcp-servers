@@ -30,7 +30,7 @@ async function fillAndSubmitSupabase() {
 
   // 3. Resume
   console.log('3. Attaching Resume...');
-  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
   await page.locator('input#_systemfield_resume').setInputFiles(resumePath);
   await page.waitForTimeout(2000);
 

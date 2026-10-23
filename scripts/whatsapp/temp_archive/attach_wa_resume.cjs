@@ -1,7 +1,7 @@
 const WebSocket = require('C:/mcp/job-search-mcp-engine/node_modules/ws');
 const http = require('http');
 
-const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf';
+const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf';
 
 http.get('http://127.0.0.1:9222/json/list', (res) => {
   let data = '';

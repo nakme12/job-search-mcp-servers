@@ -16,13 +16,13 @@ const TARGETS = [
     company: 'Cashfree Payments',
     role: 'Frontend Engineer-1',
     url: 'https://careers.kula.ai/cashfree/jobs/4585',
-    resume: 'Pratik Patidar Resume - Frontend Engineer.pdf'
+    resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
   },
   {
     company: 'Sarvam AI',
     role: 'Frontend Engineer, Chanakya',
     url: 'https://careers.kula.ai/sarvam-ai/jobs/29375',
-    resume: 'Pratik Patidar Resume - React Developer.pdf'
+    resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
   }
 ];
 

@@ -108,7 +108,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
       role: job.role,
       url: job.url,
       channel: 'Naukri 1-Click ATS / Direct Form',
-      resume: 'Pratik Patidar Resume - React Developer.pdf',
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
       screenshot: ssPath,
       status: 'CONFIRMED_APPLIED',
       timestamp: new Date().toISOString()

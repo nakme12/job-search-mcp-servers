@@ -33,7 +33,7 @@ async function applyVersatileDirect() {
   await page.locator('#phone').fill('8269647990');
 
   // 5. Resume PDF
-  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
   console.log('5. Uploading Resume PDF:', resumePath);
   await page.locator('#resume').setInputFiles(resumePath);
   await page.waitForTimeout(1500);

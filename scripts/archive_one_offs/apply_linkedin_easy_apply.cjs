@@ -144,7 +144,7 @@ async function runEasyApply() {
               role: t.role,
               recipient_or_url: t.url,
               channel: "LinkedIn Easy Apply (CDP Automation)",
-              resume: "Pratik Patidar Resume - React Developer.pdf",
+              resume: "Pratik Patidar Resume - MERN Full Stack.pdf",
               timestamp: new Date().toISOString(),
               status: "Applied & Submitted (Verified in DOM: Application Sent)",
               proof_screenshots: [`screenshots/2026-10-14/shift2/${ssName}`],

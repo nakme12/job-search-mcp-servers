@@ -68,7 +68,7 @@ async function solveOneByOne() {
   });
 
   // Inject resume
-  const resumeFile = 'Pratik Patidar Resume - Frontend Engineer.pdf';
+  const resumeFile = 'Pratik Patidar Resume - MERN Full Stack.pdf';
   const resumePath = path.join(ROOT_DIR, 'resumes', resumeFile);
   const fileInput = await page.$('input[type="file"]');
   if (fileInput && fs.existsSync(resumePath)) {

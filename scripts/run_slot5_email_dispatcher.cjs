@@ -130,7 +130,7 @@ async function runSlot5Dispatches() {
     console.log(`[Email ${i + 1}/${emailTargets.length}] Preparing Dispatch: ${lead.company} (${lead.recipient})`);
     console.log(`Role: ${lead.role} | Resume: ${lead.resume_mapped || lead.resume}`);
 
-    const resumeFileName = lead.resume_mapped || lead.resume || 'Pratik Patidar Resume - Frontend Engineer.pdf';
+    const resumeFileName = lead.resume_mapped || lead.resume || 'Pratik Patidar Resume - MERN Full Stack.pdf';
     const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes', resumeFileName);
     if (!fs.existsSync(resumePath)) {
       console.error(`❌ Resume file not found on disk: ${resumePath}`);

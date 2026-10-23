@@ -348,7 +348,7 @@ async function submitIndeedJob(page, job, profile, shift) {
       // Handle File Input if present
       const fileInput = await page.$('input[type="file"]');
       if (fileInput) {
-        const resumeFile = path.join(RESUMES_DIR, 'Pratik Patidar Resume - React Developer.pdf');
+        const resumeFile = path.join(RESUMES_DIR, 'Pratik Patidar Resume - MERN Full Stack.pdf');
         if (fs.existsSync(resumeFile)) {
           console.log(`  -> Injecting Resume: ${path.basename(resumeFile)}`);
           await fileInput.uploadFile(resumeFile);
@@ -459,7 +459,7 @@ async function submitStandardAtsJob(page, job, profile, shift) {
     // Upload Resume
     const fileInput = await context.$('input[type="file"]');
     if (fileInput) {
-      const resumeFile = path.join(RESUMES_DIR, 'Pratik Patidar Resume - React Developer.pdf');
+      const resumeFile = path.join(RESUMES_DIR, 'Pratik Patidar Resume - MERN Full Stack.pdf');
       if (fs.existsSync(resumeFile)) {
         console.log(`  -> Uploading resume: ${path.basename(resumeFile)}`);
         await fileInput.uploadFile(resumeFile);

@@ -217,7 +217,7 @@ async function run() {
                   role,
                   recipient_or_url: targetUrl,
                   channel: "LinkedIn Easy Apply",
-                  resume: "Pratik Patidar Resume - React Developer.pdf",
+                  resume: "Pratik Patidar Resume - MERN Full Stack.pdf",
                   timestamp: new Date().toISOString(),
                   status: "Applied & Submitted (Verified in DOM: Application Sent)",
                   proof_screenshots: [`screenshots/${ssName}`],

@@ -183,12 +183,12 @@ async function runAudit() {
       }
 
       // Select proper authorized resume
-      let mappedResume = 'Pratik Patidar Resume - React Developer.pdf';
+      let mappedResume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
       const roleLower = job.role.toLowerCase();
       if (roleLower.includes('mern') || roleLower.includes('full stack') || roleLower.includes('fullstack')) {
         mappedResume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
       } else if (roleLower.includes('frontend') || roleLower.includes('front-end') || roleLower.includes('ui software') || roleLower.includes('ui engineer')) {
-        mappedResume = 'Pratik Patidar Resume - Frontend Engineer.pdf';
+        mappedResume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
       }
 
       const verifiedRecord = {

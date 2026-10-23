@@ -5,10 +5,10 @@ const target = {
   company: 'IT Career Openings',
   role: 'Frontend / React Developer',
   email: 'himangisinghal30091994@gmail.com',
-  resume: 'Pratik Patidar Resume - React Developer.pdf'
+  resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
 };
 
-const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - React Developer.pdf';
+const resumePath = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf';
 if (!fs.existsSync(resumePath)) {
   console.error('Resume PDF does not exist:', resumePath);
   process.exit(1);

@@ -73,7 +73,7 @@ const fs = require('fs');
     await p.type('textarea[name="coverLetter"]', 'I am a passionate Frontend Developer with 1.5 years experience building responsive, performant user interfaces using React, JavaScript, HTML5, and CSS3. I am eager to contribute to the engineering team at Redsag.', { delay: 15 });
 
     // Resume upload
-    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf');
+    const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
     console.log('Attaching resume:', resumePath, 'exists:', fs.existsSync(resumePath));
     const fileInput = await p.$('input#apply-files') || await p.$('input[name="resume"]');
     if (fileInput) {

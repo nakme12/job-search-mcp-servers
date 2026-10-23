@@ -19,7 +19,7 @@ async function testAshbyExactFlow() {
   await page.locator('input[name="_systemfield_email"]').fill('pratikpatidar7990@gmail.com');
 
   // 3. Upload Resume
-  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
   console.log('Uploading Resume:', resumePath);
   await page.locator('input#_systemfield_resume').setInputFiles(resumePath);
   await new Promise(r => setTimeout(r, 2000));

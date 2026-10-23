@@ -89,7 +89,7 @@ async function main() {
         if (/frontend|react/i.test(text)) role = 'Frontend Developer (React)';
         else if (/mern/i.test(text)) role = 'MERN Stack Developer';
         
-        let resume = 'Pratik Patidar Resume - React Developer.pdf';
+        let resume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
         if (/mern|full stack/i.test(text)) resume = 'Pratik Patidar Resume - MERN Full Stack.pdf';
         
         allQualifiedEmails.push({

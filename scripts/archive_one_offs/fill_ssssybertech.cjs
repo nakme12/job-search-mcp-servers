@@ -1,7 +1,7 @@
 const path = require('path');
 const puppeteer = require('puppeteer-core');
 
-const RESUME_PATH = path.resolve(__dirname, '..', 'resumes', 'Pratik Patidar Resume - React Developer.pdf');
+const RESUME_PATH = path.resolve(__dirname, '..', 'resumes', 'Pratik Patidar Resume - MERN Full Stack.pdf');
 
 const BIO_TEXT = `Full Stack / Frontend Developer with 1.5 years of experience building full-stack web applications using React.js, TypeScript, REST APIs, and modern frontend architectures. Based in Indore, open to onsite in Delhi and immediate joining. Portfolio: https://pratik-portfolio-nine-orcin.vercel.app | LinkedIn: https://www.linkedin.com/in/pratik-patidar`;
 

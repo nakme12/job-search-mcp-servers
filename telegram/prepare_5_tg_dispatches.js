@@ -8,7 +8,7 @@ const TARGETS = [
     salutation: 'Hi Axquora Hiring Team,',
     email: 'hr@axquora.com',
     role: 'Frontend Developer',
-    resumeName: 'Pratik Patidar Resume - Frontend Engineer.pdf',
+    resumeName: 'Pratik Patidar Resume - MERN Full Stack.pdf',
     subject: 'Application for Frontend Developer - Pratik Patidar (1.5+ YOE | React.js / Frontend)'
   },
   {
@@ -40,7 +40,7 @@ const TARGETS = [
     salutation: 'Hi Recharge Studio Hiring Team,',
     email: 'sakshi.yadav@reachargestudio.com',
     role: 'React Developer',
-    resumeName: 'Pratik Patidar Resume - React Developer.pdf',
+    resumeName: 'Pratik Patidar Resume - MERN Full Stack.pdf',
     subject: 'Application for React Developer - Pratik Patidar (1.5+ YOE | React.js / Web)'
   }
 ];

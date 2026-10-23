@@ -16,7 +16,7 @@ async function stageApolloForm() {
   await new Promise(r => setTimeout(r, 2000));
 
   const profileData = JSON.parse(fs.readFileSync('candidate_screening_profile.json', 'utf8')).profile;
-  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
 
   console.log('--- POPULATING APOLLO FORM ON SCREEN ---');
   console.log('Name:', profileData.name);

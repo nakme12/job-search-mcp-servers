@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PROFILE = JSON.parse(fs.readFileSync('candidate_screening_profile.json', 'utf8')).profile;
-const RESUME_PATH = path.resolve('resumes/Pratik Patidar Resume - Frontend Engineer.pdf');
+const RESUME_PATH = path.resolve('resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
 
 async function runAshbyPortal(job) {
   const browser = await puppeteer.connect({ browserURL: 'http://127.0.0.1:9222', defaultViewport: null });

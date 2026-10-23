@@ -8,7 +8,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   const company = 'Endeavor IT Solution';
   const role = 'Front end Developer (Fresher)';
   const url = 'https://jobs.smartrecruiters.com/EndeavorITSolution/99740233-openings-for-front-end-developer-fresher-';
-  const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - Frontend Engineer.pdf');
+  const resumePath = path.resolve('C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
   const screenshotDir = 'C:/mcp/job-search-mcp-engine/screenshots/2026-10-21/shift2';
   fs.mkdirSync(screenshotDir, { recursive: true });
 
@@ -92,7 +92,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
       status: 'CONFIRMED_SUBMITTED',
       applied_at: new Date().toISOString(),
       confirmation_screenshot: screenshotPath,
-      resume_used: 'Pratik Patidar Resume - Frontend Engineer.pdf'
+      resume_used: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     });
     f5.total = f5.jobs.length;
     f5.updated_at = new Date().toISOString();

@@ -43,7 +43,7 @@ async function applyTavily() {
   }
 
   // 4. Resume PDF
-  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
   console.log('5. Attaching Resume PDF:', resumePath);
   await page.locator('#_systemfield_resume').setInputFiles(resumePath);
   await page.waitForTimeout(2000);

@@ -7,7 +7,7 @@ const path = require('path');
   const pages = await browser.pages();
   let p = pages.find(page => page.url().includes('jobs.ashbyhq.com/langchain/eadd2a71'));
   const url = 'https://jobs.ashbyhq.com/langchain/eadd2a71-47fc-483b-948f-4b2384f7f93f/application';
-  const RESUME_PATH = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - Frontend Engineer.pdf';
+  const RESUME_PATH = 'C:\\mcp\\job-search-mcp-engine\\resumes\\Pratik Patidar Resume - MERN Full Stack.pdf';
 
   if (!p) {
     p = await browser.newPage();

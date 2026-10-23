@@ -29,7 +29,7 @@ async function applySupabase() {
   });
 
   // 2. Upload Resume
-  const resumePath = path.resolve('resumes/Pratik Patidar Resume - React Developer.pdf');
+  const resumePath = path.resolve('resumes/Pratik Patidar Resume - MERN Full Stack.pdf');
   console.log('[Supabase] Attaching resume:', resumePath);
   const fileInput = await page.$('input[type="file"]');
   if (fileInput) {

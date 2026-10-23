@@ -120,7 +120,7 @@ async function processPlacementIndiaJob(p, job) {
       company: 'Vattara Solutions Private Limited',
       role: 'Freshers For React JS Developer - Vellore',
       url: 'https://www.placementindia.com/job-detail/react-developer-in-vattara-solutions-private-limited-at-vellore-1418393.htm',
-      resume: 'Pratik Patidar Resume - React Developer.pdf'
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf'
     },
     {
       key: 'rgs_mern',

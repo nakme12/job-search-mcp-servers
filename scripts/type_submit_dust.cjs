@@ -70,7 +70,7 @@ const puppeteer = require('puppeteer-core');
       role: 'Software Engineer',
       url: p.url(),
       channel: 'Direct ATS Portal Form (Ashby)',
-      resume: 'Pratik Patidar Resume - React Developer.pdf',
+      resume: 'Pratik Patidar Resume - MERN Full Stack.pdf',
       screenshot: ssPath,
       status: 'CONFIRMED_APPLIED',
       timestamp: new Date().toISOString()

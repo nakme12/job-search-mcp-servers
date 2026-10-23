@@ -28,7 +28,7 @@ async function fillHeadout() {
   await page.type('#phone', '8269647990', { delay: 50 });
 
   // 4. Attach Resume
-  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - React Developer.pdf';
+  const resumePath = 'C:/mcp/job-search-mcp-engine/resumes/Pratik Patidar Resume - MERN Full Stack.pdf';
   const fileInput = await page.$('#resume');
   if (fileInput) {
     await fileInput.uploadFile(resumePath);
