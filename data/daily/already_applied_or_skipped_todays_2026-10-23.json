@@ -1,0 +1,344 @@
+[
+  {
+    "company": "Supabase",
+    "role": "Software Engineer - Auth",
+    "url": "https://jobs.ashbyhq.com/supabase/e569b7f7-fa8f-4139-86f6-4f52b456882d",
+    "channel": "Ashby",
+    "status": "ALREADY_APPLIED_OR_LIMIT_REACHED",
+    "reason": "Ashby detected recent previous application from this email (Application limits active)",
+    "timestamp": "2026-10-23T06:36:49.768Z"
+  },
+  {
+    "company": "Atlantic Publishers & Distributors",
+    "role": "Web Developer",
+    "url": "https://www.naukri.com/job-listings-web-developer-atlantic-publishers-distributors-noida-delhi-ncr-0-to-5-years-161026016360",
+    "channel": "Naukri",
+    "status": "ALREADY_APPLIED",
+    "reason": "Live DOM displays Applied badge on Naukri",
+    "timestamp": "2026-10-23T06:42:18.226Z"
+  },
+  {
+    "company": "Jobaaj com",
+    "role": "Software Engineer (Fresher)",
+    "url": "https://www.naukri.com/job-listings-software-engineer-fresher-jobaaj-com-bengaluru-0-to-1-years-171026004092",
+    "channel": "Naukri",
+    "status": "ALREADY_APPLIED",
+    "reason": "Live DOM displays Applied badge on Naukri",
+    "timestamp": "2026-10-23T06:49:42.480Z"
+  },
+  {
+    "company": "TalentPro",
+    "role": "Fullstack Developer",
+    "url": "https://www.naukri.com/job-listings-fullstack-developer-talentpro-chennai-0-to-2-years-161026020883",
+    "channel": "Naukri",
+    "status": "ALREADY_APPLIED",
+    "reason": "Live DOM displays Applied badge on Naukri",
+    "timestamp": "2026-10-23T06:49:56.443Z"
+  },
+  {
+    "company": "Oddball",
+    "role": "Full Stack Engineer",
+    "url": "https://jobicy.com/jobs/155572-full-stack-engineer-6",
+    "channel": "Jobicy",
+    "status": "SKIPPED_AD_REDIRECT",
+    "reason": "Jobicy redirects to promotional ad banner rossaus.com instead of direct ATS portal",
+    "timestamp": "2026-10-23T06:50:47.304Z"
+  },
+  {
+    "company": "Ramp",
+    "role": "Software Engineer, Frontend",
+    "url": "https://jobs.ashbyhq.com/ramp/4e64ab86-4e30-403b-b1b9-41dc052570ce",
+    "channel": "Ashby",
+    "status": "SKIPPED_LOCATION_MISMATCH",
+    "reason": "Strict location requirement: US/Canada only (Hybrid/Remote US & Canada)",
+    "timestamp": "2026-10-23T06:51:11.435Z"
+  },
+  {
+    "company": "Innovura Technologies Private Limited",
+    "role": "React.js Developer",
+    "url": "https://cutshort.io/job/React-js-Developer-Ahmedabad-Vadodara-Mumbai-Innovura-Technologies-Private-Limited-77hmsRTb",
+    "channel": "Cutshort",
+    "status": "SKIPPED_TURNSTILE_CAPTCHA",
+    "reason": "Cloudflare Turnstile challenge (cf-turnstile-response) triggered on Cutshort apply modal",
+    "timestamp": "2026-10-23T06:52:58.978Z"
+  },
+  {
+    "company": "SWEKEN IT SOLUTIONS",
+    "role": "React Js Developer",
+    "url": "https://jobspire.in/jobs/view/1255207",
+    "channel": "JobSpire (via Adzuna)",
+    "status": "SKIPPED_STALE_NO_FORM",
+    "reason": "JobSpire listing posted 4 years ago with no active application form or button",
+    "timestamp": "2026-10-23T06:55:27.380Z"
+  },
+  {
+    "company": "NCR Voyix",
+    "role": "Software Engineer",
+    "url": "https://www.adzuna.in/details/5933461265",
+    "channel": "Adzuna",
+    "status": "SKIPPED_EXPIRED_LISTING",
+    "reason": "Adzuna listing expired / Apply button removed",
+    "timestamp": "2026-10-23T06:56:00.792Z"
+  },
+  {
+    "company": "Trigent Software Private Limited",
+    "role": "Developer",
+    "url": "https://www.adzuna.in/details/5929351144",
+    "channel": "Adzuna",
+    "status": "SKIPPED_ADZUNA_AUTH_WALL",
+    "reason": "Adzuna requires registering internal Adzuna jobseeker account instead of direct ATS link",
+    "timestamp": "2026-10-23T06:56:00.792Z"
+  },
+  {
+    "company": "Acme Services Private Limited",
+    "role": "Developer",
+    "url": "https://www.adzuna.in/details/5931059116",
+    "channel": "Adzuna",
+    "status": "SKIPPED_ADZUNA_AUTH_WALL",
+    "reason": "Adzuna internal registration wall instead of ATS destination",
+    "timestamp": "2026-10-23T06:56:38.147Z"
+  },
+  {
+    "company": "BetterHelp",
+    "role": "Full Stack Software Engineer",
+    "url": "https://jobicy.com/jobs/155744-full-stack-software-engineer-2",
+    "channel": "Jobicy",
+    "status": "SKIPPED_AD_REDIRECT",
+    "reason": "Jobicy redirects to promotional ad banner rossaus.com instead of ATS",
+    "timestamp": "2026-10-23T07:00:25.541Z"
+  },
+  {
+    "company": "PolicyMe",
+    "role": "Junior Software Engineer",
+    "url": "https://jobicy.com/jobs/153164-junior-software-engineer-2",
+    "channel": "Jobicy",
+    "status": "SKIPPED_AD_REDIRECT",
+    "reason": "Jobicy redirects to promotional ad banner rossaus.com instead of ATS",
+    "timestamp": "2026-10-23T07:00:25.541Z"
+  },
+  {
+    "company": "Docplanner",
+    "role": "Junior Software Engineer",
+    "url": "https://jobicy.com/jobs/155228-junior-software-engineer-early-career-strong-problem-solving-coding-focus-100-remote-within-spain-2",
+    "channel": "Jobicy",
+    "status": "SKIPPED_AD_REDIRECT",
+    "reason": "Jobicy redirects to promotional ad banner rossaus.com instead of ATS",
+    "timestamp": "2026-10-23T07:00:41.975Z"
+  },
+  {
+    "company": "Jobaaj.com",
+    "role": "React.js Developer",
+    "url": "https://www.naukri.com/job-listings-react-js-developer-jobaaj-com-bengaluru-0-to-1-years-161026023249",
+    "channel": "Naukri",
+    "status": "SKIPPED_EXPIRED_JOB",
+    "reason": "Job expired / Naukri redirected to generic search results page",
+    "timestamp": "2026-10-23T07:01:05.346Z"
+  },
+  {
+    "company": "Kiss My Apps",
+    "role": "Full Stack Developer (React/Next.js + Node.js)",
+    "url": "https://jobs.ashbyhq.com/kissmyapps/c2456955-b6d2-401a-bed2-361019154ae7",
+    "channel": "Ashby",
+    "status": "SKIPPED_LANGUAGE_AND_LOCATION",
+    "reason": "Ukraine specific listing in Ukrainian language requiring local native engagement",
+    "timestamp": "2026-10-23T07:04:42.741Z"
+  },
+  {
+    "company": "HTTPie",
+    "role": "Senior Frontend Engineer (Remote)",
+    "url": "https://jobs.ashbyhq.com/httpie/17de9aae-7a3c-40fb-a352-ddbbd7c14385",
+    "channel": "Ashby",
+    "status": "SKIPPED_SENIOR_ROLE",
+    "reason": "Senior role requiring 5+ years experience (violates candidate 0-2 YOE ceiling)",
+    "timestamp": "2026-10-23T07:04:58.967Z"
+  },
+  {
+    "company": "TENEX.AI",
+    "role": "Senior Software Engineer - REMOTE",
+    "url": "https://jobs.ashbyhq.com/tenex/3f969991-c1e0-4957-a6ec-3647ded9f800",
+    "channel": "Ashby",
+    "status": "SKIPPED_SENIOR_AND_LOCATION",
+    "reason": "Senior role restricted to Remote USA only (violates PAN-India ceiling & 0-2 YOE)",
+    "timestamp": "2026-10-23T07:05:19.424Z"
+  },
+  {
+    "company": "Pear VC / Oodle.ai",
+    "role": "Founding Engineer - Frontend (Bangalore, India)",
+    "url": "https://jobs.ashbyhq.com/pear-vc/4ecca650-ccbe-45eb-911d-211e877812ca",
+    "channel": "Ashby",
+    "status": "SKIPPED_SENIOR_ROLE",
+    "reason": "Strict mandatory requirement: 5+ years professional experience (violates candidate 0-2 YOE ceiling)",
+    "timestamp": "2026-10-23T07:12:46.384Z"
+  },
+  {
+    "company": "Speechify",
+    "role": "Software Engineer",
+    "url": "https://boards.greenhouse.io/speechify/jobs/5974371004",
+    "channel": "Greenhouse",
+    "status": "SKIPPED_FILLED_JOB",
+    "reason": "Job listing closed / filled (The job you are looking for is no longer open)",
+    "timestamp": "2026-10-23T07:14:21.358Z"
+  },
+  {
+    "company": "Valtech",
+    "role": "AI Lead Developer",
+    "url": "https://boards.greenhouse.io/valtech/jobs/4982463101",
+    "channel": "Greenhouse",
+    "status": "SKIPPED_LEAD_ROLE",
+    "reason": "Lead Developer role (violates candidate 0-2 YOE ceiling)",
+    "timestamp": "2026-10-23T07:14:21.360Z"
+  },
+  {
+    "company": "Drivetrain",
+    "role": "Frontend Engineer",
+    "url": "https://jobs.lever.co/drivetrain/cd39cc4e-056e-444c-8c17-9f97e34ddbce",
+    "channel": "Lever ATS",
+    "status": "SKIPPED_HCAPTCHA_ACTIVE",
+    "reason": "h-captcha verification required on Lever application form",
+    "timestamp": "2026-10-23T07:15:58.668Z"
+  },
+  {
+    "company": "HighLevel",
+    "role": "Staff Frontend Engineer - Commerce",
+    "url": "https://jobs.lever.co/gohighlevel/9acb805c-ecd6-48ac-af84-11c6319c1912",
+    "channel": "Lever ATS",
+    "status": "SKIPPED_STAFF_ROLE",
+    "reason": "Staff Frontend Engineer role (violates candidate 0-2 YOE ceiling)",
+    "timestamp": "2026-10-23T07:16:23.796Z"
+  },
+  {
+    "company": "Spector.ai",
+    "role": "Fullstack Software Engineer",
+    "url": "https://jobs.ashbyhq.com/spector-ai/68127883-4e2f-432b-95b2-e90335200b7c",
+    "channel": "Ashby",
+    "status": "SKIPPED_RECAPTCHA_ACTIVE",
+    "reason": "g-recaptcha-response required on Ashby form",
+    "timestamp": "2026-10-23T07:21:16.797Z"
+  },
+  {
+    "company": "Allwyn Corp",
+    "role": "Mid Level: Full-Stack Software Engineer",
+    "url": "https://jobs.ashbyhq.com/allwyn-corp/e1f94ffc-13d7-4020-b074-41c87a193884",
+    "channel": "Ashby",
+    "status": "SKIPPED_RECAPTCHA_AND_PERMIT",
+    "reason": "g-recaptcha-response & physical ID/Work Permit upload required",
+    "timestamp": "2026-10-23T07:22:06.156Z"
+  },
+  {
+    "company": "Close CRM",
+    "role": "Senior Frontend Engineer – Marketing",
+    "url": "https://jobs.ashbyhq.com/close/6d680d21-e779-4b3d-9771-23eb04d65f81",
+    "channel": "Ashby",
+    "status": "SKIPPED_SENIOR_AND_LOCATION",
+    "reason": "USA Only restriction & Senior role",
+    "timestamp": "2026-10-23T07:26:04.592Z"
+  },
+  {
+    "company": "Anyone AI",
+    "role": "Full-Stack Developer - AI Trainer",
+    "url": "https://jobs.ashbyhq.com/anyone-ai/e825df23-e721-465b-87d7-04a569f7269e",
+    "channel": "Ashby",
+    "status": "SKIPPED_EXPERIENCE_REQUIREMENT",
+    "reason": "Requires 3-7 years experience (violates candidate 0-2 YOE ceiling)",
+    "timestamp": "2026-10-23T07:26:04.592Z"
+  },
+  {
+    "company": "Escape Technologies",
+    "role": "Junior Full Stack Engineer",
+    "url": "https://jobs.ashbyhq.com/Escape/8a939b02-1fd2-4c57-9564-4f691d9fbbce",
+    "channel": "Ashby",
+    "status": "SKIPPED_LOCATION_MISMATCH",
+    "reason": "Paris Office on-site presence required (violates PAN-India location ceiling)",
+    "timestamp": "2026-10-23T07:27:15.742Z"
+  },
+  {
+    "company": "Trading212",
+    "role": "Junior Frontend Engineer",
+    "url": "https://jobs.ashbyhq.com/trading212/ba789615-ee3c-477b-8fe6-1974c480c2da",
+    "channel": "Ashby",
+    "status": "SKIPPED_LOCATION_MISMATCH",
+    "reason": "Bulgaria hybrid on-site presence required",
+    "timestamp": "2026-10-23T07:27:15.743Z"
+  },
+  {
+    "company": "Serval",
+    "role": "Software Engineer, Frontend",
+    "url": "https://jobs.ashbyhq.com/serval/a6cb109f-143d-4b46-b77a-1f1cb622a62b",
+    "channel": "Ashby",
+    "status": "SKIPPED_LOCATION_MISMATCH",
+    "reason": "San Francisco on-site presence required",
+    "timestamp": "2026-10-23T07:27:15.743Z"
+  },
+  {
+    "company": "Takt",
+    "role": "Associate Software Engineer, Frontend",
+    "url": "https://jobs.ashbyhq.com/takt/e1e94261-9016-42c8-ab86-3b5adaf3cb98",
+    "channel": "Ashby",
+    "status": "SKIPPED_LOCATION_MISMATCH",
+    "reason": "Reston VA on-site presence required",
+    "timestamp": "2026-10-23T07:27:15.743Z"
+  },
+  {
+    "company": "Air Apps",
+    "role": "Frontend Web Developer",
+    "url": "https://jobs.ashbyhq.com/airapps/94219e90-8787-47c6-9e12-c7bc18084d0c",
+    "channel": "Ashby",
+    "status": "SKIPPED_RECAPTCHA_ACTIVE",
+    "reason": "g-recaptcha-response required on form",
+    "timestamp": "2026-10-23T07:28:31.069Z"
+  },
+  {
+    "company": "CompanyCam",
+    "role": "Senior Software Engineer (React/React Native)",
+    "url": "https://jobs.ashbyhq.com/companycam/c9b5e420-8828-42dd-928e-970332296a47",
+    "channel": "Ashby",
+    "status": "SKIPPED_SENIOR_AND_MOBILE",
+    "reason": "Senior role & React Native / Mobile focus (violates 0-2 YOE & Web Frontend only guard)",
+    "timestamp": "2026-10-23T07:29:02.509Z"
+  },
+  {
+    "company": "Clumpcoder",
+    "role": "Frontend Developer",
+    "url": "https://www.naukri.com/job-listings-frontend-developer-clumpcoder-indore-0-to-1-years-200126505068",
+    "channel": "Naukri",
+    "status": "ALREADY_APPLIED",
+    "reason": "Applied badge present on live DOM",
+    "timestamp": "2026-10-23T07:32:49.000Z"
+  },
+  {
+    "company": "Jmbliss IT Solutions",
+    "role": "React Developer",
+    "url": "https://www.naukri.com/job-listings-react-developer-jmbliss-it-solutions-indore-0-to-1-years-240626506054",
+    "channel": "Naukri",
+    "status": "ALREADY_APPLIED",
+    "reason": "Applied badge present on live DOM",
+    "timestamp": "2026-10-23T07:32:49.001Z"
+  },
+  {
+    "company": "Godigi Infotech",
+    "role": "REACTJS DEVELOPER",
+    "url": "https://www.godigiinfotech.com/job-detail/reactjs-developer/96",
+    "channel": "Direct Career Site",
+    "status": "SKIPPED_COURSE_SELLING_LEAD_TRAP",
+    "reason": "Fake job lead redirecting to training course inquiry form (--Choose Course-- dropdown)",
+    "timestamp": "2026-10-23T07:34:45.332Z"
+  },
+  {
+    "company": "Grazign / Analects Technologies",
+    "role": "React JS Developer",
+    "url": "https://www.naukri.com/job-listings-react-js-developer-analects-technologies-pvt-ltd-pune-0-to-1-years-160524501769",
+    "channel": "Naukri",
+    "status": "SKIPPED_OUT_OF_RANGE_YOE",
+    "reason": "Misleading title (0-1 yrs on header, but JD explicitly demands 4+ years solid experience)",
+    "timestamp": "2026-10-23T07:35:02.259Z"
+  },
+  {
+    "company": "Cybernetics Controls Limited",
+    "role": "Full Stack Software Engineer",
+    "url": "https://cybernetic-controls.pinpointhq.com/?referred_by=264x2",
+    "channel": "Pinpoint ATS",
+    "status": "SKIPPED_FILLED_JOB",
+    "reason": "Job filled / removed from ATS (only IT Support Engineer remains)",
+    "timestamp": "2026-10-23T07:35:58.793Z"
+  }
+]

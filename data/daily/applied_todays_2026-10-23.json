@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-23",
+  "cycle": "Cycle 1 (11:00 AM - 03:00 PM)",
+  "description": "Confirmed submissions on 2026-10-23 with live DOM confirmation & physical screenshot proof",
+  "total": 21,
+  "jobs": [
+    {
+      "company": "ElevenLabs",
+      "role": "Full-Stack Engineer (Frontend Leaning) - Studio",
+      "url": "https://jobs.ashbyhq.com/elevenlabs/e6924f60-c8cc-42b3-9d05-2442ec30e12d/application",
+      "channel": "Ashby Direct ATS (Slot 7 Fully Automated via REA Synthetic Dispatch)",
+      "proof_screenshot": "C:\\mcp\\job-search-mcp-engine\\screenshots\\2026-10-23\\shift1\\elevenlabs_ashby_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T06:04:42.030Z"
+    },
+    {
+      "company": "VersatileIT",
+      "role": "React.js Developer (Fresher / 0–1 Year)",
+      "url": "https://versatileit.in/jobs/react-js-developer-fresher-0-1-year-experience/",
+      "channel": "Direct Company Career Site (WordPress Form - Slot 7 REA)",
+      "proof_screenshot": "C:\\mcp\\job-search-mcp-engine\\screenshots\\2026-10-23\\shift1\\versatileit_direct_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T06:11:43.649Z"
+    },
+    {
+      "company": "Hang",
+      "role": "Front End Software Engineer (React/NextJS)",
+      "url": "https://jobs.ashbyhq.com/hang/70f319e5-d44e-4f89-9b7f-47906c1547a7/application",
+      "channel": "Ashby Direct ATS (Candidate #3 Confirmed via REA Synthetic Event)",
+      "proof_screenshot": "C:\\mcp\\job-search-mcp-engine\\screenshots\\2026-10-23\\shift1\\hang_ashby_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T07:04:07.553Z"
+    },
+    {
+      "company": "Soulside AI",
+      "role": "Frontend Engineer (India/Remote)",
+      "url": "https://jobs.ashbyhq.com/Soulside%20AI/7cdf48ca-e4f7-40f2-9521-0368cf9d0cba/application",
+      "channel": "Ashby Direct ATS (Candidate #4 Confirmed)",
+      "proof_screenshot": "C:\\mcp\\job-search-mcp-engine\\screenshots\\2026-10-23\\shift1\\soulside_ai_ashby_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T07:06:58.731Z"
+    },
+    {
+      "company": "AiPrise",
+      "role": "Software Engineer II, Frontend (Bangalore, India)",
+      "url": "https://jobs.ashbyhq.com/aiprise/ade1484a-8158-4a7f-8991-69ce294ca11d/application",
+      "channel": "Ashby Direct ATS (Candidate #4 Confirmed)",
+      "proof_screenshot": "C:\\mcp\\job-search-mcp-engine\\screenshots\\2026-10-23\\shift1\\aiprise_ashby_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T07:12:05.440Z"
+    },
+    {
+      "company": "UptimeAI",
+      "role": "Full stack Developer (MEAN/MERN Stack)",
+      "url": "https://jobs.ashbyhq.com/uptimeai/1554854a-7281-4540-af3d-c6ae60464914/application",
+      "channel": "Ashby Direct ATS (Candidate #5 Confirmed)",
+      "proof_screenshot": "C:\\mcp\\job-search-mcp-engine\\screenshots\\2026-10-23\\shift1\\uptimeai_ashby_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T07:18:54.260Z"
+    },
+    {
+      "company": "Senwell Solutions",
+      "role": "Mern Stack Developer (0-2 YOE)",
+      "url": "https://www.naukri.com/job-listings-mern-stack-developer-senwell-solutions-pune-0-to-2-years-220926048467",
+      "channel": "Naukri Direct 1-Click Apply (Candidate #5 Confirmed)",
+      "proof_screenshot": "C:\\mcp\\job-search-mcp-engine\\screenshots\\2026-10-23\\shift1\\senwell_solutions_naukri_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T07:33:48.134Z"
+    },
+    {
+      "company": "Bluewud Concepts",
+      "role": "AI-Assisted Frontend Developer",
+      "url": "https://www.naukri.com/job-listings-ai-assisted-frontend-developer-bluewud-concepts-noida-1-to-3-years-221026034002",
+      "channel": "Naukri Stepper Chatbot Apply (Candidate #8 Confirmed)",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/bluewud_concepts_naukri_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T07:48:54.884Z"
+    },
+    {
+      "company": "Plane Software, Inc.",
+      "role": "Software Engineer, Frontend (React)",
+      "url": "https://jobs.ashbyhq.com/plane/15cf6387-af74-4616-924f-3659fb76de01/application",
+      "channel": "Ashby Direct ATS (Candidate #9 Confirmed)",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/plane_software_ashby_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:11:02.007Z"
+    },
+    {
+      "company": "Collinear AI",
+      "role": "MTS - Engineering (India)",
+      "url": "https://jobs.ashbyhq.com/collinear-ai/80442b09-b40b-47f5-a6ec-64a6ab042ff5/application",
+      "channel": "Ashby Direct ATS (Candidate #10 Confirmed)",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/collinear_ai_ashby_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:21:50.425Z"
+    },
+    {
+      "company": "Bhumio",
+      "role": "Front-End Developer (ReactJS)",
+      "url": "https://wellfound.com/jobs/3833952-front-end-developer-reactjs",
+      "channel": "Wellfound 1-Click Platform Apply (Candidate #11 Confirmed)",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/bhumio_wellfound_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:25:39.298Z"
+    },
+    {
+      "company": "Qualwebs",
+      "role": "Junior Frontend Developer",
+      "url": "https://www.qualwebs.com/career/junior-frontend-developer",
+      "channel": "Direct Company Career Site (Candidate #12 Confirmed)",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/qualwebs_direct_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:29:55.382Z"
+    },
+    {
+      "company": "Allwyn Corp",
+      "role": "Mid Level: Full-Stack Software Engineer",
+      "url": "https://jobs.ashbyhq.com/allwyn-corp/e1f94ffc-13d7-4020-b074-41c87a193884/application",
+      "channel": "ASHBY Unattended Apply",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/allwyn_corp_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:31:25.488Z"
+    },
+    {
+      "company": "Yakshanexus™ Private Limited",
+      "role": "Frontend Developer (React.js & TypeScript)",
+      "url": "https://wellfound.com/jobs/4824611-frontend-developer-react-js-typescript-founding-team",
+      "channel": "WELLFOUND Unattended Apply",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/wellfound_job__2_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:31:52.735Z"
+    },
+    {
+      "company": "FreJun",
+      "role": "Frontend Developer",
+      "url": "https://wellfound.com/jobs/4793783-frontend-developer",
+      "channel": "WELLFOUND Unattended Apply",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/wellfound_job__3_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:32:18.461Z"
+    },
+    {
+      "company": "upforge global",
+      "role": "We're Hiring | Frontend Developer",
+      "url": "https://wellfound.com/jobs/4797050-we-re-hiring-frontend-developer",
+      "channel": "WELLFOUND Unattended Apply",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/wellfound_job__4_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:32:43.284Z"
+    },
+    {
+      "company": "Emplay",
+      "role": "Frontend Developer (AI)",
+      "url": "https://wellfound.com/jobs/4751195-frontend-developer-ai",
+      "channel": "Wellfound 1-Click Platform Apply",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/emplay_wellfound_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:35:52.464Z"
+    },
+    {
+      "company": "Muze",
+      "role": "Junior Frontend Developer (React + TypeScript)",
+      "url": "https://wellfound.com/jobs/3363278-junior-frontend-developer-react-typescript",
+      "channel": "Wellfound 1-Click Platform Apply",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/muze_wellfound_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:36:18.379Z"
+    },
+    {
+      "company": "hard.coded",
+      "role": "Frontend Engineer",
+      "url": "https://wellfound.com/jobs/4634108-frontend-engineer",
+      "channel": "Wellfound 1-Click Platform Apply",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/hard_coded_wellfound_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:36:43.430Z"
+    },
+    {
+      "company": "PROZPEKT",
+      "role": "Founding Frontend Engineer",
+      "url": "https://wellfound.com/jobs/4522614-founding-frontend-engineer",
+      "channel": "Wellfound 1-Click Platform Apply",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/prozpekt_wellfound_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:37:08.163Z"
+    },
+    {
+      "company": "Arivihan Technologies",
+      "role": "React Developer (Indore Local)",
+      "url": "https://wellfound.com/jobs/4574512-react-developer",
+      "channel": "Wellfound Platform Direct Apply (Candidate #21 Confirmed)",
+      "proof_screenshot": "C:/mcp/job-search-mcp-engine/screenshots/2026-10-23/shift1/arivihan_technologies_wellfound_confirmed.png",
+      "status": "APPLIED_CONFIRMED",
+      "timestamp": "2026-10-23T08:42:06.415Z"
+    }
+  ]
+}
