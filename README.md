@@ -1,10 +1,16 @@
-# Job Search MCP Engine
+# job-search-mcp-engine Repository
 
-Production-grade MCP (Model Context Protocol) multi-source job search and application engine.
+**Path:** `C:\mcp\job-search-mcp-engine`
 
-## Quick Start
-1. 
-pm install
-2. Refer to SYSTEM_DOCUMENTATION.md for complete architecture and setup guide.
-3. Refer to PENDING_AND_VERIFIED_PIPELINE.md for daily target tracking.
+**Description:** This repository contains automation rules and scripts for the job-search-mcp-engine project.
+
+## Key Files
+- REPO_RULES.md
+- auto_start_agent.ps1
+- README.md
+
+## Repository Statistics
+- Total files (including subfolders): 9337
+
+*This README is auto‑generated. Edit as needed.*
 
