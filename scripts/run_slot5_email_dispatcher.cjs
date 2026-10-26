@@ -74,8 +74,14 @@ async function runSlot5Dispatches() {
   const now = new Date();
   const todayStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
   const currentShift = now.getHours() >= 15 ? 2 : 1;
-  const f4Path = path.resolve(`C:/mcp/job-search-mcp-engine/verified_todays_${todayStr}_shift${currentShift}.json`);
-  const f5Path = path.resolve(`C:/mcp/job-search-mcp-engine/applied_todays_${todayStr}_shift${currentShift}.json`);
+  let f4Path = path.resolve(`C:/mcp/job-search-mcp-engine/verified_todays_${todayStr}.json`);
+  if (!fs.existsSync(f4Path)) {
+    f4Path = path.resolve(`C:/mcp/job-search-mcp-engine/verified_todays_${todayStr}_shift${currentShift}.json`);
+  }
+  let f5Path = path.resolve(`C:/mcp/job-search-mcp-engine/applied_todays_${todayStr}.json`);
+  if (!fs.existsSync(f5Path) && fs.existsSync(path.resolve(`C:/mcp/job-search-mcp-engine/applied_todays_${todayStr}_shift${currentShift}.json`))) {
+    f5Path = path.resolve(`C:/mcp/job-search-mcp-engine/applied_todays_${todayStr}_shift${currentShift}.json`);
+  }
 
   const f4 = JSON.parse(fs.readFileSync(f4Path, 'utf8'));
   let f5 = { date: todayStr, shift: currentShift, total: 0, jobs: [] };

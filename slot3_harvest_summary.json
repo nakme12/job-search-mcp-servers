@@ -1,14 +1,13 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "slot": 3,
-  "depth": "7_days",
   "channels": {
     "telegram": 0,
-    "naukri": 0,
-    "linkedin": 5
+    "naukri": 4,
+    "linkedin": 0
   },
-  "totalNewHarvested": 5,
+  "totalNewHarvested": 4,
   "totalDuplicatesDropped": 15,
-  "file3Total": 5,
-  "timestamp": "2026-10-25T08:01:58.040Z"
+  "file3Total": 167,
+  "timestamp": "2026-10-26T07:22:06.943Z"
 }

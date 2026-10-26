@@ -548,3 +548,36 @@
 * **Immediate Fix & Enforcement:**
   1. Purged all 12 unsubmitted draft records from `applied_todays_2026-10-25.json`. Today's true applied count is strictly 3 (the 3 Sent-outbox verified direct emails).
   2. Hard invariant re-enforced: No portal can ever be logged as applied without a live post-submit confirmation DOM assertion ("Application Submitted") and `post_submit_[company].png` screenshot.
+
+
+---
+
+### **Incident 44: Regex Over-Filtering on Broad YOE Ranges & False-Positive Seniority Keyword Drops**
+* **Date:** 2026-10-26 | 12:40 PM IST (Shift 1, Slots 2-6)
+* **Mistake:**
+  1. **Naukri Exclusion of Candidate-Eligible Ranges:** `run_slot3_harvest_today.cjs` line 292 contained regex `/0-3|0-4|0-5|1-3|2-4|2-5|3+/`, which explicitly dropped 0-4 YOE and 2-4 YOE openings that candidate (1.5 YOE) can apply to.
+  2. **Universal Guard Seniority Keyword Leaking into JD Body:** In `universal_guard_interceptor.cjs`, `senior|lead|principal|architect|manager` was tested on the entire JD body text, dropping valid junior roles that mentioned "reporting to Tech Lead" or "collaborate with Product Manager".
+  3. **Experience Filter Company Age Regex Trap:** In `experience-filter.js`, standalone numbers in sentences like "10 years of company presence" were parsed as required candidate YOE, dropping fresh frontend jobs.
+  4. **Path & Shift Filename Mismatches:** `run_rigorous_slot4_audit.cjs` and `run_slot5_email_dispatcher.cjs` hardcoded `_shift1` filename suffixes, throwing `ENOENT` when run against root daily files.
+  5. **Portal Submitter Date & Resume Mapping Hardcodes:** `run_slot6_portal_submissions.cjs` hardcoded yesterday's date (`2026-10-25`), and `run_slot6_ats_portals.cjs` forced `MERN Full Stack.pdf` for all roles regardless of title.
+* **Root Cause:**
+  - Blanket regex matching without context distinction (Job Title vs JD Body; Candidate YOE vs Company Age).
+  - Hardcoded date/path strings without dynamic fallback resolvers.
+* **Permanent Behavioral & Engineering Mandate (Rule 91 - Context-Isolated Experience & Path Invariance):**
+  1. **Rule 91 Enforced:** Seniority keyword assertions are strictly bound to Job Titles (`roleTitle`), NEVER blanket-searched on full JD body text.
+  2. **Broad Range Preservation:** Any range starting with `0-`, `1-`, or `2-` (e.g., `0-4`, `1-4`, `2-4`, `2-5`) is unconditionally preserved for candidate application.
+  3. **Contextual YOE Extraction:** Numerical experience regexes must require qualifiers (`yoe`, `experience`, `requires`) to prevent company age false positives.
+  4. **Dynamic Path Resolution:** All scripts must dynamically check root `ENGINE_ROOT` files first, then fallback to shifted/data subpaths.
+  5. **Unit-Test Verified:** All 4 test suites verified passing in `scratch/test_all_fixes.cjs`.
+
+---
+
+### **Incident 43: Telegram Multi-Job Digest Parsing Oversight & Dropped Local Leads**
+* **Date:** 2026-10-26 | 12:20 PM IST
+* **Mistake:**
+  1. **Single-Job Regex on Digest Posts:** Telegram harvesting script (`run_slot3_harvest_today.cjs`) assumed 1 message = 1 job. In consolidated digest posts (e.g., `"📢 LATEST IT JOB OPENINGS"` with 14 job listings), `text.match(email)` extracted only the first entry and silently skipped all subsequent listings (#2 to #14), causing high-signal local Indore roles (Maitri Tech Solutions, Creata Max) to be dropped.
+* **Root Cause:**
+  - Lack of multi-job chunking/splitting on numbered lists (`1. `, `2. `, `• `) in Telegram message parser.
+* **Immediate Fix & Enforcement:**
+  1. Updated `run_slot3_harvest_today.cjs` to detect multi-job digests and split messages on `\n\s*(?:[0-9]{1,2}\.|[•\-\*])\s+[A-Za-z]` into individual sub-messages before stack/eligibility filtering.
+  2. Recovered all missed leads (Maitri Tech Solutions, Creata Max, MECN Tech, Zec Data) into `total_todays_2026-10-26.json` (File 3 total: 162 leads).

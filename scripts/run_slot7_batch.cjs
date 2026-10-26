@@ -53,4 +53,5 @@ async function runBatchSubmission(maxJobs = 5) {
   console.log('========================================================================');
 }
 
-runBatchSubmission(3).catch(console.error);
+const maxCount = parseInt(process.argv[2], 10) || 40;
+runBatchSubmission(maxCount).catch(console.error);

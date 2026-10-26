@@ -1,11 +1,12 @@
 const puppeteer = require('puppeteer-core');
 const fs = require('fs');
 const path = require('path');
+const StorageWriteGuard = require('./guards/storage_write_guard.cjs');
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 const ENGINE_ROOT = path.resolve(__dirname, '..');
-const TODAY_DATE = '2026-10-25';
+const TODAY_DATE = process.argv[2] || new Date().toISOString().slice(0, 10);
 const VERIFIED_FILE = path.join(ENGINE_ROOT, `verified_todays_${TODAY_DATE}.json`);
 const APPLIED_FILE = path.join(ENGINE_ROOT, `applied_todays_${TODAY_DATE}.json`);
 const HIST_FILE = path.join(ENGINE_ROOT, 'total_historical_except_today.json');
@@ -149,10 +150,40 @@ async function runSlot6Submissions() {
         await sleep(2500);
       }
 
-      // Take verified screenshot
-      const ssPath = path.join(SCREENSHOTS_DIR, `job_${i + 1}_${job.company.replace(/[^a-zA-Z0-9]/g, '_')}.png`);
+      // Click Submit Button
+      const submitSuccess = await page.evaluate(() => {
+        const buttons = Array.from(document.querySelectorAll('button, input[type="submit"], a.btn'));
+        const submitBtn = buttons.find(b => {
+          const t = (b.innerText || b.value || '').toLowerCase().trim();
+          return t === 'submit application' || t === 'submit' || t === 'apply now' || t === 'send application';
+        });
+        if (submitBtn) {
+          submitBtn.click();
+          return true;
+        }
+        return false;
+      });
+
+      if (!submitSuccess) {
+        console.log(`   ⚠️ No clear submit button found. Manual review needed for ${job.company}`);
+        continue;
+      }
+
+      await sleep(6000);
+
+      // Verify DOM confirmation text
+      const confirmationText = await page.evaluate(() => document.body.innerText || '');
+      const hasReceipt = /thank you|application submitted|successfully submitted|received your application|application received/i.test(confirmationText);
+
+      if (!hasReceipt) {
+        console.log(`   ⚠️ Submission confirmation text not detected on page for ${job.company}. Skipping logging.`);
+        continue;
+      }
+
+      // Take post-submit confirmation screenshot
+      const ssPath = path.join(SCREENSHOTS_DIR, `post_submit_${job.company.replace(/[^a-zA-Z0-9]/g, '_')}.png`);
       await page.screenshot({ path: ssPath });
-      console.log(`   Captured form screenshot -> ${ssPath}`);
+      console.log(`   Captured post-submit confirmation screenshot -> ${ssPath}`);
 
       const record = {
         id: `portal_${Date.now()}_${i}`,
@@ -161,16 +192,19 @@ async function runSlot6Submissions() {
         url: job.url,
         channel: 'ATS Portal Form (Slot 6)',
         resume: resumeFileName,
-        status: 'FORM_PREPARED_AND_LOGGED',
+        status: 'APPLIED_LIFETIME',
         screenshot: ssPath,
+        confirmation_screenshot: ssPath,
+        confirmation_text: confirmationText.substring(0, 300),
         timestamp: new Date().toISOString()
       };
 
+      StorageWriteGuard.validateAppliedJob(record);
       appliedToday.push(record);
       processedUrls.add(normUrl);
       fs.writeFileSync(APPLIED_FILE, JSON.stringify(appliedToday, null, 2), 'utf8');
 
-      console.log(`   ✅ Successfully processed and staged: ${job.company}`);
+      console.log(`   ✅ Verified Applied: ${job.company}`);
 
     } catch (err) {
       console.warn(`   ⚠️ Error processing ${job.company}: ${err.message}`);

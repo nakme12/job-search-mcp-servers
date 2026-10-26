@@ -1,21 +1,42 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "shift": 1,
-  "updated_at": "2026-10-25T08:26:24.499Z",
+  "updated_at": "2026-10-26T06:06:01.415Z",
   "metrics": {
+    "Greenhouse ATS": {
+      "ran": true,
+      "scraped": 103,
+      "verified": 103,
+      "skipped_dup": 5,
+      "skipped_filter": 3765
+    },
     "Ashby ATS": {
       "ran": true,
-      "scraped": 6,
-      "verified": 6,
+      "scraped": 10,
+      "verified": 10,
       "skipped_dup": 49,
-      "skipped_filter": 686
+      "skipped_filter": 1104
     },
     "Lever ATS": {
       "ran": true,
       "scraped": 0,
       "verified": 0,
       "skipped_dup": 0,
-      "skipped_filter": 0
+      "skipped_filter": 58
+    },
+    "SmartRecruiters ATS": {
+      "ran": true,
+      "scraped": 18,
+      "verified": 18,
+      "skipped_dup": 0,
+      "skipped_filter": 82
+    },
+    "The Muse": {
+      "ran": true,
+      "scraped": 0,
+      "verified": 0,
+      "skipped_dup": 0,
+      "skipped_filter": 20
     },
     "RemoteOK": {
       "ran": true,
@@ -26,32 +47,18 @@
     },
     "Remotive": {
       "ran": true,
-      "scraped": 0,
-      "verified": 0,
+      "scraped": 1,
+      "verified": 1,
       "skipped_dup": 0,
-      "skipped_filter": 0
+      "skipped_filter": 9
     },
     "Jobicy": {
       "ran": true,
-      "scraped": 0,
-      "verified": 0,
+      "scraped": 7,
+      "verified": 7,
       "skipped_dup": 0,
-      "skipped_filter": 0
-    },
-    "Himalayas": {
-      "ran": true,
-      "scraped": 0,
-      "verified": 0,
-      "skipped_dup": 0,
-      "skipped_filter": 0
-    },
-    "Adzuna India": {
-      "ran": true,
-      "scraped": 0,
-      "verified": 0,
-      "skipped_dup": 0,
-      "skipped_filter": 0
+      "skipped_filter": 43
     }
   },
-  "total_pipeline_today": 11
+  "total_pipeline_today": 139
 }

@@ -1,6 +1,6 @@
 {
   "description": "All historical jobs seen/applied/skipped before today",
-  "total": 584,
+  "total": 597,
   "jobs": [
     {
       "id": 154,
@@ -6944,7 +6944,135 @@
       "status": "APPLIED_LIFETIME",
       "timestamp": "2026-10-25T09:19:32.521Z",
       "resume": "Pratik Patidar Resume - Frontend Engineer.pdf"
+    },
+    {
+      "id": "email_1792918383505_0",
+      "company": "AHOM Technologies Pvt. Ltd.",
+      "role": "Frontend Developer",
+      "recipient": "jyoti.singh@ahomtech.com",
+      "subject": "Application: Frontend Developer - Pratik Patidar",
+      "channel": "Direct Recruiter Email",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "status": "DISPATCHED_AND_VERIFIED",
+      "sent_folder_proof": "To:  | jyoti.singh | Application: Frontend Developer - Pratik Patidar |  -  | Hi Jyoti Singh & AHOM Technologies Hiring Team, I came across your opening for a Frontend Developer in Gurugram and wanted to apply for the role. I am a Fronten | Attachment: | Pratik Patidar Resume - Frontend Engineer.pdf | 14:22",
+      "timestamp": "2026-10-25T08:53:03.505Z"
+    },
+    {
+      "id": "email_1792918434966_1",
+      "company": "BQarlson Software Technologies",
+      "role": "Full Stack Developer",
+      "recipient": "hr@bqarlson.tech",
+      "subject": "Application: Full Stack Developer - Pratik Patidar",
+      "channel": "Direct Recruiter Email",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "status": "DISPATCHED_AND_VERIFIED",
+      "sent_folder_proof": "To:  | Application: Full Stack Developer - Pratik Patidar |   |   | 14:23",
+      "timestamp": "2026-10-25T08:53:54.966Z"
+    },
+    {
+      "id": "email_1792919294550_0",
+      "company": "ZoflowX (Zoho Partner)",
+      "role": "Software Engineer / Web Developer",
+      "recipient": "hr@zoflowx.com",
+      "subject": "Application: Software Engineer / Web Developer - Pratik Patidar",
+      "channel": "Direct Recruiter Email",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "status": "DISPATCHED_AND_VERIFIED",
+      "sent_folder_proof": "To:  | Application: Software Engineer / Web Developer - Pratik Patidar |   |   | 14:37",
+      "timestamp": "2026-10-25T09:08:14.550Z"
+    },
+    {
+      "company": "Creata Max",
+      "role": "MERN Stack Developer",
+      "recipient_or_url": "info@creatamax.in",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-26T08:05:04.589Z",
+      "resume": "Pratik_Patidar_Resume_React_Developer.pdf",
+      "sent_folder_proof": "To:  | info | Application: MERN Stack Developer - Pratik Patidar |  -  | Hi Creata Max Hiring Team, I came across your opening for a MERN Stack Developer in Indore and wanted to apply for the role. I'm a Frontend / Full Stack Enginee | Attachment: | Pratik_Patidar_Resume_React_Developer.pdf | 13:34"
+    },
+    {
+      "company": "Maitri Tech Solutions",
+      "role": "MERN / Full Stack Developer",
+      "recipient_or_url": "hr@maitritech.in",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-26T08:10:00.995Z",
+      "resume": "Pratik_Patidar_Resume_MERN_Stack_Developer.pdf"
+    },
+    {
+      "company": "Webcraft Technologies",
+      "role": "Full Stack Developer",
+      "recipient_or_url": "hr@webcraftit.com",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-26T08:10:33.782Z",
+      "resume": "Pratik_Patidar_Resume_Full_Stack_Developer.pdf"
+    },
+    {
+      "company": "Andswitch Tech",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "hr@andswitchtech.com",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-26T08:11:08.837Z",
+      "resume": "Pratik_Patidar_Resume_React_Developer.pdf"
+    },
+    {
+      "company": "WBN Technology",
+      "role": "Frontend / React Developer",
+      "recipient_or_url": "info@wbntechnology.in",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-26T08:11:39.111Z",
+      "resume": "Pratik_Patidar_Resume_Frontend_Engineer.pdf"
+    },
+    {
+      "company": "MECN Tech",
+      "role": "Full Stack Developer",
+      "recipient_or_url": "hr@mecntech.in",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-26T08:12:07.175Z",
+      "resume": "Pratik_Patidar_Resume_Full_Stack_Developer.pdf"
+    },
+    {
+      "company": "Grove Tech Solutions",
+      "role": "Full Stack Developer",
+      "recipient_or_url": "hr@grovetechs.com",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-26T08:12:35.347Z",
+      "resume": "Pratik_Patidar_Resume_Full_Stack_Developer.pdf"
+    },
+    {
+      "company": "Archigo Solutions",
+      "role": "Full Stack Developer",
+      "recipient_or_url": "tejasveer@archigossolutions.com",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-26T08:13:34.519Z",
+      "resume": "Pratik_Patidar_Resume_Full_Stack_Developer.pdf"
+    },
+    {
+      "company": "Seraphic Technologies",
+      "role": "Full Stack Developer",
+      "recipient_or_url": "hr@seraphic.io",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-26T08:14:02.736Z",
+      "resume": "Pratik_Patidar_Resume_Full_Stack_Developer.pdf"
+    },
+    {
+      "company": "Nippon Data",
+      "role": "Full Stack Developer",
+      "recipient_or_url": "hr4@nippondata.com",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-26T08:16:14.305Z",
+      "resume": "Pratik_Patidar_Resume_Full_Stack_Developer.pdf",
+      "sent_folder_proof": "To:  | hr4 | Application for Full Stack Developer - Pratik Patidar |  -  | Hi Nippon Data Hiring Team, I came across your opening for a Full Stack Developer and wanted to apply for the role. I'm a Full Stack Developer with 1.5 years of | Attachment: | Pratik_Patidar_Resume_Full_Stack_Developer.pdf | 13:46"
     }
   ],
-  "last_updated": "2026-10-22T07:04:38.836Z"
+  "last_updated": "2026-10-26"
 }

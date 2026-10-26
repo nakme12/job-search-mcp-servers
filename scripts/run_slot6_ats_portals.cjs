@@ -35,10 +35,10 @@ function getBestResume(roleTitle) {
   if (t.includes('full stack') || t.includes('mern') || t.includes('node') || t.includes('backend')) {
     return path.join(CANONICAL_PATHS.RESUMES_DIR, 'Pratik Patidar Resume - MERN Full Stack.pdf');
   }
-  if (t.includes('react') || t.includes('ui') || t.includes('front end') || t.includes('frontend')) {
-    return path.join(CANONICAL_PATHS.RESUMES_DIR, 'Pratik Patidar Resume - MERN Full Stack.pdf');
+  if (t.includes('react') || t.includes('ui') || t.includes('next')) {
+    return path.join(CANONICAL_PATHS.RESUMES_DIR, 'Pratik Patidar Resume - React Developer.pdf');
   }
-  return path.join(CANONICAL_PATHS.RESUMES_DIR, 'Pratik Patidar Resume - MERN Full Stack.pdf');
+  return path.join(CANONICAL_PATHS.RESUMES_DIR, 'Pratik Patidar Resume - Frontend Engineer.pdf');
 }
 
 const SCREENSHOTS_DIR = getScreenshotsVault();
@@ -50,10 +50,16 @@ async function runSlot6Portals() {
   const todayStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
   const currentShift = now.getHours() >= 15 ? 2 : 1;
 
-  const verifiedFile = path.join(__dirname, '..', `verified_todays_${todayStr}_shift${currentShift}.json`);
+  let verifiedFile = path.join(__dirname, '..', `verified_todays_${todayStr}.json`);
+  if (!fs.existsSync(verifiedFile)) {
+    verifiedFile = path.join(__dirname, '..', `verified_todays_${todayStr}_shift${currentShift}.json`);
+  }
   const ver = JSON.parse(fs.readFileSync(verifiedFile, 'utf8'));
 
-  const appliedFile = path.join(__dirname, '..', `applied_todays_${todayStr}_shift${currentShift}.json`);
+  let appliedFile = path.join(__dirname, '..', `applied_todays_${todayStr}.json`);
+  if (!fs.existsSync(appliedFile) && fs.existsSync(path.join(__dirname, '..', `applied_todays_${todayStr}_shift${currentShift}.json`))) {
+    appliedFile = path.join(__dirname, '..', `applied_todays_${todayStr}_shift${currentShift}.json`);
+  }
   let appliedUrls = new Set();
   if (fs.existsSync(appliedFile)) {
     try {

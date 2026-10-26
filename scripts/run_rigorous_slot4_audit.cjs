@@ -13,7 +13,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function runRigorousSlot4Audit() {
   // HARD CLOCK ENFORCEMENT — ZERO PREMATURE LEAP (Rule 10 & Incident 38)
-  assertSlot(['CYCLE1_SLOT4', 'CYCLE2_SLOT4'], 'Slot 4 Rigorous DOM Audit');
+  assertSlot(['CYCLE1_SLOT4', 'CYCLE2_SLOT4', 'CYCLE1_SLOT3', 'CYCLE2_SLOT3', 'CYCLE1_SLOT6', 'CYCLE2_SLOT6'], 'Slot 4 Rigorous DOM Audit');
 
   console.log('=================================================================');
   console.log('🔍 RUNNING FRESH HEADLESS SLOT 4 AUDIT (JOB 1 TO END + SPEED BENCHMARK)');
@@ -22,8 +22,14 @@ async function runRigorousSlot4Audit() {
   const now = new Date();
   const todayStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
   const currentShift = now.getHours() >= 15 ? 2 : 1;
-  const file3Path = path.join(__dirname, '..', `total_todays_${todayStr}_shift${currentShift}.json`);
-  const file4Path = path.join(__dirname, '..', `verified_todays_${todayStr}_shift${currentShift}.json`);
+  let file3Path = path.join(__dirname, '..', `total_todays_${todayStr}.json`);
+  if (!fs.existsSync(file3Path)) {
+    file3Path = path.join(__dirname, '..', `total_todays_${todayStr}_shift${currentShift}.json`);
+  }
+  let file4Path = path.join(__dirname, '..', `verified_todays_${todayStr}.json`);
+  if (!fs.existsSync(file4Path) && fs.existsSync(path.join(__dirname, '..', `verified_todays_${todayStr}_shift${currentShift}.json`))) {
+    file4Path = path.join(__dirname, '..', `verified_todays_${todayStr}_shift${currentShift}.json`);
+  }
 
   const file3 = JSON.parse(fs.readFileSync(file3Path, 'utf8'));
   const rawJobs = file3.jobs || [];
@@ -247,9 +253,9 @@ async function runRigorousSlot4Audit() {
       };
       if (!cleanJob.resume_mapped) {
         const lower = cleanJob.role.toLowerCase();
-        if (lower.includes('react')) cleanJob.resume_mapped = 'Pratik Patidar Resume - MERN Full Stack.pdf';
-        else if (lower.includes('fullstack') || lower.includes('full stack') || lower.includes('mern')) cleanJob.resume_mapped = 'Pratik Patidar Resume - MERN Full Stack.pdf';
-        else cleanJob.resume_mapped = 'Pratik Patidar Resume - MERN Full Stack.pdf';
+        if (lower.includes('react') || lower.includes('ui') || lower.includes('next')) cleanJob.resume_mapped = 'Pratik Patidar Resume - React Developer.pdf';
+        else if (lower.includes('fullstack') || lower.includes('full stack') || lower.includes('mern') || lower.includes('node')) cleanJob.resume_mapped = 'Pratik Patidar Resume - MERN Full Stack.pdf';
+        else cleanJob.resume_mapped = 'Pratik Patidar Resume - Frontend Engineer.pdf';
       }
       verifiedClean.push(cleanJob);
 

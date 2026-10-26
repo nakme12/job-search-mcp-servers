@@ -37,24 +37,36 @@ const CANONICAL_PATHS = {
     ? path.join(ENGINE_ROOT, 'data', 'candidate', 'candidate_screening_profile.json')
     : path.join(ENGINE_ROOT, 'candidate_screening_profile.json'),
   
-  // Daily 5-File Architecture (points to clean data/ structure)
+  // Daily 5-File Architecture (resolves root or data/ folder dynamically)
   getFile3Today: (dateStr = getTodayString()) => {
+    const rootPath = path.join(ENGINE_ROOT, `total_todays_${dateStr}.json`);
+    if (fs.existsSync(rootPath)) return rootPath;
     const cleanPath = path.join(ENGINE_ROOT, 'data', 'daily', `total_todays_${dateStr}.json`);
-    return cleanPath;
+    return fs.existsSync(cleanPath) ? cleanPath : rootPath;
   },
   getFile4Verified: (dateStr = getTodayString()) => {
+    const rootPath = path.join(ENGINE_ROOT, `verified_todays_${dateStr}.json`);
+    if (fs.existsSync(rootPath)) return rootPath;
     const cleanPath = path.join(ENGINE_ROOT, 'data', 'daily', `verified_todays_${dateStr}.json`);
-    return cleanPath;
+    return fs.existsSync(cleanPath) ? cleanPath : rootPath;
   },
   getFile5Applied: (dateStr = getTodayString()) => {
+    const rootPath = path.join(ENGINE_ROOT, `applied_todays_${dateStr}.json`);
+    if (fs.existsSync(rootPath)) return rootPath;
     const cleanPath = path.join(ENGINE_ROOT, 'data', 'daily', `applied_todays_${dateStr}.json`);
-    return cleanPath;
+    return fs.existsSync(cleanPath) ? cleanPath : rootPath;
   },
   getFile1Historical: () => {
-    return path.join(ENGINE_ROOT, 'data', 'historical', 'total_historical_except_today.json');
+    const rootPath = path.join(ENGINE_ROOT, 'total_historical_except_today.json');
+    if (fs.existsSync(rootPath)) return rootPath;
+    const cleanPath = path.join(ENGINE_ROOT, 'data', 'historical', 'total_historical_except_today.json');
+    return fs.existsSync(cleanPath) ? cleanPath : rootPath;
   },
   getFile2LifetimeApplied: () => {
-    return path.join(ENGINE_ROOT, 'data', 'historical', 'applied_lifetime_except_today.json');
+    const rootPath = path.join(ENGINE_ROOT, 'applied_lifetime_except_today.json');
+    if (fs.existsSync(rootPath)) return rootPath;
+    const cleanPath = path.join(ENGINE_ROOT, 'data', 'historical', 'applied_lifetime_except_today.json');
+    return fs.existsSync(cleanPath) ? cleanPath : rootPath;
   }
 };
 

@@ -10,22 +10,28 @@ export const POSITIVE_FRONTEND_WORD = /\b(frontend|front-end|front end|react|rea
 export function detectMinYearsExperience(text) {
   if (!text) return null;
   const years = [];
-  // "6yrs-12yrs", "3-6 years", "3 to 6 years"
+
+  // 1. Ranges: "0-4 years", "1 to 3 yrs", "2-5 years" -> extracts lower bound
   for (const m of text.matchAll(/(\d+(?:\.\d+)?)\s*(?:years?|yrs?|yoe)?\s*(?:-|to|–|—)\s*(\d+(?:\.\d+)?)\s*(?:years?|yrs?|yoe)/gi)) {
     years.push(parseFloat(m[1]));
   }
-  // "3+ years", "5+ Years of experience", "3+ YOE", "4+ yrs"
+
+  // 2. Plus syntax: "3+ years", "5+ Years of experience", "3+ YOE", "4+ yrs"
   for (const m of text.matchAll(/(\d+(?:\.\d+)?)\s*\+\s*(?:years?|yrs?|yoe)/gi)) {
     years.push(parseFloat(m[1]));
   }
-  // Standalone "6yrs", "5 years", "3 YOE"
-  for (const m of text.matchAll(/(\d+(?:\.\d+)?)\s*(?:years?|yrs?|yoe)\b/gi)) {
-    years.push(parseFloat(m[1]));
-  }
-  // "minimum 3 years", "at least 3 years", "min. 3 years"
+
+  // 3. Minimum / at least: "minimum 3 years", "at least 3 years", "min. 3 years"
   for (const m of text.matchAll(/(?:minimum|at least|min\.?)\s*(?:of\s*)?(\d+(?:\.\d+)?)\s*\+?\s*(?:years?|yrs?|yoe)/gi)) {
     years.push(parseFloat(m[1]));
   }
+
+  // 4. Standalone with explicit experience context (prevents false positive on company age like "in business for 10 years"):
+  // e.g. "3 years of experience", "3 years experience", "3+ YOE", "requires 3 yrs"
+  for (const m of text.matchAll(/(?:require[s]?|with|have)?\s*(\d+(?:\.\d+)?)\s*(?:yoe|years?(?:'|\s+of)?\s+(?:relevant\s+)?experience)/gi)) {
+    years.push(parseFloat(m[1]));
+  }
+
   return years.length ? Math.min(...years) : null;
 }
 

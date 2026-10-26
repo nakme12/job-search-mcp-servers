@@ -32,7 +32,7 @@ const DEAD_EMAILS_FILE = path.join(__dirname, '..', 'dead_recruiter_emails.json'
     const url = p.url();
     if (url.includes('mail.google.com')) {
       const title = await p.title();
-      if (title.includes(CANDIDATE_EMAIL) || url.includes('/u/1/')) {
+      if (title.includes(CANDIDATE_EMAIL) || url.includes(CANDIDATE_EMAIL) || url.includes('/u/0/') || url.includes('/u/1/')) {
         pratikTab = p;
         break;
       }
@@ -61,7 +61,8 @@ const DEAD_EMAILS_FILE = path.join(__dirname, '..', 'dead_recruiter_emails.json'
   // Ensure on inbox root, not inside a thread
   if (pratikTab.url().includes('#inbox/')) {
     console.log('Tab is inside a thread. Navigating back to main inbox (#inbox)...');
-    await pratikTab.goto('https://mail.google.com/mail/u/1/#inbox', { waitUntil: 'networkidle2', timeout: 15000 });
+    const baseUrl = pratikTab.url().split('#')[0];
+    await pratikTab.goto(baseUrl + '#inbox', { waitUntil: 'networkidle2', timeout: 15000 });
   }
 
   // Ensure DOM is ready

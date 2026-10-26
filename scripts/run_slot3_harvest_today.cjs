@@ -5,7 +5,7 @@ const UniversalGuardInterceptor = require('./guards/universal_guard_interceptor.
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-const TODAY_DATE = '2026-10-25';
+const TODAY_DATE = process.argv[2] || '2026-10-26';
 const ENGINE_ROOT = path.resolve(__dirname, '..');
 const FILE3_PATH = path.join(ENGINE_ROOT, `total_todays_${TODAY_DATE}.json`);
 const HIST_PATH = path.join(ENGINE_ROOT, 'total_historical_except_today.json');
@@ -69,15 +69,19 @@ async function runSlot3Harvest() {
     console.warn('⚠️ Telegram Web tab not found on port 9222. Skipping TG sweep.');
   } else {
     console.log('✅ Attached to open Telegram Web tab:', tgPage.url());
-    const registryPath = path.join(ENGINE_ROOT, 'telegram', 'tg_channels_registry.json');
-    if (fs.existsSync(registryPath)) {
+    const isLoggedOut = await tgPage.evaluate(() => !!document.querySelector('#auth-qr-form, .auth-form.qr'));
+    if (isLoggedOut) {
+      console.warn('⚠️ Telegram Web tab is currently awaiting QR code login. Skipping TG channel sweep.');
+    } else {
+      const registryPath = path.join(ENGINE_ROOT, 'telegram', 'tg_channels_registry.json');
+      if (fs.existsSync(registryPath)) {
       const channels = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
       console.log(`Scanning up to ${channels.length} channels from registry...`);
 
-      // Sweep top active tech channels
-      for (let i = 0; i < Math.min(channels.length, 12); i++) {
+      // Sweep active tech channels from registry
+      for (let i = 0; i < channels.length; i++) {
         const ch = channels[i];
-        console.log(`[TG ${i + 1}/${Math.min(channels.length, 12)}] Checking @${ch.username} (${ch.name})...`);
+        console.log(`[TG ${i + 1}/${channels.length}] Checking @${ch.username} (${ch.name})...`);
 
         try {
           const searchInput = await tgPage.$('#telegram-search-input');
@@ -114,13 +118,13 @@ async function runSlot3Harvest() {
 
           await sleep(2000);
 
-          // Scroll up to get recent 3-day history
-          for (let s = 0; s < 3; s++) {
+          // Scroll up deeper to load 3-day history (both unread and read messages)
+          for (let s = 0; s < 8; s++) {
             await tgPage.evaluate(() => {
-              const scrollable = document.querySelector('.messages-container, .bubbles-inner, .MessageList') || window;
-              if (scrollable.scrollBy) scrollable.scrollBy(0, -1200);
+              const scrollable = document.querySelector('.messages-container, .bubbles-inner, .MessageList, .chat-list') || window;
+              if (scrollable.scrollBy) scrollable.scrollBy(0, -1800);
             });
-            await sleep(600);
+            await sleep(400);
           }
 
           // Extract messages
@@ -129,10 +133,25 @@ async function runSlot3Harvest() {
             return bubbles.map(b => b.innerText?.trim()).filter(Boolean);
           });
 
+          // Split digests into individual job blocks if multiple jobs exist in one post
+          const subMessages = [];
           for (const msg of messages) {
             if (!msg || msg.length < 35) continue;
+            // Check if multi-job digest (e.g. "1. ", "2. ", "3. ")
+            if (/\n\s*(?:[0-9]{1,2}\.|[•\-\*])\s+[A-Za-z]/i.test(msg)) {
+              const blocks = msg.split(/\n(?=\s*(?:[0-9]{1,2}\.|[•\-\*])\s+[A-Za-z])/);
+              for (const b of blocks) {
+                if (b.trim().length > 25) subMessages.push(b.trim());
+              }
+            } else {
+              subMessages.push(msg);
+            }
+          }
 
-            const isStack = /react(?!\s*native)|frontend|front-end|mern|next\.?js|web developer/i.test(msg);
+          for (const msg of subMessages) {
+            if (!msg || msg.length < 25) continue;
+
+            const isStack = /react(?!\s*native)|frontend|front-end|mern|next\.?js|web developer|full stack|fullstack/i.test(msg);
             const isBanned = /react native|flutter|android|ios|devops|systems|embedded/i.test(msg);
             if (!isStack || isBanned) continue;
 
@@ -157,10 +176,12 @@ async function runSlot3Harvest() {
             if (!eligibility.pass) continue;
 
             let extractedCompany = 'Direct Telegram Lead';
-            const compMatch = msg.match(/(?:company|organization|at|hiring at)\s*[:\-]?\s*([A-Za-z0-9\s&]{2,30})/i);
+            const compMatch = msg.match(/(?:company|organization|at|hiring at)\s*[:\-]?\s*([A-Za-z0-9\s&]{2,30})/i) ||
+                              msg.match(/^[0-9•\-\*.\s]*([A-Za-z0-9\s&]{2,25})\s*[-–:]\s*(?:React|Frontend|MERN|Web|Full|Software|UI)/i);
             if (compMatch && compMatch[1]) {
               const cand = compMatch[1].trim();
-              if (!cand.toLowerCase().includes('hiring') && !cand.toLowerCase().includes('team')) {
+              const lowerCand = cand.toLowerCase();
+              if (!lowerCand.includes('hiring') && !lowerCand.includes('team') && !lowerCand.includes('dispatched') && !lowerCand.includes('application')) {
                 extractedCompany = cand;
               }
             }
@@ -191,6 +212,7 @@ async function runSlot3Harvest() {
         await sleep(1200);
       }
     }
+    }
   }
 
   // =================================================================
@@ -211,74 +233,91 @@ async function runSlot3Harvest() {
     ];
 
     for (const nUrl of naukriQueries) {
-      console.log('Navigating to Naukri query:', nUrl);
-      await naukriPage.goto(nUrl, { waitUntil: 'domcontentloaded', timeout: 35000 });
-      await sleep(3500);
-
-      const jobCards = await naukriPage.evaluate(() => {
-        const tuples = [];
-        const articles = document.querySelectorAll('.srp-jobtuple-wrapper, article.jobTuple');
-        articles.forEach(art => {
-          const titleEl = art.querySelector('a.title');
-          const compEl = art.querySelector('a.comp-name, .company-name');
-          const expEl = art.querySelector('.exp-wrap, .experience');
-          const locEl = art.querySelector('.loc-wrap, .location');
-          const dateEl = art.querySelector('.job-post-day, .date');
-          
-          if (titleEl && compEl) {
-            tuples.push({
-              title: titleEl.innerText.trim(),
-              url: titleEl.href.split('?')[0],
-              company: compEl.innerText.trim(),
-              experience: expEl ? expEl.innerText.trim() : '',
-              location: locEl ? locEl.innerText.trim() : 'India',
-              dateBadge: dateEl ? dateEl.innerText.trim() : ''
-            });
-          }
+      try {
+        console.log('Navigating to Naukri query:', nUrl);
+        await naukriPage.goto(nUrl, { waitUntil: 'domcontentloaded', timeout: 20000 }).catch(e => {
+          console.log(`   (Naukri navigation notice: ${e.message})`);
         });
-        return tuples;
-      });
+        await sleep(3500);
 
-      console.log(`Found ${jobCards.length} live job tuples on Naukri page.`);
+        const jobCards = await naukriPage.evaluate(() => {
+          const tuples = [];
+          const articles = document.querySelectorAll('.srp-jobtuple-wrapper, article.jobTuple');
+          articles.forEach(art => {
+            const titleEl = art.querySelector('a.title');
+            const compEl = art.querySelector('a.comp-name, .company-name');
+            const expEl = art.querySelector('.exp-wrap, .experience');
+            const locEl = art.querySelector('.loc-wrap, .location');
+            const dateEl = art.querySelector('.job-post-day, .date');
+            
+            if (titleEl && compEl) {
+              tuples.push({
+                title: titleEl.innerText.trim(),
+                url: titleEl.href.split('?')[0],
+                company: compEl.innerText.trim(),
+                experience: expEl ? expEl.innerText.trim() : '',
+                location: locEl ? locEl.innerText.trim() : 'India',
+                dateBadge: dateEl ? dateEl.innerText.trim() : ''
+              });
+            }
+          });
+          return tuples;
+        });
 
-      for (const card of jobCards) {
-        if (!card.url) continue;
-        const normUrl = card.url.trim().toLowerCase();
+        console.log(`Found ${jobCards.length} live job tuples on Naukri page.`);
 
-        if (historicalSet.has(normUrl) || seenToday.has(normUrl)) {
-          totalDuplicatesDropped++;
-          continue;
+        for (const card of jobCards) {
+          if (!card.url) continue;
+          const normUrl = card.url.trim().toLowerCase();
+
+          if (historicalSet.has(normUrl) || seenToday.has(normUrl)) {
+            totalDuplicatesDropped++;
+            continue;
+          }
+
+          // Strict Stack Filter
+          const titleLower = card.title.toLowerCase();
+          const isBannedStack = /php|laravel|python|java developer|android|ios|flutter|react native|devops|marketing|rf sw|sales|hr |accountant|bpo/i.test(titleLower);
+          if (isBannedStack) continue;
+
+          const isFrontendStack = /react|frontend|front-end|next\.?js|ui developer|web developer|javascript|typescript|mern/i.test(titleLower);
+          if (!isFrontendStack) continue;
+
+          // Freshness: Must be <= 3 days
+          const isFresh = /just now|today|1 day ago|2 days ago|3 days ago/i.test(card.dateBadge);
+          if (!isFresh && card.dateBadge && !card.dateBadge.includes('day')) {
+            continue;
+          }
+
+          // YOE ceiling: Candidate fits 0-2 YOE, and user explicitly instructed to keep broad ranges (0-3, 0-4, 1-4, 2-3, 2-4, 2-5)
+          // Drop ONLY if strict minimum requirement is >= 3 years (e.g. 3-5, 3-6, 4-8, 3+, 4+)
+          const expLower = card.experience.toLowerCase();
+          if (/\b(?:[3-9]|1[0-9])\s*-\s*[0-9]+\s*(?:years?|yrs?)/i.test(expLower) || /\b(?:[3-9]|1[0-9])\s*\+\s*(?:years?|yrs?)/i.test(expLower)) {
+            continue;
+          }
+
+          const newJob = {
+            id: `naukri_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`,
+            title: card.title,
+            company: card.company,
+            location: card.location,
+            url: card.url,
+            recipient: "",
+            application_type: "Naukri Direct / Portal",
+            source: "Naukri (Past 3 Days)",
+            experience: card.experience,
+            date_posted: new Date().toISOString(),
+            date_badge: card.dateBadge,
+            status: "DISCOVERED_PENDING_AUDIT"
+          };
+
+          todayPool.jobs.push(newJob);
+          seenToday.add(normUrl);
+          naukriNewLeads++;
+          console.log(`   ✨ [Naukri Qualified]: ${card.company} - ${card.title} (${card.experience})`);
         }
-
-        // Freshness: Must be <= 3 days
-        const isFresh = /just now|today|1 day ago|2 days ago|3 days ago/i.test(card.dateBadge);
-        if (!isFresh && card.dateBadge) {
-          continue;
-        }
-
-        // YOE ceiling
-        if (/3\+|4\+|5\+|6\+/i.test(card.experience)) {
-          continue;
-        }
-
-        const newJob = {
-          id: `naukri_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`,
-          title: card.title,
-          company: card.company,
-          location: card.location,
-          url: card.url,
-          recipient: "",
-          application_type: "Naukri Direct / Portal",
-          source: "Naukri (Past 3 Days)",
-          experience: card.experience,
-          date_posted: new Date().toISOString(),
-          status: "DISCOVERED_PENDING_AUDIT"
-        };
-
-        todayPool.jobs.push(newJob);
-        seenToday.add(normUrl);
-        naukriNewLeads++;
-        console.log(`   ✨ [Naukri Qualified]: ${card.company} - ${card.title} (${card.experience})`);
+      } catch (qErr) {
+        console.warn('⚠️ Error processing Naukri query:', qErr.message);
       }
     }
   } catch (err) {
@@ -301,73 +340,92 @@ async function runSlot3Harvest() {
   }
 
   try {
-    const liSearchUrl = 'https://www.linkedin.com/search/results/content/?keywords=%22Frontend%20Developer%22%20hiring&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22';
-    console.log('Navigating to LinkedIn Posts search...');
-    await liPage.goto(liSearchUrl, { waitUntil: 'domcontentloaded', timeout: 35000 });
-    await sleep(4000);
+    const liQueries = [
+      'https://www.linkedin.com/search/results/content/?keywords=%22Frontend%20Developer%22%20hiring&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22',
+      'https://www.linkedin.com/search/results/content/?keywords=%22React%20Developer%22%20hiring&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22'
+    ];
 
-    // Natural human scroll
-    for (let i = 0; i < 4; i++) {
-      await liPage.evaluate(() => window.scrollBy({ top: 350, behavior: 'smooth' }));
-      await sleep(1500);
-    }
-
-    const posts = await liPage.evaluate(() => {
-      const results = [];
-      const containers = document.querySelectorAll('.feed-shared-update-v2, .update-components-text');
-      containers.forEach(c => {
-        const text = c.innerText || '';
-        const linkEl = c.querySelector('a[href*="/feed/update/"], a[href*="/posts/"]');
-        results.push({
-          text,
-          postUrl: linkEl ? linkEl.href : ''
+    for (const liSearchUrl of liQueries) {
+      try {
+        console.log('Navigating to LinkedIn search:', liSearchUrl);
+        await liPage.goto(liSearchUrl, { waitUntil: 'domcontentloaded', timeout: 20000 }).catch(e => {
+          console.log(`   (LinkedIn navigation notice: ${e.message})`);
         });
-      });
-      return results;
-    });
+        await sleep(3500);
 
-    console.log(`Extracted ${posts.length} post containers from LinkedIn feed.`);
+        // Natural human scroll
+        for (let i = 0; i < 4; i++) {
+          await liPage.evaluate(() => window.scrollBy({ top: 350, behavior: 'smooth' }));
+          await sleep(1500);
+        }
 
-    for (const p of posts) {
-      if (!p.text || p.text.length < 50) continue;
-      const text = p.text;
+        const posts = await liPage.evaluate(() => {
+          const results = [];
+          let containers = Array.from(document.querySelectorAll('.feed-shared-update-v2, div[data-chameleon-result-urn], .search-results-container li, div.update-components-text'));
+          if (containers.length === 0) {
+            containers = Array.from(document.querySelectorAll('main div')).filter(d => (d.innerText || '').includes('Feed post') && (d.innerText || '').length > 100);
+          }
+          const seenTexts = new Set();
+          containers.forEach(c => {
+            const text = (c.innerText || '').trim();
+            if (text.length > 50 && !seenTexts.has(text.substring(0, 80))) {
+              seenTexts.add(text.substring(0, 80));
+              const linkEl = c.querySelector('a[href*="/feed/update/"], a[href*="/posts/"], a[href*="/in/"]');
+              results.push({
+                text,
+                postUrl: linkEl ? linkEl.href : ''
+              });
+            }
+          });
+          return results;
+        });
 
-      const isStack = /react(?!\s*native)|frontend|front-end|mern|next\.?js/i.test(text);
-      if (!isStack) continue;
+        console.log(`Extracted ${posts.length} post containers from LinkedIn feed.`);
 
-      const emailMatch = text.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/);
-      const urlMatch = text.match(/https?:\/\/[^\s]+/);
+        for (const p of posts) {
+          if (!p.text || p.text.length < 50) continue;
+          const text = p.text;
 
-      const target = (emailMatch ? emailMatch[0] : (urlMatch ? urlMatch[0] : p.postUrl)).toLowerCase();
-      if (!target) continue;
+          const isStack = /react(?!\s*native)|frontend|front-end|mern|next\.?js/i.test(text);
+          if (!isStack) continue;
 
-      if (historicalSet.has(target) || seenToday.has(target)) {
-        totalDuplicatesDropped++;
-        continue;
+          const emailMatch = text.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/);
+          const urlMatch = text.match(/https?:\/\/[^\s]+/);
+
+          const target = (emailMatch ? emailMatch[0] : (urlMatch ? urlMatch[0] : p.postUrl)).toLowerCase();
+          if (!target) continue;
+
+          if (historicalSet.has(target) || seenToday.has(target)) {
+            totalDuplicatesDropped++;
+            continue;
+          }
+
+          // Check 0-2 YOE
+          const eligibility = UniversalGuardInterceptor.assertJobEligibility(text);
+          if (!eligibility.pass) continue;
+
+          const newJob = {
+            id: `li_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`,
+            title: "Frontend / React Engineer",
+            company: "LinkedIn Recruiter Post",
+            location: "India / Remote",
+            url: urlMatch ? urlMatch[0] : (p.postUrl || ""),
+            recipient: emailMatch ? emailMatch[0] : "",
+            application_type: emailMatch ? "Direct Recruiter Email" : "Direct Form",
+            source: "LinkedIn Live Posts",
+            date_posted: new Date().toISOString(),
+            status: emailMatch ? "READY_FOR_DIRECT_EMAIL" : "DISCOVERED_PENDING_AUDIT",
+            raw_text: text.substring(0, 400)
+          };
+
+          todayPool.jobs.push(newJob);
+          seenToday.add(target);
+          linkedinNewLeads++;
+          console.log(`   ✨ [LinkedIn Qualified]: ${newJob.application_type} (${target})`);
+        }
+      } catch (liErr) {
+        console.warn('⚠️ LinkedIn query error:', liErr.message);
       }
-
-      // Check 0-2 YOE
-      const eligibility = UniversalGuardInterceptor.assertJobEligibility(text);
-      if (!eligibility.pass) continue;
-
-      const newJob = {
-        id: `li_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`,
-        title: "Frontend / React Engineer",
-        company: "LinkedIn Recruiter Post",
-        location: "India / Remote",
-        url: urlMatch ? urlMatch[0] : (p.postUrl || ""),
-        recipient: emailMatch ? emailMatch[0] : "",
-        application_type: emailMatch ? "Direct Recruiter Email" : "Direct Form",
-        source: "LinkedIn Live Posts",
-        date_posted: new Date().toISOString(),
-        status: emailMatch ? "READY_FOR_DIRECT_EMAIL" : "DISCOVERED_PENDING_AUDIT",
-        raw_text: text.substring(0, 400)
-      };
-
-      todayPool.jobs.push(newJob);
-      seenToday.add(target);
-      linkedinNewLeads++;
-      console.log(`   ✨ [LinkedIn Qualified]: ${newJob.application_type} (${target})`);
     }
   } catch (err) {
     console.warn('⚠️ LinkedIn harvest error:', err.message);

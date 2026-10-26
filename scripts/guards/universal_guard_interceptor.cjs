@@ -14,18 +14,22 @@ const FORBIDDEN_SALUTATIONS = [
   'tech firm', 'unknown', 'null', 'undefined', 'hiring team', 'recruiter'
 ];
 
-// Experience Ceiling Regex (Incident 9, 16)
+// Forbidden Title Keywords (Seniority / Architecture)
+const STRICT_OUT_OF_RANGE_TITLES = [
+  /\b(?:senior|sr\.?|lead|principal|architect|staff|director|head\s+of|engineering\s+manager)\b/i
+];
+
+// Experience Ceiling Regex in JD Body
 // REJECT ONLY IF MINIMUM REQUIRED >= 3 (e.g. 3+, 3-5, 4+, 4-6)
-// ALLOW RANGES STARTING AT 0, 1, or 2 (e.g. 0-3, 0-4, 1-4, 2-5)
-const STRICT_OUT_OF_RANGE_YOE = [
+// ALLOW RANGES STARTING AT 0, 1, or 2 (e.g. 0-3, 0-4, 1-4, 2-4, 2-5)
+const STRICT_OUT_OF_RANGE_YOE_JD = [
   /\b(?:minimum|at\s*least|min)?\s*[3-9]\s*\+?\s*(?:to\s*[0-9]+\s*)?(?:years?|yrs?)\b/i,
-  /\b(?:3|4|5|6|7|8|9|10)\s*-\s*[0-9]+\s*(?:years?|yrs?)\b/i, // Min is 3 or more
-  /\b(?:senior|lead|principal|architect|staff|director|manager)\b/i
+  /\b(?:3|4|5|6|7|8|9|10)\s*-\s*[0-9]+\s*(?:years?|yrs?)\b/i // Min is 3 or more
 ];
 
 // Explicit allowance for broad entry/junior ranges:
 const ALLOWED_BROAD_RANGES = [
-  /\b[0-2]\s*-\s*[3-5]\s*(?:years?|yrs?)\b/i // e.g. 0-3, 0-4, 1-3, 1-4, 2-4
+  /\b[0-2]\s*(?:-|to)\s*[3-5]\s*(?:years?|yrs?)\b/i // e.g. 0-3, 0-4, 1-3, 1-4, 2-4, 2-5
 ];
 
 // Salary Floor Regex (< 20,000/mo or unpaid) (Incident 37)
@@ -62,17 +66,23 @@ class UniversalGuardInterceptor {
 
   // 3. Assert Job Eligibility (YOE, Freshness, Salary)
   static assertJobEligibility(jdText, roleTitle = '') {
-    if (!jdText || jdText.length < 50) {
+    if (!jdText || jdText.length < 20) {
       return { pass: false, reason: 'JD_TEXT_EMPTY_OR_TRUNCATED' };
     }
 
-    // Role ceiling check
-    for (const r of STRICT_OUT_OF_RANGE_YOE) {
-      if (r.test(roleTitle)) {
-        return { pass: false, reason: `ROLE_TITLE_OUT_OF_RANGE: ${roleTitle}` };
+    // 1. Role Title Seniority Check (Title ONLY)
+    if (roleTitle) {
+      for (const r of STRICT_OUT_OF_RANGE_TITLES) {
+        if (r.test(roleTitle)) {
+          return { pass: false, reason: `ROLE_TITLE_OUT_OF_RANGE: ${roleTitle}` };
+        }
       }
+    }
+
+    // 2. Experience Ceiling Check in JD Body
+    for (const r of STRICT_OUT_OF_RANGE_YOE_JD) {
       if (r.test(jdText)) {
-        // If it's a broad range starting at 0, 1, or 2 (e.g. 0-4, 1-3, 0-3), allow it!
+        // If it's a broad range starting at 0, 1, or 2 (e.g. 0-4, 1-3, 2-4, 2-5), allow it!
         const isBroadAcceptable = ALLOWED_BROAD_RANGES.some(b => b.test(jdText));
         if (!isBroadAcceptable) {
           return { pass: false, reason: 'JD_EXPERIENCE_EXCEEDS_2_YOE' };
