@@ -427,10 +427,13 @@ setup/key instructions — don't duplicate that here, it stays current on its ow
       Portfolio: https://pratik-portfolio-nine-orcin.vercel.app
       GitHub: https://github.com/pratikpatidar
       ```
-37. **Mandatory Form-Fill & Post-Submission Screenshot Proof Protocol.**
+37. **Mandatory Form-Fill & Post-Submission Confirmation Screenshot Proof Protocol (Rule 37 & 51 - Strict Zero-Draft Ban).**
     - For EVERY single portal form submitted (Ashby, Greenhouse, Lever, Workday, Company ATS, Tally):
-      1. **Pre-Submit Fill Proof:** Capture a full-page screenshot immediately after all fields and resume are populated (`pre_submit_[company].png`).
-      2. **Post-Submit Confirmation Proof:** Capture a screenshot immediately after triggering submit showing the live success/confirmation message (`post_submit_[company].png`).
+      1. **Strict Ban on Pre-Submit Draft Screenshots:** Pre-submit or unsubmitted form screenshots are STRICTLY FORBIDDEN from disk and can NEVER be used to log or claim an application.
+      2. **Mandatory Live Submit Trigger:** The automation/agent MUST execute the submit action (clicking Submit Application / Apply).
+      3. **Live Confirmation Assertion:** The page MUST transition to a verified post-submission confirmation state containing proof text (e.g., *"Application submitted"*, *"Thank you for applying"*, *"We received your application"*).
+      4. **Post-Submit Confirmation Screenshot (`post_submit_[company].png`):** Capture strictly ONE full-page confirmation screenshot showing the live success state.
+      5. **Zero Phantom Status:** Any status like `FORM_PREPARED`, `DRAFT`, or `PENDING` is strictly banned in applied files (`applied_todays_<DATE>.json`). Only `PORTAL_SUBMITTED_AND_CONFIRMED` with attached `post_submit_[company].png` and rendered confirmation text can be recorded.
 38. **Permanent 2-Cycle 7-Slot Daily Architecture (Master Schedule of Record).**
     - The daily job hunt strictly operates on a **Twice-a-Day (2-Cycle) 7-Slot Architecture** (8 hours total, 4h per cycle):
       - **Morning Cycle 1:** 11:00 AM – 03:00 PM IST

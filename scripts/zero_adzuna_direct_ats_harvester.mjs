@@ -4,8 +4,8 @@ import path from "path";
 import { evaluateExperience } from "../servers/experience-filter.js";
 
 const ROOT_DIR = "C:/mcp/job-search-mcp-engine";
-const TODAY = "2026-10-21";
-const SHIFT = 2;
+const TODAY = process.argv[2] || "2026-10-25";
+const SHIFT = 1;
 
 const file1HistPath = path.join(ROOT_DIR, "total_historical_except_today.json");
 const file3TodayShiftPath = path.join(ROOT_DIR, `total_todays_${TODAY}_shift${SHIFT}.json`);

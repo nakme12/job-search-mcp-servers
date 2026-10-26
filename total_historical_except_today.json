@@ -1,6 +1,6 @@
 {
   "description": "All historical jobs seen/applied/skipped before today",
-  "total": 569,
+  "total": 584,
   "jobs": [
     {
       "id": 154,
@@ -6806,6 +6806,144 @@
       "role": "BLOCKED_BY_USER",
       "reason": "Permanent blacklist block by user",
       "date": "2026-10-21"
+    },
+    {
+      "company": "AHOM Technologies Pvt. Ltd.",
+      "role": "Frontend Developer",
+      "recipient_or_url": "jyoti.singh@ahomtech.com",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T08:53:03.505Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "sent_folder_proof": "To:  | jyoti.singh | Application: Frontend Developer - Pratik Patidar |  -  | Hi Jyoti Singh & AHOM Technologies Hiring Team, I came across your opening for a Frontend Developer in Gurugram and wanted to apply for the role. I am a Fronten | Attachment: | Pratik Patidar Resume - Frontend Engineer.pdf | 14:22"
+    },
+    {
+      "company": "BQarlson Software Technologies",
+      "role": "Full Stack Developer",
+      "recipient_or_url": "hr@bqarlson.tech",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T08:53:54.966Z",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+      "sent_folder_proof": "To:  | Application: Full Stack Developer - Pratik Patidar |   |   | 14:23"
+    },
+    {
+      "company": "ZoflowX (Zoho Partner)",
+      "role": "Software Engineer / Web Developer",
+      "recipient_or_url": "hr@zoflowx.com",
+      "channel": "Direct Recruiter Email",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:08:14.550Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+      "sent_folder_proof": "To:  | Application: Software Engineer / Web Developer - Pratik Patidar |   |   | 14:37"
+    },
+    {
+      "company": "ROBINHOOD",
+      "role": "Software Developer, Ops Platform and Fraud Investigations",
+      "recipient_or_url": "https://boards.greenhouse.io/robinhood/jobs/7737164?t=gh_src=&gh_jid=7737164",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:17:27.505Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf"
+    },
+    {
+      "company": "ROBINHOOD",
+      "role": "Software Engineer 2, Backend",
+      "recipient_or_url": "https://boards.greenhouse.io/robinhood/jobs/7263592?t=gh_src=&gh_jid=7263592",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:17:38.732Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf"
+    },
+    {
+      "company": "REDDIT",
+      "role": "Software Engineer, Ad Signals",
+      "recipient_or_url": "https://job-boards.greenhouse.io/reddit/jobs/8319655",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:17:53.552Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf"
+    },
+    {
+      "company": "REDDIT",
+      "role": "Software Engineer, Ingestion Platform",
+      "recipient_or_url": "https://job-boards.greenhouse.io/reddit/jobs/8214910",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:18:03.274Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf"
+    },
+    {
+      "company": "Coderwing",
+      "role": "React.js Training & Internship",
+      "recipient_or_url": "https://www.simplyhired.co.in/job/sSJVNumtZ_udPInbf7Py6tfGq8GqIDr_Wycaf3TZZbhO3UgtPgBVEw?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:18:22.936Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf"
+    },
+    {
+      "company": "LTPL",
+      "role": "UI Developer (React Js)",
+      "recipient_or_url": "https://www.jobspri.com/jobs/ui-developer-react-js-ltpl?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:18:29.645Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf"
+    },
+    {
+      "company": "Bestpeers",
+      "role": "React JS Developer",
+      "recipient_or_url": "https://bestpeers.com/jobs/react-js-developer/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:18:37.835Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf"
+    },
+    {
+      "company": "Pearson",
+      "role": "Pearson Full Stack Developer Apprenticeship Job (2025 & 2026 Batch) in Bangalore Details, Apply Link - JobInsider.in",
+      "recipient_or_url": "https://www.jobinsider.in/jobs/pearson-full-stack-developer-apprenticeship-job-26/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:18:48.379Z",
+      "resume": "Pratik Patidar Resume - MERN Full Stack.pdf"
+    },
+    {
+      "company": "Cisco Meraki",
+      "role": "Cisco Job Openings 2025: Full Stack Developer (React & Java) for Freshers – Bangalore | Apply Now  - JobInsider.in",
+      "recipient_or_url": "https://www.jobinsider.in/jobs/cisco-job-opening-full-stack-dev-react-java/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:18:54.454Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf"
+    },
+    {
+      "company": "Cosmoquick",
+      "role": "Fresher Frontend Developer in Pune (Freshers / Entry Level)",
+      "recipient_or_url": "https://www.freshersbridge.in/jobs/fresher-frontend-developer-in-pune-cosmoquick?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:19:00.347Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf"
+    },
+    {
+      "company": "Binated",
+      "role": "Front End Developer, React.js (Permanent)",
+      "recipient_or_url": "https://in.jooble.org/rjdp/1654635785360650143?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:19:06.689Z",
+      "resume": "Pratik Patidar Resume - React Developer.pdf"
+    },
+    {
+      "company": "Endeavor IT Solution",
+      "role": "Openings for Front end Developer( Fresher)",
+      "recipient_or_url": "https://jobs.smartrecruiters.com/EndeavorITSolution/99740233-openings-for-front-end-developer-fresher-?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "channel": "ATS Portal Form (Slot 6)",
+      "status": "APPLIED_LIFETIME",
+      "timestamp": "2026-10-25T09:19:32.521Z",
+      "resume": "Pratik Patidar Resume - Frontend Engineer.pdf"
     }
   ],
   "last_updated": "2026-10-22T07:04:38.836Z"

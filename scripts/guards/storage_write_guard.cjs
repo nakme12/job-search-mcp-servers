@@ -35,7 +35,7 @@ class StorageWriteGuard {
     return true;
   }
 
-  // Validates an applied job before adding to File 5 (Zero Phantom Logging Guarantee)
+  // Validates an applied job before adding to File 5 (Zero Phantom Logging Guarantee - Rule 37 & 51 Enforced)
   static validateAppliedJob(appliedEntry) {
     if (!appliedEntry || typeof appliedEntry !== 'object') {
       throw new Error('[LAYER 3 REJECT] Applied job entry is empty.');
@@ -46,15 +46,21 @@ class StorageWriteGuard {
       throw new Error(`[LAYER 3 REJECT] Cannot log application for banned/unknown company: "${appliedEntry.company}".`);
     }
 
+    // Ban draft / prepared status
+    const status = (appliedEntry.status || '').toUpperCase();
+    if (status.includes('PREPARED') || status.includes('DRAFT') || status.includes('PENDING')) {
+      throw new Error(`[LAYER 3 HARD REJECT] RULE 37/51 VIOLATION: Unsubmitted draft status "${appliedEntry.status}" is strictly banned from applied tracking!`);
+    }
+
     // Email applications require verified sent timestamp or proof
-    if (appliedEntry.application_type === 'Direct Recruiter Email') {
+    if (appliedEntry.application_type === 'Direct Recruiter Email' || appliedEntry.channel === 'Direct Recruiter Email') {
       if (!appliedEntry.recipient || !appliedEntry.recipient.includes('@')) {
         throw new Error(`[LAYER 3 REJECT] Missing or invalid recipient email: "${appliedEntry.recipient}".`);
       }
       return true;
     }
 
-    // Portal applications MUST have a physical screenshot proof on disk (Rule 5 & Rule 69)
+    // Portal applications MUST have post-submit confirmation DOM text & post-submit screenshot
     const screenshot = appliedEntry.confirmation_screenshot || appliedEntry.screenshot;
     if (!screenshot) {
       throw new Error(`[LAYER 3 REJECT] PHANTOM LOGGING VIOLATION: confirmation_screenshot field is missing!`);
@@ -64,12 +70,22 @@ class StorageWriteGuard {
       throw new Error(`[LAYER 3 REJECT] PHYSICAL FILE MISSING: Screenshot does not exist on disk at "${screenshot}"!`);
     }
 
+    const baseName = require('path').basename(screenshot).toLowerCase();
+    if (baseName.includes('pre_submit') || baseName.includes('draft')) {
+      throw new Error(`[LAYER 3 REJECT] RULE 37/51 VIOLATION: Pre-submit screenshot "${baseName}" detected! Strictly post_submit confirmation screenshots allowed.`);
+    }
+
     const stat = fs.statSync(screenshot);
     if (stat.size < 5000) {
       throw new Error(`[LAYER 3 REJECT] CORRUPT SCREENSHOT: Screenshot file size (${stat.size} bytes) is suspiciously small / blank!`);
     }
 
-    console.log(`✅ [LAYER 3 PASS] Applied job validated: ${appliedEntry.company} with verified screenshot (${stat.size} bytes)`);
+    const confText = appliedEntry.confirmation_text || appliedEntry.post_submit_proof;
+    if (!confText || confText.trim().length < 5) {
+      throw new Error(`[LAYER 3 HARD REJECT] RULE 37/51 VIOLATION: Missing live post-submit confirmation text proof from rendered DOM!`);
+    }
+
+    console.log(`✅ [LAYER 3 PASS] Applied job validated: ${appliedEntry.company} with verified post-submit screenshot (${stat.size} bytes)`);
     return true;
   }
 

@@ -1,0 +1,2012 @@
+{
+  "assessments_tests": [
+    {
+      "sender": "RED SAG Careers",
+      "emailAttr": "",
+      "subject": "Your RED SAG assessment for Junior Frontend Developer: complete by Monday, 26 October at 6:00 pm IST",
+      "snippet": "Hi Pratik, Thank you for applying for Junior Frontend Developer at RED SAG. The next step is a short online assessment. Start the assessment Sign in with this email address (pratikpatidar7990@gmail.com",
+      "date": "21 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "RED SAG Fintech Sol.",
+      "emailAttr": "",
+      "subject": "Congratulations! You are shortlisted for Round 1 – Junior Frontend Developer at RED SAG Fintech Solutions",
+      "snippet": "Your application for Junior Frontend Developer has been shortlisted for the first round. Your assessment link will follow shortly. RED SAG Fintech Solutions Talent Acquisition Dear Pratik,",
+      "date": "16 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "HR Ops",
+      "emailAttr": "",
+      "subject": "Make sure to complete the Pre-Screening assesment",
+      "snippet": "Hi Pratik, Thank you for applying. This email is just a reminder to make sure you submit the pre-screening form. Please ignore if you have already completed this step. Here is the link: Assessment Form",
+      "date": "14 Oct",
+      "isUnread": false
+    }
+  ],
+  "recruiter_outreach": [
+    {
+      "sender": "Anlage Infotech",
+      "emailAttr": "",
+      "subject": "Job | B2B Corporate Sales - Field Sales | Indore in Indore",
+      "snippet": "Job invite from recruiter. Apply now! You've been chosen from a large pool of jobseekers to apply for this job. Make the most of this opportunity and stay ahead in your job search. naukri.com Get",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "AmbitionBox",
+      "emailAttr": "",
+      "subject": "Reviews of Jayam Solutions, and Other Companies you Applied to",
+      "snippet": "Hi Pratik Patidar, Read reviews, salaries, and interview questions of companies you applied to on Naukri to get a better feel for what to expect. AmbitionBox Download app Hi Pratik Patidar, Read",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Glassdoor Jobs",
+      "emailAttr": "",
+      "subject": "Jr React Js Developer role at Cord4 Technologies: you would be a great fit!",
+      "snippet": "Hey! Check out the latest industry content about career advice, salary negotiations and interview tips, among other topics. Explore now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Glassdoor Jobs",
+      "emailAttr": "",
+      "subject": "React Developer role at Capco: you would be a great fit!",
+      "snippet": "Hey! Check out the latest industry content about career advice, salary negotiations and interview tips, among other topics. Explore now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Bastionex, me\n2",
+      "emailAttr": "",
+      "subject": "Job | Node Js Developer in Ghaziabad, Noida, Delhi / NCR",
+      "snippet": "Hi Greenford Hiring Team, Thank you for reaching out. I am a Software / Frontend Engineer with 1.5 years of experience specializing in React.js, Next.js, TypeScript, JavaScript, REST APIs, and",
+      "date": "21 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "AmbitionBox",
+      "emailAttr": "",
+      "subject": "Reviews of Fujitsu, and Other Companies you Applied to",
+      "snippet": "Hi Pratik Patidar, Read reviews, salaries, and interview questions of companies you applied to on Naukri to get a better feel for what to expect. AmbitionBox Download app Hi Pratik Patidar, Read",
+      "date": "20 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Wellfound",
+      "emailAttr": "",
+      "subject": "New jobs: Frontend Developer Intern | Remote at Offset and  1 more jobs",
+      "snippet": "Hi Pratik! I've found 2 new jobs that might interest you! Ready to Interview Open to offers Closed to Offers Frontend Developer Intern | Remote Offset / 1-10 Employees ₹10000–₹15000 | Remote only,",
+      "date": "20 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Glassdoor Jobs",
+      "emailAttr": "",
+      "subject": "Frontend Engineer role at Arango: you would be a great fit!",
+      "snippet": "Hey! Check out the latest industry content about career advice, salary negotiations and interview tips, among other topics. Explore now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Glassdoor Jobs",
+      "emailAttr": "",
+      "subject": "Application Developer - AI Trainer role at DataAnnotation: you would be a great fit!",
+      "snippet": "Hey! Check out the latest industry content about career advice, salary negotiations and interview tips, among other topics. Explore now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏",
+      "date": "18 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Glassdoor Jobs",
+      "emailAttr": "",
+      "subject": "Software Developer role at Roundsys: you would be a great fit!",
+      "snippet": "Hey! Check out the latest industry content about career advice, salary negotiations and interview tips, among other topics. Explore now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Himangi\n3",
+      "emailAttr": "",
+      "subject": "Frontend / React Developer Application - Pratik Patidar (Indore, MP)",
+      "snippet": "Hi Himangi, Thank you for reaching out. Here are the requested details for my application: • Date of Birth: 15/08/2002 • Preferred Interview Location: Indore, MP (Open to Remote / Bangalore / Pune /",
+      "date": "16 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Techstuff Pvt Ltd. .",
+      "emailAttr": "",
+      "subject": "Sankalp Hardiya completed their AI interview for Full Stack (Intern)",
+      "snippet": "AI Interview Completed Hi, Sankalp Hardiya has completed their AI interview for the Full Stack (Intern) role. View Transcript Best regards, Techstuff Pvt Ltd. This is an automated email. Please do not",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Techstuff Pvt Ltd. .",
+      "emailAttr": "",
+      "subject": "Shivraj Singh Pipawad completed their AI interview for Full Stack (Intern)",
+      "snippet": "AI Interview Completed Hi, Shivraj Singh Pipawad has completed their AI interview for the Full Stack (Intern) role. View Transcript Best regards, Techstuff Pvt Ltd. This is an automated email. Please",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "AmbitionBox",
+      "emailAttr": "",
+      "subject": "You applied to Veloces Consulting Services - see what employees have to say!",
+      "snippet": "Hi Pratik Patidar, You've applied for a job at Veloces Consulting Services on Naukri. Check out reviews, salaries and interview questions to get a better feel for what to expect. AmbitionBox",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Techstuff Pvt Ltd. .",
+      "emailAttr": "",
+      "subject": "Aditya Paliwal completed their AI interview for Full Stack (Intern)",
+      "snippet": "AI Interview Completed Hi, Aditya Paliwal has completed their AI interview for the Full Stack (Intern) role. View Transcript Best regards, Techstuff Pvt Ltd. This is an automated email. Please do not",
+      "date": "15 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Techstuff Pvt Ltd. .",
+      "emailAttr": "",
+      "subject": "Yash Shrivastava completed their AI interview for Full Stack (Intern)",
+      "snippet": "AI Interview Completed Hi, Yash Shrivastava has completed their AI interview for the Full Stack (Intern) role. View Transcript Best regards, Techstuff Pvt Ltd. This is an automated email. Please do not",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Techstuff Pvt Ltd. .",
+      "emailAttr": "",
+      "subject": "PALAK SONI completed their AI interview for Full Stack (Intern)",
+      "snippet": "AI Interview Completed Hi, PALAK SONI has completed their AI interview for the Full Stack (Intern) role. View Transcript Best regards, Techstuff Pvt Ltd. This is an automated email. Please do not reply",
+      "date": "15 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Techstuff Pvt Ltd. .",
+      "emailAttr": "",
+      "subject": "Amit Rajput completed their AI interview for Full Stack (Intern)",
+      "snippet": "AI Interview Completed Hi, Amit Rajput has completed their AI interview for the Full Stack (Intern) role. View Transcript Best regards, Techstuff Pvt Ltd. This is an automated email. Please do not",
+      "date": "14 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "me, Bhavna\n2",
+      "emailAttr": "",
+      "subject": "ReactJS Developer | 1.5 Years | 1.5 Years React | Indore | Immediate Joiner | As per company norms",
+      "snippet": "Dear Pratik, Your CV is shortlisted, for further communication please share below mentioned details on WhatsApp number only (98933 93058). Full Name - Preferred Profile - Highest Qualification - Email",
+      "date": "14 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "JobMatch Updates",
+      "emailAttr": "",
+      "subject": "Congratulations! You’re on our Shortlist for Civil Engineer",
+      "snippet": "Recruiter tried reaching out, awaiting a few details to proceed further. You've been Shortlisted One of our recruiters recently reached out to you about a job opportunity that matches your profile.",
+      "date": "14 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "AmbitionBox",
+      "emailAttr": "",
+      "subject": "Reviews, Salaries & Interview Questions of Companies you Applied to",
+      "snippet": "Hi Pratik Patidar, You've applied for Mern Stack Developer on Naukri. Check out salaries and interview questions to get a better feel for what to expect. AmbitionBox Download app Hi Pratik Patidar,",
+      "date": "14 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Glassdoor Jobs",
+      "emailAttr": "",
+      "subject": "Associate UI Developer role at Techolution: you would be a great fit!",
+      "snippet": "Hey! Check out the latest industry content about career advice, salary negotiations and interview tips, among other topics. Explore now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏",
+      "date": "14 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Glassdoor Jobs",
+      "emailAttr": "",
+      "subject": "Backend Developer - AI Trainer role at DataAnnotation: you would be a great fit!",
+      "snippet": "Hey! Check out the latest industry content about career advice, salary negotiations and interview tips, among other topics. Explore now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏",
+      "date": "13 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Techstuff Pvt Ltd. .",
+      "emailAttr": "",
+      "subject": "Shivani Patel completed their AI interview for Full Stack (Intern)",
+      "snippet": "AI Interview Completed Hi, Shivani Patel has completed their AI interview for the Full Stack (Intern) role. View Transcript Best regards, Techstuff Pvt Ltd. This is an automated email. Please do not",
+      "date": "12 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Infinity learn",
+      "emailAttr": "",
+      "subject": "Job | Coding and Robotics Teacher in Shrirampur",
+      "snippet": "Job invite from recruiter. Apply now! You've been chosen from a large pool of jobseekers to apply for this job. Make the most of this opportunity and stay ahead in your job search. naukri.com Get",
+      "date": "12 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Glassdoor Jobs",
+      "emailAttr": "",
+      "subject": "Software Developer - AI Trainer role at DataAnnotation: you would be a great fit!",
+      "snippet": "Hey! Check out the latest industry content about career advice, salary negotiations and interview tips, among other topics. Explore now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏",
+      "date": "12 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Techstuff Pvt Ltd. .",
+      "emailAttr": "",
+      "subject": "Vinay Choudhary completed their AI interview for Full Stack (Intern)",
+      "snippet": "AI Interview Completed Hi, Vinay Choudhary has completed their AI interview for the Full Stack (Intern) role. View Transcript Best regards, Techstuff Pvt Ltd. This is an automated email. Please do not",
+      "date": "11 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Glassdoor Jobs",
+      "emailAttr": "",
+      "subject": "Software Developer - AI Trainer role at DataAnnotation: you would be a great fit!",
+      "snippet": "Hey! Check out the latest industry content about career advice, salary negotiations and interview tips, among other topics. Explore now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏",
+      "date": "11 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "AmbitionBox",
+      "emailAttr": "",
+      "subject": "You applied to Finhaat Insurance Broking - see what employees have to say!",
+      "snippet": "Hi Pratik Patidar, You've applied for a job at Finhaat Insurance Broking on Naukri. Check out reviews, salaries and interview questions to get a better feel for what to expect. AmbitionBox Download",
+      "date": "10 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Glassdoor Jobs",
+      "emailAttr": "",
+      "subject": "Full Stack Engineer - AI Trainer role at DataAnnotation: you would be a great fit!",
+      "snippet": "Hey! Check out the latest industry content about career advice, salary negotiations and interview tips, among other topics. Explore now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏",
+      "date": "10 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Techstuff Pvt Ltd. .",
+      "emailAttr": "",
+      "subject": "vipin vishwakarma completed their AI interview for Full Stack (Intern)",
+      "snippet": "AI Interview Completed Hi, vipin vishwakarma has completed their AI interview for the Full Stack (Intern) role. View Transcript Best regards, Techstuff Pvt Ltd. This is an automated email. Please do",
+      "date": "9 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Techstuff Pvt Ltd. .",
+      "emailAttr": "",
+      "subject": "Shivraj Singh Pipawad requested a reschedule for Full Stack (Intern)",
+      "snippet": "Reschedule Requested Hi, Shivraj Singh Pipawad has requested to reschedule their AI interview for the Full Stack (Intern) role. \"I sincerely apologize for missing the deadline for my automated",
+      "date": "9 Oct",
+      "isUnread": false
+    }
+  ],
+  "questionnaires_cutshort": [
+    {
+      "sender": "Voila - your profes.",
+      "emailAttr": "",
+      "subject": "Questionnaire still pending from Alpha",
+      "snippet": "Hey Pratik Patidar, Wanted to check with you again - questionnaire by Yash Makhecha from Alpha is still pending. The response just takes a few minutes of your time! View conversation Need some more",
+      "date": "21 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Voila - your profes.",
+      "emailAttr": "",
+      "subject": "You have a questionnaire pending from  Alpha",
+      "snippet": "Hey Pratik Patidar, I saw that Yash Makhecha from Alpha had sent you a questionnaire recently. Since companies take these requests quite seriously, please respond now. It just takes a few minutes of",
+      "date": "20 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Jhansi Lakshmi",
+      "emailAttr": "",
+      "subject": "RE: Full Stack Developer(PHP& Codeigniter/Laravel) at Mayura Consultancy Services",
+      "snippet": "Hey Pratik, You have a new message from Jhansi Lakshmi Jhansi Lakshmi, Cutshort user [Questionnaire] Reply Thanks, Cutshort team Download our app for android and ios. image image Questions or help?",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Sivasankar Avalakun.",
+      "emailAttr": "",
+      "subject": "RE: UI/UX Designers & Developers at sisuni technology pvt Ltd.",
+      "snippet": "Hey Pratik, You have a new message from Sivasankar Avalakunta Sivasankar Avalakunta, Cutshort user [Questionnaire] Reply Thanks, Cutshort team Download our app for android and ios. image image",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Aman Singh",
+      "emailAttr": "",
+      "subject": "RE: Full Stack Developer at AGI Ready",
+      "snippet": "Hey Pratik, You have a new message from Aman Singh Aman Singh, Cutshort user [Questionnaire] Reply Thanks, Cutshort team Download our app for android and ios. image image Questions or help? Contact us",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Yash Makhecha",
+      "emailAttr": "",
+      "subject": "RE: Frontend Design Engineer — Figma + React/TypeScript at Alpha",
+      "snippet": "Hey Pratik, You have a new message from Yash Makhecha Yash Makhecha, Cutshort user [Questionnaire] Reply Thanks, Cutshort team Download our app for android and ios. image image Questions or help?",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Yash Makhecha",
+      "emailAttr": "",
+      "subject": "RE: Software Development Engineer (Associate/Intern) at Alpha",
+      "snippet": "Hey Pratik, You have a new message from Yash Makhecha Yash Makhecha, Cutshort user [Questionnaire] Reply Thanks, Cutshort team Download our app for android and ios. image image Questions or help?",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Voila - your profes.",
+      "emailAttr": "",
+      "subject": "Questionnaire still pending from Synorus",
+      "snippet": "Hey Pratik Patidar, Wanted to check with you again - questionnaire by Synorus Admin from Synorus is still pending. The response just takes a few minutes of your time! View conversation Need some more",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Voila - your profes.",
+      "emailAttr": "",
+      "subject": "You have a questionnaire pending from  Synorus",
+      "snippet": "Hey Pratik Patidar, I saw that Synorus Admin from Synorus had sent you a questionnaire recently. Since companies take these requests quite seriously, please respond now. It just takes a few minutes of",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Synorus Admin",
+      "emailAttr": "",
+      "subject": "RE: Next.js Developer - Intern at Synorus",
+      "snippet": "Hey Pratik, You have a new message from Synorus Admin Synorus Admin, Hiring at Synorus [Questionnaire] Reply Thanks, Cutshort team Download our app for android and ios. image image Questions or help?",
+      "date": "16 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Bikash Kumar",
+      "emailAttr": "",
+      "subject": "RE: MERN Stack Developer Intern at Octalbees",
+      "snippet": "Hey Pratik, You have a new message from Bikash Kumar Bikash Kumar, Hiring at Octalbees [Questionnaire] Reply Thanks, Cutshort team Download our app for android and ios. image image Questions or help?",
+      "date": "16 Oct",
+      "isUnread": false
+    }
+  ],
+  "confirmations": [
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: TresVista - Frontend Support Engineer - React/TypeScript (1-3 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Vehant Technologies - Junior Web Developer - Full Stack (1-3 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Sciactive Solutions - Junior Frontend Developer - React.js/AngularJSVue.js (0-3 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Yoda Technologies - Full Stack Developer - Node.js/React.js (2-3 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: MERN Stack Developer (0-1 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Taxmann - Full Stack Developer - MEAN/MERN Stack (2-3 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "UptimeAI Hiring Team",
+      "emailAttr": "",
+      "subject": "Thank you for your application",
+      "snippet": "Dear Pratik, Thank you for applying for the Full stack Developer (MEAN/MERN Stack) position at UptimeAI. We appreciate the time and effort you put into your application and your interest in joining our",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Hang Hiring Team",
+      "emailAttr": "",
+      "subject": "Thanks for applying!",
+      "snippet": "Hi Pratik, Thank you for applying for the Software Engineer role at Hang! We appreciate your interest in joining the team. We will review your application and let you know if there are next steps. All",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ElevenLabs Hiring T.",
+      "emailAttr": "",
+      "subject": "ElevenLabs | Application Received",
+      "snippet": "Hi Pratik, Thank you for your interest in joining ElevenLabs as a Full-Stack Engineer (Frontend Leaning) - Studio. We have received your application and will review the information you provided as soon",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "AlaanPay Technology.",
+      "emailAttr": "",
+      "subject": "Great to receive your application to join Alaan!",
+      "snippet": "Hi Pratik , Thanks for applying to Alaan for the position of Fullstack Intern ! There are a ton of great companies out there, so we appreciate your interest in joining our team. While we're not",
+      "date": "22 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Supabase Hiring Team",
+      "emailAttr": "",
+      "subject": "Thanks for applying to Supabase",
+      "snippet": "Hi Pratik, Thanks for applying to Supabase. We're really glad you're interested in what we're building. We review every application carefully. If there's a potential fit, someone from",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Full Stack Software Developer - Javascript/PHP (1-5 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Product Designer (2-8 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: UX/Usability Testing Specialist (1-4 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position UX/",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Product Designer (1-4 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: UI/UX Product Designer - Figma (2-4 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position UI/",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Product Designer - Figma/Adobe XD (2-5 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Product Designer (2-7 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Techmatters - Product Designer - Figma (2-6 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Exotel - Integration & Customization Engineer II - (2-4 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Exotel - Integration & Customization Engineer I - PHP/React.js (1-3 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Application Successful: Project Manager - Reports & Delivery (10-14 yrs)",
+      "snippet": "​ ✓ Application Confirmed Hi Pratik Patidar, Thank you for applying! Your profile has been shared with the recruiter. We'll keep you informed of any feedback or status updates. Applied Position",
+      "date": "22 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "no-reply",
+      "emailAttr": "",
+      "subject": "Thank you for applying to Enterpret",
+      "snippet": "Pratik, Thanks for applying to Enterpret. Your application has been received and we will review it right away. If your application seems like a good fit for the position we will contact you soon.",
+      "date": "21 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "do-not-reply",
+      "emailAttr": "",
+      "subject": "OneForma - Next Steps for Your Application",
+      "snippet": "We have your application, and a real person will look at it. Here is what happens next. We've got it from here Thank you for applying, your application has landed safely with us, and we appreciate",
+      "date": "21 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Dust Hiring Team",
+      "emailAttr": "",
+      "subject": "Thank you for applying to Dust - Software Engineer",
+      "snippet": "Hi Pratik, Thank you for your interest in the Software Engineer role at Dust and for taking the time to submit your application. We wanted to confirm that we have successfully received your application",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "SpaceXSI Hiring Team",
+      "emailAttr": "",
+      "subject": "Thanks for applying to SpaceXSI!",
+      "snippet": "Hi Pratik, Thank you for applying for the Forward Deployed Engineer - India role at SpaceXSI! We appreciate your interest in joining the team. We will review your application and get back to you if",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Supabase Hiring Team",
+      "emailAttr": "",
+      "subject": "Thank you for applying to Supabase!",
+      "snippet": "Hey Pratik, Thanks for your interest in a role with Supabase; we confirm your application has been received. What happens next? We respond to all candidates and will be in touch. Please don't be",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Tavily Hiring Team",
+      "emailAttr": "",
+      "subject": "Thanks for applying to Tavily!",
+      "snippet": "Hi Pratik, Thank you for applying for the Software Engineer role at Tavily! We appreciate your interest in joining the team. We will review your application and get back to you if there are next steps.",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "LangChain Hiring Te.\n2",
+      "emailAttr": "",
+      "subject": "Thank you for applying to LangChain",
+      "snippet": "Hi Pratik, Thank you for your application for Fullstack Engineer, Observability & Evals Platform (LangSmith). Our team will review your profile and will reach out if there is a fit for this role or",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Ramp Talent Team",
+      "emailAttr": "",
+      "subject": "Thank you for applying to Ramp!",
+      "snippet": "Hi Pratik, Thank you for taking the time to apply to our Software Engineer, Forward Deployed AI Solutions opening at Ramp! Your application has been received and we will review it soon. If your",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "UptimeAI Hiring Team",
+      "emailAttr": "",
+      "subject": "Thank you for your application",
+      "snippet": "Dear Pratik, Thank you for applying for the Full stack Developer (MEAN/MERN Stack) position at UptimeAI. We appreciate the time and effort you put into your application and your interest in joining our",
+      "date": "14 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "NexDuo",
+      "emailAttr": "",
+      "subject": "We received your job application",
+      "snippet": "Application received Hello Pratik Patidar, Thank you for applying for ND-FE-01. Our hiring team will review your application. Reference: 6acf508b2980fd6c554d1799 Our team will review the details and",
+      "date": "14 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "life",
+      "emailAttr": "",
+      "subject": "Thank you for applying to Headout!",
+      "snippet": "Hello Pratik, Thank you for applying to the Frontend Engineer role at Headout. We're thrilled you want to work with us!  Our mission is to enable all of us to discover and access real-life",
+      "date": "14 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "no-reply",
+      "emailAttr": "",
+      "subject": "Thanks for applying to SolveByte — Full Stack Developer",
+      "snippet": "Hi Pratik, Thanks for applying to the Full Stack Developer position at SolveByte. We've received your application and our recruitment team will review it shortly. If your profile is a match, we",
+      "date": "14 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Tavily Hiring Team",
+      "emailAttr": "",
+      "subject": "Thanks for applying to Tavily!",
+      "snippet": "Hi Pratik, Thank you for applying for the Front-End Engineer role at Tavily! We appreciate your interest in joining the team. We will review your application and get back to you if there are next steps",
+      "date": "14 Oct",
+      "isUnread": true
+    }
+  ],
+  "other": [
+    {
+      "sender": "Wellfound",
+      "emailAttr": "",
+      "subject": "Application to Muze successfully submitted",
+      "snippet": "Your application has been submitted! If there's a match, we will make an email introduction. Junior Frontend Developer (React + TypeScript) Muze · Bengaluru · Remote ₹360-800K You applied today You",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Wellfound",
+      "emailAttr": "",
+      "subject": "Application to upforge global successfully submitted",
+      "snippet": "Your application has been submitted! If there's a match, we will make an email introduction. We're Hiring | Frontend Developer upforge global · Delhi · Remote ₹200-350K You applied today You",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Wellfound",
+      "emailAttr": "",
+      "subject": "Application to FreJun successfully submitted",
+      "snippet": "Your application has been submitted! If there's a match, we will make an email introduction. Frontend Developer FreJun · Hyderabad · Remote ₹400-700K You applied today You should hear back in 1-2",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Wellfound",
+      "emailAttr": "",
+      "subject": "Application to Yakshanexus™ Private Limited  successfully submitted",
+      "snippet": "Your application has been submitted! If there's a match, we will make an email introduction. Frontend Developer (React.js & TypeScript) — Founding Team Yakshanexus™ Private Limited · Hyderabad",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Outlier AI",
+      "emailAttr": "",
+      "subject": "Inside Outlier: How to give an AI agent room to adapt",
+      "snippet": "TL;DR This week's tip: How to tell an AI tool what you want without spelling out every step. See the course → Your replies: The small, easy things that lift your mood. See the thread → Hit reply:",
+      "date": "23 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Outlier AI",
+      "emailAttr": "",
+      "subject": "Access project support and resources in the Outlier Community",
+      "snippet": "Outlier Access project support and resources in the Outlier Community Hi Pratik, Welcome to Outlier! To maximize your experience on our platform, we strongly encourage you to access the Outlier",
+      "date": "23 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Top Tech Jobs- Apply Now",
+      "snippet": "Get App Google Play App Store Hi Pratik Patidar, Jobs recommended for you Junior Full Stack Developer BXP Support And Solutions · 2-4 Yrs · Bangalore Full Stack Developer Cumulations Technologies · 1-3",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Naukri",
+      "emailAttr": "",
+      "subject": "You applied for 18 jobs on 22 Oct",
+      "snippet": "naukri.com Get app Your applications were sent, Good luck! Applied on October 22, 2026 Fullstack Developer Nxtwave Disruptive Technologies Track applications Similar jobs for you Software Engineer",
+      "date": "23 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Foundit",
+      "emailAttr": "",
+      "subject": "You're invited to apply for the Wordpress Developer role at Jsg Consulting Private Limited",
+      "snippet": "This role is a great match!  Hi Pratik Patidar, We came across your profile and believe it's a strong match for our Wordpress Developer at Jsg Consulting Private Limited. Here's the role at a",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Update: Your profile is a good fit | 1 new alert for ISP Program",
+      "snippet": "Internshala Student Partner Program Internshala Hi Pratik Earn rewards up to ₹7 Lacs while studying in your college Join India's #1 Student Partner Program As a college student, you can earn huge",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "New job match: Quality Assurance Engineer, TRUE CREDITS PRIVATE LIMITED",
+      "snippet": "This Quality Assurance Engineer role matches your profile closely. Get the app Google Play App Store Hi Pratik Patidar, Opportunity at TRUE CREDITS PRIVATE LIMITED looks like a strong fit. Quality",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Dust Hiring Team",
+      "emailAttr": "",
+      "subject": "Your Application with Dust - Software Engineer",
+      "snippet": "Hi Pratik, Thank you for your interest in the Software Engineer position and for taking the time to share your experience with us. We've completed our review of all applications, and while we were",
+      "date": "22 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Cutshort Team",
+      "emailAttr": "",
+      "subject": "7 fresh opportunities for you and your network",
+      "snippet": "Hi Pratik  Your weekly job digest is here. Handpicked roles matched to your profile — updated today. Top picks for you Python with Azure - 3+ Years - Immediate Joiners New Euphoric Thought",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Mail\n4",
+      "emailAttr": "",
+      "subject": "Application for MERN Stack Developer - Pratik Patidar",
+      "snippet": "Delivery incomplete There was a temporary problem while delivering your message to mkateru@softconsulting.com. Gmail will retry for 20 more hours. You'll be notified if the delivery fails",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Amex Careers",
+      "emailAttr": "",
+      "subject": "Submit your application for Software Engineer I position",
+      "snippet": "Hello Pratik, We noticed you have started an application for the position of Software Engineer I but it hasn't been submitted yet. If you'd like to be considered for this position, please log",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Internshala",
+      "emailAttr": "",
+      "subject": "Hiring now: new opportunities at Gedu Services and others",
+      "snippet": "Pratik, check out jobs matching your experience and desired CTC. Apply for free on Internshala Jobs",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Mathisha\n3",
+      "emailAttr": "",
+      "subject": "Application for Full Stack Developer - Pratik Patidar",
+      "snippet": "Thanks for the update. On Thu, 22 Oct 2026 at 12:56, Mathisha <hr@zoflowx.com> wrote: Dear Candidate, Thank you for your interest in joining ZoFlowX and for taking the time to apply. We would",
+      "date": "22 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "OneForma",
+      "emailAttr": "",
+      "subject": "Find work that fits your skills",
+      "snippet": "Browse projects matched to your expertise and apply in minutes.",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Techstuff Pvt Ltd. .",
+      "emailAttr": "",
+      "subject": "Leave Request Approved  - Pratik Patidar (TECH-056)",
+      "snippet": "Leave Request Approved  Dear Pratik Patidar, Your leave request has been approved. Leave Request Details: Employee: Pratik Patidar (TECH-056) Leave Type: Casual Leave Start Date: 09-09-2026 End Date:",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Outlier AI",
+      "emailAttr": "",
+      "subject": "Welcome to Outlier: Take control with Marketplace",
+      "snippet": "Outlier Welcome to Outlier: Take control with Marketplace Hi Pratik, As you get started on Outlier, we want to make sure you have the tools to work on your own terms. That's where Marketplace comes",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "10+ Top Tech Jobs Curated for You",
+      "snippet": "Get App Google Play App Store Hi Pratik Patidar, Jobs recommended for you Full Stack Engineer People Impact · 2-4 Yrs · Anywhere in India/Multiple Locations Software Development Engineer Practo · 4-8",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Indeed",
+      "emailAttr": "",
+      "subject": "Interior Consultant at Gulmohar Lane (www.gulmoharlane.com) in Mumbai, Maharashtra and 3 more new jobs",
+      "snippet": "Hi Pratik, It looks like your background could be a match for this Interior Consultant role. Please submit a quick application if you have any interest or explore more jobs below.",
+      "date": "22 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "UI/UX Designer opening at Emmvee photovoltaic power private limited",
+      "snippet": "Emmvee photovoltaic power private limited is hiring talent like you. Get the app Google Play App Store Hi Pratik Patidar, Opportunity at Emmvee photovoltaic power private limited looks like a strong",
+      "date": "21 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Update: A new opportunity is available for you | 1 new alert",
+      "snippet": "Internshala Hi Pratik, Your next college opportunity is here!  Have you ever thought about being the person on campus who brings exciting opportunities to other students? That's what being an",
+      "date": "21 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Team Unstop",
+      "emailAttr": "",
+      "subject": "Final Call: Reliance Is Hiring GET 2027",
+      "snippet": "CTC Up to ₹9 LPA + Bonus",
+      "date": "21 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "noreply",
+      "emailAttr": "",
+      "subject": "Identity Verification Completed Successfully",
+      "snippet": "Hi Pratik Patidar, Thank you - you have successfully verified your identity. You can check your application status in your OneForma profile. The OneForma Team www.oneforma.com This message (including",
+      "date": "21 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "DigiLocker",
+      "emailAttr": "",
+      "subject": "Aadhaar KYC Successfully Completed - DigiLocker",
+      "snippet": "Dear User, We are pleased to inform you that your Aadhaar KYC verification has been successfully completed on DigiLocker. Response Code: 66712862b2a24e52ad1868d71517e698 You can now access eligible",
+      "date": "21 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Google",
+      "emailAttr": "",
+      "subject": "You shared some Google Account data with Instahyre",
+      "snippet": "Keep track of your Google Account data pratikpatidar7990@gmail.com You're receiving this email because you used Sign in with Google to sign in to Instahyre on 21 October at 13:19. This email",
+      "date": "21 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "OneForma",
+      "emailAttr": "",
+      "subject": "You're verified and ready to apply",
+      "snippet": "Add a certification to unlock more kinds of projects.",
+      "date": "21 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Google",
+      "emailAttr": "",
+      "subject": "You shared some Google Account data with OneForma",
+      "snippet": "Keep track of your Google Account data pratikpatidar7990@gmail.com You're receiving this email because you used Sign in with Google to sign in to OneForma on 21 October at 12:50. This email",
+      "date": "21 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Outlier AI",
+      "emailAttr": "",
+      "subject": "That first payment feeling...",
+      "snippet": "Outlier That first payment feeling... Hi Pratik, You've officially mastered the Outlier basics — congrats! Want to keep that momentum going? You've just unlocked your referral dashboard. Share",
+      "date": "21 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Top Tech Roles – Apply Today",
+      "snippet": "Get App Google Play App Store Hi Pratik Patidar, Jobs recommended for you Full Stack Engineer People Impact · 2-4 Yrs · Anywhere in India/Multiple Locations Software Development Engineer Practo · 4-8",
+      "date": "21 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Outlier AI",
+      "emailAttr": "",
+      "subject": "Your identity verification has been approved",
+      "snippet": "Hi Pratik, Good news! We've reviewed and approved your identity verification submission. You are just a few steps away from joining thousands of other contributors who are tasking and earning on",
+      "date": "20 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "DigiLocker",
+      "emailAttr": "",
+      "subject": "Aadhaar KYC Successfully Completed - DigiLocker",
+      "snippet": "Dear User, We are pleased to inform you that your Aadhaar KYC verification has been successfully completed on DigiLocker. Response Code: e897d3a6e8ed40a9873267a3d9861cfc You can now access eligible",
+      "date": "20 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Job Alert | Computer Vision Engineer — Wobot Intelligence Pvt. Ltd.",
+      "snippet": "This Computer Vision Engineer role matches your profile closely. Get the app Google Play App Store Hi Pratik Patidar, Opportunity at Wobot Intelligence Pvt. Ltd. looks like a strong fit. Computer",
+      "date": "20 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Internshala",
+      "emailAttr": "",
+      "subject": "Hiring now: new opportunities at NIKE and others",
+      "snippet": "Pratik, check out jobs matching your experience and desired CTC. Apply for free on Internshala Jobs",
+      "date": "20 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Google One",
+      "emailAttr": "",
+      "subject": "Get started with the Gemini app in Google AI Pro",
+      "snippet": "Your onboarding guide to simplify tasks and save time is here",
+      "date": "20 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Update: Your application has not been accepted",
+      "snippet": "Hurry up—Applications close tomorrow",
+      "date": "20 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Shweta\n3",
+      "emailAttr": "",
+      "subject": "Application for Full Stack Developer - Pratik Patidar",
+      "snippet": "Hi Shweta, Thank you for reaching out. Please find the requested details below: 1. Total Experience: 1.5 Years 2. Relevant Experience: 1.5 Years 3. Current CTC: ₹2.16 LPA 4. Expected CTC: ₹4.8 – 8 LPA",
+      "date": "20 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Outlier AI",
+      "emailAttr": "",
+      "subject": "You’re almost ready to begin earning on Outlier!",
+      "snippet": "Outlier You're almost ready to begin earning on Outlier! Hi Pratik, We noticed you haven't finished verifying your identity, which is one of the last steps before you can begin working on",
+      "date": "20 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Outlier AI",
+      "emailAttr": "",
+      "subject": "You're Invited: Join an Outlier Welcome Session",
+      "snippet": "Hi Pratik, You're invited to a Welcome Session to help you get started on the Outlier platform. This optional webinar is designed to assist you in creating your account and provide you with a",
+      "date": "20 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Indeed",
+      "emailAttr": "",
+      "subject": "3D Generalist at Press Fit Pipe and Profile in Ulhasnagar, Maharashtra and 1 more new job",
+      "snippet": "Hi Pratik, It looks like your background could be a match for this 3D Generalist role. Please submit a quick application if you have any interest or explore more jobs below.",
+      "date": "20 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Alignerr",
+      "emailAttr": "",
+      "subject": "Your Job Digest",
+      "snippet": "Pratik, we found new jobs matching your profile — check them out! Your Job Digest Hi Pratik, here are the latest jobs we think you'd be great for: Hindi - Audio Transcript Editor Get paid to",
+      "date": "20 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Naukri",
+      "emailAttr": "",
+      "subject": "You applied for 8 jobs on 19 Oct",
+      "snippet": "naukri.com Get app Your applications were sent, Good luck! Applied on October 19, 2026 Fullstack Developer TalentPro Track applications Similar jobs for you Software Developer Intern Anglofone Edtech",
+      "date": "20 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Naukri",
+      "emailAttr": "",
+      "subject": "New Frontend Developer jobs in Bangalore/Bengaluru matching your search - Salary up to Rs 25k per month",
+      "snippet": "+ React Js Developer, Development Engineer jobs for you, Apply Now ! naukri.com  LIMITED JOB OPPORTUNITIES — APPLY NOW ! Frontend Developer (React) Unico Connect 4.1 Mumbai Not disclosed Apply React",
+      "date": "20 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Placement India",
+      "emailAttr": "",
+      "subject": "Hiring For Full Stack Web Developer Fresher - Pune",
+      "snippet": "To ensure you get all correspondence from PlacementIndia.Com, please add this Email ID to your Address Book. App Download Job Openings Matching Your Profile Dear Pratik Patidar, Certainly, here are",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Placement India\n3",
+      "emailAttr": "",
+      "subject": "Job apply from PlacementIndia.com",
+      "snippet": "To ensure you get all correspondence from PlacementIndia.Com, please add this Email ID to your Address Book. Download PlacementIndia App Dear Pratik Patidar, This is to inform you that you have",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "AutomationManager@b.",
+      "emailAttr": "",
+      "subject": "Deltek – We have received your application",
+      "snippet": "Thanks, Pratik, for your interest in joining the Deltek team. We recognize there are a lot of companies hiring and we appreciate your interest in Deltek. We're a diverse, global group of creative,",
+      "date": "19 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "infycareers",
+      "emailAttr": "",
+      "subject": "Update your Infosys Careers account",
+      "snippet": "Dear candidate, You are requested to update your Infosys Careers account. Please click here to update your password/verify your email address. Please note that this link will expire after 12 hours. If",
+      "date": "19 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "New job match: DevOps Engineer, Sciative - We Price Right",
+      "snippet": "Sciative - We Price Right is hiring talent like you. Get the app Google Play App Store Hi Pratik Patidar, Opportunity at Sciative - We Price Right looks like a strong fit. DevOps Engineer Sciative - We",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Discord",
+      "emailAttr": "",
+      "subject": "Verify Discord login from new location",
+      "snippet": "Hey pratik5254, Someone tried to log in to your Discord account from a new location. If this is you, click the link below to authorise the log in. IP Address: 49.43.3.218 Location: Indore, Madhya",
+      "date": "19 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Discord",
+      "emailAttr": "",
+      "subject": "Discord password changed",
+      "snippet": "What's up pratik5254, We've channeled our psionic energy to change your Discord account password. Gonna go get a seltzer to calm down. If this wasn't done by you, please immediately reset",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Discord",
+      "emailAttr": "",
+      "subject": "Password reset request for Discord",
+      "snippet": "Hey pratik5254, Your Discord password can be reset by clicking the button below. If you did not request a new password, please ignore this email. Reset Password Need help? Contact our support team or",
+      "date": "19 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "DigiLocker",
+      "emailAttr": "",
+      "subject": "Aadhaar KYC Successfully Completed - DigiLocker",
+      "snippet": "Dear User, We are pleased to inform you that your Aadhaar KYC verification has been successfully completed on DigiLocker. Response Code: 1d7a1f80c1b14c19b1e6fe74a8e41fe4 You can now access eligible",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Amex Careers",
+      "emailAttr": "",
+      "subject": "Complete your application for Software Engineer I position",
+      "snippet": "Hello Pratik, We noticed that your application for the Software Engineer I position is still incomplete. If you are interested in this position, we encourage you to log in and finish your application.",
+      "date": "19 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Glassdoor Community",
+      "emailAttr": "",
+      "subject": ":l Apparently, I gave the wrong answer to a question. I was asked what I liked...",
+      "snippet": "Explore real talk from across Glassdoor  ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Shine Recruiter",
+      "emailAttr": "",
+      "subject": "1 Recruiter viewed your profile on Shine.com",
+      "snippet": "Hi Pratik, 1 recruiter showed interest in your profile in last 4 days. Do Not forward this mail, it contains links which allow direct login to your Shine account. shinelogo Recruiter viewed your",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Amex Careers",
+      "emailAttr": "",
+      "subject": "Please confirm your identity",
+      "snippet": "Hello Pratik, Thank you for your interest in working at American Express. Before you get started with your application, please confirm your identity using the one-time passcode below: 639891 This code",
+      "date": "19 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Sumita Das",
+      "emailAttr": "",
+      "subject": "Automatic reply: Application for Full Stack Developer - Pratik Patidar",
+      "snippet": "I am on leave from 16th to 21st Oct for the festival and responses to emails with be delayed . For urgent matters ,please reach out to rahul.mahudkar@wipro.com. Regards, Sumita 'The information",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Mail\n2",
+      "emailAttr": "",
+      "subject": "Application for Full Stack Developer - Pratik Patidar",
+      "snippet": "Address not found Your message wasn't delivered to hr@they5labs.com because the address couldn't be found or is unable to receive email. The response from the remote server was: 550 5.1.1 :",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Outlier AI",
+      "emailAttr": "",
+      "subject": "Let’s get you verified! (Skill selection inside)",
+      "snippet": "Outlier Let's get you verified! (Skill selection inside) Hi Pratik, We're eager to get you started on tasks that actually lean into your strengths — but first, we need to know exactly where you",
+      "date": "19 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Top Tech Jobs- Apply Now",
+      "snippet": "Get App Google Play App Store Hi Pratik Patidar, Jobs recommended for you Full Stack Engineer People Impact · 2-4 Yrs · Anywhere in India/Multiple Locations Software Development Engineer Practo · 4-8",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Indeed",
+      "emailAttr": "",
+      "subject": "Senior Interior Designer at Hiten Sethi Architects in Navi Mumbai, Maharashtra and 9 more new jobs",
+      "snippet": "Hi Pratik, It looks like your background could be a match for this Senior Interior Designer role. Please submit a quick application if you have any interest or explore more jobs below.",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Vanya from foundit",
+      "emailAttr": "",
+      "subject": "5 jobs that you haven't applied yet but others are applying",
+      "snippet": "5 new jobs from Infosys Limited, Busibud Solutions Private Limited and more Get the app Top jobs matching your profile Hi Pratik Patidar, we've curated job opportunities where you'd be a top",
+      "date": "19 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "New job match: Backend Developer, Wobot Intelligence Pvt. Ltd.",
+      "snippet": "Wobot Intelligence Pvt. Ltd. is hiring talent like you. Get the app Google Play App Store Hi Pratik Patidar, Opportunity at Wobot Intelligence Pvt. Ltd. looks like a strong fit. Backend Developer Wobot",
+      "date": "18 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Update: Your application has been accepted",
+      "snippet": "Internshala Student Program Internshala Hello Pratik, Explore opportunities at Internshala Internshala Student Partner program We offer various opportunities to help students develop professional",
+      "date": "18 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.com",
+      "emailAttr": "",
+      "subject": "10+ Jobs Matching Your Profile",
+      "snippet": "Get App Google Play App Store Hi Pratik Patidar, Jobs recommended for you Full Stack AI Engineer Applicate · 0-2 Yrs · Gurgaon/Gurugram Junior Web Developer Vehant Technologies · 1-3 Yrs · Noida Full",
+      "date": "18 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Vanya from foundit",
+      "emailAttr": "",
+      "subject": "6 jobs that you haven't applied yet but others are applying",
+      "snippet": "6 new jobs from Infosys Limited, Infosys Limited and more Get the app Top jobs matching your profile Hi Pratik Patidar, we've curated job opportunities where you'd be a top applicant, based on",
+      "date": "18 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Outlier AI",
+      "emailAttr": "",
+      "subject": "Almost there! Just one more step before ID verification",
+      "snippet": "Outlier Almost there! Just one more step before ID verification Hi Pratik, It looks like you're just a few clicks away from completing your profile! To get you moving toward project matching and ID",
+      "date": "18 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Matching Jobs from Top Tech Companies- Apply Now",
+      "snippet": "Get App Google Play App Store Hi Pratik Patidar, Jobs recommended for you Full Stack Engineer People Impact · 2-4 Yrs · Anywhere in India/Multiple Locations Full Stack Developer Almonds Ai · 4-6 Yrs ·",
+      "date": "18 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Update: Your application has been accepted",
+      "snippet": "Hurry up—Applications close tomorrow",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Team Unstop",
+      "emailAttr": "",
+      "subject": "Your Google Credits, Badges & Certificate Are Here - Grab Them Now!",
+      "snippet": "Apply Now!",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Dynamics CRM Developer opening at DYSRUPIT INDIA",
+      "snippet": "Strong match: Dynamics CRM Developer | Anywhere in India/Multiple Locations Get the app Google Play App Store Hi Pratik Patidar, Opportunity at DYSRUPIT INDIA looks like a strong fit. Dynamics CRM",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Mail\n4",
+      "emailAttr": "",
+      "subject": "MERN Stack Developer Application - Pratik Patidar (Indore, MP)",
+      "snippet": "Delivery incomplete There was a temporary problem while delivering your message to hr@nititechnologiesindia.com. Gmail will retry for 21 more hours. You'll be notified if the delivery fails",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.com",
+      "emailAttr": "",
+      "subject": "IT/Tech Jobs that match your experience",
+      "snippet": "Get App Google Play App Store Hi Pratik Patidar, Jobs recommended for you Full Stack AI Engineer Applicate · 0-2 Yrs · Gurgaon/Gurugram Junior Web Developer Vehant Technologies · 1-3 Yrs · Noida Full",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Internshala",
+      "emailAttr": "",
+      "subject": "Hiring now: new opportunities at Gedu Services and others",
+      "snippet": "Pratik, check out jobs matching your experience and desired CTC. Apply for free on Internshala Jobs",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Update: Your application status is here",
+      "snippet": "You have less than 36 hours left to take action",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Demo HR",
+      "emailAttr": "",
+      "subject": "Welcome to Demo - Complete Your Onboarding",
+      "snippet": "Welcome to Demo! Dear Pratik Patidar, Congratulations! We are excited to welcome you to the Demo team. Your Employment Details: Position: DevOps Engineer Organization: Demo Joining Date: 05-10-2026 To",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Vanya from foundit\n2",
+      "emailAttr": "",
+      "subject": "5 jobs that you haven't applied yet but others are applying",
+      "snippet": "5 new jobs from Infosys Limited, Busibud Solutions Private Limited and more Get the app Top jobs matching your profile Hi Pratik Patidar, we've curated job opportunities where you'd be a top",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Kit Job",
+      "emailAttr": "",
+      "subject": "New Vacancies For frontend engineer (remote) (mumbai): 8 new ads",
+      "snippet": "2026-10-17 More than 8 job vacancies for: frontend engineer (remote) (mumbai) SAP Technical Consultant (Indore) Indore Praeemineo > UI Developer (Indore) Indore GoAudits > Website Development,",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "10+ Top Tech Jobs Curated for You",
+      "snippet": "Get App Google Play App Store Hi Pratik Patidar, Jobs recommended for you Full Stack Engineer People Impact · 2-4 Yrs · Anywhere in India/Multiple Locations Full Stack Developer Almonds Ai · 4-6 Yrs ·",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Indeed",
+      "emailAttr": "",
+      "subject": "Senior Interior Designer @ Shree Vidhatte Interiors",
+      "snippet": "From ₹50,‌000 a month. Hi Pratik, Your background in design and proficiency with tools like Figma could be a great match for this Senior Interior Designer role at Shree Vidhatte Interiors. If you have",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Kotak Bank",
+      "emailAttr": "",
+      "subject": "Important notice: Scheduled Maintenance activity",
+      "snippet": "Important Update Scheduled Downtime Dear Customer, Pursuing our endeavour to provide you with a seamless banking experience, our systems will be undergoing a scheduled maintenance, during which certain",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Update: You're in! Your ISP application status is updated",
+      "snippet": "Internshala Dear Pratik, Represent us At your institution We're looking for motivated students like you to join our Internshala Student Partner Program. What you'll gain: Real-world experience",
+      "date": "17 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Outlier AI",
+      "emailAttr": "",
+      "subject": "We'd love to hear from you: quick survey with a chance to win",
+      "snippet": "Hi Pratik, You recently started the onboarding process on Outlier but didn't complete it. We'd love to know what got in the way, and your feedback would help us improve the experience for",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Outlier AI",
+      "emailAttr": "",
+      "subject": "You're Invited: Join an Outlier Welcome Session",
+      "snippet": "Hi Pratik, You're invited to a Welcome Session to help you get started on the Outlier platform. This optional webinar is designed to assist you in creating your account and provide you with a",
+      "date": "16 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "hirist.tech\n2",
+      "emailAttr": "",
+      "subject": "IT/Tech Jobs that match your experience",
+      "snippet": "Get App Google Play App Store Hi Pratik Patidar, Jobs recommended for you Full Stack AI Engineer Applicate · 0-2 Yrs · Gurgaon/Gurugram Junior Web Developer Vehant Technologies · 1-3 Yrs · Noida Full",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "life",
+      "emailAttr": "",
+      "subject": "Update on your application for Frontend Engineer at Headout",
+      "snippet": "Hi Pratik, Thank you for expressing your interest in the Frontend Engineer role at Headout. We received a large number of applications, and after carefully reviewing all of them, unfortunately, we have",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Mail\n4",
+      "emailAttr": "",
+      "subject": "Application for Mern Stack Developer - Pratik Patidar",
+      "snippet": "Message not delivered There was a problem delivering your message to tohr@anvtech.com. See the technical details below or try resending in a few minutes. LEARN MORE The response was: The recipient",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "hirist.tech",
+      "emailAttr": "",
+      "subject": "Job Alert | Integration & Customization Engineer II — EXOTEL TECHCOM PRIVATE LIMITED",
+      "snippet": "Strong match: Integration & Customization Engineer II | Bangalore Get the app Google Play App Store Hi Pratik Patidar, Opportunity at EXOTEL TECHCOM PRIVATE LIMITED looks like a strong fit.",
+      "date": "16 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Google",
+      "emailAttr": "",
+      "subject": "You shared some Google Account data with DataAnnotation",
+      "snippet": "Keep track of your Google Account data pratikpatidar7990@gmail.com You're receiving this email because you used Sign in with Google to sign in to DataAnnotation on 16 October at 17:45. This email",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Google",
+      "emailAttr": "",
+      "subject": "You shared some Google Account data with outlier.ai",
+      "snippet": "Keep track of your Google Account data pratikpatidar7990@gmail.com You're receiving this email because you used Sign in with Google to sign in to outlier.ai on 16 October at 17:26. This email",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Google",
+      "emailAttr": "",
+      "subject": "Pratik, finish setting up your Windows with Google",
+      "snippet": "Finish your setup",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Google",
+      "emailAttr": "",
+      "subject": "Security alert",
+      "snippet": "A new sign-in on Windows pratikpatidar7990@gmail.com We noticed a new sign-in to your Google Account on a Windows device. If this was you, you don't need to do anything. If not, we'll help you",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Alignerr",
+      "emailAttr": "",
+      "subject": "Alignerr Account Created",
+      "snippet": "Your Alignerr account has been created. Apply for a job and start earning! Alignerr Account Created! Welcome! Your Alignerr account has been successfully created. Before you begin earning on the",
+      "date": "16 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Google",
+      "emailAttr": "",
+      "subject": "You shared some Google Account data with labelbox-id-platform.com",
+      "snippet": "Keep track of your Google Account data pratikpatidar7990@gmail.com You're receiving this email because you used Sign in with Google to sign in to labelbox-id-platform.com on 16 October at 16:53.",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Cutshort Team",
+      "emailAttr": "",
+      "subject": "10 fresh opportunities for you and your network",
+      "snippet": "Hi Pratik  Your weekly job digest is here. Handpicked roles matched to your profile — updated today. Top picks for you .Net Developer New VY SYSTEMS PRIVATE LIMITED Pune • Up to ₹17 LPA • 4.5-10 yrs",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "DigiLocker",
+      "emailAttr": "",
+      "subject": "Aadhaar KYC Successfully Completed - DigiLocker",
+      "snippet": "Dear User, We are pleased to inform you that your Aadhaar KYC verification has been successfully completed on DigiLocker. Response Code: 98b6d8b812de4c0d8157d50938f8e8a9 You can now access eligible",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Team Unstop",
+      "emailAttr": "",
+      "subject": "Your LinkedIn Opportunity: ₹25 Lakh in Rewards & an Internship PPI with Unstop!",
+      "snippet": "Get Unstoppable on LinkedIn",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "TalentAcquisition",
+      "emailAttr": "",
+      "subject": "Infosys Careers – Employee Referral: Confirm Your Profile for the Senior Systems Engineer Role.",
+      "snippet": "Dear Pratik Patidar, Congratulations! Himangi Singhal has referred you for the position of Senior Systems Engineer. Your application is registered for this role. Please note that your candidate ID (",
+      "date": "16 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Talent Acquisition",
+      "emailAttr": "",
+      "subject": "Your referred profile has been processed",
+      "snippet": "Dear Himangi Singhal, Greetings! Thank you for referring Pratik Patidar for the role of Senior Systems Engineer at Infosys. We are happy to inform you that we have processed the application and we have",
+      "date": "16 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "LeetCode",
+      "emailAttr": "",
+      "subject": "LeetCode Weekly Digest",
+      "snippet": "Hi LeetCoder! From 18 LPA to a Microsoft SDE-2 offer of 47 LPA in the first year! With 3 years of experience, this offer highlights the compensation jump that can come with a successful job switch. The",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Update: Today is your last chance to join Internshala on campus! 1 new alert",
+      "snippet": "Applications close today. Explore the role and represent Internshala at your college.",
+      "date": "16 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Mail\n4",
+      "emailAttr": "",
+      "subject": "Application for MERN Stack Developer - Pratik Patidar",
+      "snippet": "Delivery incomplete There was a temporary problem while delivering your message to hr@nititechnologiesindia.com. Gmail will retry for 45 more hours. You'll be notified if the delivery fails",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "[Update] Your application has been accepted",
+      "snippet": "An exciting opportunity for Pratik from Internshala Internshala Hi Pratik, We'd love to have you represent Internshala at your campus As a Degree student at your institution, you're uniquely",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Mail\n4",
+      "emailAttr": "",
+      "subject": "Application for Frontend Developer (React) - Pratik Patidar",
+      "snippet": "Delivery incomplete There was a temporary problem while delivering your message to careers@kuvakatech.com. Gmail will retry for 46 more hours. You'll be notified if the delivery fails permanently.",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Team Unstop",
+      "emailAttr": "",
+      "subject": "Give Your Profile a Google Upgrade | Earn Google Skill Credts, Certificate & more!",
+      "snippet": "Apply Now!",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Shine Recruiter",
+      "emailAttr": "",
+      "subject": "1 Recruiter viewed your profile on Shine.com",
+      "snippet": "Hi Pratik, 1 recruiter showed interest in your profile in last 4 days. Do Not forward this mail, it contains links which allow direct login to your Shine account. shinelogo Recruiter viewed your",
+      "date": "15 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Google One",
+      "emailAttr": "",
+      "subject": "Welcome to Google AI Pro, Pratik",
+      "snippet": "Start using your new AI features and 5 TB of storage",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Marx Jamias - Recru.",
+      "emailAttr": "",
+      "subject": "Update on Application with RecruitGo for Junior Frontend Developer role.",
+      "snippet": "Hi Pratik, We want to express our sincere appreciation for the time and effort you invested in applying for the Junior Frontend Developer position at RecruitGo. After careful consideration and",
+      "date": "15 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Google",
+      "emailAttr": "",
+      "subject": "You shared some Google Account data with wellfound.com",
+      "snippet": "Keep track of your Google Account data pratikpatidar7990@gmail.com You're receiving this email because you used Sign in with Google to sign in to wellfound.com on 15 October at 12:56. This email",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Vanya from foundit",
+      "emailAttr": "",
+      "subject": "7 jobs that you haven't applied yet but others are applying",
+      "snippet": "7 new jobs from Infosys Limited, Busibud Solutions Private Limited and more Get the app Top jobs matching your profile Hi Pratik Patidar, we've curated job opportunities where you'd be a top",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Placement India",
+      "emailAttr": "",
+      "subject": "Complete your Resume and Get new jobs Openings",
+      "snippet": "To ensure you get all correspondence from PlacementIndia.Com, please add this Email ID to your Address Book. Download PlacementIndia App Notification for incomplete Profile - Complete it now Dear",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Indeed",
+      "emailAttr": "",
+      "subject": "Full Stack Engineer - AI Trainer at DataAnnotation in Bengaluru, Karnataka and 3 more new jobs",
+      "snippet": "Hi Pratik, It looks like your background could be a match for this Full Stack Engineer - AI Trainer role. Please submit a quick application if you have any interest or explore more jobs below.",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Naukri",
+      "emailAttr": "",
+      "subject": "You applied for 3 jobs on 14 Oct",
+      "snippet": "naukri.com Get app Your applications were sent, Good luck! Applied on October 14, 2026 React Js Frontend Developer innovantes IT Track applications Similar jobs for you Project Trainee Haryana",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Priya from foundit",
+      "emailAttr": "",
+      "subject": "Job recommendations for you | foundit (Monster)",
+      "snippet": "Top job matching your profile  Hi Pratik Patidar , We've curated job opportunities where you'd be a top applicant, based on your profile and preferences. View all Jobs → Software Engineer II -",
+      "date": "15 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Team Unstop",
+      "emailAttr": "",
+      "subject": "Mondelez Hiring: Data Engineer Roles for Experienced Professionals",
+      "snippet": "Register today!",
+      "date": "14 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Placement India",
+      "emailAttr": "",
+      "subject": "Job apply from PlacementIndia.com",
+      "snippet": "To ensure you get all correspondence from PlacementIndia.Com, please add this Email ID to your Address Book. Download PlacementIndia App Dear Pratik Patidar, This is to inform you that you have",
+      "date": "14 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "foundit",
+      "emailAttr": "",
+      "subject": "Still at Techstuff Private Limited, pratik patidar? Just confirm.",
+      "snippet": "One tap to keep your profile recruiter-ready Hi pratik patidar, Imagine losing a great job opportunity because of an outdated job profile. Update your profile so that recruiters can see the real you.",
+      "date": "14 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Google",
+      "emailAttr": "",
+      "subject": "You shared some Google Account data with myworkday.com",
+      "snippet": "Keep track of your Google Account data pratikpatidar7990@gmail.com You're receiving this email because you used Sign in with Google to sign in to myworkday.com on 14 October at 15:44. This email",
+      "date": "14 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "WHITE HORSE MANPOWE.",
+      "emailAttr": "",
+      "subject": "Walk-in in Bangalore | Global Procurement with P2P / RFQ / SAP",
+      "snippet": "Download Shine app Mail by WHITE HORSE MANPOWER CONSULTANCY (P) LTD Walk-in in Bangalore | Global Procurement with P2P / RFQ / SAP, Exp: 1 - 7 Yrs Salary: 0.5 - 6 LPA Location: Ahmednagar,Bangalore,",
+      "date": "14 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Indeed",
+      "emailAttr": "",
+      "subject": "Application Developer - AI Trainer at DataAnnotation in Jaipur, Rajasthan and 16 more new jobs",
+      "snippet": "Hi Pratik, It looks like your background could be a match for this Application Developer - AI Trainer role. Please submit a quick application if you have any interest or explore more jobs below.",
+      "date": "14 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Naukri",
+      "emailAttr": "",
+      "subject": "You applied for 3 jobs on 13 Oct",
+      "snippet": "naukri.com Get app Your applications were sent, Good luck! Applied on October 13, 2026 Mern Stack Developer Jobaaj Com Track applications Similar jobs for you Java software Developer & Software",
+      "date": "14 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Pooja from foundit",
+      "emailAttr": "",
+      "subject": "Job recommendations for you | foundit (Monster)",
+      "snippet": "Top job matching your profile  Hi Pratik Patidar , We've curated job opportunities where you'd be a top applicant, based on your profile and preferences. View all Jobs → Software Engineer II -",
+      "date": "13 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Placement India",
+      "emailAttr": "",
+      "subject": "Job apply from PlacementIndia.com",
+      "snippet": "To ensure you get all correspondence from PlacementIndia.Com, please add this Email ID to your Address Book. Download PlacementIndia App Dear Pratik Patidar, This is to inform you that you have",
+      "date": "13 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Worldline Global Re.",
+      "emailAttr": "",
+      "subject": "Worldline - Thanks for Creating Account",
+      "snippet": "Dear Pratik Patidar, Thank you for taking the time to look around our careers website and for registering your profile with us. We confirm that we have received your registration details and we look",
+      "date": "13 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Worldline Global Re.",
+      "emailAttr": "",
+      "subject": "Worldline - Thank you for application",
+      "snippet": "Dear Pratik Patidar, Thank you for your application for the vacancy of Application Engineer - ReactJS Frontend, Reference no.304985 We hereby confirm that we have received your application and are",
+      "date": "13 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Update: Your application for ISP | Confirm your spot",
+      "snippet": "Hurry up! Deadline approaching soon...",
+      "date": "13 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Adzuna Applications",
+      "emailAttr": "",
+      "subject": "Copy of application to \"UI React Developer\" job in Bengaluru, KA, 560001 by \"Pratik Patidar\"",
+      "snippet": "Adzuna Application sent by Adzuna Applicant Details: Name: Pratik Patidar Email: pratikpatidar7990@gmail.com CV: Pratik Patidar Resume - Frontend Engineer.pdf Similar jobs UI Developer TOP MATCH",
+      "date": "13 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Google",
+      "emailAttr": "",
+      "subject": "You shared some Google Account data with adzuna.in",
+      "snippet": "Keep track of your Google Account data pratikpatidar7990@gmail.com You're receiving this email because you used Sign in with Google to sign in to adzuna.in on 13 October at 16:56. This email",
+      "date": "13 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Ritu at Adzuna",
+      "emailAttr": "",
+      "subject": "Welcome to Adzuna - your account has been created",
+      "snippet": "Adzuna Welcome to Adzuna Thanks for registering! You are now a step closer to finding the right job. Create a job alert Tell us what jobs you're interested in and we will deliver the latest job",
+      "date": "13 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Placement India <Pl.",
+      "emailAttr": "",
+      "subject": "OTP request - Placementindia.com",
+      "snippet": "OTP for login Dear Pratik Patidar, Your one time verification code is: 9584. Best Regards, Placement India.com Team Kindly do not reply to the sender of this Email.",
+      "date": "13 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "me, HR\n2",
+      "emailAttr": "",
+      "subject": "Application for MERN Stack Developer - Pratik Patidar",
+      "snippet": "Dear Pratik, Greetings from ANV Fintech...! Thank you for your interest in ANV Fintech and for taking the time to share your profile with us. We appreciate your experience and the effort you have put",
+      "date": "13 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "WHITE HORSE MANPOWE.",
+      "emailAttr": "",
+      "subject": "Walk-in in Bangalore | Global Procurement with P2P / RFQ / SAP",
+      "snippet": "Download on theApp Store Get it onGoogle Play Hi Pratik Patidar, A recruiter has reached out to you for a role that fits your experience A recruiter is hiring for WHITE HORSE MANPOWER CONSULTANCY (P)",
+      "date": "13 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "me, Mail\n2",
+      "emailAttr": "",
+      "subject": "Application for Frontend Developer - Pratik Patidar",
+      "snippet": "Address not found Your message wasn't delivered to careers@skyfishglobal.com because the address couldn't be found or is unable to receive email. LEARN MORE This link will take you to a third-",
+      "date": "13 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Indeed",
+      "emailAttr": "",
+      "subject": "Application Developer - AI Trainer at DataAnnotation in Mumbai, Maharashtra and 17 more new jobs",
+      "snippet": "Hi Pratik, It looks like your background could be a match for this Application Developer - AI Trainer role. Please submit a quick application if you have any interest or explore more jobs below.",
+      "date": "13 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Mail\n2",
+      "emailAttr": "",
+      "subject": "Application for React Developer - Pratik Patidar (1.5+ YOE | React.js / Web)",
+      "snippet": "Address not found Your message wasn't delivered to sakshi.yadav@reachargestudio.com because the domain reachargestudio.com couldn't be found. Check for typos or unnecessary spaces and try again",
+      "date": "12 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Expedia Workday Not.",
+      "emailAttr": "",
+      "subject": "Thank you for your interest in Expedia Group",
+      "snippet": "Hi Pratik, Thank You for taking time to apply for the Software Development Engineer II- Full Stack position. We're grateful for your interest in Expedia Group and in our Purpose to help travelers",
+      "date": "12 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Team Unstop",
+      "emailAttr": "",
+      "subject": "Only a few hours left | Earn up to $5,000/month with Anna",
+      "snippet": "Apply Today!",
+      "date": "12 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "abler",
+      "emailAttr": "",
+      "subject": "Convite: #373808 - Camareira | Abler",
+      "snippet": "Instruções para convite | Abler Hotéis San Juan Hotéis San Juan Camareira | #373808 Olá, Pratik Patidar! Recebemos sua candidatura para a vaga Camareira. Agora falta pouco para completar seu cadastro",
+      "date": "12 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "HR WagerGeeks",
+      "emailAttr": "",
+      "subject": "Thank you for contacting Wagergeeks Re: Application for Frontend Developer (React.js + Next.js) - Pratik Patidar",
+      "snippet": "Thank you for reaching out to Wagergeeks. We've received your email and our team will get back to you shortly. If you have anything else to share, feel free to reply here. Thanks & Regards,",
+      "date": "12 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Update: Your application has been processed",
+      "snippet": "Internshala Student Program information for Degree students Internshala Invitation to the Internshala Student Partner Program Dear Pratik, As a Degree student at your institution, you're eligible",
+      "date": "12 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Mail\n2",
+      "emailAttr": "",
+      "subject": "Application for Frontend Developer (React) - Pratik Patidar",
+      "snippet": "Address not found Your message wasn't delivered to careers@recooty.com because the address couldn't be found or is unable to receive email. The response from the remote server was: 550 5.1.1",
+      "date": "12 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Vanya from foundit",
+      "emailAttr": "",
+      "subject": "7 jobs that you haven't applied yet but others are applying",
+      "snippet": "7 new jobs from quik hire staffing, Infosys Limited and more Get the app Top jobs matching your profile Hi Pratik Patidar, we've curated job opportunities where you'd be a top applicant, based",
+      "date": "12 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Indeed",
+      "emailAttr": "",
+      "subject": "Progamming Analyst- AI Trainer at DataAnnotation in Bengaluru, Karnataka and 16 more new jobs",
+      "snippet": "Hi Pratik, It looks like your background could be a match for this Progamming Analyst- AI Trainer role. Please submit a quick application if you have any interest or explore more jobs below.",
+      "date": "12 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Naukri",
+      "emailAttr": "",
+      "subject": "Feedback on your Naukri job applies done since last week",
+      "snippet": "Check out how many of your applies from last week matched the job preferences you have set in your profile with our apply match score. Get feedback on the extent to which your job applications match",
+      "date": "12 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Google",
+      "emailAttr": "",
+      "subject": "Security alert",
+      "snippet": "A new sign-in on Windows pratikpatidar7990@gmail.com We noticed a new sign-in to your Google Account on a Windows device. If this was you, you don't need to do anything. If not, we'll help you",
+      "date": "11 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Update: You are in! Your ISP application status is updated",
+      "snippet": "Internshala Student Partner program Internshala You're invited to join the Internshala Student Partner program to develop professional skills while gaining valuable experience. Ready to represent",
+      "date": "11 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Unicraft, me\n2",
+      "emailAttr": "",
+      "subject": "Private message regarding: Full Stack / React Developer Application - Pratik Patidar (Indore, MP)",
+      "snippet": "Already submitted. On Sun, 11 Oct 2026 at 16:14, Unicraft <grow.with.unicraft@gmail.com> wrote: Hi Pratik, Thank you so much for sharing the profile with us. To move your profile forward, Please",
+      "date": "11 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Team Unstop",
+      "emailAttr": "",
+      "subject": "Final call: Anna AI App Builder Challenge closes soon",
+      "snippet": "Apply Today!",
+      "date": "11 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Ho.boiomni",
+      "emailAttr": "",
+      "subject": "BOI : Enable Biometric",
+      "snippet": "Dear Customer, You have successfully enabled biometrics on BOI app. Contact us at 18001031906 if not done by you. Thanks and Regards, Bank of India *****This is an Auto generated mail. Please do not",
+      "date": "11 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Ho.boiomni",
+      "emailAttr": "",
+      "subject": "BOI - User registered successfully!",
+      "snippet": "Dear PRATIK PATIDAR! Your device has been successfully registered. In case this action was not performed by you, please contact 18001031906. Thanks and Regards, Bank of India *****This is an Auto",
+      "date": "11 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Ho.boiomni",
+      "emailAttr": "",
+      "subject": "Registration started on BOI Mobile",
+      "snippet": "Dear User, Thanks for initiating the registration process on BOI Mobile. If it's not you, please contact to 18001031906. Thanks and Regards, Bank of India *****This is an Auto generated mail.",
+      "date": "11 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Ho.boiomni",
+      "emailAttr": "",
+      "subject": "BOI - Disable Biometric",
+      "snippet": "Dear Customer, You have successfully disabled biometrics on BOI app. Contact us at 18001031906 if not done by you. Thanks and Regards, Bank of India *****This is an Auto generated mail. Please do not",
+      "date": "11 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Indeed",
+      "emailAttr": "",
+      "subject": "Application Developer - AI Trainer at DataAnnotation in Kochi, Kerala and 16 more new jobs",
+      "snippet": "Hi Pratik, It looks like your background could be a match for this Application Developer - AI Trainer role. Please submit a quick application if you have any interest or explore more jobs below.",
+      "date": "11 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Pooja from foundit",
+      "emailAttr": "",
+      "subject": "Job recommendations for you | foundit (Monster)",
+      "snippet": "Top job matching your profile  Hi Pratik Patidar , We've curated job opportunities where you'd be a top applicant, based on your profile and preferences. View all Jobs → Software Engineer II -",
+      "date": "10 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Mail\n4",
+      "emailAttr": "",
+      "subject": "Application for Frontend Engineer (React/Next/TS) - Pratik Patidar",
+      "snippet": "Delivery incomplete There was a temporary problem while delivering your message to krystian@esqrd.com. Gmail will retry for 44 more hours. You'll be notified if the delivery fails permanently.",
+      "date": "10 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Cutshort Team",
+      "emailAttr": "",
+      "subject": "Staffnixcom, Medflix and 8 more companies are hiring in your expertise area",
+      "snippet": "Hi Pratik  Your weekly job digest is here. Handpicked roles matched to your profile — updated today. Top picks for you FullstackDeveloper (Python / Node.js, React Angular Tier 1collegeible New",
+      "date": "10 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "ISP Team from Inter.",
+      "emailAttr": "",
+      "subject": "Pratik, your ISP status update is here",
+      "snippet": "Internshala Student Partner program Internshala You're invited to join the Internshala Student Partner program to develop professional skills while gaining valuable experience. Ready to represent",
+      "date": "10 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Forms response rece.",
+      "emailAttr": "",
+      "subject": "Thanks for filling in this form: IT & Non-IT Jobs - Application",
+      "snippet": "Thanks for filling in this form: IT & Non-IT Jobs - Application You're receiving this email because you filled in the following form using your email address. Make sure that you recognise and",
+      "date": "10 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Internshala",
+      "emailAttr": "",
+      "subject": "Hiring now: new opportunities at Qualcomm and others",
+      "snippet": "Pratik, check out jobs matching your experience and desired CTC. Apply for free on Internshala Jobs",
+      "date": "10 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Vanya from foundit",
+      "emailAttr": "",
+      "subject": "5 jobs that you haven't applied yet but others are applying",
+      "snippet": "5 new jobs from medinex workforce, duruper and more Get the app Top jobs matching your profile Hi Pratik Patidar, we've curated job opportunities where you'd be a top applicant, based on your",
+      "date": "10 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "googleplay-...@google.com",
+      "emailAttr": "",
+      "subject": "Quarterly reminder about Google Play terms and policies",
+      "snippet": "Review our Google Play Terms of Service and Privacy Policy Hello Google Play user, This email is a quarterly reminder that your use of Google Play and the apps, games, music, movies, books, magazines,",
+      "date": "10 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Kit Job",
+      "emailAttr": "",
+      "subject": "New Vacancies For frontend engineer (remote) (mumbai): 8 new ads",
+      "snippet": "2026-10-10 More than 8 job vacancies for: frontend engineer (remote) (mumbai) React Js / Tailwind Css Professional Indore Indore Webix Infotech > Python Generative Ai Developer Indore Indore Walking",
+      "date": "10 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Naukri",
+      "emailAttr": "",
+      "subject": "Pratik Patidar, Discover Missed Opportunities: Your Weekly Job Recap",
+      "snippet": "React JS Developer naukri.com Weekend Catch-Up: Jobs You Might Have Missed! React JS Developer Infosys 3.5 Hybrid - Pune, Chennai, Bengaluru Not disclosed Apply Reactjs + Nodejs -INF(2-3)YRS Infosys",
+      "date": "10 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Indeed",
+      "emailAttr": "",
+      "subject": "Senior Software Engineer - AI Trainer at DataAnnotation in Jaipur, Rajasthan and 18 more new jobs",
+      "snippet": "Hi Pratik, It looks like your background could be a match for this Senior Software Engineer - AI Trainer role. Please submit a quick application if you have any interest or explore more jobs below.",
+      "date": "10 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "Capchase Hiring Team",
+      "emailAttr": "",
+      "subject": "Your Tech Generalist application at Capchase",
+      "snippet": "Hello Pratik, Thank you for your interest in joining Capchase! We appreciate the time and effort you've dedicated to your Tech Generalist application, and we're thankful you've taken an",
+      "date": "9 Oct",
+      "isUnread": false
+    },
+    {
+      "sender": "Alan Team",
+      "emailAttr": "",
+      "subject": "Thanks for your interest in Alan, Pratik",
+      "snippet": "Hello Pratik, Thank you for your interest in the Fullstack Software Engineer (x/f/m) - Global Architecture opportunity at Alan. Unfortunately, we will not be progressing with your application at this",
+      "date": "9 Oct",
+      "isUnread": true
+    },
+    {
+      "sender": "me, Mail\n2",
+      "emailAttr": "",
+      "subject": "Frontend / React Developer Application - Pratik Patidar (Indore, MP)",
+      "snippet": "Address not found Your message wasn't delivered to hr@digiprima.com because the address couldn't be found or is unable to receive email. The response from the remote server was: 550 5.1.1 User",
+      "date": "9 Oct",
+      "isUnread": true
+    }
+  ]
+}

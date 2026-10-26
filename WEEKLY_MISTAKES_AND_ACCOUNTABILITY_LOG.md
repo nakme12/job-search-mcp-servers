@@ -534,3 +534,17 @@
 - **Permanent Solution & Code Guard**: Hard-bound `runProfileEnhancement()` directly inside `run_slot5_email_dispatcher.cjs` as a mandatory blocking pre-requisite. Slot 5 cannot proceed to email dispatch without executing the profile refresh gate.
 - **Rule Violated**: Rule 64 (Multi-Platform Profile 100% Enhancement & Daily Refresh Protocol).
 
+
+
+---
+
+### **Incident 42: Slot 6 Pre-Submit Screenshot Violation & False-Applied Logging (Rule 37 & 51 Breach)**
+* **Date:** 2026-10-25 | 08:00 PM IST
+* **Mistake:**
+  1. **Pre-Submit Screenshot Trap (Rule 37 & 51 Violation):** In Slot 6, the portal applier script (`run_slot6_portal_submissions.cjs`) filled form fields and captured screenshots *before* submitting, saving draft screenshots instead of post-submit confirmation screenshots (`post_submit_[company].png`).
+  2. **Unsubmitted Staging as Applied:** Staged 12 draft portal targets into `applied_todays_2026-10-25.json` with status `FORM_PREPARED_AND_LOGGED`, violating the principle that unsubmitted forms cannot be counted as applied.
+* **Root Cause:**
+  - Script omitted the final submit trigger and post-submit confirmation assertion loop, capturing a pre-submit draft screen instead.
+* **Immediate Fix & Enforcement:**
+  1. Purged all 12 unsubmitted draft records from `applied_todays_2026-10-25.json`. Today's true applied count is strictly 3 (the 3 Sent-outbox verified direct emails).
+  2. Hard invariant re-enforced: No portal can ever be logged as applied without a live post-submit confirmation DOM assertion ("Application Submitted") and `post_submit_[company].png` screenshot.

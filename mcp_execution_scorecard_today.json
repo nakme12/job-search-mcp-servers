@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-22",
-  "shift": 2,
-  "updated_at": "2026-10-22T12:08:44.469Z",
+  "date": "2026-10-25",
+  "shift": 1,
+  "updated_at": "2026-10-25T08:26:24.499Z",
   "metrics": {
     "Ashby ATS": {
       "ran": true,
-      "scraped": 4,
-      "verified": 4,
-      "skipped_dup": 53,
-      "skipped_filter": 692
+      "scraped": 6,
+      "verified": 6,
+      "skipped_dup": 49,
+      "skipped_filter": 686
     },
     "Lever ATS": {
       "ran": true,
@@ -26,32 +26,32 @@
     },
     "Remotive": {
       "ran": true,
-      "scraped": 1,
-      "verified": 1,
+      "scraped": 0,
+      "verified": 0,
       "skipped_dup": 0,
-      "skipped_filter": 9
+      "skipped_filter": 0
     },
     "Jobicy": {
       "ran": true,
-      "scraped": 1,
-      "verified": 1,
-      "skipped_dup": 3,
-      "skipped_filter": 42
+      "scraped": 0,
+      "verified": 0,
+      "skipped_dup": 0,
+      "skipped_filter": 0
     },
     "Himalayas": {
       "ran": true,
-      "scraped": 2,
-      "verified": 2,
+      "scraped": 0,
+      "verified": 0,
       "skipped_dup": 0,
-      "skipped_filter": 18
+      "skipped_filter": 0
     },
     "Adzuna India": {
       "ran": true,
-      "scraped": 19,
-      "verified": 19,
-      "skipped_dup": 20,
-      "skipped_filter": 45
+      "scraped": 0,
+      "verified": 0,
+      "skipped_dup": 0,
+      "skipped_filter": 0
     }
   },
-  "total_pipeline_today": 27
+  "total_pipeline_today": 11
 }

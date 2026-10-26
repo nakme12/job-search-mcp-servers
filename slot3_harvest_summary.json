@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-25",
+  "slot": 3,
+  "depth": "7_days",
+  "channels": {
+    "telegram": 0,
+    "naukri": 0,
+    "linkedin": 5
+  },
+  "totalNewHarvested": 5,
+  "totalDuplicatesDropped": 15,
+  "file3Total": 5,
+  "timestamp": "2026-10-25T08:01:58.040Z"
+}

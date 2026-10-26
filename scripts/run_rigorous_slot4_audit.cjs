@@ -157,8 +157,14 @@ async function runRigorousSlot4Audit() {
       }
     } else {
       // Normal direct ATS / Career link navigation
-      await page.goto(job.url, { waitUntil: 'domcontentloaded', timeout: 20000 });
-      await sleep(1500);
+      try {
+        await page.goto(job.url, { waitUntil: 'domcontentloaded', timeout: 15000 });
+        await sleep(1500);
+      } catch (navErr) {
+        droppedJobs.push({ ...job, drop_reason: 'NAV_TIMEOUT: ' + navErr.message });
+        console.log(`  🚫 DROPPED: Navigation failed (${navErr.message})`);
+        continue;
+      }
     }
 
     // Live destination DOM inspection

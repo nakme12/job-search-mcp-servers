@@ -1,0 +1,38 @@
+[
+  {
+    "id": "email_1792918383505_0",
+    "company": "AHOM Technologies Pvt. Ltd.",
+    "role": "Frontend Developer",
+    "recipient": "jyoti.singh@ahomtech.com",
+    "subject": "Application: Frontend Developer - Pratik Patidar",
+    "channel": "Direct Recruiter Email",
+    "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+    "status": "DISPATCHED_AND_VERIFIED",
+    "sent_folder_proof": "To:  | jyoti.singh | Application: Frontend Developer - Pratik Patidar |  -  | Hi Jyoti Singh & AHOM Technologies Hiring Team, I came across your opening for a Frontend Developer in Gurugram and wanted to apply for the role. I am a Fronten | Attachment: | Pratik Patidar Resume - Frontend Engineer.pdf | 14:22",
+    "timestamp": "2026-10-25T08:53:03.505Z"
+  },
+  {
+    "id": "email_1792918434966_1",
+    "company": "BQarlson Software Technologies",
+    "role": "Full Stack Developer",
+    "recipient": "hr@bqarlson.tech",
+    "subject": "Application: Full Stack Developer - Pratik Patidar",
+    "channel": "Direct Recruiter Email",
+    "resume": "Pratik Patidar Resume - MERN Full Stack.pdf",
+    "status": "DISPATCHED_AND_VERIFIED",
+    "sent_folder_proof": "To:  | Application: Full Stack Developer - Pratik Patidar |   |   | 14:23",
+    "timestamp": "2026-10-25T08:53:54.966Z"
+  },
+  {
+    "id": "email_1792919294550_0",
+    "company": "ZoflowX (Zoho Partner)",
+    "role": "Software Engineer / Web Developer",
+    "recipient": "hr@zoflowx.com",
+    "subject": "Application: Software Engineer / Web Developer - Pratik Patidar",
+    "channel": "Direct Recruiter Email",
+    "resume": "Pratik Patidar Resume - Frontend Engineer.pdf",
+    "status": "DISPATCHED_AND_VERIFIED",
+    "sent_folder_proof": "To:  | Application: Software Engineer / Web Developer - Pratik Patidar |   |   | 14:37",
+    "timestamp": "2026-10-25T09:08:14.550Z"
+  }
+]

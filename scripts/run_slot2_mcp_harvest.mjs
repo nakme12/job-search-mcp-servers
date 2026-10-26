@@ -41,7 +41,7 @@ let todayPool = {
   jobs: []
 };
 
-if (fs.existsSync(file3TodayShiftPath)) {
+if (fs.existsSync(file3TodayPath)) { try { const raw = JSON.parse(fs.readFileSync(file3TodayPath, 'utf8')); if (Array.isArray(raw.jobs)) todayPool.jobs = raw.jobs; } catch (e) {} } if (false && fs.existsSync(file3TodayShiftPath)) {
   try {
     const raw = JSON.parse(fs.readFileSync(file3TodayShiftPath, "utf8"));
     if (Array.isArray(raw.jobs)) todayPool.jobs = raw.jobs;
