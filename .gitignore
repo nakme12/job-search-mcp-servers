@@ -1,8 +1,8 @@
 node_modules/
-.env
 .DS_Store
 *.log
 screenshots/*
 !screenshots/.gitkeep
 *.tmp
 .aider*
+config.bat
