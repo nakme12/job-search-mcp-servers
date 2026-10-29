@@ -42,7 +42,7 @@ function getEmailBody(company, role) {
 
 I came across your opening for a ${role} and wanted to apply for the role.
 
-I'm a Full Stack Developer with 1.5 years of experience building full-stack web applications using React.js, Node.js, Express.js, MongoDB, TypeScript, REST APIs, and modern frontend & backend architectures.
+I'm a ${getDeveloperTitle(role)} with 1.5 years of experience building full-stack web applications using React.js, Node.js, Express.js, MongoDB, TypeScript, REST APIs, and modern frontend & backend architectures.
 
 I'm based in Indore and would be glad to discuss the opportunity further.
 
@@ -55,6 +55,14 @@ Thanks & Regards,
 Pratik Patidar
 pratikpatidar7990@gmail.com
 +91 82696 47990`;
+}
+
+function getDeveloperTitle(role) {
+  const r = role.toLowerCase();
+  if (/mern/.test(r)) return 'MERN Stack Developer';
+  if (/react/.test(r)) return 'React JS Developer';
+  if (/frontend|front[- ]end|fe/.test(r)) return 'Front‑End Developer';
+  return 'Full Stack Developer';
 }
 
 async function runSlot5Dispatches() {
@@ -245,10 +253,12 @@ async function runSlot5Dispatches() {
       await gmailPage.goto('https://mail.google.com/mail/u/0/#inbox', { waitUntil: 'domcontentloaded' });
       await sleep(2500);
 
-      // Human Pacing Delay (25s) between outbound emails to fit 20m window safely
+      // Human Pacing Delay (40-120s) between outbound emails to fit 20m window safely
       if (i < emailTargets.length - 1) {
-        console.log(`  ⏳ Natural human jitter pause: 25s before next email dispatch...`);
-        await sleep(25000);
+        const jitterMs = Math.floor(Math.random() * (120000 - 40000 + 1)) + 40000;
+        console.log(`  ⏳ Natural human jitter pause: ${(jitterMs/1000).toFixed(0)}s before next email dispatch...`);
+        await sleep(jitterMs);
+
       }
 
     } catch (err) {
